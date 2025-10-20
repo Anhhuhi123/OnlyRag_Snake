@@ -1,0 +1,478 @@
+[
+  {
+    "question": "Dữ liệu về sinh sản của Rắn đào hang đỏ (Achalinus rufescens) có được cung cấp không?",
+    "ground_truth": "Không, trong tài liệu được cung cấp không có trường thông tin 'Sinh sản' cho loài Rắn đào hang đỏ (Achalinus rufescens)."
+  },
+  {
+    "question": "Phương thức sinh sản của Rắn vảy lạ xám (Achalinus spinalis) là gì?",
+    "ground_truth": "Rắn vảy lạ xám là loài đẻ trứng (oviparous), mỗi lứa đẻ từ 2 đến 6 quả."
+  },
+  {
+    "question": "Rắn rầm ri cá (Acrochordus granulatus) đẻ trứng hay đẻ con?",
+    "ground_truth": "Rắn rầm ri cá là loài đẻ con sống (ovoviviparous), mỗi lứa sinh từ 20 đến 30 con non."
+  },
+  {
+    "question": "Rắn rầm ri cóc (Acrochordus javanicus) sinh sản như thế nào?",
+    "ground_truth": "Rắn rầm ri cóc là loài đẻ con sống (ovoviviparous), mỗi lứa sinh từ 20 đến 30 con."
+  },
+  {
+    "question": "Phương thức sinh sản của Rắn roi mõm nhọn (Ahaetulla fusca) là gì?",
+    "ground_truth": "Loài Ahaetulla fusca đẻ con sống (ovoviviparous), mỗi lứa sinh từ 5 đến 15 con non."
+  },
+  {
+    "question": "Rắn roi thường (Ahaetulla prasina) đẻ trứng hay đẻ con?",
+    "ground_truth": "Rắn roi thường là loài đẻ con sống (ovoviviparous), mỗi lứa sinh từ 4 đến 10 con."
+  },
+  {
+    "question": "Rắn roi mắt đỏ (Ahaetulla rufusoculara) sinh sản bằng cách nào?",
+    "ground_truth": "Rắn roi mắt đỏ là loài đẻ con sống (ovoviviparous), mỗi lứa sinh từ 4 đến 10 con."
+  },
+  {
+    "question": "Rắn sãi cỏ (Amphiesma stolatum) có tập tính canh giữ trứng không?",
+    "ground_truth": "Có, con cái có tập tính canh giữ trứng cho đến khi nở, nhưng không chăm sóc con non sau đó."
+  },
+  {
+    "question": "Phương thức sinh sản của Rắn biển môi xanh (Laticauda laticaudata) là gì?",
+    "ground_truth": "Rắn biển môi xanh là loài đẻ trứng (oviparous), mỗi lứa đẻ từ 2 đến 12 quả trong các hang đá trên bờ biển."
+  },
+  {
+    "question": "Rắn rào xanh (Boiga cyanea) đẻ bao nhiêu trứng mỗi lứa?",
+    "ground_truth": "Mỗi lứa, Rắn rào xanh đẻ từ 7 đến 14 quả trứng."
+  },
+  {
+    "question": "Dữ liệu về sinh sản của Rắn rào Quảng Tây (Boiga guangxiensis) có đầy đủ không?",
+    "ground_truth": "Không, dữ liệu về sinh sản của loài này chưa được nghiên cứu đầy đủ, nhưng chúng được cho là loài đẻ trứng (oviparous)."
+  },
+  {
+    "question": "Rắn rào ngọc bích (Boiga jaspidea) thường đẻ trứng ở đâu?",
+    "ground_truth": "Chúng thường đẻ từ 1 đến 3 quả trứng trong các tổ mối (termite nests) hoặc trong các hang ẩm."
+  },
+  {
+    "question": "Mùa sinh sản của Rắn rào đầu vuông (Boiga kraepelini) là khi nào?",
+    "ground_truth": "Mùa sinh sản của chúng thường trùng với mùa hè, từ tháng 6 đến tháng 8."
+  },
+  {
+    "question": "Rắn rào đốm (Boiga multomaculata) có tập tính chăm sóc con non không?",
+    "ground_truth": "Không, loài này không có tập tính nuôi con. Trứng nở sau khoảng 80-90 ngày và con non tự lập ngay."
+  },
+  {
+    "question": "Rắn rào Xiêm (Boiga siamensis) đẻ bao nhiêu trứng mỗi lứa?",
+    "ground_truth": "Mỗi lứa, Rắn rào Xiêm đẻ từ 6 đến 12 quả trứng."
+  },
+  {
+    "question": "Rắn cạp nia (Bungarus candidus) có tập tính chăm sóc con non sau khi nở không?",
+    "ground_truth": "Không, con cái chỉ canh giữ trứng cho đến khi nở nhưng không chăm sóc con non sau đó."
+  },
+  {
+    "question": "Rắn cạp nống (Bungarus fasciatus) có tập tính canh giữ trứng không?",
+    "ground_truth": "Có, con cái có tập tính canh giữ trứng cho đến khi nở."
+  },
+  {
+    "question": "Phương thức sinh sản của Rắn mai gầm bắc (Calamaria septentrionalis) là gì?",
+    "ground_truth": "Rắn mai gầm bắc là loài đẻ trứng (oviparous), mỗi lứa đẻ từ 2 đến 6 quả."
+  },
+  {
+    "question": "Rắn san hô nhỏ đốm (Calliophis maculiceps) đẻ bao nhiêu trứng?",
+    "ground_truth": "Một mẫu vật được ghi nhận đẻ 2 quả trứng mỗi lứa."
+  },
+  {
+    "question": "Rắn lục mũi hếch (Calloselasma rhodostoma) đẻ trứng hay đẻ con?",
+    "ground_truth": "Rắn lục mũi hếch là loài đẻ trứng (oviparous), mỗi lứa đẻ từ 10 đến 30 quả."
+  },
+  {
+    "question": "Rắn Séc be (Cerberus schneiderii) sinh sản như thế nào?",
+    "ground_truth": "Loài này đẻ con sống (ovoviviparous), mỗi lứa sinh từ 10 đến 30 con non."
+  },
+  {
+    "question": "Rắn nước châu Á (Fowlea piscator) có tập tính chăm sóc con non không?",
+    "ground_truth": "Không, con cái chỉ canh giữ trứng đến khi nở nhưng không chăm sóc con non sau đó."
+  },
+  {
+    "question": "Rắn cườm (Chrysopelea ornata) đẻ bao nhiêu trứng mỗi lứa?",
+    "ground_truth": "Mỗi lứa, chúng đẻ từ 6 đến 12 quả trứng."
+  },
+  {
+    "question": "Rắn sọc vàng (Coelognathus flavolineatus) có tập tính canh giữ trứng không?",
+    "ground_truth": "Có, con cái có tập tính canh giữ trứng cho đến khi nở."
+  },
+  {
+    "question": "Rắn hổ ngựa (Coelognathus radiatus) đẻ bao nhiêu trứng?",
+    "ground_truth": "Mỗi lứa, Rắn hổ ngựa đẻ từ 6 đến 14 quả trứng."
+  },
+  {
+    "question": "Rắn trun (Cylindrophis jodiae) là loài đẻ trứng hay đẻ con?",
+    "ground_truth": "Rắn trun là loài đẻ con sống (ovoviviparous)."
+  },
+  {
+    "question": "Rắn trun (Cylindrophis ruffus) sinh bao nhiêu con non mỗi lứa?",
+    "ground_truth": "Mỗi lứa, chúng sinh từ 2 đến 8 con non."
+  },
+  {
+    "question": "Rắn lục mũi nhọn (Deinagkistrodon acutus) có hành vi bảo vệ trứng không?",
+    "ground_truth": "Có, đây là một trong số ít loài rắn lục hố đẻ trứng và có tập tính con mẹ cuộn quanh để bảo vệ trứng trong khoảng 20 ngày."
+  },
+  {
+    "question": "Rắn leo cây Ngân Sơn (Dendrelaphis ngansonensis) đẻ bao nhiêu trứng?",
+    "ground_truth": "Chúng đẻ từ 4 đến 8 quả trứng mỗi lứa."
+  },
+  {
+    "question": "Phương thức sinh sản của Rắn leo cây bắc Đông dương (Dendrelaphis proarchos) là gì?",
+    "ground_truth": "Rắn leo cây bắc Đông dương là loài đẻ trứng (oviparous)."
+  },
+  {
+    "question": "Rắn leo cây mắt (Dendrelaphis subocularis) đẻ trứng ở đâu?",
+    "ground_truth": "Chúng đẻ trứng trên tán cây hoặc trong các hốc cây."
+  },
+  {
+    "question": "Rắn roi nâu (Dryophiops rubescens) là loài đẻ trứng hay đẻ con?",
+    "ground_truth": "Rắn roi nâu là loài đẻ trứng (oviparous)."
+  },
+  {
+    "question": "Rắn sọc gờ (Elaphe carinata) có hành vi bảo vệ trứng không?",
+    "ground_truth": "Có, con cái có tập tính cuộn quanh trứng để bảo vệ trong khoảng 20 ngày."
+  },
+  {
+    "question": "Rắn sọc khoanh (Elaphe moellendorffi) có tập tính chăm sóc con non không?",
+    "ground_truth": "Không, con cái chỉ canh giữ trứng cho đến khi nở nhưng không chăm sóc con non sau đó."
+  },
+  {
+    "question": "Con non của Rắn sọc đuôi (Elaphe taeniura) dài bao nhiêu khi mới nở?",
+    "ground_truth": "Con non mới nở dài khoảng 30-40 cm."
+  },
+  {
+    "question": "Rắn bồng Mekong (Enhydris subtaeniata) sinh bao nhiêu con mỗi lứa?",
+    "ground_truth": "Mỗi lứa, chúng sinh từ 6 đến 39 con non, trung bình là 20 con."
+  },
+  {
+    "question": "Rắn râu (Erpeton tentaculatum) đẻ trứng hay đẻ con?",
+    "ground_truth": "Rắn râu là loài đẻ con sống (ovoviviparous)."
+  },
+  {
+    "question": "Rắn ăn cua (Fordonia leucobalia) đẻ trứng hay đẻ con?",
+    "ground_truth": "Rắn ăn cua là loài đẻ con sống (ovoviviparous)."
+  },
+  {
+    "question": "Rắn nước đốm vàng (Fowlea flavipunctata) đẻ bao nhiêu trứng mỗi lứa?",
+    "ground_truth": "Con cái đẻ từ 20 đến 50 quả trứng mỗi lứa, với kích thước trung bình là 30 quả."
+  },
+  {
+    "question": "Rắn mũi dài (Gonyosoma boulengeri) có hành vi giao phối nào đặc biệt?",
+    "ground_truth": "Con đực có hành vi 'fencing' (đấu kiếm) bằng sừng mũi để tranh giành con cái."
+  },
+  {
+    "question": "Rắn sọc mắt xanh (Gonyosoma coeruleum) đẻ bao nhiêu trứng?",
+    "ground_truth": "Con cái đẻ khoảng 6–12 trứng mỗi lứa."
+  },
+  {
+    "question": "Rắn dây leo xanh (Gonyosoma frenatum) sinh sản bằng cách nào?",
+    "ground_truth": "Rắn dây leo xanh là loài đẻ trứng (oviparous), mỗi lứa đẻ khoảng 5 quả."
+  },
+  {
+    "question": "Rắn đuôi đỏ (Gonyosoma oxycephalum) có thể đẻ bao nhiêu lứa trứng một năm?",
+    "ground_truth": "Trong tự nhiên, chúng có khả năng đẻ tới 4 lứa trứng mỗi năm."
+  },
+  {
+    "question": "Rắn nước boulengeri (Hebius boulengeri) là loài đẻ trứng hay đẻ con?",
+    "ground_truth": "Rắn nước boulengeri là loài đẻ trứng (oviparous)."
+  },
+  {
+    "question": "Rắn nước đồi Khasi (Hebius khasiensis) đẻ bao nhiêu trứng?",
+    "ground_truth": "Mỗi lứa, chúng đẻ từ 4 đến 8 quả trứng."
+  },
+  {
+    "question": "Rắn nước Omei (Hebius optatus) đẻ trứng ở đâu?",
+    "ground_truth": "Chúng đẻ trứng trong các hang ẩm hoặc dưới lớp lá mục."
+  },
+  {
+    "question": "Rắn nước Kosempo (Hebius sauteri) đẻ bao nhiêu trứng?",
+    "ground_truth": "Mỗi lứa, chúng đẻ từ 4 đến 15 quả trứng."
+  },
+  {
+    "question": "Phương thức sinh sản của Rắn bồng chì (Hypsiscopus murphyi) là gì?",
+    "ground_truth": "Rắn bồng chì là loài đẻ con sống (ovoviviparous), mỗi lứa sinh từ 5 đến 10 con."
+  },
+  {
+    "question": "Rắn biển có sừng (Hydrophis peronii) sinh sản bằng cách nào?",
+    "ground_truth": "Rắn biển có sừng là loài đẻ con sống (ovoviviparous), mỗi lứa sinh từ 4 đến 10 con non trực tiếp vào nước."
+  },
+  {
+    "question": "Đặc điểm sinh sản độc đáo của Rắn mù Brahminy (Indotyphlops braminus) là gì?",
+    "ground_truth": "Đây là loài sinh sản đơn tính (parthenogenetic), tất cả các cá thể đều là con cái và đẻ trứng không cần thụ tinh."
+  },
+  {
+    "question": "Rắn sói thông thường (Lycodon capucinus) đẻ bao nhiêu trứng?",
+    "ground_truth": "Mỗi lứa, chúng đẻ từ 3 đến 11 quả trứng."
+  },
+  {
+    "question": "Rắn khuyết Nam Động (Lycodon chapaensis) đẻ trứng ở đâu?",
+    "ground_truth": "Chúng đẻ trứng trong các hang ẩm dưới khe đá hoặc trong đất bùn."
+  },
+  {
+    "question": "Rắn cương Blanford (Lycodon davisonii) đẻ bao nhiêu trứng?",
+    "ground_truth": "Dựa trên các loài họ hàng, chúng đẻ khoảng 4-8 trứng mỗi lứa."
+  },
+  {
+    "question": "Rắn khuyết đốm (Lycodon fasciatus) đẻ trứng hay đẻ con?",
+    "ground_truth": "Rắn khuyết đốm là loài đẻ trứng (oviparous)."
+  },
+  {
+    "question": "Rắn khuyết Phúc Thanh (Lycodon futsingensis) đẻ trứng vào mùa nào?",
+    "ground_truth": "Mùa sinh sản của chúng là vào mùa mưa, từ tháng 5 đến tháng 8."
+  },
+  {
+    "question": "Một con Rắn sói Lào (Lycodon laoensis) cái được ghi nhận chứa bao nhiêu trứng?",
+    "ground_truth": "Một con cái bị bắt ở miền Bắc Thái Lan vào tháng 4 được ghi nhận chứa 5 quả trứng."
+  },
+  {
+    "question": "Rắn sói đốm vàng (Lycodon meridionalis) có tập tính chăm sóc con non không?",
+    "ground_truth": "Không, con non độc lập ngay lập tức sau khi nở và không có sự chăm sóc của bố mẹ."
+  },
+  {
+    "question": "Rắn khuyết khoanh Đông Dương (Lycodon neomaculatus) đẻ trứng hay đẻ con?",
+    "ground_truth": "Loài này sinh sản bằng cách đẻ trứng."
+  },
+  {
+    "question": "Con non của Rắn chó vằn sơn (Lycodon pictus) có đặc điểm gì khi mới nở?",
+    "ground_truth": "Con non mới nở có hoa văn dải đơn giản hơn so với con trưởng thành."
+  },
+  {
+    "question": "Rắn sói rừng (Lycodon rufozonatus) là loài đẻ trứng hay đẻ con?",
+    "ground_truth": "Rắn sói rừng là loài đẻ trứng (oviparous)."
+  },
+  {
+    "question": "Rắn sói Ruhstrat (Lycodon ruhstrati) đẻ trứng ở đâu?",
+    "ground_truth": "Chúng đẻ trứng trong các hang ẩm dưới khe đá hoặc trong đất bùn."
+  },
+  {
+    "question": "Rắn khuyết Trường (Lycodon truongi) đẻ trứng hay đẻ con?",
+    "ground_truth": "Loài này sinh sản bằng cách đẻ trứng (oviparous)."
+  },
+  {
+    "question": "Trăn gấm (Malayopython reticulatus) cái có hành vi gì đặc biệt sau khi đẻ trứng?",
+    "ground_truth": "Con cái có thể ở lại canh giữ ổ trứng trong một thời gian ngắn."
+  },
+  {
+    "question": "Rắn nước Trung Quốc (Myrrophis chinensis) đẻ trứng hay đẻ con?",
+    "ground_truth": "Rắn nước Trung Quốc là loài đẻ trứng (oviparous)."
+  },
+  {
+    "question": "Rắn hổ mang Trung Quốc (Naja atra) đẻ bao nhiêu trứng mỗi lứa?",
+    "ground_truth": "Mỗi lứa, chúng đẻ từ 15 đến 30 trứng."
+  },
+  {
+    "question": "Rắn hổ mang Phục Hy (Naja fuxi) có chăm sóc con non không?",
+    "ground_truth": "Không, con non độc lập ngay sau khi nở. Tuy nhiên, con cái có thể ở lại canh giữ ổ trứng trong thời gian ngắn."
+  },
+  {
+    "question": "Mỗi lứa, Rắn hổ mang phun nọc Đông Dương (Naja siamensis) đẻ bao nhiêu trứng?",
+    "ground_truth": "Mỗi lứa, chúng đẻ từ 15 đến 40 trứng."
+  },
+  {
+    "question": "Rắn đất vạch (Oligodon albocinctus) có thể đẻ bao nhiêu lứa một năm?",
+    "ground_truth": "Do khả năng sinh sản nhanh, chúng có thể đẻ 2 lứa mỗi năm."
+  },
+  {
+    "question": "Rắn khiếm Trung Quốc (Oligodon cinereus) đẻ bao nhiêu trứng?",
+    "ground_truth": "Mỗi lứa, chúng đẻ từ 4 đến 6 quả trứng."
+  },
+  {
+    "question": "RẮN KHIẾM ĐUÔI TRÒN (Oligodon cyclurus) có tập tính chăm sóc con non không?",
+    "ground_truth": "Không, con non độc lập ngay sau khi nở và không có sự chăm sóc của bố mẹ."
+  },
+  {
+    "question": "RẮN KHIẾM DEUVEI (Oligodon deuvei) có cơ quan sinh dục đực (hemipenes) như thế nào?",
+    "ground_truth": "Cơ quan sinh dục đực của chúng chẻ sâu, không có gai nhưng có hai núm lớn."
+  },
+  {
+    "question": "RẮN KHIẾM VẠCH NHỎ (Oligodon fasciolatus) có tập tính chăm sóc con non không?",
+    "ground_truth": "Không, con non độc lập ngay sau khi nở."
+  },
+  {
+    "question": "Rắn khiếm Đài Loan (Oligodon formosanus) có thể đẻ bao nhiêu lứa trứng một năm?",
+    "ground_truth": "Chúng có khả năng sinh sản nhanh và có thể đẻ 2 lứa mỗi năm."
+  },
+  {
+    "question": "Rắn khiếm vạch (Oligodon taeniatus) đẻ trứng ở đâu?",
+    "ground_truth": "Chúng đẻ trứng trong hang ẩm dưới đất hoặc lớp lá mục."
+  },
+  {
+    "question": "Rắn hổ chúa (Ophiophagus hannah) cái có tập tính chăm sóc con non không?",
+    "ground_truth": "Không, con cái có thể canh giữ ổ trứng trong một thời gian ngắn nhưng không chăm sóc con non sau khi nở."
+  },
+  {
+    "question": "Rắn chuột đỏ (Oreocryptophis porphyraceus) đẻ trứng hay đẻ con?",
+    "ground_truth": "Rắn chuột đỏ là loài đẻ trứng (oviparous)."
+  },
+  {
+    "question": "Rắn lục núi (Ovophis monticola) sinh sản bằng cách nào?",
+    "ground_truth": "Rắn lục núi là loài đẻ con sống (ovoviviparous), mỗi lứa sinh từ 2 đến 12 con non."
+  },
+  {
+    "question": "Rắn lục núi Tonkin (Ovophis tonkinensis) sinh sản như thế nào?",
+    "ground_truth": "Loài này là loài đẻ con sống (ovoviviparous), mỗi lứa sinh từ 2 đến 8 con non."
+  },
+  {
+    "question": "Rắn ăn ốc Mengla (Pareas berdmorei) đẻ trứng hay đẻ con?",
+    "ground_truth": "Rắn ăn ốc Mengla là loài đẻ trứng (oviparous)."
+  },
+  {
+    "question": "Rắn hổ mây gờ (Pareas carinatus) đẻ bao nhiêu trứng mỗi lứa?",
+    "ground_truth": "Mỗi lứa, chúng đẻ từ 2 đến 6 quả trứng."
+  },
+  {
+    "question": "Rắn hổ mây Đài Loan (Pareas formosensis) đẻ trứng ở đâu?",
+    "ground_truth": "Chúng đẻ trứng trong lớp lá mục ẩm hoặc kẽ vỏ cây."
+  },
+  {
+    "question": "Rắn hổ mây Hampton (Pareas hamptoni) đẻ bao nhiêu trứng?",
+    "ground_truth": "Mỗi lứa, chúng đẻ từ 3 đến 6 quả trứng."
+  },
+  {
+    "question": "Rắn sên núi (Pareas margaritophorus) là loài đẻ trứng hay đẻ con?",
+    "ground_truth": "Rắn sên núi là loài đẻ trứng (oviparous)."
+  },
+  {
+    "question": "Rắn hổ mây núi (Pareas monticola) đẻ bao nhiêu trứng?",
+    "ground_truth": "Mỗi lứa, chúng đẻ từ 4 đến 9 quả trứng."
+  },
+  {
+    "question": "Rắn hổ núi mũi mác (Plagiopholis nuchalis) đẻ trứng ở đâu?",
+    "ground_truth": "Chúng đẻ trứng trong lớp lá mục ẩm hoặc dưới đất mềm."
+  },
+  {
+    "question": "Rắn hổ núi Styani (Hebius popei) đẻ bao nhiêu trứng?",
+    "ground_truth": "Mỗi lứa, chúng đẻ từ 2 đến 11 quả trứng."
+  },
+  {
+    "question": "Rắn lục sừng (Protobothrops cornutus) có tập tính bảo vệ ổ trứng không?",
+    "ground_truth": "Có, con cái có hành vi ở lại gần ổ trứng để bảo vệ."
+  },
+  {
+    "question": "Phương thức sinh sản của Rắn lục Jerdon (Protobothrops jerdonii) có gì đặc biệt?",
+    "ground_truth": "Đây là loài duy nhất trong chi Protobothrops có phương thức sinh sản đẻ con sống (ovoviviparous)."
+  },
+  {
+    "question": "Rắn lục Mậu Lan (Protobothrops maolanensis) có tập tính bảo vệ ổ trứng không?",
+    "ground_truth": "Có, con cái có hành vi ở lại gần ổ trứng để bảo vệ."
+  },
+  {
+    "question": "Rắn lục cườm (Protobothrops mucrosquamatus) có hành vi bảo vệ trứng không?",
+    "ground_truth": "Có, con cái có hành vi bảo vệ ổ trứng (egg-guarding) bằng cách ở lại gần cho đến khi trứng nở."
+  },
+  {
+    "question": "Rắn hổ đất nâu (Psammodynastes pulverulentus) có thể sinh sản bao nhiêu lần một năm?",
+    "ground_truth": "Chúng có thể sinh sản nhiều lần trong một năm."
+  },
+  {
+    "question": "Rắn hổ xiên tre (Pseudoxenodon bambusicola) là loài đẻ trứng hay đẻ con?",
+    "ground_truth": "Rắn hổ xiên tre là loài đẻ con sống (ovoviviparous)."
+  },
+  {
+    "question": "Rắn hổ xiên mắt (Pseudoxenodon macrops) đẻ bao nhiêu trứng?",
+    "ground_truth": "Mỗi lứa, chúng đẻ từ 4 đến 10 quả trứng."
+  },
+  {
+    "question": "Rắn ráo gờ (Ptyas carinata) đẻ trứng ở đâu?",
+    "ground_truth": "Chúng đẻ trứng trong lớp đất ẩm hoặc trong các kẽ cây."
+  },
+  {
+    "question": "Con non của Rắn ráo rừng (Ptyas dhumnades) có đặc điểm gì khi mới nở?",
+    "ground_truth": "Con non mới nở có màu tối và không có hoa văn giống như con trưởng thành."
+  },
+  {
+    "question": "Một con Rắn ráo (Ptyas korros) cái được ghi nhận chứa bao nhiêu trứng?",
+    "ground_truth": "Một con cái bị bắt ở miền Bắc Thái Lan vào tháng 4 được ghi nhận chứa 5 quả trứng."
+  },
+  {
+    "question": "Rắn đai lớn (Ptyas major) đẻ bao nhiêu trứng?",
+    "ground_truth": "Mỗi lứa, chúng đẻ từ 2 đến 16 quả trứng."
+  },
+  {
+    "question": "Rắn ráo trâu (Ptyas mucosa) đẻ trứng ở đâu?",
+    "ground_truth": "Chúng đẻ trứng trong các hang đất ẩm hoặc kẽ cây."
+  },
+  {
+    "question": "Rắn ráo nhiều đai (Ptyas multicincta) có tập tính chăm sóc con non không?",
+    "ground_truth": "Không, con non độc lập ngay sau khi nở."
+  },
+  {
+    "question": "Mùa sinh sản của Rắn ráo xanh (Ptyas nigromarginata) là khi nào?",
+    "ground_truth": "Mùa sinh sản của chúng là vào mùa mưa, từ tháng 5 đến tháng 9."
+  },
+  {
+    "question": "Trăn Miến Điện (Python bivittatus) có hành vi ấp trứng đặc biệt nào?",
+    "ground_truth": "Con cái có hành vi quấn quanh ổ trứng và run cơ thể để tạo nhiệt (shivering thermogenesis), giúp tăng nhiệt độ ấp trứng lên 5-10°C."
+  },
+  {
+    "question": "Rắn cạp nong đầu đỏ (Bungarus flaviceps) đẻ bao nhiêu trứng?",
+    "ground_truth": "Mỗi lứa, chúng đẻ từ 6 đến 12 quả trứng."
+  },
+  {
+    "question": "Hoa cỏ cổ vàng (Rhabdophis chrysargos) đẻ trứng hay đẻ con?",
+    "ground_truth": "Loài này sinh sản bằng cách đẻ trứng."
+  },
+  {
+    "question": "Rắn hoa cỏ He-lơ (Rhabdophis helleri) đẻ trứng ở đâu?",
+    "ground_truth": "Chúng đẻ trứng trong các hang ẩm hoặc dưới lớp lá mục."
+  },
+  {
+    "question": "Rắn hoa cỏ đai (Rhabdophis nigrocinctus) đẻ bao nhiêu trứng?",
+    "ground_truth": "Mỗi lứa, chúng đẻ từ 3 đến 10 quả trứng."
+  },
+  {
+    "question": "Hành vi giao phối của Rắn hoa cỏ cổ đỏ (Rhabdophis subminiatus) có gì đặc biệt?",
+    "ground_truth": "Trong mùa giao phối, có thể có nhiều con đực cùng quấn quanh một con cái."
+  },
+  {
+    "question": "Rắn cỏ Nhật (Rhabdophis tigrinus) có tập tính chăm sóc con non không?",
+    "ground_truth": "Không, con non độc lập ngay sau khi nở."
+  },
+  {
+    "question": "Rắn rồng Trung Quốc (Sibynophis chinensis) đẻ trứng vào mùa nào?",
+    "ground_truth": "Mùa sinh sản của chúng là vào mùa mưa, từ tháng 5 đến tháng 9."
+  },
+  {
+    "question": "Rắn san hô châu Á (Sinomicrurus annularis) đẻ bao nhiêu trứng?",
+    "ground_truth": "Mỗi lứa, chúng đẻ từ 4 đến 8 quả trứng."
+  },
+  {
+    "question": "Rắn san hô đầu bạc (Sinomicrurus macclellandi) đẻ trứng ở đâu?",
+    "ground_truth": "Chúng đẻ trứng trong các hang ẩm hoặc kẽ đá."
+  },
+  {
+    "question": "Rắn san hô Phiên Nam (Sinomicrurus peinani) đẻ trứng vào mùa nào?",
+    "ground_truth": "Mùa sinh sản của chúng là vào mùa mưa, từ tháng 5 đến tháng 9."
+  },
+  {
+    "question": "Rắn ri voi (Subsessor bocourti) sinh sản bằng cách nào?",
+    "ground_truth": "Rắn ri voi là loài đẻ con sống (ovoviviparous), mỗi lứa sinh từ 3 đến 8 con."
+  },
+  {
+    "question": "Rắn lục mép trắng (Trimeresurus albolabris) có khả năng lưu trữ tinh trùng không?",
+    "ground_truth": "Có, quan sát ở miền Bắc Việt Nam cho thấy chúng có khả năng lưu trữ tinh trùng trong thời gian dài."
+  },
+  {
+    "question": "Rắn lục mắt hồng ngọc (Trimeresurus rubeus) sinh bao nhiêu con mỗi lứa?",
+    "ground_truth": "Dựa trên các loài tương tự, chúng sinh từ 4 đến 10 con non mỗi lứa."
+  },
+  {
+    "question": "Rắn lục xanh (Trimeresurus stejnegeri) đẻ trứng hay đẻ con?",
+    "ground_truth": "Rắn lục xanh là loài đẻ con sống (ovoviviparous)."
+  },
+  {
+    "question": "Rắn lục miền Nam (Trimeresurus vogeli) sinh sản bằng cách nào?",
+    "ground_truth": "Chúng là loài đẻ con sống (ovoviviparous), mỗi lứa sinh từ 4 đến 10 con."
+  },
+  {
+    "question": "Rắn hoa cân vân đốm (Trimerodytes aequifasciatus) đẻ bao nhiêu trứng?",
+    "ground_truth": "Mỗi lứa, chúng đẻ từ 3 đến 10 quả trứng."
+  },
+  {
+    "question": "Hoa cân vân đen (Trimerodytes percarinatus) đẻ trứng ở đâu?",
+    "ground_truth": "Chúng đẻ trứng trong các hang ẩm hoặc kẽ đá."
+  },
+  {
+    "question": "Rắn mống (Xenopeltis unicolor) có khả năng sinh sản nhanh không?",
+    "ground_truth": "Có, chúng có khả năng sinh sản nhanh (high fecundity) với mỗi lứa đẻ từ 6 đến 17 trứng, giúp quần thể phục hồi tốt."
+  }
+]
