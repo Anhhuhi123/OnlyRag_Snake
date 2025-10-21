@@ -3,6 +3,12 @@
 Script to reset Qdrant collection with new dimension
 """
 
+import sys
+import os
+
+# Add parent directory to Python path to import modules
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from qdrant_client import QdrantClient
 from config.config import Config
 

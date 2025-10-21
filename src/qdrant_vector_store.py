@@ -4,6 +4,7 @@ import numpy as np
 from typing import List, Tuple, Optional
 from config.config import Config
 import uuid
+import time
 
 class QdrantVectorStore:
     """Qdrant-based vector store for similarity search"""
@@ -25,6 +26,7 @@ class QdrantVectorStore:
             self.client = QdrantClient(
                 url=Config.QDRANT_URL,
                 api_key=Config.QDRANT_API_KEY,
+                timeout=300  # 5 minutes timeout for large uploads
             )
             
             # Check if collection exists, create if not
@@ -73,7 +75,7 @@ class QdrantVectorStore:
             print(f"Error creating collection: {e}")
             raise
     
-    def add_embeddings(self, embeddings: np.ndarray, texts: List[str], metadata: Optional[List[dict]] = None, batch_size: int = 100):
+    def add_embeddings(self, embeddings: np.ndarray, texts: List[str], metadata: Optional[List[dict]] = None, batch_size: int = 50):
         """
         Add embeddings and corresponding texts to Qdrant in batches
         
@@ -81,7 +83,7 @@ class QdrantVectorStore:
             embeddings: numpy array of embeddings
             texts: list of corresponding text chunks
             metadata: optional list of metadata dicts for each text
-            batch_size: number of points to upload per batch (default 100 to avoid payload size limit)
+            batch_size: number of points to upload per batch (default 50 for stability with large uploads)
         """
         try:
             embeddings = embeddings.astype('float32')
@@ -118,11 +120,24 @@ class QdrantVectorStore:
                         )
                     )
                 
-                # Upload this batch to Qdrant
-                self.client.upsert(
-                    collection_name=self.collection_name,
-                    points=points
-                )
+                # Upload this batch to Qdrant with retry logic
+                max_retries = 3
+                retry_delay = 2  # seconds
+                
+                for attempt in range(max_retries):
+                    try:
+                        self.client.upsert(
+                            collection_name=self.collection_name,
+                            points=points
+                        )
+                        break  # Success, exit retry loop
+                    except Exception as e:
+                        if attempt < max_retries - 1:
+                            print(f"  ⚠️  Upload failed (attempt {attempt + 1}/{max_retries}), retrying in {retry_delay}s...")
+                            time.sleep(retry_delay)
+                            retry_delay *= 2  # Exponential backoff
+                        else:
+                            raise  # Final attempt failed, raise error
                 
                 # Update local text cache
                 self.texts.extend(batch_texts)
@@ -130,6 +145,10 @@ class QdrantVectorStore:
                 batch_num = (batch_start // batch_size) + 1
                 total_batches = (total_embeddings + batch_size - 1) // batch_size
                 print(f"  ✓ Uploaded batch {batch_num}/{total_batches} ({batch_end}/{total_embeddings} embeddings)")
+                
+                # Small delay between batches to avoid overwhelming the server
+                if batch_end < total_embeddings:
+                    time.sleep(0.5)
             
             print(f"✓ Successfully added {total_embeddings} embeddings to Qdrant. Total: {len(self.texts)}")
             
