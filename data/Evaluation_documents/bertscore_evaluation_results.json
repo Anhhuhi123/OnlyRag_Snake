@@ -1,0 +1,668 @@
+{
+  "metrics": {
+    "BERTScore_Precision": 0.6647446155548096,
+    "BERTScore_Recall": 0.815017580986023,
+    "BERTScore_F1": 0.7315105199813843,
+    "BERTScore_Precision_std": 0.043470390141010284,
+    "BERTScore_Recall_std": 0.03986027091741562,
+    "BERTScore_F1_std": 0.03561132401227951
+  },
+  "per_question_results": [
+    {
+      "question": "Nọc độc của Rắn roi nâu (Dryophiops rubescens) thuộc loại gì?",
+      "predicted_answer": "Nọc độc của Rắn roi nâu (Dryophiops rubescens) thuộc loại opisthoglyphous, nghĩa là nọc được tiêm từ răng sau. Nọc độc này chủ yếu là cytotoxin với một yếu tố hemotoxic nhẹ.",
+      "ground_truth": "Rắn roi nâu có nọc độc nhẹ, chủ yếu là độc tố gây hại tế bào (cytotoxin) với yếu tố độc máu (hemotoxic) nhẹ.",
+      "bertscore": {
+        "precision": 0.740006685256958,
+        "recall": 0.8083378076553345,
+        "f1": 0.772664487361908
+      }
+    },
+    {
+      "question": "Rắn sọc gờ (Elaphe carinata) có nọc độc không?",
+      "predicted_answer": "Rắn sọc gờ (Elaphe carinata) là loài không có nọc độc (nonvenomous), thuộc loại aglyphous (không có răng nọc). Chúng không sản sinh venom, do đó không có cơ chế tác động độc và hoàn toàn vô hại đối với con người. Nếu bị cắn, chỉ gây vết xước nhẹ tương đương vết cắn của côn trùng, không có triệu chứng độc tính như sưng, tê, hay đông máu. Đôi khi chỉ đau nhẹ cục bộ và biến mất nhanh chóng mà không cần điều trị. Tuy nhiên, loài này có tuyến hậu môn phát triển mạnh, tiết ra chất hôi khó chịu khi bị bắt hoặc đe dọa để phòng vệ.",
+      "ground_truth": "Không, Rắn sọc gờ là loài không có nọc độc. Tuy nhiên, chúng có tuyến hậu môn tiết ra chất lỏng rất hôi để phòng vệ.",
+      "bertscore": {
+        "precision": 0.7077488899230957,
+        "recall": 0.8850357532501221,
+        "f1": 0.7865257263183594
+      }
+    },
+    {
+      "question": "Rắn sọc khoanh (Elaphe moellendorffi) có độc tính như thế nào?",
+      "predicted_answer": "Rắn sọc khoanh (Elaphe moellendorffi) không có độc tính. Đây là loài rắn không có nọc độc (nonvenomous) và thuộc loại aglyphous (không có răng nọc). Chúng không sản sinh venom, do đó không có cơ chế tác động độc và mức độ nguy hiểm đối với con người là bằng không – hoàn toàn vô hại, không gây tử vong hay tổn thương nghiêm trọng.\n\nNếu bị cắn (điều này hiếm khi xảy ra vì chúng thường tránh né con người), vết cắn chỉ gây ra các vết xước nhẹ, tương đương vết cắn của côn trùng. Không có triệu chứng độc tính nào như sưng, tê, hay đông máu. Đôi khi có thể cảm thấy đau nhẹ cục bộ, nhưng triệu chứng này biến mất nhanh chóng mà không cần điều trị.\n\nTuy nhiên, loài này có tuyến hậu môn phát triển mạnh (post-anal glands), tiết ra một chất hôi khó chịu (stink glands) khi bị bắt hoặc đe dọa, tạo ra mùi hôi nồng nặc để phòng vệ. Dù vậy, rắn sọc khoanh không được coi là mối đe dọa y tế.",
+      "ground_truth": "Rắn sọc khoanh là loài không có nọc độc và hoàn toàn vô hại.",
+      "bertscore": {
+        "precision": 0.6321786642074585,
+        "recall": 0.8227466940879822,
+        "f1": 0.714982271194458
+      }
+    },
+    {
+      "question": "Rắn sọc đuôi (Elaphe taeniura) có nọc độc không?",
+      "predicted_answer": "Rắn sọc đuôi (Elaphe taeniura) là loài không có nọc độc (nonvenomous) và thuộc loại aglyphous (không có răng nọc). Loài này không sản sinh venom, do đó không có cơ chế tác động độc. Mức độ nguy hiểm đối với con người là không đáng kể, hoàn toàn vô hại, không gây tử vong hay tổn thương nghiêm trọng. Nếu bị cắn, vết cắn chỉ gây ra các vết xước nhẹ tương tự vết cắn của côn trùng, không kèm theo triệu chứng độc tính như sưng, tê, hay rối loạn đông máu. Đôi khi có thể cảm thấy đau nhẹ cục bộ, nhưng triệu chứng này biến mất nhanh chóng mà không cần điều trị y tế.",
+      "ground_truth": "Không, Rắn sọc đuôi là loài không có nọc độc và hoàn toàn vô hại.",
+      "bertscore": {
+        "precision": 0.6542513370513916,
+        "recall": 0.8288379907608032,
+        "f1": 0.731268584728241
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn bồng Mekong (Enhydris subtaeniata) thuộc loại gì?",
+      "predicted_answer": "Nọc độc của Rắn bồng Mekong (Enhydris subtaeniata) là loại nọc độc nhẹ (mildly venomous), thuộc loại opisthoglyphous (nọc từ răng sau). Nọc này chủ yếu là cytotoxin (gây hại tế bào) với yếu tố hemotoxic nhẹ. Nó chứa các enzyme gây phá hủy mô cục bộ và sưng, với cơ chế tác động là phân hủy tế bào và gây viêm.",
+      "ground_truth": "Rắn bồng Mekong có nọc độc nhẹ, thuộc loại độc tố gây hại tế bào (cytotoxin) với yếu tố độc máu nhẹ, không gây nguy hiểm cho người.",
+      "bertscore": {
+        "precision": 0.7353058457374573,
+        "recall": 0.8327351212501526,
+        "f1": 0.780993640422821
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn râu (Erpeton tentaculatum) có nguy hiểm cho người không?",
+      "predicted_answer": "Nọc độc của rắn râu (Erpeton tentaculatum) không nguy hiểm đáng kể cho con người. Đây là loài có nọc độc nhẹ, chủ yếu là cytotoxin với yếu tố hemotoxic nhẹ, được thiết kế đặc biệt để ảnh hưởng đến cá. Nọc chứa các enzyme gây tê liệt và phá hủy mô nhẹ, can thiệp vào hệ thần kinh và máu của cá.\n\nTuy nhiên, liều lượng nọc tiết ra rất thấp (ít hơn 1 mg) và hệ thống tiêm nọc kém hiệu quả do răng nanh nhỏ nằm sâu trong miệng. Mức độ nguy hiểm đối với con người rất thấp, chưa từng ghi nhận trường hợp tử vong. Nọc của loài này không ảnh hưởng đáng kể đến động vật có vú, và nếu bị cắn sâu, thường chỉ gây ra các triệu chứng cục bộ nhẹ. Ở Việt Nam, rắn râu được coi là vô hại đối với con người.",
+      "ground_truth": "Không. Rắn râu có nọc độc nhẹ được thiết kế đặc biệt cho cá, không ảnh hưởng đáng kể đến động vật có vú và không gây nguy hiểm cho con người.",
+      "bertscore": {
+        "precision": 0.70765221118927,
+        "recall": 0.8479553461074829,
+        "f1": 0.771476686000824
+      }
+    },
+    {
+      "question": "Rắn ăn cua (Fordonia leucobalia) có nọc độc được thiết kế cho con mồi nào?",
+      "predicted_answer": "Rắn ăn cua (Fordonia leucobalia) có nọc độc được thiết kế đặc biệt cho cua và cá.",
+      "ground_truth": "Nọc độc nhẹ của Rắn ăn cua được thiết kế đặc biệt cho cua và cá, không gây nguy hiểm đáng kể cho động vật có vú.",
+      "bertscore": {
+        "precision": 0.8383417129516602,
+        "recall": 0.8384982347488403,
+        "f1": 0.8384199738502502
+      }
+    },
+    {
+      "question": "Rắn nước đốm vàng (Fowlea flavipunctata) có phải là rắn độc không?",
+      "predicted_answer": "Rắn nước đốm vàng (Fowlea flavipunctata) không phải là rắn độc. Loài này không có nọc độc (nonvenomous) và thuộc loại aglyphous, tức là không có răng nọc. Do không sản sinh ra venom nên không có cơ chế tác động độc.\n\nMức độ nguy hiểm đối với con người là không đáng kể, chúng hoàn toàn vô hại, không gây tử vong hay tổn thương nghiêm trọng. Nếu bị cắn, vết cắn chỉ gây ra các vết xước nhẹ tương tự vết cắn của côn trùng, không kèm theo các triệu chứng độc tính như sưng, tê hay rối loạn đông máu. Đôi khi có thể cảm thấy đau nhẹ cục bộ, nhưng triệu chứng này biến mất nhanh chóng mà không cần điều trị y tế. Loài này không được coi là mối đe dọa y tế.",
+      "ground_truth": "Không, Rắn nước đốm vàng là loài không có nọc độc và hoàn toàn vô hại.",
+      "bertscore": {
+        "precision": 0.6501569747924805,
+        "recall": 0.8264265060424805,
+        "f1": 0.7277705073356628
+      }
+    },
+    {
+      "question": "Rắn mũi dài (Gonyosoma boulengeri) có nọc độc không?",
+      "predicted_answer": "Rắn mũi dài (Gonyosoma boulengeri) không có nọc độc. Chúng thuộc loại aglyphous, nghĩa là không có răng nọc và không sản sinh venom. Mức độ nguy hiểm đối với con người là zero, hoàn toàn vô hại, không gây tử vong hay tổn thương nghiêm trọng. Nếu bị cắn, vết cắn chỉ gây xước nhẹ tương đương vết cắn của côn trùng, không có triệu chứng độc tính như sưng, tê, hay đông máu, và thường chỉ gây đau nhẹ cục bộ, biến mất nhanh chóng mà không cần điều trị. Loài này không được coi là mối đe dọa y tế.",
+      "ground_truth": "Không, Rắn mũi dài là loài không có nọc độc và hoàn toàn vô hại.",
+      "bertscore": {
+        "precision": 0.6632257699966431,
+        "recall": 0.8284761905670166,
+        "f1": 0.736697793006897
+      }
+    },
+    {
+      "question": "Rắn sọc mắt xanh (Gonyosoma coeruleum) có độc không?",
+      "predicted_answer": "Rắn sọc mắt xanh (Gonyosoma coeruleum) là loài rắn không độc. Nó thuộc nhóm colubrid vô hại và không có tuyến độc hoặc nanh độc. Thay vào đó, nó sử dụng sức mạnh cơ thể để siết chặt mồi. Nếu bị cắn, vết thương chỉ nhẹ do răng nhỏ, có thể gây chảy máu và sưng tạm thời, nhưng không có triệu chứng độc tố như tê liệt, nôn mửa hay suy hô hấp. Cơ chế tác động của nó hoàn toàn cơ học thông qua siết chặt, không có enzyme độc. Loài rắn này chủ yếu tránh né và chỉ cắn khi bị dồn ép.",
+      "ground_truth": "Không, Rắn sọc mắt xanh là loài rắn không có độc tố, hoàn toàn vô hại đối với con người.",
+      "bertscore": {
+        "precision": 0.6500217914581299,
+        "recall": 0.7984715104103088,
+        "f1": 0.7166396975517273
+      }
+    },
+    {
+      "question": "Rắn dây leo xanh (Gonyosoma frenatum) có nguy hiểm cho con người không?",
+      "predicted_answer": "Rắn dây leo xanh (Gonyosoma frenatum) không gây nguy hiểm cho con người. Đây là một loài rắn không độc (non-venomous) và thuộc nhóm colubrid hoàn toàn vô hại.\n\nLoài rắn này không có tuyến độc, nanh rỗng hoặc enzyme độc tố. Thay vào đó, chúng sử dụng sức mạnh cơ thể để siết chặt con mồi.\n\nNếu bị cắn (thường chỉ khi bị bắt hoặc dồn ép), vết thương chỉ là nhẹ do răng nhỏ, có thể dẫn đến chảy máu, sưng đỏ tạm thời và có nguy cơ nhiễm trùng nếu không được vệ sinh sạch sẽ. Tuy nhiên, không có triệu chứng toàn thân nào liên quan đến độc tố như tê liệt, khó thở hay rối loạn đông máu. Cơ chế tác động của chúng hoàn toàn là cơ học thông qua việc siết chặt.\n\nMặc dù được mô tả là 'hung hăng khi bị xử lý', loài này ưu tiên chạy trốn hơn là tấn công.",
+      "ground_truth": "Không, Rắn dây leo xanh là loài không có nọc độc và hoàn toàn vô hại.",
+      "bertscore": {
+        "precision": 0.6371279954910278,
+        "recall": 0.8055979609489441,
+        "f1": 0.7115266919136047
+      }
+    },
+    {
+      "question": "Rắn đuôi đỏ (Gonyosoma oxycephalum) có độc không?",
+      "predicted_answer": "Rắn đuôi đỏ (Gonyosoma oxycephalum) không có độc. Đây là loài rắn không độc (non-venomous), thuộc nhóm colubrid vô hại hoàn toàn.\n\nLoài rắn này không có tuyến độc, nanh rỗng hoặc enzyme độc tố. Thay vào đó, chúng sử dụng sức mạnh cơ thể để siết chặt mồi. Nếu bị cắn (thường chỉ khi bị bắt hoặc dồn ép), vết thương gây ra nhẹ do răng lớn và nhọn, có thể dẫn đến chảy máu, sưng đỏ, đau tạm thời và có thể nhiễm trùng nếu không vệ sinh. Tuy nhiên, không có triệu chứng toàn thân như tê liệt, nôn mửa hay suy hô hấp vì không có nọc độc. Cơ chế tác động của chúng thuần túy là cơ học qua siết chặt. Loài này được mô tả là 'phòng vệ mạnh mẽ nhưng không đe dọa tính mạng'.",
+      "ground_truth": "Không, Rắn đuôi đỏ là loài không có nọc độc và hoàn toàn vô hại.",
+      "bertscore": {
+        "precision": 0.6428788900375366,
+        "recall": 0.8116130828857422,
+        "f1": 0.7174586653709412
+      }
+    },
+    {
+      "question": "Rắn nước boulengeri (Hebius boulengeri) có nọc độc không?",
+      "predicted_answer": "Rắn nước boulengeri (Hebius boulengeri) có nọc độc. Nó là loài rắn có nanh sau (opisthoglyphous, rear-fanged) với độc nhẹ (mildly venomous). Độc tố của loài này chủ yếu là enzyme tiêu hóa (duvernoy's gland secretion) với protein gây rối loạn đông máu nhẹ và tê liệt cục bộ. Cơ chế tác động của nọc độc qua vết cắn giúp mồi nhanh chóng bất động mà không cần siết chặt.",
+      "ground_truth": "Có, Rắn nước boulengeri là loài có nanh sau và nọc độc nhẹ, nhưng không nguy hiểm cho người.",
+      "bertscore": {
+        "precision": 0.6916780471801758,
+        "recall": 0.8119886517524719,
+        "f1": 0.7470202445983887
+      }
+    },
+    {
+      "question": "Rắn nước đồi Khasi (Hebius khasiensis) có nọc độc không?",
+      "predicted_answer": "Rắn nước đồi Khasi (Hebius khasiensis) có nọc độc. Loài này được mô tả là rắn có nanh sau (opisthoglyphous, rear-fanged) với độc nhẹ (mildly venomous). Độc tố chủ yếu là enzyme từ tuyến Duvernoy (duvernoy's gland secretion) chứa protein gây rối loạn đông máu nhẹ và tê liệt cục bộ.",
+      "ground_truth": "Có, Rắn nước đồi Khasi là loài có nanh sau và nọc độc nhẹ, không gây nguy hiểm cho con người.",
+      "bertscore": {
+        "precision": 0.6858667135238647,
+        "recall": 0.8169952630996704,
+        "f1": 0.7457103729248047
+      }
+    },
+    {
+      "question": "Mức độ nguy hiểm của Rắn nước Omei (Hebius optatus) là gì?",
+      "predicted_answer": "Rắn nước Omei (Hebius optatus) là loài có nọc độc nhẹ (mildly venomous), thuộc loại opisthoglyphous (nọc từ răng sau). Nọc của chúng chủ yếu là cytotoxin (gây hại tế bào) với yếu tố hemotoxic nhẹ, được thiết kế đặc biệt cho con mồi nhỏ. Nọc chứa các enzyme gây tê liệt và phá hủy mô nhẹ, can thiệp vào hệ thần kinh và máu của lưỡng cư hoặc cá.\n\nTuy nhiên, mức độ nguy hiểm đối với con người rất thấp. Liều lượng nọc thấp (ít hơn 1 mg) và hệ thống tiêm kém hiệu quả (răng nanh nhỏ nằm sâu trong miệng). Chưa ghi nhận trường hợp tử vong do loài này, và nọc không ảnh hưởng đáng kể đến động vật có vú. Thông thường, vết cắn chỉ gây triệu chứng cục bộ nhẹ nếu cắn sâu. Ở Việt Nam, loài này được coi là vô hại, khác với những loài rắn nước độc hơn như Rhabdophis.",
+      "ground_truth": "Rắn nước Omei có nọc độc nhẹ và không gây nguy hiểm đáng kể cho động vật có vú, được coi là vô hại đối với con người.",
+      "bertscore": {
+        "precision": 0.6535468697547913,
+        "recall": 0.8288644552230835,
+        "f1": 0.7308386564254761
+      }
+    },
+    {
+      "question": "Rắn nước Kosempo (Hebius sauteri) có nguy hiểm không?",
+      "predicted_answer": "Rắn nước Kosempo (Hebius sauteri) có mức độ nguy hiểm rất thấp đối với con người. Loài này có nanh sau và độc nhẹ, thuộc nhóm Natricinae, chủ yếu dùng độc để làm tê liệt các con mồi nhỏ như ếch. Độc tố của chúng chủ yếu là enzyme từ tuyến Duvernoy, chứa protein gây rối loạn đông máu nhẹ và tê liệt cục bộ, giúp con mồi nhanh chóng bất động mà không cần siết chặt.\n\nĐối với con người, Hebius sauteri rất nhút nhát và chỉ cắn khi bị bắt hoặc dồn ép, không chủ động tấn công. Nếu bị cắn, các triệu chứng thường chỉ giới hạn ở mức độ nhẹ như đau tại chỗ, sưng đỏ, chảy máu nhẹ và tê tạm thời kéo dài khoảng 12 giờ. Không có tác động toàn thân nghiêm trọng nào được ghi nhận, như suy hô hấp hay hoại tử. Chưa có báo cáo nào về trường hợp tử vong hoặc biến chứng lâu dài do vết cắn của loài rắn này. Việc điều trị vết cắn rất đơn giản, chỉ cần rửa vết thương và theo dõi, không cần sử dụng huyết thanh.",
+      "ground_truth": "Không, loài này có nọc độc nhẹ nhưng không gây nguy hiểm cho con người. Vết cắn chỉ gây triệu chứng tại chỗ.",
+      "bertscore": {
+        "precision": 0.6568372249603271,
+        "recall": 0.7993192672729492,
+        "f1": 0.7211074233055115
+      }
+    },
+    {
+      "question": "Rắn bồng chì (Hypsiscopus murphyi) có độc không?",
+      "predicted_answer": "Rắn bồng chì (Hypsiscopus murphyi) có độc. Đây là loài rắn hậu nanh (opisthoglyphous, rear-fanged) với độc nhẹ (mildly venomous). Độc tố của chúng chủ yếu là enzyme từ tuyến Duvernoy, gây rối loạn đông máu nhẹ và tê liệt cục bộ ở con mồi.\n\nMức độ nguy hiểm đối với con người rất thấp. Loài này nhút nhát và chỉ cắn khi bị bắt hoặc dồn ép, không chủ động tấn công. Nếu bị cắn, triệu chứng thường chỉ là đau tại chỗ, sưng đỏ, chảy máu nhẹ và tê tạm thời (kéo dài khoảng 12 giờ), không có tác động toàn thân nghiêm trọng như suy hô hấp hay hoại tử. Không có báo cáo tử vong hoặc biến chứng lâu dài từ vết cắn của loài rắn này. Điều trị thường đơn giản bằng cách rửa vết thương và theo dõi, không cần huyết thanh đặc hiệu.",
+      "ground_truth": "Có, Rắn bồng chì là loài có nọc độc nhẹ, không gây nguy hiểm cho con người.",
+      "bertscore": {
+        "precision": 0.6315039396286011,
+        "recall": 0.8006309866905212,
+        "f1": 0.7060810327529907
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn biển có sừng (Hydrophis peronii) nguy hiểm như thế nào?",
+      "predicted_answer": "Nọc độc của Rắn biển có sừng (Hydrophis peronii) cực kỳ nguy hiểm. Đây là một loài rắn cực kỳ độc, thuộc nhóm elapid với nọc độc neurotoxic mạnh. Nọc độc chứa các neurotoxin như phospholipase A2 và three-finger toxins, với nồng độ độc cao hơn nhiều lần so với rắn đất cùng họ.\n\nĐộc tố được sản xuất từ tuyến nọc độc và tiêm qua nanh cố định phía trước. Cơ chế tác động là ức chế truyền dẫn thần kinh cơ, gây tê liệt cơ hô hấp và tim mạch nhanh chóng. Điều này dẫn đến các biến chứng nghiêm trọng như rhabdomyolysis (phân hủy cơ), suy thận và suy hô hấp.\n\nMức độ nguy hiểm đối với con người của Hydrophis peronii rất cao, được coi là một trong những loài rắn độc nhất thế giới theo đơn vị trọng lượng. Ngay cả với lượng nọc tiêm ít (do nanh ngắn), nó có thể gây tử vong trong vài giờ nếu không được điều trị. Tuy nhiên, loài này nhút nhát và hiếm khi cắn người, chủ yếu các trường hợp bị cắn gặp ở ngư dân hoặc thợ lặn.",
+      "ground_truth": "Đây là một trong những loài rắn độc nhất thế giới. Nọc độc thần kinh cực mạnh có thể gây tử vong trong vài giờ nếu không điều trị.",
+      "bertscore": {
+        "precision": 0.6457808613777161,
+        "recall": 0.8606388568878174,
+        "f1": 0.7378875017166138
+      }
+    },
+    {
+      "question": "Rắn mù Brahminy (Indotyphlops braminus) có nọc độc không?",
+      "predicted_answer": "Rắn mù Brahminy (Indotyphlops braminus) hoàn toàn không có nọc độc. Loài này thuộc nhóm typhlopid vô hại, không có tuyến nọc độc, nanh rỗng hay enzyme độc tố. Thay vào đó, nó sử dụng sức mạnh cơ thể để giữ con mồi mềm. Vết cắn của nó, nếu có (điều hiếm khi xảy ra vì loài này nhút nhát), chỉ gây ra vết xước nhẹ do răng nhỏ, dẫn đến chảy máu tối thiểu và không gây ra bất kỳ triệu chứng toàn thân nào như tê liệt, nôn mửa hay suy hô hấp. Mức độ nguy hiểm đối với con người bằng không.",
+      "ground_truth": "Không, Rắn mù Brahminy là loài hoàn toàn không có độc tố, vô hại với con người.",
+      "bertscore": {
+        "precision": 0.6555315256118774,
+        "recall": 0.8133898973464966,
+        "f1": 0.7259785532951355
+      }
+    },
+    {
+      "question": "Rắn sói thông thường (Lycodon capucinus) có nọc độc không?",
+      "predicted_answer": "Rắn sói thông thường (Lycodon capucinus) là loài rắn không độc hoặc có độc nhẹ theo một số nguồn. Chúng không có tuyến nọc độc rõ rệt hoặc nanh rỗng, thay vào đó sử dụng răng lớn phía sau để giữ mồi. Vết cắn của loài này không gây nguy hiểm nghiêm trọng cho con người, chỉ gây ra vết thương nhẹ do răng nhọn, dẫn đến đau, sưng đỏ tạm thời và có thể chảy máu, nhưng không có triệu chứng toàn thân.",
+      "ground_truth": "Loài này được coi là không độc hoặc có độc rất nhẹ, không gây nguy hiểm nghiêm trọng cho con người.",
+      "bertscore": {
+        "precision": 0.6858655214309692,
+        "recall": 0.8372811675071716,
+        "f1": 0.7540472745895386
+      }
+    },
+    {
+      "question": "Rắn khuyết Nam Động (Lycodon chapaensis) có độc không?",
+      "predicted_answer": "Rắn khuyết Nam Động (Lycodon chapaensis) là loài rắn không độc. Chúng không có tuyến nọc độc hoặc nanh rỗng, mà sử dụng răng lớn phía trước để giữ con mồi. Nếu bị cắn, chỉ gây ra vết thương nhẹ do răng nhọn, dẫn đến đau, sưng đỏ tạm thời và chảy máu tối thiểu, nhưng không có triệu chứng toàn thân như tê liệt, nôn mửa hay suy hô hấp. Loài này được coi là vô hại và không gây nguy hiểm cho con người.",
+      "ground_truth": "Không, Rắn khuyết Nam Động là loài không có nọc độc và vô hại.",
+      "bertscore": {
+        "precision": 0.6751223206520081,
+        "recall": 0.8356815576553345,
+        "f1": 0.7468702793121338
+      }
+    },
+    {
+      "question": "Rắn cương Blanford (Lycodon davisonii) có nguy hiểm cho con người không?",
+      "predicted_answer": "Rắn cương Blanford (Lycodon davisonii) không nguy hiểm cho con người. Đây là loài rắn không độc, thuộc nhóm colubrid vô hại. Chúng không có tuyến nọc độc hoặc nanh rỗng, mà thay vào đó sử dụng răng lớn phía sau để giữ mồi.\n\nNếu bị cắn, thường là khi bị bắt hoặc dồn ép, vết thương sẽ nhẹ do răng nhọn. Các triệu chứng thường gặp là đau, sưng đỏ tạm thời và chảy máu tối thiểu. Tuy nhiên, không có triệu chứng toàn thân như tê liệt, nôn mửa hay suy hô hấp. Cơ chế tác động hoàn toàn là do cắn giữ cơ học. Loài này được mô tả là \"khá ngoan ngoãn\" khi không bị quấy rối. Mức độ nguy hiểm thấp, chỉ cần rửa vết thương và theo dõi nhiễm trùng nếu cần.",
+      "ground_truth": "Không, Rắn cương Blanford là loài không có nọc độc và vô hại.",
+      "bertscore": {
+        "precision": 0.6312484741210938,
+        "recall": 0.8160836696624756,
+        "f1": 0.71186363697052
+      }
+    },
+    {
+      "question": "Rắn khuyết đốm (Lycodon fasciatus) có độc tính như thế nào?",
+      "predicted_answer": "Rắn khuyết đốm (Lycodon fasciatus) là loài rắn không độc (non-venomous), thuộc nhóm colubrid vô hại. Loài rắn này không có tuyến nọc độc hoặc nanh rỗng. Thay vào đó, chúng sử dụng răng lớn phía sau để giữ mồi.\n\nĐối với con người, rắn khuyết đốm không gây nguy hiểm. Nếu bị cắn (điều này hiếm khi xảy ra vì loài rắn này nhút nhát và ưu tiên chạy trốn hơn tấn công), vết thương sẽ nhẹ do răng nhọn. Các triệu chứng thường gặp là đau, sưng đỏ tạm thời và chảy máu tối thiểu. Tuy nhiên, không có bất kỳ triệu chứng toàn thân nào như tê liệt, nôn mửa hay suy hô hấp. Cơ chế tác động hoàn toàn là do cắn giữ vật lý. Mức độ nguy hiểm của loài này bằng không, và chúng thường được coi là \"rắn thân thiện\" trong môi trường karst.",
+      "ground_truth": "Rắn khuyết đốm là loài không có nọc độc và vô hại.",
+      "bertscore": {
+        "precision": 0.6245331764221191,
+        "recall": 0.8180170655250549,
+        "f1": 0.7082995176315308
+      }
+    },
+    {
+      "question": "Rắn khuyết Phúc Thanh (Lycodon futsingensis) có độc không?",
+      "predicted_answer": "Rắn khuyết Phúc Thanh (Lycodon futsingensis) là loài rắn không độc. Chúng thuộc nhóm colubrid vô hại và không có tuyến nọc độc hoặc nanh rỗng. Thay vào đó, chúng sử dụng răng lớn phía sau để giữ mồi. Nếu bị cắn, vết thương sẽ nhẹ, gây đau, sưng đỏ tạm thời và chảy máu tối thiểu, nhưng không có triệu chứng toàn thân. Loài này được coi là không gây nguy hiểm cho con người.",
+      "ground_truth": "Không, Rắn khuyết Phúc Thanh là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.6568296551704407,
+        "recall": 0.8252513408660889,
+        "f1": 0.7314708828926086
+      }
+    },
+    {
+      "question": "Rắn sói Lào (Lycodon laoensis) có nọc độc không?",
+      "predicted_answer": "Rắn sói Lào (Lycodon laoensis) là loài rắn không độc. Chúng không có tuyến nọc độc hoặc nanh rỗng. Thay vào đó, chúng sử dụng răng lớn ở phía sau để giữ mồi. Nếu bị cắn, vết thương sẽ nhẹ, gây đau, sưng đỏ tạm thời và chảy máu tối thiểu, nhưng không có triệu chứng toàn thân như tê liệt, nôn mửa hay suy hô hấp. Chúng chỉ cắn khi bị quấy rối mạnh, và thường được coi là \"rắn thân thiện\".",
+      "ground_truth": "Không, Rắn sói Lào là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.6600072383880615,
+        "recall": 0.8253873586654663,
+        "f1": 0.7334908246994019
+      }
+    },
+    {
+      "question": "Rắn sói đốm vàng (Lycodon meridionalis) có độc không?",
+      "predicted_answer": "Rắn sói đốm vàng (Lycodon meridionalis) là loài rắn không độc. Chúng thuộc nhóm colubrid vô hại và không có tuyến nọc độc hoặc nanh rỗng. Thay vào đó, chúng sử dụng răng lớn phía trước để giữ mồi. \n\nLoài rắn này không gây nguy hiểm cho con người. Nếu bị cắn (điều hiếm khi xảy ra vì chúng là loài nhút nhát), vết thương sẽ nhẹ do răng nhọn, gây đau, sưng đỏ tạm thời và chảy máu tối thiểu. Tuy nhiên, không có triệu chứng toàn thân như tê liệt, nôn mửa hay suy hô hấp. Cơ chế tác động thuần túy cơ học qua cắn giữ, và loài này ưu tiên chạy trốn hơn tấn công. Mức độ nguy hiểm của chúng bằng không, và thường được coi là \"rắn thân thiện\" trong môi trường karst.",
+      "ground_truth": "Không, Rắn sói đốm vàng là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.6269153356552124,
+        "recall": 0.8291886448860168,
+        "f1": 0.7140026092529297
+      }
+    },
+    {
+      "question": "Rắn khuyết khoanh Đông Dương (Lycodon neomaculatus) có nọc độc không?",
+      "predicted_answer": "Rắn khuyết khoanh Đông Dương (Lycodon neomaculatus) là loài rắn không độc. Chúng không có tuyến nọc độc hay nanh rỗng. Thay vào đó, chúng sử dụng răng lớn ở phía sau để giữ con mồi. Vết cắn của chúng, nếu có, chỉ gây ra vết thương nhẹ với các triệu chứng tại chỗ như đau, sưng đỏ tạm thời và chảy máu tối thiểu, mà không có bất kỳ triệu chứng toàn thân nào. Loài rắn này được coi là vô hại đối với con người.",
+      "ground_truth": "Không, Rắn khuyết khoanh Đông Dương là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.668439507484436,
+        "recall": 0.8391069769859314,
+        "f1": 0.7441127896308899
+      }
+    },
+    {
+      "question": "Rắn chó vằn sơn (Lycodon pictus) có độc không?",
+      "predicted_answer": "Rắn chó vằn sơn (Lycodon pictus) là loài rắn không độc. Chúng không có tuyến nọc độc hoặc nanh rỗng. Thay vào đó, chúng sử dụng răng lớn ở phía trước và phía sau để giữ mồi. \n\nNếu bị cắn (điều hiếm khi xảy ra vì loài này nhút nhát), vết thương chỉ nhẹ do răng nhọn, gây đau, sưng đỏ tạm thời và chảy máu tối thiểu. Không có triệu chứng toàn thân như tê liệt, nôn mửa hay suy hô hấp. Cơ chế tác động hoàn toàn là do cắn giữ cơ học, và loài này ưu tiên chạy trốn hơn là tấn công. Mức độ nguy hiểm của chúng bằng không và thường được coi là \"rắn thân thiện\" trong môi trường karst.",
+      "ground_truth": "Không, Rắn chó vằn sơn là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.6288822889328003,
+        "recall": 0.8272243738174438,
+        "f1": 0.7145448923110962
+      }
+    },
+    {
+      "question": "Rắn sói rừng (Lycodon rufozonatus) có độc không?",
+      "predicted_answer": "Rắn sói rừng (Lycodon rufozonatus) là loài rắn không độc. Chúng thuộc nhóm colubrid vô hại và không có tuyến nọc độc hay nanh rỗng. Thay vào đó, chúng sử dụng răng lớn phía sau để giữ mồi. Nếu bị cắn, vết thương sẽ nhẹ, gây đau, sưng đỏ tạm thời và chảy máu tối thiểu, nhưng không có triệu chứng toàn thân như tê liệt, nôn mửa hay suy hô hấp. Chúng không gây nguy hiểm cho con người và thường được coi là \"rắn thân thiện\".",
+      "ground_truth": "Không, Rắn sói rừng là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.6508312225341797,
+        "recall": 0.8116700649261475,
+        "f1": 0.7224065065383911
+      }
+    },
+    {
+      "question": "Rắn sói Ruhstrat (Lycodon ruhstrati) có độc không?",
+      "predicted_answer": "Rắn sói Ruhstrat (Lycodon ruhstrati) là loài rắn không độc (non-venomous). Chúng thuộc nhóm colubrid vô hại và không có tuyến nọc độc hay nanh rỗng. Thay vào đó, chúng sử dụng răng lớn phía sau để giữ mồi. Nếu bị cắn, vết thương chỉ là nhẹ do răng nhọn, gây đau, sưng đỏ tạm thời và chảy máu tối thiểu, nhưng không có triệu chứng toàn thân như tê liệt, nôn mửa hay suy hô hấp. Cơ chế tác động thuần túy cơ học qua cắn giữ. Loài này ưu tiên chạy trốn hơn tấn công và thường được coi là 'rắn thân thiện' trong môi trường karst.",
+      "ground_truth": "Không, Rắn sói Ruhstrat là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.6296588778495789,
+        "recall": 0.81602543592453,
+        "f1": 0.7108296751976013
+      }
+    },
+    {
+      "question": "Rắn khuyết Trường (Lycodon truongi) có độc không?",
+      "predicted_answer": "Rắn khuyết Trường (Lycodon truongi) là loài rắn không độc. Chúng không có tuyến nọc độc hay nanh rỗng, mà thay vào đó sử dụng những chiếc răng lớn ở cả phía trước và phía sau để giữ con mồi. Do đó, chúng không gây nguy hiểm cho con người. Nếu bị cắn – điều hiếm khi xảy ra vì đây là loài nhút nhát – vết thương chỉ ở mức độ nhẹ do răng nhọn, có thể gây đau, sưng đỏ tạm thời và chảy máu tối thiểu. Không có triệu chứng toàn thân nào như tê liệt, nôn mửa hay suy hô hấp. Cơ chế tác động thuần túy là cơ học qua việc cắn giữ, và loài này luôn ưu tiên chạy trốn hơn là tấn công. Mức độ nguy hiểm của chúng bằng không, thậm chí còn được coi là \"rắn thân thiện\" trong môi trường sông ngòi.",
+      "ground_truth": "Không, Rắn khuyết Trường là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.6220862865447998,
+        "recall": 0.8142014741897583,
+        "f1": 0.7052953839302063
+      }
+    },
+    {
+      "question": "Trăn gấm (Malayopython reticulatus) có độc không?",
+      "predicted_answer": "Trăn gấm (Malayopython reticulatus) là loài rắn không độc (non-venomous). Chúng thuộc nhóm pythonid vô hại, không có tuyến nọc độc hoặc nanh rỗng. Thay vào đó, trăn gấm sử dụng sức mạnh cơ bắp để siết chặt con mồi.",
+      "ground_truth": "Không, Trăn gấm là loài không có nọc độc. Chúng giết mồi bằng cách siết chặt.",
+      "bertscore": {
+        "precision": 0.7360954284667969,
+        "recall": 0.8381788730621338,
+        "f1": 0.7838273644447327
+      }
+    },
+    {
+      "question": "Rắn nước Trung Quốc (Myrrophis chinensis) có độc không?",
+      "predicted_answer": "Myrrophis chinensis là loài rắn hậu nanh (opisthoglyphous, rear-fanged) với độc nhẹ (mildly venomous). Độc tố chủ yếu là enzyme từ tuyến Duvernoy (duvernoy's gland secretion) với protein gây rối loạn đông máu nhẹ và tê liệt cục bộ.",
+      "ground_truth": "Có, Rắn nước Trung Quốc là loài có nọc độc nhẹ, không gây nguy hiểm cho con người.",
+      "bertscore": {
+        "precision": 0.6423140168190002,
+        "recall": 0.7349470853805542,
+        "f1": 0.6855153441429138
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn hổ mang Trung Quốc (Naja atra) nguy hiểm như thế nào?",
+      "predicted_answer": "Nọc độc của Rắn hổ mang Trung Quốc (Naja atra) cực kỳ nguy hiểm. Đây là một loài rắn cực kỳ độc, thuộc nhóm elapid với nọc độc neurotoxic mạnh. Nọc độc chứa các neurotoxins như alpha-cobratoxin, cardiotoxins và phospholipase A2.\n\nNồng độ độc của Naja atra rất cao, tương đương với Naja naja, và lượng nọc tiêm vào cơ thể nạn nhân cũng lớn, khoảng 100-200 mg. Giá trị LD50 của nọc độc này khoảng 0.25 mg/kg ở chuột, cho thấy mức độ độc lực cao.\n\nCơ chế tác động của nọc độc là ức chế truyền dẫn thần kinh acetylcholine tại đầu nối thần kinh-cơ, gây tê liệt cơ hô hấp và tim mạch, dẫn đến suy hô hấp nhanh chóng và có thể suy thận.\n\nMức độ nguy hiểm đối với con người của Naja atra rất cao, được xem là một trong những loài hổ mang nguy hiểm nhất châu Á. Nếu không được điều trị kịp thời, nọc độc của chúng có thể gây ra 20-30 trường hợp tử vong.\n\nCác triệu chứng khi bị cắn rất nghiêm trọng:\n*   **Ban đầu (5-30 phút):** Vết cắn đau rát, sưng đỏ, buồn nôn, nôn, tiêu chảy, khô họng, đau đầu.\n*   **Sau 1-6 giờ:** Tê liệt cơ tiến triển, mí mắt sụp, khó thở, nói lắp, tê quanh miệng, suy hô hấp, hôn mê.\n*   **Trường hợp nặng:** Dẫn đến tử vong do tê liệt hô hấp trong vòng 6-24 giờ.",
+      "ground_truth": "Rắn hổ mang Trung Quốc có nọc độc cực mạnh, thuộc loại độc thần kinh, có thể gây tử vong trong vòng 6-24 giờ nếu không điều trị.",
+      "bertscore": {
+        "precision": 0.6379799246788025,
+        "recall": 0.8201302886009216,
+        "f1": 0.7176778316497803
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn hổ mang Phục Hy (Naja fuxi) nguy hiểm không?",
+      "predicted_answer": "Nọc độc của Rắn hổ mang Phục Hy (Naja fuxi) cực kỳ nguy hiểm. Đây là một loài rắn cực kỳ độc, thuộc nhóm elapid với nọc độc neurotoxic mạnh. Nọc độc chứa các neurotoxins như alpha-cobratoxin, cardiotoxins và phospholipase A2.\n\nNồng độ độc của nó cao, tương đương với Naja kaouthia, với liều lượng tiêm có thể lên tới 100-150 mg. Cơ chế tác động của nọc độc là ức chế truyền dẫn thần kinh acetylcholine tại đầu nối thần kinh-cơ, dẫn đến tê liệt cơ hô hấp và tim mạch, gây suy hô hấp nhanh chóng và có thể suy thận.\n\nMức độ nguy hiểm đối với con người là rất cao, được xếp vào một trong những loài hổ mang nguy hiểm nhất Đông Nam Á. Nếu không được điều trị kịp thời, vết cắn có thể gây tử vong. Giá trị LD50 của nọc độc là khoảng 0.2-0.3 mg/kg ở chuột, cho thấy mức độ độc chết người rất cao.\n\nCác triệu chứng sau khi bị cắn rất nghiêm trọng:\n*   **Ban đầu (5-30 phút):** Đau rát vết cắn, sưng đỏ, buồn nôn, nôn, tiêu chảy, khô họng, đau đầu.\n*   **Sau 1-6 giờ:** Tê liệt cơ tiến triển, mí mắt sụp, khó thở, nói lắp, tê quanh miệng, suy hô hấp, hôn mê.\n*   **Trường hợp nặng:** Dẫn đến tử vong do tê liệt hô hấp trong vòng 6-24 giờ.",
+      "ground_truth": "Có, Rắn hổ mang Phục Hy có nọc độc cực mạnh, thuộc loại độc thần kinh, có thể gây tử vong nếu không điều trị kịp thời.",
+      "bertscore": {
+        "precision": 0.6263900399208069,
+        "recall": 0.8221069574356079,
+        "f1": 0.711026132106781
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn hổ mang phun nọc Đông Dương (Naja siamensis) là sự kết hợp của những loại độc tố nào?",
+      "predicted_answer": "Nọc độc của Rắn hổ mang phun nọc Đông Dương (Naja siamensis) là sự kết hợp của nọc độc thần kinh (neurotoxic) và nọc độc gây phá hủy tế bào (cytotoxic) mạnh.\n\nCụ thể, nọc độc của loài này chứa các neurotoxins như alpha-cobratoxin, cardiotoxins và phospholipase A2. Cơ chế tác động của chúng bao gồm ức chế truyền dẫn thần kinh acetylcholine tại đầu nối thần kinh-cơ, gây tê liệt hô hấp, và phá hủy tế bào, dẫn đến hoại tử mô.",
+      "ground_truth": "Nọc độc của chúng là sự kết hợp của độc tố thần kinh (gây tê liệt) và độc tố tế bào (gây hoại tử mô).",
+      "bertscore": {
+        "precision": 0.7034904956817627,
+        "recall": 0.8518053889274597,
+        "f1": 0.7705761790275574
+      }
+    },
+    {
+      "question": "Rắn đất vạch (Oligodon albocinctus) có độc không?",
+      "predicted_answer": "Rắn đất vạch (Oligodon albocinctus) là loài rắn không độc. Chúng không có tuyến nọc độc hay nanh rỗng, mà thay vào đó sử dụng những chiếc răng nhỏ để giữ con mồi mềm. Nếu bị cắn, vết cắn chỉ gây ra vết xước nhẹ và chảy máu tối thiểu, không gây ra các triệu chứng toàn thân như tê liệt, nôn mửa hay suy hô hấp. Đây là một loài rắn vô hại đối với con người và được mô tả là không hung hăng.",
+      "ground_truth": "Không, Rắn đất vạch là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.6636955738067627,
+        "recall": 0.8242641687393188,
+        "f1": 0.735316276550293
+      }
+    },
+    {
+      "question": "Rắn khiếm Trung Quốc (Oligodon cinereus) có nọc độc không?",
+      "predicted_answer": "Rắn khiếm Trung Quốc (Oligodon cinereus) không có nọc độc. Loài rắn này thuộc nhóm colubrid vô hại, không có tuyến nọc độc hoặc nanh rỗng. Thay vào đó, chúng sử dụng răng nhỏ để giữ mồi mềm.",
+      "ground_truth": "Không, Rắn khiếm Trung Quốc là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.7357122898101807,
+        "recall": 0.863057553768158,
+        "f1": 0.7943131923675537
+      }
+    },
+    {
+      "question": "RẮN KHIẾM ĐUÔI TRÒN (Oligodon cyclurus) có độc không?",
+      "predicted_answer": "Rắn khiếm đuôi tròn (Oligodon cyclurus) là loài rắn không độc (non-venomous). Chúng thuộc nhóm colubrid vô hại, không có tuyến nọc độc hoặc nanh rỗng. Thay vào đó, loài này sử dụng răng nhỏ để giữ mồi mềm. Nếu bị cắn (điều hiếm khi xảy ra vì chúng khá nhút nhát), vết cắn chỉ gây ra vết xước nhẹ và chảy máu tối thiểu, không gây ra bất kỳ triệu chứng toàn thân nào như tê liệt, nôn mửa hay suy hô hấp. Cơ chế tác động của chúng hoàn toàn là cơ học thông qua cắn giữ. Loài này được mô tả là không hung hăng, thường cuộn tròn phòng vệ thay vì tấn công, và mức độ nguy hiểm đối với con người là bằng không.",
+      "ground_truth": "Không, RẮN KHIẾM ĐUÔI TRÒN là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.6156790256500244,
+        "recall": 0.6668838262557983,
+        "f1": 0.6402592658996582
+      }
+    },
+    {
+      "question": "RẮN KHIẾM DEUVEI (Oligodon deuvei) có độc không?",
+      "predicted_answer": "Rắn Khiếm Deuvei (Oligodon deuvei) không có độc. Loài này được xếp vào nhóm colubrid vô hại, không có tuyến nọc độc hay nanh rỗng. Thay vào đó, chúng sử dụng răng nhỏ để giữ con mồi mềm. Nếu bị cắn (điều hiếm khi xảy ra vì chúng khá nhút nhát), vết cắn chỉ gây ra vết xước nhẹ và chảy máu tối thiểu, không gây ra bất kỳ triệu chứng toàn thân nào như tê liệt, nôn mửa hay suy hô hấp. Cơ chế tác động chỉ thuần túy cơ học và chúng được mô tả là không hung hăng. Mức độ nguy hiểm của loài này là bằng không.",
+      "ground_truth": "Không, RẮN KHIẾM DEUVEI là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.6261454820632935,
+        "recall": 0.7082206606864929,
+        "f1": 0.6646589636802673
+      }
+    },
+    {
+      "question": "RẮN KHIẾM VẠCH NHỎ (Oligodon fasciolatus) có độc không?",
+      "predicted_answer": "Rắn khiếm vạch nhỏ (Oligodon fasciolatus) không có độc. Đây là một loài rắn không nọc độc (non-venomous), thuộc nhóm colubrid vô hại. Chúng không có tuyến nọc độc hay nanh rỗng mà chỉ sử dụng những chiếc răng nhỏ để giữ mồi mềm.\n\nNếu bị cắn, điều này rất hiếm khi xảy ra vì loài này nhút nhát, vết cắn chỉ gây ra vết xước nhẹ do răng nhỏ, dẫn đến chảy máu tối thiểu. Không có triệu chứng toàn thân nào như tê liệt, nôn mửa hay suy hô hấp. Cơ chế tác động của vết cắn hoàn toàn là cơ học qua việc cắn giữ. Loài này cũng được mô tả là không hung hăng và mức độ nguy hiểm đối với con người là bằng không. Chúng thường bị bỏ qua do kích thước nhỏ và lối sống ẩn náu.",
+      "ground_truth": "Không, RẮN KHIẾM VẠCH NHỎ là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.6188640594482422,
+        "recall": 0.7318325638771057,
+        "f1": 0.6706241965293884
+      }
+    },
+    {
+      "question": "Rắn khiếm Đài Loan (Oligodon formosanus) có độc không?",
+      "predicted_answer": "Rắn khiếm Đài Loan (Oligodon formosanus) không có độc. Đây là loài rắn không độc (non-venomous), thuộc nhóm colubrid vô hại. Chúng không có tuyến nọc độc hoặc nanh rỗng, thay vào đó sử dụng răng nhỏ để giữ mồi mềm. Nếu bị cắn (điều hiếm khi xảy ra vì loài này nhút nhát), vết cắn chỉ gây xước nhẹ do răng nhỏ, dẫn đến chảy máu tối thiểu và không có triệu chứng toàn thân như tê liệt, nôn mửa hay suy hô hấp. Cơ chế tác động hoàn toàn là cơ học qua cắn giữ. Loài này được mô tả là không hung hăng và mức độ nguy hiểm đối với con người bằng không.",
+      "ground_truth": "Không, Rắn khiếm Đài Loan là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.6445489525794983,
+        "recall": 0.8287029266357422,
+        "f1": 0.725116491317749
+      }
+    },
+    {
+      "question": "Rắn khiếm vạch (Oligodon taeniatus) có nọc độc không?",
+      "predicted_answer": "Rắn khiếm vạch (Oligodon taeniatus) là loài rắn không độc (non-venomous). Chúng không có tuyến nọc độc hoặc nanh rỗng. Thay vào đó, chúng sử dụng những chiếc răng nhỏ để giữ mồi mềm. Nếu bị cắn, vết cắn chỉ gây ra vết xước nhẹ và chảy máu tối thiểu, không gây ra các triệu chứng toàn thân như tê liệt, nôn mửa hay suy hô hấp. Cơ chế tác động của chúng hoàn toàn là cơ học thông qua việc cắn giữ. Loài này được mô tả là không hung hăng và mức độ nguy hiểm đối với con người là bằng không.",
+      "ground_truth": "Không, Rắn khiếm vạch là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.6391190886497498,
+        "recall": 0.8196754455566406,
+        "f1": 0.7182234525680542
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn hổ chúa (Ophiophagus hannah) mạnh như thế nào?",
+      "predicted_answer": "Rắn hổ chúa (Ophiophagus hannah) là loài rắn cực kỳ độc. Nọc độc của chúng thuộc nhóm elapid với nọc độc neurotoxic mạnh nhất trong họ Elapidae. Nọc độc chứa các neurotoxin mạnh như ohanin, peptide giống dendrotoxin và phospholipase A2, có nồng độ độc cao (LD50 là 1.09 mg/kg ở chuột). Lượng nọc tiêm lên đến 500 mg, là lượng lớn nhất trong các loài rắn độc.\n\nCơ chế tác động của nọc độc là ức chế truyền dẫn thần kinh acetylcholine tại đầu nối thần kinh-cơ, gây tê liệt cơ hô hấp và tim mạch. Điều này dẫn đến suy hô hấp nhanh chóng và có thể gây suy thận. Ngoài ra, nọc độc còn gây đau dữ dội và hoại tử cục bộ.\n\nMức độ nguy hiểm đối với con người rất cao. Rắn hổ chúa là loài rắn độc dài nhất và có lượng nọc lớn nhất, có thể gây tử vong trong vòng 30 phút nếu không được điều trị kịp thời. Đây là một trong những nguyên nhân hàng đầu gây tử vong do rắn cắn ở Đông Nam Á.",
+      "ground_truth": "Rắn hổ chúa có nọc độc thần kinh mạnh nhất trong họ Elapidae, với lượng nọc tiêm có thể lên đến 500 mg, lớn nhất trong các loài rắn độc.",
+      "bertscore": {
+        "precision": 0.6713206171989441,
+        "recall": 0.8458491563796997,
+        "f1": 0.7485464215278625
+      }
+    },
+    {
+      "question": "Rắn chuột đỏ (Oreocryptophis porphyraceus) có độc không?",
+      "predicted_answer": "Rắn chuột đỏ (Oreocryptophis porphyraceus) không có độc. Đây là loài rắn không độc, thuộc nhóm colubrid vô hại. Chúng không có tuyến nọc độc hoặc nanh rỗng, mà thay vào đó sử dụng răng nhỏ để giữ mồi. Nếu bị cắn, chỉ gây vết xước nhẹ và chảy máu tối thiểu, không có triệu chứng toàn thân như tê liệt, nôn mửa hay suy hô hấp.",
+      "ground_truth": "Không, Rắn chuột đỏ là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.6630155444145203,
+        "recall": 0.8350862264633179,
+        "f1": 0.7391690015792847
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn lục núi (Ovophis monticola) nguy hiểm như thế nào?",
+      "predicted_answer": "Không có thông tin về nọc độc của Rắn lục núi (Ovophis monticola) trong ngữ cảnh được cung cấp. Ngữ cảnh chỉ đề cập đến Pareas monticola và Hebius optatus, nhưng không có thông tin chi tiết nào về loài rắn mà bạn hỏi.",
+      "ground_truth": "Rắn lục núi có nọc độc cực mạnh, thuộc loại độc máu, có thể gây tử vong với tỷ lệ 10-20% nếu không điều trị.",
+      "bertscore": {
+        "precision": 0.6612301468849182,
+        "recall": 0.6836867928504944,
+        "f1": 0.6722710132598877
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn lục núi Tonkin (Ovophis tonkinensis) thuộc loại gì?",
+      "predicted_answer": "Nọc độc của Rắn lục núi Tonkin (Ovophis tonkinensis) là loại hemotoxic (độc máu) với yếu tố cytotoxin (gây hại tế bào), neurotoxic nhẹ, và anticoagulant (chống đông máu).",
+      "ground_truth": "Nọc độc của Rắn lục núi Tonkin thuộc loại độc máu (hemotoxic) và độc tế bào (cytotoxin), rất nguy hiểm.",
+      "bertscore": {
+        "precision": 0.7972311973571777,
+        "recall": 0.867794394493103,
+        "f1": 0.8310176134109497
+      }
+    },
+    {
+      "question": "Rắn ăn ốc Mengla (Pareas berdmorei) có nọc độc không?",
+      "predicted_answer": "Rắn ăn ốc Mengla (Pareas berdmorei) hoàn toàn không có nọc độc. Loài rắn này không có tuyến độc, cơ chế tiêm độc, và được xếp vào nhóm vô hại đối với con người. Vết cắn của chúng chỉ gây xước nhẹ và chảy máu nhỏ mà không có bất kỳ triệu chứng toàn thân nào, cũng như không có báo cáo y tế nào ghi nhận biến chứng nghiêm trọng hay tử vong từ loài này.",
+      "ground_truth": "Không, Rắn ăn ốc Mengla là loài hoàn toàn không có nọc độc.",
+      "bertscore": {
+        "precision": 0.6881365776062012,
+        "recall": 0.8506181836128235,
+        "f1": 0.760798990726471
+      }
+    },
+    {
+      "question": "Rắn hổ mây gờ (Pareas carinatus) có độc không?",
+      "predicted_answer": "Rắn hổ mây gờ (Pareas carinatus) hoàn toàn không độc. Loài rắn này không có nọc độc, tuyến độc hay bất kỳ cơ chế tiêm độc nào, và được xếp vào nhóm vô hại đối với con người. \n\nCơ chế tấn công của chúng chủ yếu dựa vào răng móc và nuốt chửng, không có chất độc gây tê liệt hoặc phá hủy mô. Mức độ nguy hiểm đối với con người là rất thấp. Ngay cả khi bị cắn (điều này hiếm khi xảy ra do tính cách hiền lành của chúng), vết cắn chỉ gây vết xước nhẹ hoặc chảy máu nhỏ mà không có triệu chứng toàn thân như sưng, sốt hoặc rối loạn đông máu.\n\nChưa có báo cáo nào về tử vong hoặc biến chứng nghiêm trọng từ vết cắn của loài này.",
+      "ground_truth": "Không, Rắn hổ mây gờ là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.6413204669952393,
+        "recall": 0.8081127405166626,
+        "f1": 0.7151198387145996
+      }
+    },
+    {
+      "question": "Rắn hổ mây Đài Loan (Pareas formosensis) có độc không?",
+      "predicted_answer": "Rắn hổ mây Đài Loan (Pareas formosensis) hoàn toàn không độc. Loài này không có nọc độc, tuyến độc hoặc bất kỳ cơ chế tiêm độc nào, và được xếp vào nhóm vô hại đối với con người. Cơ chế tấn công của chúng chủ yếu dựa vào răng móc bất đối xứng để giữ và nuốt con mồi mềm, không hề có chất độc gây tê liệt hoặc phá hủy mô.\n\nMức độ nguy hiểm đối với con người là cực kỳ thấp. Vết cắn, nếu có (điều này hiếm xảy ra do tính cách nhút nhát của loài rắn này), chỉ gây xước nhẹ và chảy máu nhỏ mà không có bất kỳ triệu chứng toàn thân nào như sưng, đau lan hoặc rối loạn đông máu. Cũng không có báo cáo y tế nào ghi nhận biến chứng nghiêm trọng hoặc tử vong từ loài rắn hổ mây Đài Loan.",
+      "ground_truth": "Không, Rắn hổ mây Đài Loan là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.6512961983680725,
+        "recall": 0.8207594156265259,
+        "f1": 0.7262734174728394
+      }
+    },
+    {
+      "question": "Rắn hổ mây Hampton (Pareas hamptoni) có độc không?",
+      "predicted_answer": "Rắn hổ mây Hampton (Pareas hamptoni) hoàn toàn không độc. Loài rắn này không có nọc độc, tuyến độc hay bất kỳ cơ chế tiêm độc nào, và được xếp vào nhóm vô hại đối với con người. Cơ chế tấn công chủ yếu dựa vào răng móc bất đối xứng để giữ và nuốt con mồi mềm, không hề có chất độc gây tê liệt hoặc phá hủy mô.\n\nMức độ nguy hiểm đối với con người là cực kỳ thấp. Vết cắn, dù hiếm khi xảy ra do tính cách nhút nhát của chúng, chỉ gây xước nhẹ, chảy máu nhỏ mà không có bất kỳ triệu chứng toàn thân nào như sưng, đau lan hay rối loạn đông máu. Không có báo cáo y tế nào ghi nhận biến chứng nghiêm trọng hoặc tử vong từ loài này.",
+      "ground_truth": "Không, Rắn hổ mây Hampton là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.6371761560440063,
+        "recall": 0.8121830224990845,
+        "f1": 0.7141137719154358
+      }
+    },
+    {
+      "question": "Rắn sên núi (Pareas margaritophorus) có độc không?",
+      "predicted_answer": "Rắn sên núi (Pareas margaritophorus) là loài rắn hoàn toàn không độc. Chúng không có nọc độc, tuyến độc hay bất kỳ cơ chế tiêm độc nào, và được xếp vào nhóm vô hại đối với con người. \n\nCơ chế tấn công của chúng chủ yếu dựa vào răng móc ở hàm dưới để giữ và chiết xuất con mồi mềm, không hề có chất độc gây tê liệt hoặc phá hủy mô. Mức độ nguy hiểm đối với con người là cực kỳ thấp; vết cắn, vốn rất hiếm xảy ra do tính cách hiền lành của loài rắn này, chỉ gây xước nhẹ và chảy máu nhỏ mà không có bất kỳ triệu chứng toàn thân nào như sưng, đau lan hoặc rối loạn đông máu. Cũng không có báo cáo y tế nào ghi nhận biến chứng nghiêm trọng hoặc tử vong từ loài này.",
+      "ground_truth": "Không, Rắn sên núi là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.6386418342590332,
+        "recall": 0.8332011699676514,
+        "f1": 0.7230623364448547
+      }
+    },
+    {
+      "question": "Rắn hổ mây núi (Pareas monticola) có độc không?",
+      "predicted_answer": "Rắn hổ mây núi (Pareas monticola) hoàn toàn không độc. Loài rắn này không có nọc độc, tuyến độc hay bất kỳ cơ chế tiêm độc nào. Chúng được xếp vào nhóm vô hại đối với con người. \n\nCơ chế tấn công của Pareas monticola chủ yếu dựa vào răng móc bất đối xứng để giữ và nuốt con mồi mềm, không hề có chất độc gây tê liệt hoặc phá hủy mô. Mức độ nguy hiểm đối với con người là cực kỳ thấp. Vết cắn (hiếm khi xảy ra do tính cách nhút nhát của loài rắn này) chỉ gây xước nhẹ, chảy máu nhỏ mà không có bất kỳ triệu chứng toàn thân nào như sưng, đau lan hay rối loạn đông máu. Cũng không có bất kỳ báo cáo y tế nào ghi nhận biến chứng nghiêm trọng hoặc tử vong từ loài này, điều này hoàn toàn khác biệt so với các loài rắn độc có răng sau như Rhabdophis.",
+      "ground_truth": "Không, Rắn hổ mây núi là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.6314093470573425,
+        "recall": 0.8114144206047058,
+        "f1": 0.7101832628250122
+      }
+    },
+    {
+      "question": "Rắn hổ núi mũi mác (Plagiopholis nuchalis) có độc không?",
+      "predicted_answer": "Rắn hổ núi mũi mác (Plagiopholis nuchalis) là loài rắn không độc đối với con người. Mặc dù nó thuộc nhóm rắn có răng sau (rear-fanged) trong phân họ Pseudoxenodontinae, nọc độc của loài này (nếu có) chỉ là một loại enzyme tiêu hóa yếu từ tuyến Duvernoy và không gây hại nghiêm trọng.\n\nCơ chế tác động của nó khi cắn chỉ là giữ mồi bằng răng móc nhẹ, không có tuyến nọc độc lớn hay cơ chế tiêm độc hiệu quả như ở các loài rắn độc nguy hiểm. Do đó, mức độ nguy hiểm đối với con người là rất thấp. Vết cắn của rắn hổ núi mũi mác rất hiếm khi xảy ra do kích thước nhỏ và tính cách bí mật của chúng. Khi bị cắn, vết cắn chỉ gây xước nhẹ hoặc sưng cục bộ tạm thời mà không có các triệu chứng toàn thân như tê liệt, chảy máu hoặc suy hô hấp. Không có báo cáo y tế nào ghi nhận biến chứng từ loài này.",
+      "ground_truth": "Không, Rắn hổ núi mũi mác là loài không có nọc độc đối với con người.",
+      "bertscore": {
+        "precision": 0.629590630531311,
+        "recall": 0.8212323784828186,
+        "f1": 0.7127543091773987
+      }
+    },
+    {
+      "question": "Rắn hổ núi Styani (Hebius popei) có độc không?",
+      "predicted_answer": "Rắn hổ núi Styani (Hebius popei) là loài rắn không độc đối với con người. Mặc dù chúng thuộc nhóm rắn răng sau (rear-fanged) và có thể có nọc độc, nhưng nọc độc này chỉ là enzyme tiêu hóa yếu và không gây hại nghiêm trọng.\n\nCơ chế tác động khi cắn là giữ mồi bằng răng móc nhẹ, không có tuyến nọc độc lớn hoặc cơ chế tiêm độc hiệu quả. Mức độ nguy hiểm đối với con người là rất thấp; vết cắn hiếm khi xảy ra do kích thước nhỏ và tính cách nhút nhát của loài rắn này. Nếu bị cắn, triệu chứng thường chỉ là xước nhẹ hoặc sưng cục bộ tạm thời, không có các triệu chứng toàn thân nghiêm trọng như tê liệt, chảy máu hoặc suy hô hấp. Không có báo cáo y tế nào ghi nhận biến chứng từ loài này.",
+      "ground_truth": "Có, đây là loài có nọc độc nhẹ, không gây nguy hiểm cho con người.",
+      "bertscore": {
+        "precision": 0.6490033864974976,
+        "recall": 0.794148325920105,
+        "f1": 0.7142768502235413
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn lục sừng (Protobothrops cornutus) thuộc loại gì?",
+      "predicted_answer": "Nọc độc của Rắn lục sừng (Protobothrops cornutus) thuộc loại hematotoxic chính. Nó chứa các enzyme như phospholipase A2, metalloproteinases và serine proteases. Các thành phần này gây ra các tác động như rối loạn đông máu, phá hủy mô, ức chế fibrinogen dẫn đến hypofibrinogenemia kéo dài, đông máu nội mạch lan tỏa, xuất huyết, hoại tử và suy thận.",
+      "ground_truth": "Nọc độc của Rắn lục sừng thuộc loại độc máu (hematotoxic), gây rối loạn đông máu, xuất huyết, hoại tử và suy thận.",
+      "bertscore": {
+        "precision": 0.7403054237365723,
+        "recall": 0.892850935459137,
+        "f1": 0.8094539046287537
+      }
+    },
+    {
+      "question": "Triệu chứng khi bị Rắn lục Jerdon (Protobothrops jerdonii) cắn là gì?",
+      "predicted_answer": "Khi bị Rắn lục Jerdon (Protobothrops jerdonii) cắn, các triệu chứng bao gồm:\n\n*   **Đau cục bộ dữ dội:** Vết cắn gây ra cảm giác đau rất mạnh tại chỗ.\n*   **Sưng phù lan rộng:** Khu vực xung quanh vết cắn sẽ sưng lên nhanh chóng và lan rộng.\n*   **Xuất huyết dưới da (ecchymosis):** Có thể xuất hiện các vết bầm tím do chảy máu dưới da.\n*   **Hoại tử (necrosis):** Mô tại chỗ bị cắn có thể bị phá hủy, dẫn đến hoại tử.\n*   **Giảm tiểu cầu (thrombocytopenia):** Số lượng tiểu cầu trong máu giảm.\n*   **Suy thận (renal failure):** Chức năng thận có thể bị suy giảm nghiêm trọng.\n*   **Rối loạn đông máu kéo dài (prolonged coagulopathy):** Khả năng đông máu của cơ thể bị ảnh hưởng nghiêm trọng và kéo dài, có thể lên đến 1-2 tuần.\n\nNgoài ra, nọc độc còn có thể gây xuất huyết nội tạng và rhabdomyolysis (phân hủy cơ). Đây là loài rắn độc y tế quan trọng do nọc độc có thể gây biến chứng nghiêm trọng và thậm chí tử vong nếu không được điều trị kịp thời bằng huyết thanh kháng nọc.",
+      "ground_truth": "Triệu chứng bao gồm đau cục bộ dữ dội, sưng phù, xuất huyết dưới da, hoại tử, giảm tiểu cầu, suy thận và rối loạn đông máu kéo dài.",
+      "bertscore": {
+        "precision": 0.6172394752502441,
+        "recall": 0.7764366865158081,
+        "f1": 0.6877456307411194
+      }
+    },
+    {
+      "question": "Rắn ráo xanh (Ptyas nigromarginata) có độc không?",
+      "predicted_answer": "Rắn ráo xanh (Ptyas nigromarginata) hoàn toàn không độc. Loài rắn này không có nọc độc, tuyến độc hoặc bất kỳ cơ chế tiêm độc nào, và được xếp vào nhóm vô hại đối với con người. \n\nCơ chế tấn công của rắn ráo xanh chủ yếu dựa vào việc cắn giữ và nuốt chửng con mồi, không có chất độc gây tê liệt hoặc phá hủy mô. Mức độ nguy hiểm đối với con người là cực kỳ thấp. Vết cắn của chúng (rất hiếm khi xảy ra do tính cách hiền lành của loài này) chỉ gây xước nhẹ, chảy máu nhỏ mà không có bất kỳ triệu chứng toàn thân nào như sưng, đau lan hoặc rối loạn đông máu.\n\nChưa có báo cáo y tế nào ghi nhận biến chứng nghiêm trọng hoặc tử vong từ loài rắn ráo xanh, điều này khác biệt hoàn toàn so với các loài rắn độc có nọc gây tê liệt hô hấp.",
+      "ground_truth": "Không, Rắn ráo xanh là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.6426361799240112,
+        "recall": 0.8111441135406494,
+        "f1": 0.7171242833137512
+      }
+    },
+    {
+      "question": "Trăn Miến Điện (Python bivittatus) có độc không?",
+      "predicted_answer": "Trăn Miến Điện (Python bivittatus) hoàn toàn không độc. Loài rắn này không có nọc độc, tuyến độc hay bất kỳ cơ chế tiêm độc nào, và được xếp vào nhóm vô hại đối với con người. Cơ chế tấn công chủ yếu của nó là quấn siết để giết mồi bằng cách siết chặt ngăn hô hấp, chứ không phải sử dụng chất độc.",
+      "ground_truth": "Không, Trăn Miến Điện là loài không có nọc độc.",
+      "bertscore": {
+        "precision": 0.689243495464325,
+        "recall": 0.8361599445343018,
+        "f1": 0.7556266784667969
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn cạp nong đầu đỏ (Bungarus flaviceps) nguy hiểm như thế nào?",
+      "predicted_answer": "Nọc độc của Rắn cạp nong đầu đỏ (Bungarus flaviceps) cực kỳ nguy hiểm. Đây là một loài rắn độc mạnh (highly venomous) thuộc nhóm elapid, với nọc độc chủ yếu là neurotoxic (gây độc thần kinh).\n\nNọc độc của chúng chứa các toxin như alpha-bungarotoxin, gây tê liệt hô hấp và cơ. Cơ chế tác động là chặn các kênh acetylcholine tại synapse thần kinh-cơ (postsynaptic blockade), dẫn đến tê liệt toàn thân, suy hô hấp và cuối cùng là tử vong nếu không được điều trị kịp thời.\n\nMức độ nguy hiểm đối với con người rất cao, Rắn cạp nong đầu đỏ được coi là một loài krait chết người ở Đông Nam Á. Nọc độc của chúng có thể gây tử vong nhanh chóng, thường trong khoảng 2-6 giờ, và điều đặc biệt là vết cắn không gây đau cục bộ. Mặc dù vết cắn hiếm gặp, nhưng nếu không được điều trị bằng huyết thanh kháng nọc (antivenom), tỷ lệ tử vong lên tới 50-70%.\n\nCác triệu chứng khi bị cắn bao gồm:\n* Tê liệt tiến triển từ chi dưới lên (ascending paralysis).\n* Khó thở.\n* Sụp mí mắt (ptosis).\n* Nuốt nghẹn (dysphagia).\n* Suy hô hấp.\n\nKhông có hoại tử cục bộ tại vết cắn, nhưng bệnh nhân cần được hỗ trợ hô hấp nhân tạo khẩn cấp để duy trì sự sống.",
+      "ground_truth": "Loài này có nọc độc thần kinh mạnh, có thể gây tử vong nhanh trong 2-6 giờ nếu không điều trị, với tỷ lệ tử vong 50-70%.",
+      "bertscore": {
+        "precision": 0.6350623965263367,
+        "recall": 0.8327901363372803,
+        "f1": 0.7206087112426758
+      }
+    },
+    {
+      "question": "Hoa cỏ cổ vàng (Rhabdophis chrysargos) có độc không?",
+      "predicted_answer": "Rắn hoa cỏ cổ vàng (Rhabdophis chrysargos) có độc. Đây là loài rắn độc nhẹ (mildly venomous), có răng nanh phía sau (rear-fanged) và sở hữu nọc độc hemotoxic được sản xuất từ tuyến Duvernoy. Nọc độc của chúng chứa các thành phần như metalloproteinases và phospholipase A2, gây rối loạn đông máu (coagulopathy) và phá hủy mô nhẹ.\n\nTuy nhiên, mức độ nguy hiểm đối với con người là thấp. Vết cắn của loài này hiếm khi gây ra biến chứng nghiêm trọng, chủ yếu chỉ gây đau cục bộ và sưng tạm thời. Chưa có báo cáo nào về trường hợp tử vong hoặc hoại tử lan rộng do rắn Rhabdophis chrysargos cắn. Các triệu chứng thường gặp khi bị cắn bao gồm đau nhẹ, sưng cục bộ và có thể chảy máu nhỏ, nhưng không gây tê liệt toàn thân.\n\nKhông cần huyết thanh kháng nọc đặc biệt để điều trị vết cắn của Rhabdophis chrysargos; việc điều trị chủ yếu là hỗ trợ. Mặc dù một số nguồn có thể coi loài này là vô hại, nhưng do chúng thuộc chi có nọc độc nên vẫn cần cẩn thận, đặc biệt đối với trẻ em hoặc những người có tiền sử dị ứng.",
+      "ground_truth": "Có, đây là loài có nọc độc nhẹ, không gây nguy hiểm nghiêm trọng cho con người.",
+      "bertscore": {
+        "precision": 0.6144504547119141,
+        "recall": 0.7994596362113953,
+        "f1": 0.6948508620262146
+      }
+    },
+    {
+      "question": "Rắn hoa cỏ He-lơ (Rhabdophis helleri) có nọc độc loại gì?",
+      "predicted_answer": "Rắn hoa cỏ He-lơ (Rhabdophis helleri) có nọc độc hemotoxic. Nọc độc này xuất phát từ tuyến Duvernoy của chúng.",
+      "ground_truth": "Nọc độc của loài này thuộc loại độc máu (hemotoxic), có thể gây rối loạn đông máu nhưng không gây tử vong ở người.",
+      "bertscore": {
+        "precision": 0.7031833529472351,
+        "recall": 0.7336186170578003,
+        "f1": 0.7180786728858948
+      }
+    },
+    {
+      "question": "Rắn hoa cỏ đai (Rhabdophis nigrocinctus) có cơ chế phòng vệ độc đáo nào liên quan đến chế độ ăn?",
+      "predicted_answer": "Rắn hoa cỏ đai (Rhabdophis nigrocinctus) có một cơ chế phòng vệ độc đáo liên quan đến chế độ ăn của chúng: nọc độc của chúng chứa độc tố từ ếch độc (toad-derived bufadienolides). Điều này cho thấy loài rắn này hấp thụ các chất độc từ con mồi (cụ thể là ếch độc) và tích hợp chúng vào hệ thống nọc độc của mình, sử dụng như một phần của cơ chế phòng vệ.",
+      "ground_truth": "Loài này có khả năng tích lũy độc tố từ cóc độc (bufadienolides) mà chúng ăn và tiết ra từ tuyến nuchal ở cổ để tự vệ.",
+      "bertscore": {
+        "precision": 0.7215732932090759,
+        "recall": 0.7969480156898499,
+        "f1": 0.757390022277832
+      }
+    },
+    {
+      "question": "Rắn hoa cỏ cổ đỏ (Rhabdophis subminiatus) nguy hiểm như thế nào?",
+      "predicted_answer": "Rắn hoa cỏ cổ đỏ (Rhabdophis subminiatus) là loài rắn cực kỳ nguy hiểm. Đây là loài rắn độc nguy hiểm (highly venomous), với răng nanh sau (rear-fanged) và nọc độc hemotoxic mạnh từ tuyến Duvernoy. Nọc độc của chúng gây rối loạn đông máu nghiêm trọng (severe coagulopathy) và có thể dẫn đến tử vong.\n\nCơ chế tác động của nọc độc bao gồm các enzyme như metalloproteinases và phospholipase A2, gây chảy máu nội tạng, hoại tử mô và suy thận. Ngoài ra, chúng còn có bufotoxin từ tuyến nuchal (tuyến ở gáy) gây nhịp tim nhanh (tachycardia), co giật và tê liệt.\n\nMức độ nguy hiểm đối với con người là rất cao, Rhabdophis subminiatus được coi là một loài rắn y tế quan trọng ở Đông Nam Á. Đã có các trường hợp tử vong được ghi nhận (một trường hợp tử vong và nhiều trường hợp gần tử vong). Vết cắn của chúng đòi hỏi việc giữ chặt để tiêm nọc hiệu quả, và các triệu chứng xuất hiện nhanh chóng, thường trong vòng 2-6 giờ.\n\nCác triệu chứng khi bị cắn bao gồm chảy máu nội tạng (kể cả chảy máu não), buồn nôn, rối loạn đông máu lan tỏa (disseminated intravascular coagulation), suy thận và tổn thương gan thận. Điều trị đòi hỏi phải sử dụng huyết thanh kháng nọc đặc hiệu.",
+      "ground_truth": "Đây là loài rắn độc nguy hiểm với nọc độc máu mạnh, có thể gây tử vong. Chúng cũng có tuyến nuchal chứa độc tố từ cóc.",
+      "bertscore": {
+        "precision": 0.6508031487464905,
+        "recall": 0.8100667595863342,
+        "f1": 0.7217535376548767
+      }
+    },
+    {
+      "question": "Rắn cỏ Nhật (Rhabdophis tigrinus) có mấy loại độc tố?",
+      "predicted_answer": "Rắn cỏ Nhật (Rhabdophis tigrinus) có hai loại độc tố chính:\n\n1.  **Nọc độc hemotoxic:** Loại độc tố này được tiết ra từ tuyến Duvernoy và gây rối loạn đông máu (coagulopathy). Cơ chế tác động của nó bao gồm metalloproteinases và phospholipase A2, dẫn đến chảy máu và phá hủy mô nhẹ.\n\n2.  **Bufadienolides:** Đây là các độc tố được lấy từ cóc độc và được lưu trữ trong tuyến nuchal (tuyến cổ gáy) của rắn.",
+      "ground_truth": "Loài này có hai loại độc tố: nọc độc hemotoxic từ vết cắn và độc tố bufadienolides (lấy từ cóc) tiết ra từ tuyến nuchal ở cổ.",
+      "bertscore": {
+        "precision": 0.704438328742981,
+        "recall": 0.8310993909835815,
+        "f1": 0.7625449895858765
+      }
+    }
+  ],
+  "config": {
+    "language": "vi",
+    "model_type": "auto",
+    "total_questions": 65,
+    "rescale_with_baseline": true
+  }
+}

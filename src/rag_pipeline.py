@@ -92,6 +92,57 @@ class RAGPipeline:
         print("Document ingestion completed!")
         return stats
     
+    def ingest_documents_with_metadata(self, 
+                                       documents: List[Dict], 
+                                       name_field: str = "name_vn",
+                                       metadata_fields: List[str] = None) -> Dict[str, Any]:
+        """
+        Ingest documents with metadata-level chunking (context prefix)
+        
+        Args:
+            documents: List of document dictionaries with metadata
+            name_field: Field name for entity name (e.g., "name_vn", "name_en")
+            metadata_fields: List of metadata field names to process
+            
+        Returns:
+            Dictionary with ingestion statistics
+        """
+        print(f"Starting metadata-level document ingestion for {len(documents)} entities...")
+        
+        # Process all documents with metadata context
+        all_chunks = self.document_processor.process_document_with_metadata(
+            documents=documents,
+            name_field=name_field,
+            metadata_fields=metadata_fields
+        )
+        
+        total_chunks = len(all_chunks)
+        print(f"Total chunks created with metadata context: {total_chunks}")
+        
+        # Generate embeddings for all chunks
+        print("Generating embeddings...")
+        embeddings = self.embedding_generator.generate_embeddings(all_chunks)
+        
+        # Add to vector store
+        print("Adding embeddings to vector store...")
+        self.vector_store.add_embeddings(embeddings, all_chunks)
+        
+        # Save the index
+        self.vector_store.save_index()
+        
+        self.is_indexed = True
+        
+        stats = {
+            "total_documents": len(documents),
+            "total_chunks": total_chunks,
+            "total_embeddings": len(embeddings),
+            "vector_store_stats": self.vector_store.get_stats(),
+            "metadata_fields": metadata_fields
+        }
+        
+        print("Metadata-level document ingestion completed!")
+        return stats
+    
     def load_existing_index(self) -> bool:
         """
         Load existing vector index from disk

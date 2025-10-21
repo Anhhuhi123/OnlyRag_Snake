@@ -23,15 +23,15 @@ class Config:
     LLM_DELAY_BETWEEN_REQUESTS = 7  # Delay in seconds (60/9 ≈ 6.7s)
     
     # RAG configurations
-    CHUNK_SIZE = 70
-    CHUNK_OVERLAP = 20
+    CHUNK_SIZE = 1000
+    CHUNK_OVERLAP = 50
     TOP_K_RESULTS = 5
     
     # Re-ranking configurations
     USE_RERANKING = True
     CROSS_ENCODER_MODEL = "cross-encoder/ms-marco-MiniLM-L-12-v2"
-    RERANK_TOP_K = 10  # Get more candidates for re-ranking
-    FINAL_TOP_K = 5    # Final number of passages after re-ranking
+    RERANK_TOP_K = 5  # Get more candidates for re-ranking
+    FINAL_TOP_K = 2    # Final number of passages after re-ranking
     RERANK_ALPHA = 0.7  # Weight for cross-encoder score (0.7) vs original score (0.3)
     
     # FAISS configurations
@@ -39,7 +39,7 @@ class Config:
     FAISS_INDEX_PATH = "faiss_index"
     
     # Qdrant configurations 
-    USE_QDRANT = True  # Set to True to use Qdrant instead of FAISS
+    USE_QDRANT = True  # Set to True to use Qdrant instead of FAISS (tạm thời dùng FAISS vì mạng không ổn)
     QDRANT_COLLECTION_NAME = "snake_knowledge_base" # Lưu trữ trong Qdrant
     
     @classmethod

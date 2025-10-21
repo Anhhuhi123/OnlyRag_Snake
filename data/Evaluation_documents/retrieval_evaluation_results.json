@@ -1,0 +1,993 @@
+{
+  "metrics": {
+    "Recall@1": 0.9692,
+    "Precision@1": 0.9692,
+    "Recall@2": 0.9154,
+    "Precision@2": 0.9154
+  },
+  "per_question_results": [
+    {
+      "question": "Nọc độc của Rắn roi nâu (Dryophiops rubescens) thuộc loại gì?",
+      "ground_truth": "Rắn roi nâu có nọc độc nhẹ, chủ yếu là độc tố gây hại tế bào (cytotoxin) với yếu tố độc máu (hemotoxic) nhẹ.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn sọc gờ (Elaphe carinata) có nọc độc không?",
+      "ground_truth": "Không, Rắn sọc gờ là loài không có nọc độc. Tuy nhiên, chúng có tuyến hậu môn tiết ra chất lỏng rất hôi để phòng vệ.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn sọc khoanh (Elaphe moellendorffi) có độc tính như thế nào?",
+      "ground_truth": "Rắn sọc khoanh là loài không có nọc độc và hoàn toàn vô hại.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn sọc đuôi (Elaphe taeniura) có nọc độc không?",
+      "ground_truth": "Không, Rắn sọc đuôi là loài không có nọc độc và hoàn toàn vô hại.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn bồng Mekong (Enhydris subtaeniata) thuộc loại gì?",
+      "ground_truth": "Rắn bồng Mekong có nọc độc nhẹ, thuộc loại độc tố gây hại tế bào (cytotoxin) với yếu tố độc máu nhẹ, không gây nguy hiểm cho người.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn râu (Erpeton tentaculatum) có nguy hiểm cho người không?",
+      "ground_truth": "Không. Rắn râu có nọc độc nhẹ được thiết kế đặc biệt cho cá, không ảnh hưởng đáng kể đến động vật có vú và không gây nguy hiểm cho con người.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn ăn cua (Fordonia leucobalia) có nọc độc được thiết kế cho con mồi nào?",
+      "ground_truth": "Nọc độc nhẹ của Rắn ăn cua được thiết kế đặc biệt cho cua và cá, không gây nguy hiểm đáng kể cho động vật có vú.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn nước đốm vàng (Fowlea flavipunctata) có phải là rắn độc không?",
+      "ground_truth": "Không, Rắn nước đốm vàng là loài không có nọc độc và hoàn toàn vô hại.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn mũi dài (Gonyosoma boulengeri) có nọc độc không?",
+      "ground_truth": "Không, Rắn mũi dài là loài không có nọc độc và hoàn toàn vô hại.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn sọc mắt xanh (Gonyosoma coeruleum) có độc không?",
+      "ground_truth": "Không, Rắn sọc mắt xanh là loài rắn không có độc tố, hoàn toàn vô hại đối với con người.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn dây leo xanh (Gonyosoma frenatum) có nguy hiểm cho con người không?",
+      "ground_truth": "Không, Rắn dây leo xanh là loài không có nọc độc và hoàn toàn vô hại.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn đuôi đỏ (Gonyosoma oxycephalum) có độc không?",
+      "ground_truth": "Không, Rắn đuôi đỏ là loài không có nọc độc và hoàn toàn vô hại.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn nước boulengeri (Hebius boulengeri) có nọc độc không?",
+      "ground_truth": "Có, Rắn nước boulengeri là loài có nanh sau và nọc độc nhẹ, nhưng không nguy hiểm cho người.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn nước đồi Khasi (Hebius khasiensis) có nọc độc không?",
+      "ground_truth": "Có, Rắn nước đồi Khasi là loài có nanh sau và nọc độc nhẹ, không gây nguy hiểm cho con người.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Mức độ nguy hiểm của Rắn nước Omei (Hebius optatus) là gì?",
+      "ground_truth": "Rắn nước Omei có nọc độc nhẹ và không gây nguy hiểm đáng kể cho động vật có vú, được coi là vô hại đối với con người.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn nước Kosempo (Hebius sauteri) có nguy hiểm không?",
+      "ground_truth": "Không, loài này có nọc độc nhẹ nhưng không gây nguy hiểm cho con người. Vết cắn chỉ gây triệu chứng tại chỗ.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn bồng chì (Hypsiscopus murphyi) có độc không?",
+      "ground_truth": "Có, Rắn bồng chì là loài có nọc độc nhẹ, không gây nguy hiểm cho con người.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn biển có sừng (Hydrophis peronii) nguy hiểm như thế nào?",
+      "ground_truth": "Đây là một trong những loài rắn độc nhất thế giới. Nọc độc thần kinh cực mạnh có thể gây tử vong trong vài giờ nếu không điều trị.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        }
+      }
+    },
+    {
+      "question": "Rắn mù Brahminy (Indotyphlops braminus) có nọc độc không?",
+      "ground_truth": "Không, Rắn mù Brahminy là loài hoàn toàn không có độc tố, vô hại với con người.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn sói thông thường (Lycodon capucinus) có nọc độc không?",
+      "ground_truth": "Loài này được coi là không độc hoặc có độc rất nhẹ, không gây nguy hiểm nghiêm trọng cho con người.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 0.0,
+          "precision": 0.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        }
+      }
+    },
+    {
+      "question": "Rắn khuyết Nam Động (Lycodon chapaensis) có độc không?",
+      "ground_truth": "Không, Rắn khuyết Nam Động là loài không có nọc độc và vô hại.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        }
+      }
+    },
+    {
+      "question": "Rắn cương Blanford (Lycodon davisonii) có nguy hiểm cho con người không?",
+      "ground_truth": "Không, Rắn cương Blanford là loài không có nọc độc và vô hại.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn khuyết đốm (Lycodon fasciatus) có độc tính như thế nào?",
+      "ground_truth": "Rắn khuyết đốm là loài không có nọc độc và vô hại.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn khuyết Phúc Thanh (Lycodon futsingensis) có độc không?",
+      "ground_truth": "Không, Rắn khuyết Phúc Thanh là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        }
+      }
+    },
+    {
+      "question": "Rắn sói Lào (Lycodon laoensis) có nọc độc không?",
+      "ground_truth": "Không, Rắn sói Lào là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn sói đốm vàng (Lycodon meridionalis) có độc không?",
+      "ground_truth": "Không, Rắn sói đốm vàng là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        }
+      }
+    },
+    {
+      "question": "Rắn khuyết khoanh Đông Dương (Lycodon neomaculatus) có nọc độc không?",
+      "ground_truth": "Không, Rắn khuyết khoanh Đông Dương là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        }
+      }
+    },
+    {
+      "question": "Rắn chó vằn sơn (Lycodon pictus) có độc không?",
+      "ground_truth": "Không, Rắn chó vằn sơn là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn sói rừng (Lycodon rufozonatus) có độc không?",
+      "ground_truth": "Không, Rắn sói rừng là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn sói Ruhstrat (Lycodon ruhstrati) có độc không?",
+      "ground_truth": "Không, Rắn sói Ruhstrat là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn khuyết Trường (Lycodon truongi) có độc không?",
+      "ground_truth": "Không, Rắn khuyết Trường là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        }
+      }
+    },
+    {
+      "question": "Trăn gấm (Malayopython reticulatus) có độc không?",
+      "ground_truth": "Không, Trăn gấm là loài không có nọc độc. Chúng giết mồi bằng cách siết chặt.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn nước Trung Quốc (Myrrophis chinensis) có độc không?",
+      "ground_truth": "Có, Rắn nước Trung Quốc là loài có nọc độc nhẹ, không gây nguy hiểm cho con người.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn hổ mang Trung Quốc (Naja atra) nguy hiểm như thế nào?",
+      "ground_truth": "Rắn hổ mang Trung Quốc có nọc độc cực mạnh, thuộc loại độc thần kinh, có thể gây tử vong trong vòng 6-24 giờ nếu không điều trị.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn hổ mang Phục Hy (Naja fuxi) nguy hiểm không?",
+      "ground_truth": "Có, Rắn hổ mang Phục Hy có nọc độc cực mạnh, thuộc loại độc thần kinh, có thể gây tử vong nếu không điều trị kịp thời.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn hổ mang phun nọc Đông Dương (Naja siamensis) là sự kết hợp của những loại độc tố nào?",
+      "ground_truth": "Nọc độc của chúng là sự kết hợp của độc tố thần kinh (gây tê liệt) và độc tố tế bào (gây hoại tử mô).",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn đất vạch (Oligodon albocinctus) có độc không?",
+      "ground_truth": "Không, Rắn đất vạch là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn khiếm Trung Quốc (Oligodon cinereus) có nọc độc không?",
+      "ground_truth": "Không, Rắn khiếm Trung Quốc là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "RẮN KHIẾM ĐUÔI TRÒN (Oligodon cyclurus) có độc không?",
+      "ground_truth": "Không, RẮN KHIẾM ĐUÔI TRÒN là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "RẮN KHIẾM DEUVEI (Oligodon deuvei) có độc không?",
+      "ground_truth": "Không, RẮN KHIẾM DEUVEI là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 0.0,
+          "precision": 0.0
+        },
+        "k=2": {
+          "recall": 0.0,
+          "precision": 0.0
+        }
+      }
+    },
+    {
+      "question": "RẮN KHIẾM VẠCH NHỎ (Oligodon fasciolatus) có độc không?",
+      "ground_truth": "Không, RẮN KHIẾM VẠCH NHỎ là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn khiếm Đài Loan (Oligodon formosanus) có độc không?",
+      "ground_truth": "Không, Rắn khiếm Đài Loan là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn khiếm vạch (Oligodon taeniatus) có nọc độc không?",
+      "ground_truth": "Không, Rắn khiếm vạch là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn hổ chúa (Ophiophagus hannah) mạnh như thế nào?",
+      "ground_truth": "Rắn hổ chúa có nọc độc thần kinh mạnh nhất trong họ Elapidae, với lượng nọc tiêm có thể lên đến 500 mg, lớn nhất trong các loài rắn độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn chuột đỏ (Oreocryptophis porphyraceus) có độc không?",
+      "ground_truth": "Không, Rắn chuột đỏ là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn lục núi (Ovophis monticola) nguy hiểm như thế nào?",
+      "ground_truth": "Rắn lục núi có nọc độc cực mạnh, thuộc loại độc máu, có thể gây tử vong với tỷ lệ 10-20% nếu không điều trị.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn lục núi Tonkin (Ovophis tonkinensis) thuộc loại gì?",
+      "ground_truth": "Nọc độc của Rắn lục núi Tonkin thuộc loại độc máu (hemotoxic) và độc tế bào (cytotoxin), rất nguy hiểm.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn ăn ốc Mengla (Pareas berdmorei) có nọc độc không?",
+      "ground_truth": "Không, Rắn ăn ốc Mengla là loài hoàn toàn không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn hổ mây gờ (Pareas carinatus) có độc không?",
+      "ground_truth": "Không, Rắn hổ mây gờ là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn hổ mây Đài Loan (Pareas formosensis) có độc không?",
+      "ground_truth": "Không, Rắn hổ mây Đài Loan là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn hổ mây Hampton (Pareas hamptoni) có độc không?",
+      "ground_truth": "Không, Rắn hổ mây Hampton là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn sên núi (Pareas margaritophorus) có độc không?",
+      "ground_truth": "Không, Rắn sên núi là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn hổ mây núi (Pareas monticola) có độc không?",
+      "ground_truth": "Không, Rắn hổ mây núi là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn hổ núi mũi mác (Plagiopholis nuchalis) có độc không?",
+      "ground_truth": "Không, Rắn hổ núi mũi mác là loài không có nọc độc đối với con người.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn hổ núi Styani (Hebius popei) có độc không?",
+      "ground_truth": "Có, đây là loài có nọc độc nhẹ, không gây nguy hiểm cho con người.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn lục sừng (Protobothrops cornutus) thuộc loại gì?",
+      "ground_truth": "Nọc độc của Rắn lục sừng thuộc loại độc máu (hematotoxic), gây rối loạn đông máu, xuất huyết, hoại tử và suy thận.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Triệu chứng khi bị Rắn lục Jerdon (Protobothrops jerdonii) cắn là gì?",
+      "ground_truth": "Triệu chứng bao gồm đau cục bộ dữ dội, sưng phù, xuất huyết dưới da, hoại tử, giảm tiểu cầu, suy thận và rối loạn đông máu kéo dài.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        }
+      }
+    },
+    {
+      "question": "Rắn ráo xanh (Ptyas nigromarginata) có độc không?",
+      "ground_truth": "Không, Rắn ráo xanh là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Trăn Miến Điện (Python bivittatus) có độc không?",
+      "ground_truth": "Không, Trăn Miến Điện là loài không có nọc độc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn cạp nong đầu đỏ (Bungarus flaviceps) nguy hiểm như thế nào?",
+      "ground_truth": "Loài này có nọc độc thần kinh mạnh, có thể gây tử vong nhanh trong 2-6 giờ nếu không điều trị, với tỷ lệ tử vong 50-70%.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        }
+      }
+    },
+    {
+      "question": "Hoa cỏ cổ vàng (Rhabdophis chrysargos) có độc không?",
+      "ground_truth": "Có, đây là loài có nọc độc nhẹ, không gây nguy hiểm nghiêm trọng cho con người.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn hoa cỏ He-lơ (Rhabdophis helleri) có nọc độc loại gì?",
+      "ground_truth": "Nọc độc của loài này thuộc loại độc máu (hemotoxic), có thể gây rối loạn đông máu nhưng không gây tử vong ở người.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn hoa cỏ đai (Rhabdophis nigrocinctus) có cơ chế phòng vệ độc đáo nào liên quan đến chế độ ăn?",
+      "ground_truth": "Loài này có khả năng tích lũy độc tố từ cóc độc (bufadienolides) mà chúng ăn và tiết ra từ tuyến nuchal ở cổ để tự vệ.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn hoa cỏ cổ đỏ (Rhabdophis subminiatus) nguy hiểm như thế nào?",
+      "ground_truth": "Đây là loài rắn độc nguy hiểm với nọc độc máu mạnh, có thể gây tử vong. Chúng cũng có tuyến nuchal chứa độc tố từ cóc.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn cỏ Nhật (Rhabdophis tigrinus) có mấy loại độc tố?",
+      "ground_truth": "Loài này có hai loại độc tố: nọc độc hemotoxic từ vết cắn và độc tố bufadienolides (lấy từ cóc) tiết ra từ tuyến nuchal ở cổ.",
+      "num_contexts": 2,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    }
+  ],
+  "config": {
+    "k_values": [
+      1,
+      2
+    ],
+    "threshold": 0.55,
+    "total_questions": 65
+  }
+}

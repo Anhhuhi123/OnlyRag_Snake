@@ -17,6 +17,10 @@ def main():
     parser.add_argument("--ingest", type=str, help="Ingest documents from JSON file (default: data/documents.json)")
     parser.add_argument("--json-fields", type=str, nargs='+', default=['content'], 
                        help="JSON fields to extract text from (default: content)")
+    parser.add_argument("--use-metadata-context", action="store_true",
+                       help="Use metadata-level chunking with context prefix (for structured JSON with metadata)")
+    parser.add_argument("--name-field", type=str, default="name_vn",
+                       help="Field name for entity name (default: name_vn)")
     parser.add_argument("--test", action="store_true", help="Test all components")
     parser.add_argument("--stats", action="store_true", help="Show pipeline statistics")
     parser.add_argument("--reset", action="store_true", help="Reset the pipeline")
@@ -51,14 +55,45 @@ def main():
         print(f"Ingesting documents from JSON file: {json_file}")
         
         try:
-            documents = get_json_documents(json_file, args.json_fields)
-            
-            if not documents:
-                print("❌ No documents found in JSON file")
-                return
-            
-            print(f"📄 Found {len(documents)} documents to ingest")
-            stats = rag.ingest_documents(documents)
+            # Check if using metadata-level chunking
+            if args.use_metadata_context:
+                print("🎯 Using metadata-level chunking with context prefix")
+                print(f"   Name field: {args.name_field}")
+                print(f"   Metadata fields: {args.json_fields}")
+                
+                # Load raw JSON data for metadata chunking
+                import json
+                with open(json_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                
+                # Get documents list
+                if isinstance(data, dict) and 'documents' in data:
+                    documents_list = data['documents']
+                elif isinstance(data, list):
+                    documents_list = data
+                else:
+                    print("❌ Invalid JSON structure. Expected 'documents' key or list.")
+                    return
+                
+                print(f"📄 Found {len(documents_list)} entities to process")
+                
+                # Ingest with metadata context
+                stats = rag.ingest_documents_with_metadata(
+                    documents=documents_list,
+                    name_field=args.name_field,
+                    metadata_fields=args.json_fields
+                )
+            else:
+                # Standard chunking without metadata context
+                print("📄 Using standard chunking")
+                documents = get_json_documents(json_file, args.json_fields)
+                
+                if not documents:
+                    print("❌ No documents found in JSON file")
+                    return
+                
+                print(f"📄 Found {len(documents)} documents to ingest")
+                stats = rag.ingest_documents(documents)
             
             print("\nIngestion completed!")
             print(f"Documents: {stats['total_documents']}")
@@ -67,12 +102,8 @@ def main():
             
         except Exception as e:
             print(f"❌ Error during ingestion: {e}")
-        return
-        
-        print("\nIngestion completed!")
-        print(f"Documents: {stats['total_documents']}")
-        print(f"Chunks: {stats['total_chunks']}")
-        print(f"Embeddings: {stats['total_embeddings']}")
+            import traceback
+            traceback.print_exc()
         return
     
     if args.stats:
