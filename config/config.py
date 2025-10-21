@@ -23,7 +23,7 @@ class Config:
     LLM_DELAY_BETWEEN_REQUESTS = 7  # Delay in seconds (60/9 ≈ 6.7s)
     
     # RAG configurations
-    CHUNK_SIZE = 1000
+    CHUNK_SIZE = 200
     CHUNK_OVERLAP = 50
     TOP_K_RESULTS = 5
     
