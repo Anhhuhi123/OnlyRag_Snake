@@ -25,13 +25,13 @@ class Config:
     # RAG configurations
     CHUNK_SIZE = 200
     CHUNK_OVERLAP = 50
-    TOP_K_RESULTS = 5
+    TOP_K_RESULTS = 7
     
     # Re-ranking configurations
     USE_RERANKING = True
     CROSS_ENCODER_MODEL = "cross-encoder/ms-marco-MiniLM-L-12-v2"
-    RERANK_TOP_K = 5  # Get more candidates for re-ranking
-    FINAL_TOP_K = 2    # Final number of passages after re-ranking
+    RERANK_TOP_K = 7  # Get more candidates for re-ranking
+    FINAL_TOP_K = 4    # Final number of passages after re-ranking
     RERANK_ALPHA = 0.7  # Weight for cross-encoder score (0.7) vs original score (0.3)
     
     # FAISS configurations
