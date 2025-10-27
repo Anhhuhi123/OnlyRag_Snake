@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Dữ liệu về tập tính săn mồi của Rắn đào hang đỏ (Achalinus rufescens) có được cung cấp không?",
+    "ground_truth": "Không, trong tài liệu được cung cấp không có trường thông tin 'Tập tính săn mồi' cho loài Rắn đào hang đỏ (Achalinus rufescens).",
+    "contexts": [
+      "Rắn đào hang đỏ - Tập tính săn mồi: Tập tính săn mồi của Achalinus rufescens tập trung vào lối sống săn bắt dưới đất chuyên biệt.",
+      "Rắn đào hang đỏ - Tập tính săn mồi: ật không xương sống nhỏ khác (như sên hoặc nhộng). Kỹ thuật săn mồi đặc trưng là sử dụng thân mảnh để đào và phục kích trong đất ẩm, nắm chặt con mồi bằng răng và nuốt sống từ một đầu bằng cách xoay não và hàm (rotational movements of braincase and mandibles), một quá trình có thể mất đến 30 phút cho con mồi lớn; chúng sử dụng constriction (siết chặt) nhẹ để khống chế nếu cần.",
+      "Rắn đào hang đỏ - Tập tính săn mồi: constriction (siết chặt) nhẹ để khống chế nếu cần. Chúng săn chủ yếu ban đêm (nocturnal), dưới đất (fossorial, burrowing), hiếm khi lên mặt đất trừ khi mưa lớn.",
+      "Rắn đào hang đỏ - Tập tính săn mồi: burrowing), hiếm khi lên mặt đất trừ khi mưa lớn. Thói quen ăn uống là ăn sống, nuốt chửng sau khi khống chế, và chúng có thể ăn nhiều trong mùa mưa khi con mồi dồi dào."
+    ],
+    "answer": "Có, dữ liệu về tập tính săn mồi của Rắn đào hang đỏ (Achalinus rufescens) được cung cấp.\n\nTập tính săn mồi của Achalinus rufescens tập trung vào lối sống săn bắt dưới đất chuyên biệt. Chúng săn các loài không xương sống nhỏ khác như sên hoặc nhộng. Kỹ thuật săn mồi đặc trưng là sử dụng thân mảnh để đào và phục kích trong đất ẩm, nắm chặt con mồi bằng răng và nuốt sống từ một đầu bằng cách xoay não và hàm (rotational movements of braincase and mandibles). Quá trình này có thể mất đến 30 phút cho con mồi lớn. Chúng cũng sử dụng constriction (siết chặt) nhẹ để khống chế nếu cần.\n\nRắn đào hang đỏ săn chủ yếu ban đêm (nocturnal), dưới đất (fossorial, burrowing), và hiếm khi lên mặt đất trừ khi có mưa lớn. Thói quen ăn uống là ăn sống, nuốt chửng sau khi khống chế, và chúng có thể ăn nhiều trong mùa mưa khi con mồi dồi dào."
+  },
+  {
+    "question": "Thức ăn chính của Rắn vảy lạ xám (Achalinus spinalis) là gì?",
+    "ground_truth": "Thức ăn ưa thích của Rắn vảy lạ xám là các loài giun đất lớn, đôi khi là ấu trùng côn trùng hoặc động vật không xương sống nhỏ khác.",
+    "contexts": [
+      "Rắn vảy lạ xám - Sinh sản: Về sinh sản, Achalinus spinalis là loài oviparous (đẻ trứng). Mùa sinh sản thường trùng với mùa mưa (tháng 5-9 ở Việt Nam), khi đất ẩm và thức ăn dồi dào.",
+      "Rắn vảy lạ xám - Tên khoa học và tên phổ thông: Loài rắn Achalinus spinalis, được biết đến với tên khoa học đầy đủ là Achalinus spinalis (Peters, 1869),có tên tiếng việt Rắn vảy lạ xám, là một loài bò",
+      "Rắn vảy lạ xám - Đặc điểm hình thái: Achalinus khác, A. spinalis có vảy gờ mạnh hơn A. rufescens (vảy mịn hơn, màu đỏ hung), thân mảnh tương tự nhưng màu xám nâu thay vì đen như A.",
+      "Rắn vảy lạ xám - Phân loại học: Về phân loại học, Achalinus spinalis thuộc họ Xenodermidae (họ rắn vảy lạ châu Á, một họ nhỏ với khoảng 20 loài rắn không độc, đặc trưng bởi vảy lấp lánh và lối sống bí"
+    ],
+    "answer": "Thông tin được cung cấp không đề cập đến thức ăn chính của Rắn vảy lạ xám (Achalinus spinalis). Nó chỉ nêu rằng mùa sinh sản của loài này trùng với mùa mưa khi thức ăn dồi dào, nhưng không chỉ rõ thức ăn đó là gì."
+  },
+  {
+    "question": "Kỹ thuật săn mồi của Rắn rầm ri cá (Acrochordus granulatus) là gì?",
+    "ground_truth": "Kỹ thuật săn mồi đặc trưng của chúng là neo mình bất động dưới nước đục để phục kích, sử dụng da nhăn để ngụy trang như đá hoặc cành cây, sau đó cắn nhanh để nắm chặt con mồi.",
+    "contexts": [
+      "Rắn rầm ri cá, Đẻn cườm - Tập tính săn mồi: Tập tính săn mồi của Acrochordus granulatus tập trung vào lối sống săn bắt phục kích ban đêm dưới nước.",
+      "Rắn rầm ri cá, Đẻn cườm - Tập tính săn mồi: rustaceans, 20-30), đôi khi ếch nhỏ (small frogs). Kỹ thuật săn mồi đặc trưng là neo mình bất động dưới nước đục (immobile ambush), sử dụng da nhăn để ngụy trang như đá hoặc cành cây, cắn nhanh để nắm chặt con mồi, sau đó nuốt sống bằng cách xoay hàm (jaw rotation); chúng có thể nuốt con mồi lớn nhờ da đàn hồi.",
+      "Rắn rầm ri cóc, Rầm ri hạt - Tập tính săn mồi: rustaceans, 20-30), đôi khi ếch nhỏ (small frogs). Kỹ thuật săn mồi đặc trưng là neo mình bất động dưới nước đục (immobile ambush), sử dụng da nhăn để ngụy trang như đá hoặc cành cây, cắn nhanh để nắm chặt con mồi, sau đó nuốt sống bằng cách xoay hàm (jaw rotation); chúng có thể nuốt con mồi lớn nhờ da đàn hồi.",
+      "Rắn rầm ri cóc, Rầm ri hạt - Tập tính săn mồi: Tập tính săn mồi của Acrochordus javanicus tập trung vào lối sống săn bắt phục kích ban đêm dưới nước."
+    ],
+    "answer": "Kỹ thuật săn mồi của Rắn rầm ri cá (Acrochordus granulatus) là lối sống săn bắt phục kích ban đêm dưới nước. Chúng neo mình bất động dưới nước đục, sử dụng da nhăn để ngụy trang như đá hoặc cành cây. Khi con mồi đến gần, chúng cắn nhanh để nắm chặt và sau đó nuốt sống bằng cách xoay hàm. Nhờ da đàn hồi, chúng có thể nuốt những con mồi lớn. Con mồi chủ yếu là cá (chiếm 70-80%), giáp xác (20-30%), và đôi khi là ếch nhỏ."
+  },
+  {
+    "question": "Rắn rầm ri cóc (Acrochordus javanicus) săn mồi chủ yếu vào thời gian nào?",
+    "ground_truth": "Chúng săn mồi chủ yếu vào ban đêm (nocturnal), dưới nước (aquatic) ở vùng nông đục.",
+    "contexts": [
+      "Rắn rầm ri cóc, Rầm ri hạt - Tập tính săn mồi: Tập tính săn mồi của Acrochordus javanicus tập trung vào lối sống săn bắt phục kích ban đêm dưới nước.",
+      "Rắn rầm ri cóc, Rầm ri hạt - Tập tính săn mồi: on); chúng có thể nuốt con mồi lớn nhờ da đàn hồi. Chúng săn chủ yếu ban đêm (nocturnal), dưới nước (aquatic) ở vùng nông đục, hiếm khi trên đất (awkward on land).",
+      "Rắn rầm ri cóc, Rầm ri hạt - Tập tính săn mồi: ùng nông đục, hiếm khi trên đất (awkward on land). Thói quen ăn uống là ăn sống, tiêu hóa chậm sau bữa ăn, và nhịn đói lâu (có thể vài tuần, với khả năng sống 6 tháng mà không ăn trong thí nghiệm).",
+      "Rắn rầm ri cóc, Rầm ri hạt - Tập tính săn mồi: rustaceans, 20-30), đôi khi ếch nhỏ (small frogs). Kỹ thuật săn mồi đặc trưng là neo mình bất động dưới nước đục (immobile ambush), sử dụng da nhăn để ngụy trang như đá hoặc cành cây, cắn nhanh để nắm chặt con mồi, sau đó nuốt sống bằng cách xoay hàm (jaw rotation); chúng có thể nuốt con mồi lớn nhờ da đàn hồi."
+    ],
+    "answer": "Rắn rầm ri cóc (Acrochordus javanicus) săn mồi chủ yếu vào ban đêm. Chúng có lối sống săn bắt phục kích dưới nước, đặc biệt là ở vùng nước nông đục."
+  },
+  {
+    "question": "Con mồi ưa thích của Rắn roi mõm nhọn (Ahaetulla fusca) là gì?",
+    "ground_truth": "Con mồi ưa thích của Rắn roi mõm nhọn chủ yếu là lưỡng cư nhỏ (ếch, nhái) và thằn lằn.",
+    "contexts": [
+      "Rắn roi mõm nhọn, Rắn lục kim - Tập tính săn mồi: Con mồi ưa thích: Chủ yếu là lưỡng cư nhỏ (ếch, nhái), thằn lằn, đôi khi nhỏ chim  giống các loài rắn dây Ahaetulla phổ biến.",
+      "Rắn roi mõm nhọn, Rắn lục kim - Đặc điểm hình thái: au hàm, dùng để tiêm lượng nhỏ nọc vào con mồi; A. fusca cũng được cho là thuộc nhóm rắn dây có độc nhẹ như các Ahaetulla khác (chi tiết bên dưới).",
+      "Rắn roi mõm nhọn, Rắn lục kim - Tập tính săn mồi: ủ yếu hoạt động ở lớp cây bụi, cành thấp, bụi rậm. Ahaetulla fusca cũng được ghi là loài dây mũi dài vùng Đông Dương, sống trong môi trường cây.",
+      "Rắn roi mõm nhọn, Rắn lục kim - Đặc điểm hình thái: etulla  giúp quan sát mồi trong môi trường cây lá. Răng: loài Ahaetulla là các rắn có răng sau (rear-fanged  opisthoglyphous)  tức có răng kiểu nanh nhỏ phía sau hàm, dùng để tiêm lượng nhỏ nọc vào con mồi; A."
+    ],
+    "answer": "Rắn roi mõm nhọn (Ahaetulla fusca) chủ yếu săn các loài lưỡng cư nhỏ như ếch, nhái, thằn lằn, và đôi khi cả chim nhỏ. Chúng hoạt động chủ yếu ở lớp cây bụi, cành thấp và bụi rậm để tìm kiếm con mồi. Chúng có răng sau hàm, được sử dụng để tiêm một lượng nhỏ nọc độc vào con mồi."
+  },
+  {
+    "question": "Rắn roi thường (Ahaetulla prasina) sử dụng kỹ thuật nào để làm tê liệt con mồi?",
+    "ground_truth": "Chúng sử dụng đầu nhọn như mũi giáo để nhắm chính xác vào cổ con mồi, sau đó tiêm nọc độc qua răng sau để làm tê liệt nhanh chóng.",
+    "contexts": [
+      "Rắn roi mắt đỏ, Rắn lục kim - Tập tính săn mồi: hỏ và lưỡng cư, như thằn lằn, ếch cây và chim non. Kỹ thuật săn mồi đặc trưng là sử dụng đầu nhọn để nhắm chính xác vào con mồi, sau đó nhai để tiêm nọc độc tê liệt nhanh chóng.",
+      "Rắn roi mõm nhọn, Rắn lục kim - Đặc điểm hình thái: etulla  giúp quan sát mồi trong môi trường cây lá. Răng: loài Ahaetulla là các rắn có răng sau (rear-fanged  opisthoglyphous)  tức có răng kiểu nanh nhỏ phía sau hàm, dùng để tiêm lượng nhỏ nọc vào con mồi; A.",
+      "Rắn roi mõm nhọn, Rắn lục kim - Tập tính săn mồi: ỏ chim  giống các loài rắn dây Ahaetulla phổ biến. Có thể bắt mồi khi mồi đi ngang cành cây bằng cách tấn công nhanh, sử dụng răng sau để tiêm nọc nhẹ giúp con mồi bị tê yếu hơn trong khi nuốt.",
+      "Rắn roi thường, Rắn lục kim - Độc tính: Ahaetulla prasina là loài có nọc độc nhẹ (mildly venomous), thuộc loại opisthoglyphous (nọc từ răng sau)."
+    ],
+    "answer": "Rắn roi thường (Ahaetulla prasina) làm tê liệt con mồi bằng cách sử dụng răng sau (opisthoglyphous) để tiêm một lượng nhỏ nọc độc. Nọc độc này có tác dụng làm cho con mồi bị tê yếu hơn, tạo điều kiện thuận lợi cho rắn trong quá trình nuốt con mồi. Chúng có thể bắt mồi khi con mồi đi ngang cành cây bằng cách tấn công nhanh.\n\nNgoài ra, một số loài rắn roi khác như rắn roi mắt đỏ và rắn lục kim cũng sử dụng kỹ thuật tương tự bằng cách dùng đầu nhọn để nhắm chính xác vào con mồi, sau đó nhai để tiêm nọc độc tê liệt nhanh chóng."
+  },
+  {
+    "question": "Rắn roi mắt đỏ (Ahaetulla rufusoculara) săn mồi ở đâu?",
+    "ground_truth": "Chúng săn mồi chủ yếu trên cây (arboreal) và vào ban ngày (diurnal).",
+    "contexts": [
+      "Rắn roi mắt đỏ, Rắn lục kim - Tập tính săn mồi: Tập tính săn mồi của Ahaetulla rufusoculara tương tự các loài trong chi, tập trung vào lối sống săn bắt tích cực trên cây.",
+      "Rắn roi mắt đỏ, Rắn lục kim - Sinh sản: Ahaetulla rufusoculara là loài ovoviviparous (trứng phát triển bên trong cơ thể mẹ và đẻ con sống), tương tự các loài trong chi.",
+      "Rắn roi mắt đỏ, Rắn lục kim - Phân bố địa lý và môi trường sống: Phân bố địa lý của Ahaetulla rufusoculara bị hạn chế, là loài đặc hữu (endemic) của Việt Nam, cụ thể được biết đến từ tỉnh Sóc Trăng ở",
+      "Rắn roi mắt đỏ, Rắn lục kim - Tên khoa học và tên phổ thông: Loài rắn Ahaetulla rufusoculara, còn được biết đến với tên khoa học đầy đủ là Ahaetulla rufusoculara (Lam, Thu, Nguyen, Murphy Nguyen,"
+    ],
+    "answer": "Rắn roi mắt đỏ (Ahaetulla rufusoculara) săn mồi trên cây. Chúng có lối sống săn bắt tích cực trên cây."
+  },
+  {
+    "question": "Hành vi phòng vệ của Rắn sãi cỏ (Amphiesma stolatum) có gì giống rắn hổ mang?",
+    "ground_truth": "Khi bị kích động, chúng có thể phồng thân để lộ màu interscale sáng và làm phẳng cổ thành mũ trùm đầu (hooding) để trông lớn hơn, giống như rắn hổ mang.",
+    "contexts": [
+      "Rắn sãi cỏ, Rắn sãi thường - Đặc điểm hình thái: sánh với các loài Amphiesma cũ (nay là Hebius), A. stolatum có sọc vàng rõ hơn và vảy keeled mạnh hơn so với Hebius leucomystax (ít sọc), thân ngắn hơn so với một số loài dài hơn 1 mét, và giống garter snake Mỹ (Thamnophis spp.) về hình dáng và lối sống, nhưng khác ở vảy keeled và phân bố châu Á; nó cũng khác A.",
+      "Rắn sãi cỏ, Rắn sãi thường - Tập tính săn mồi: có thể ăn nhiều trong mùa mưa khi con mồi dồi dào. Chiến lược phòng vệ bao gồm phồng thân để lộ màu interscale sáng nhằm đe dọa (giống cobra), làm phẳng cổ thành mũ trùm đầu (hooding) để trông lớn hơn, và chạy trốn nhanh vào nước hoặc cỏ; chúng hiếm khi cắn trừ khi bị dồn ép.",
+      "Rắn sãi cỏ, Rắn sãi thường - Tập tính săn mồi: Tập tính săn mồi của Amphiesma stolatum tập trung vào lối sống săn bắt tích cực trên cạn và gần nước.",
+      "Rắn sãi cỏ, Rắn sãi thường - Độc tính: Amphiesma stolatum là loài không có nọc độc (nonvenomous), thuộc loại aglyphous (không có răng nọc)."
+    ],
+    "answer": "Rắn sãi cỏ (Amphiesma stolatum) có hành vi phòng vệ \"làm phẳng cổ thành mũ trùm đầu (hooding) để trông lớn hơn\" giống rắn hổ mang. Đây là một chiến lược phòng vệ nhằm đe dọa kẻ thù tiềm năng bằng cách làm cho bản thân trông lớn hơn và đáng sợ hơn."
+  },
+  {
+    "question": "Rắn biển môi xanh (Laticauda laticaudata) thường tiêu hóa con mồi ở đâu?",
+    "ground_truth": "Chúng thường tiêu hóa thức ăn trên cạn để tránh kẻ săn mồi khi đang bơi chậm sau bữa ăn.",
+    "contexts": [
+      "Rắn biển môi xanh - Độc tính: Laticauda laticaudata là loài có nọc độc mạnh (highly venomous), thuộc loại neurotoxic (độc thần kinh), với cơ chế tác động là chặn các thụ thể acetylcholine ở hệ thần",
+      "Rắn biển môi xanh - Phân bố địa lý và môi trường sống: Phân bố địa lý của Laticauda laticaudata rộng lớn ở Ấn Độ Dương và Tây Thái Bình Dương, bao gồm Bangladesh, Ấn Độ (Andaman Nicobar), Sri Lanka,",
+      "Rắn biển môi xanh - Đặc điểm hình thái: ía trước), với nọc độc mạnh tiêm qua răng cố định. So sánh với các loài Laticauda khác, L. laticaudata có môi nâu tối thay vì vàng như L.",
+      "Rắn biển môi xanh - Phân loại học: ticauda (chi rắn biển krait), và loài laticaudata. Loài này có hai phân loài được công nhận: Laticauda laticaudata laticaudata (phân loài tiêu chuẩn, phân bố rộng nhất ở Ấn Độ Dương và Thái Bình Dương) và Laticauda laticaudata affinis (phân loài nhỏ hơn, chủ yếu ở các vùng đảo Thái Bình Dương)."
+    ],
+    "answer": "Thông tin được cung cấp không đề cập đến việc Rắn biển môi xanh (Laticauda laticaudata) thường tiêu hóa con mồi ở đâu. Do đó, không thể trả lời câu hỏi này dựa trên ngữ cảnh đã cho."
+  },
+  {
+    "question": "Con mồi chính của Rắn rào xanh (Boiga cyanea) là gì?",
+    "ground_truth": "Con mồi ưa thích của chúng là các loài bò sát nhỏ và lưỡng cư như thằn lằn, ếch, chim non và chuột.",
+    "contexts": [
+      "Rắn rào xanh - Tên khoa học và tên phổ thông: Loài rắn Boiga cyanea, còn được biết đến với tên khoa học đầy đủ là Boiga cyanea (Duméril, Bibron Duméril, 1854),có tên tiếng việt Rắn rào xanh, là một",
+      "Rắn rào xanh - Tập tính săn mồi: Tập tính săn mồi của Boiga cyanea tập trung vào lối sống săn bắt tích cực ban đêm.",
+      "Rắn rào xanh - Phân loại học: ), chi Boiga (chi rắn mèo châu Á), và loài cyanea. Chi Boiga bao gồm khoảng 34 loài rắn rear-fanged ở châu Á và châu Úc, và các nghiên cứu di truyền gần đây (như của Weinell et al., 2020) xác nhận Boiga cyanea là loài riêng biệt với các đồng loại, không có phân loài được công nhận chính thức, dù có biến thể màu sắc địa phương.",
+      "Rắn rào xanh - Độc tính: Boiga cyanea là loài có nọc độc nhẹ (mildly venomous), thuộc loại opisthoglyphous (nọc từ răng sau), chủ yếu hemotoxic với yếu tố neurotoxic nhẹ (dựa trên nghiên cứu venom của"
+    ],
+    "answer": "Thông tin được cung cấp không đề cập cụ thể con mồi chính của Rắn rào xanh (Boiga cyanea). Nó chỉ nói rằng loài rắn này có tập tính săn mồi tích cực vào ban đêm."
+  },
+  {
+    "question": "Rắn rào Quảng Tây (Boiga guangxiensis) đã được quan sát ăn con mồi nào trong tự nhiên?",
+    "ground_truth": "Chúng đã được quan sát săn và nuốt loài thằn lằn bay (Draco blanfordii) trong rừng đá vôi.",
+    "contexts": [
+      "Rắn rào Quảng Tây - Các quan sát thú vị từ các nhà nghiên cứu: cứu bao gồm quan sát đầu tiên trong tự nhiên về B. guangxiensis săn và nuốt Draco blanfordii (Blandfords flying lizard) trong rừng đá vôi Vân Nam, Trung Quốc, xác nhận chúng ăn thằn lằn arboreal và mở rộng phân bố đến tỉnh mới (Hodges et al., 2018); new record ở Son La, Việt Nam, với mẫu vật cái trưởng thành trên cành cây trong rừng karst bị xáo trộn lúc 20:50 h (Pham et al., 2020); dữ liệu từ laboratory và fecal cho thấy chế độ ăn đa dạng bao gồm birds, lizards, small mammals, nhưng field observations hiếm; và trong nghiên cứu Ziegler et al.",
+      "Rắn rào Quảng Tây - Tập tính săn mồi: Tập tính săn mồi của Boiga guangxiensis tập trung vào lối sống săn bắt tích cực ban đêm, với dữ liệu chủ yếu từ quan sát phòng thí nghiệm và phân (fecal), cho",
+      "Rắn rào Quảng Tây - Sinh sản: Boiga guangxiensis được cho là loài oviparous (đẻ trứng), tương tự các loài trong chi Boiga, nhưng dữ liệu cụ thể chưa được nghiên cứu đầy đủ do lịch sử tự nhiên",
+      "Rắn rào Quảng Tây - Tên khoa học và tên phổ thông: Loài rắn Boiga guangxiensis, còn được biết đến với tên khoa học đầy đủ là Boiga guangxiensis Wen, 1998,có tên tiếng việt Rắn rào Quảng Tây, là một"
+    ],
+    "answer": "Rắn rào Quảng Tây (Boiga guangxiensis) đã được quan sát ăn thằn lằn bay Blandford (Draco blanfordii) trong tự nhiên. Quan sát này được thực hiện trong rừng đá vôi ở Vân Nam, Trung Quốc."
+  },
+  {
+    "question": "Rắn rào ngọc bích (Boiga jaspidea) săn mồi ở đâu?",
+    "ground_truth": "Chúng là loài săn mồi hoàn toàn trên cây (fully arboreal), đôi khi xuống bụi rậm thấp để tìm kiếm.",
+    "contexts": [
+      "Rắn rào ngọc bích - Tập tính săn mồi: Tập tính săn mồi của Boiga jaspidea tập trung vào lối sống săn bắt tích cực ban đêm, với dữ liệu từ quan sát tự nhiên và phân (fecal) cho thấy chúng ưa thích con",
+      "Rắn rào ngọc bích - Sinh sản: Boiga jaspidea là loài oviparous (đẻ trứng). Mùa sinh sản chưa được nghiên cứu chi tiết nhưng có thể trùng với cuối mùa khô và đầu mùa mưa (tháng 3-9 ở Việt Nam), khi thức ăn dồi dào, dựa trên hành vi chung của chi Boiga.",
+      "Rắn rào ngọc bích - Phân bố địa lý và môi trường sống: Phân bố địa lý của Boiga jaspidea bị hạn chế ở Đông Nam Á, bao gồm Indonesia (Bangka, Java, Kalimantan, Mentawai Archipelago, Nias, Sumatra),",
+      "Rắn rào ngọc bích - Tập tính săn mồi: sát捕獲 và nuốt Draco blanfordii trong rừng đá vôi. Chúng săn chủ yếu ban đêm (nocturnal), trên cây (fully arboreal), đôi khi xuống mặt đất hoặc shrubs thấp để tìm kiếm, nhưng không săn trong nước."
+    ],
+    "answer": "Rắn rào ngọc bích (Boiga jaspidea) chủ yếu săn mồi trên cây (fully arboreal). Chúng săn mồi ban đêm (nocturnal) và đôi khi có thể xuống mặt đất hoặc các cây bụi thấp để tìm kiếm thức ăn. Chúng không săn mồi trong nước. Loài rắn này đã được quan sát săn bắt và nuốt thằn lằn bay (Draco blanfordii) trong rừng đá vôi. Dữ liệu từ quan sát tự nhiên và phân cho thấy chúng ưa thích con mồi cụ thể."
+  },
+  {
+    "question": "Rắn rào đầu vuông (Boiga kraepelini) có thời gian săn mồi như thế nào?",
+    "ground_truth": "Chúng có thể săn mồi cả ban ngày hoặc ban đêm (cathemeral, diurnal or nocturnal).",
+    "contexts": [
+      "Rắn rào đầu vuông, Rắn rào K-ra-pe-lin - Tập tính săn mồi: Tập tính săn mồi của Boiga kraepelini tập trung vào lối sống săn bắt tích cực ban ngày hoặc ban đêm (cathemeral, diurnal or nocturnal).",
+      "Rắn rào đầu vuông, Rắn rào K-ra-pe-lin - Tập tính săn mồi: bụi thấp để tìm kiếm, nhưng không săn trong nước. Thói quen ăn uống là ăn sống, tiêu hóa chậm sau bữa ăn, và chúng có thể nhịn đói lâu trong mùa khô.",
+      "Rắn rào đầu vuông, Rắn rào K-ra-pe-lin - Sinh sản: Boiga kraepelini là loài oviparous (đẻ trứng). Mùa sinh sản thường trùng với mùa hè (tháng 6-8 ở Đài Loan và tương tự Việt Nam từ tháng 5-9), khi thức ăn dồi dào và thời tiết ấm.",
+      "Rắn rào đầu vuông, Rắn rào K-ra-pe-lin - Tập tính săn mồi: thằn lằn bay), và đôi khi trứng chim (bird eggs). Kỹ thuật săn mồi đặc trưng là sử dụng đuôi prehensile để bám cây, lao nhanh vào con mồi arboreal, nhai để tiêm nọc tê liệt, rồi nuốt chửng; chúng phát hiện con mồi qua chuyển động và mùi, như quan sát săn Draco blanfordii trong rừng đá vôi."
+    ],
+    "answer": "Rắn rào đầu vuông (Boiga kraepelini) có tập tính săn mồi linh hoạt, có thể săn bắt tích cực vào ban ngày, ban đêm hoặc cả hai (cathemeral)."
+  },
+  {
+    "question": "Rắn rào đốm (Boiga multomaculata) săn mồi vào thời gian nào?",
+    "ground_truth": "Chúng là loài săn mồi tích cực cả ban ngày lẫn ban đêm (diurnal/nocturnal, cathemeral).",
+    "contexts": [
+      "Rắn rào đốm - Tập tính săn mồi: Tập tính săn mồi của Boiga multomaculata tập trung vào lối sống săn bắt tích cực ban ngày hoặc ban đêm (diurnalnocturnal, cathemeral).",
+      "Rắn rào đốm - Sinh sản: Boiga multomaculata là loài oviparous (đẻ trứng). Mùa sinh sản thường trùng với cuối mùa khô và đầu mùa mưa, như tháng 4-8 ở Ấn Độ (và tương tự Việt Nam từ tháng 5-9), nhưng các quan sát thực địa cho thấy hoạt động sinh sản theo mùa (seasonal reproductive activity), với các nghiên cứu chi tiết về courtship, mating behavior, và reproductive cycles còn hạn chế.",
+      "Rắn rào đốm - Tập tính săn mồi: ngày hoặc ban đêm (diurnalnocturnal, cathemeral). Chúng ưa thích con mồi là các loài bò sát nhỏ và lưỡng cư như thằn lằn (lizards, bao gồm geckos và Draco blanfordii - thằn lằn bay), chim nhỏ (small birds), và đôi khi trứng chim (bird eggs).",
+      "Rắn rào đốm - Tập tính săn mồi: g mặt đất để tìm kiếm, nhưng không săn trong nước. Thói quen ăn uống là ăn sống, tiêu hóa chậm sau bữa ăn, và chúng có thể nhịn đói lâu trong mùa khô."
+    ],
+    "answer": "Rắn rào đốm (Boiga multomaculata) săn mồi cả ngày lẫn đêm (diurnalnocturnal, cathemeral)."
+  },
+  {
+    "question": "Con mồi ưa thích của Rắn rào Xiêm (Boiga siamensis) là gì?",
+    "ground_truth": "Chúng ưa thích ăn các loài chim nhỏ, trứng chim, thằn lằn và đôi khi cả động vật có vú nhỏ.",
+    "contexts": [
+      "Rắn rào Xiêm - Tập tính săn mồi: tích cực ban ngày hoặc ban đêm (diurnalnocturnal). Chúng ưa thích con mồi là các loài chim nhỏ (small birds), trứng chim (bird eggs), thằn lằn (lizards, bao gồm geckos và Draco blanfordii - thằn lằn bay), và đôi khi động vật có vú nhỏ (small mammals).",
+      "Rắn rào Xiêm - Tên khoa học và tên phổ thông: Loài rắn Boiga siamensis, còn được biết đến với tên khoa học đầy đủ là Boiga siamensis Nutaphand, 1971, có tên tiếng việt Rắn rào Xiêm, là một loài bò sát",
+      "Rắn rào Xiêm - Tập tính săn mồi: Tập tính săn mồi của Boiga siamensis tập trung vào lối sống săn bắt tích cực ban ngày hoặc ban đêm (diurnalnocturnal).",
+      "Rắn rào đốm - Tập tính săn mồi: ngày hoặc ban đêm (diurnalnocturnal, cathemeral). Chúng ưa thích con mồi là các loài bò sát nhỏ và lưỡng cư như thằn lằn (lizards, bao gồm geckos và Draco blanfordii - thằn lằn bay), chim nhỏ (small birds), và đôi khi trứng chim (bird eggs)."
+    ],
+    "answer": "Rắn rào Xiêm (Boiga siamensis) ưa thích con mồi là các loài chim nhỏ, trứng chim, thằn lằn (bao gồm geckos và thằn lằn bay Draco blanfordii), và đôi khi cả động vật có vú nhỏ."
+  },
+  {
+    "question": "Chế độ ăn của Rắn cạp nia (Bungarus candidus) có gì đặc biệt?",
+    "ground_truth": "Chế độ ăn của chúng rất chuyên biệt, 80-90% khẩu phần là các loài rắn khác (ophiophagous).",
+    "contexts": [
+      "Rắn cạp nia Nam, Rắn mai bạc - Độc tính: Bungarus candidus là loài có nọc độc cực mạnh (highly venomous), thuộc loại neurotoxic (độc thần kinh) với yếu tố myotoxic và nephrotoxic (gây hại cơ và thận).",
+      "Rắn cạp nia Nam, Rắn mai bạc - Sinh sản: Bungarus candidus là loài oviparous (đẻ trứng). Mùa sinh sản thường trùng với mùa mưa (tháng 5-9 ở Việt Nam và Thái Lan), khi thức ăn dồi dào và nhiệt độ ấm (25-30C); giao phối diễn ra ban đêm qua pheromone.",
+      "Rắn cạp nia Nam, Rắn mai bạc - Tập tính săn mồi: Tập tính săn mồi của Bungarus candidus tập trung vào lối sống săn bắt chuyên biệt ban đêm.",
+      "Rắn cạp nia Nam, Rắn mai bạc - Đặc điểm hình thái: Đặc điểm hình thái của Bungarus candidus rất đặc trưng, thích nghi với lối sống dưới đất ở vùng nhiệt đới ẩm."
+    ],
+    "answer": "Chế độ ăn của Rắn cạp nia (Bungarus candidus) có gì đặc biệt?\n\nThông tin được cung cấp không đề cập chi tiết về chế độ ăn của Rắn cạp nia (Bungarus candidus). Tuy nhiên, có thể suy ra rằng loài rắn này săn mồi vào ban đêm, tập trung vào lối sống săn bắt chuyên biệt.\n\nĐể trả lời câu hỏi này một cách đầy đủ, cần có thêm thông tin về các loài con mồi mà Rắn cạp nia thường ăn."
+  },
+  {
+    "question": "Thức ăn chính của Rắn cạp nống (Bungarus fasciatus) là gì?",
+    "ground_truth": "Thức ăn chính của chúng là các loài rắn khác, chiếm tới 90% khẩu phần ăn.",
+    "contexts": [
+      "Rắn cạp nống, Rắn mai gầm vàng - Sinh sản: ản của Bungarus fasciatus là oviparous (đẻ trứng). Mùa sinh sản thường trùng với mùa mưa (tháng 59 ở Việt Nam), khi thức ăn dồi dào và nhiệt độ ấm (2530C).",
+      "Rắn cạp nống, Rắn mai gầm vàng - Tên khoa học và tên phổ thông: Loài rắn Bungarus fasciatus, còn được biết đến với tên khoa học đầy đủ là Bungarus fasciatus (Schneider, 1801),có tên tiếng việt Rắn cạp",
+      "Rắn cạp nống, Rắn mai gầm vàng - Các quan sát thú vị từ các nhà nghiên cứu: n sát thú vị từ nhà nghiên cứu bao gồm ghi nhận B. fasciatus săn Boiga kraepelini ở Việt Nam, xác nhận vai trò ophiophagous trong chuỗi thức ăn (Dieckmann et al., 2010); radio-tracking ở Thái Lan cho thấy chúng bất động đến 100 ngày mùa khô, di chuyển trung bình 50100 m mỗi đêm gần ruộng (Strine et al., 2022, Ecology and Evolution); biến thể nọc với beta-bungarotoxin chiếm ưu thế ở Việt Nam, gây triệu chứng tê liệt nhanh hơn ở Ấn Độ (Nguyen et al., 2023); ghi nhận ở Cát Tiên (Việt Nam) với vai trò kiểm soát rắn địa phương, nhưng tăng nguy cơ cắn do đô thị hóa (Orlov et al., 2003); và trên mạng xã hội X (20232025), ảnh chụp ở Assam (Ấn Độ) và Phú Quốc (Việt Nam) cho thấy chúng phổ biến gần làng, với nhận xét 'stunning but deadly' từ cộng đồng yêu rắn.",
+      "Rắn cạp nống, Rắn mai gầm vàng - Phân loại học: hi Bungarus (chi krait châu Á), và loài fasciatus. Chi Bungarus bao gồm khoảng 18 loài rắn độc cao ở châu Á, và các nghiên cứu di truyền gần đây (như của Slowinski, 1994; Kuch  Mebs, 2007; Uetz et al., 2023 trong Reptile Database) xác nhận B."
+    ],
+    "answer": "Thông tin được cung cấp không nêu rõ thức ăn chính của Rắn cạp nống (Bungarus fasciatus). Tuy nhiên, có một quan sát thú vị từ các nhà nghiên cứu ghi nhận B. fasciatus săn Boiga kraepelini ở Việt Nam, xác nhận vai trò ophiophagous trong chuỗi thức ăn. Điều này có nghĩa là chúng là loài ăn rắn khác."
+  },
+  {
+    "question": "Rắn mai gầm bắc (Calamaria septentrionalis) sử dụng kỹ thuật nào để ăn mồi?",
+    "ground_truth": "Chúng nắm chặt con mồi (chủ yếu là giun đất) bằng răng và nuốt sống từ một đầu bằng cách xoay não và hàm.",
+    "contexts": [
+      "Rắn mai gầm bắc - Đặc điểm hình thái: a sau, dùng để nắm con mồi mềm chứ không tiêm độc. So sánh với các loài Calamaria khác, C. septentrionalis có đuôi ngắn hơn và cụt hơn so với C.",
+      "Rắn mai gầm bắc - Tập tính săn mồi: Tập tính săn mồi của Calamaria septentrionalis tập trung vào lối sống săn bắt dưới đất chuyên biệt.",
+      "Rắn mai gầm bắc - Tập tính săn mồi: ật không xương sống nhỏ khác (như sên hoặc nhộng). Kỹ thuật săn mồi đặc trưng là sử dụng thân mảnh để đào và phục kích trong đất ẩm, nắm chặt con mồi bằng răng và nuốt sống mà không cần độc, thường nhắm vào đầu để kiểm soát.",
+      "Rắn mai gầm bắc - Hành vi và sinh thái: ất ẩm dễ dàng), và bơi lội kém (chỉ nếu ngập úng). Trong môi trường sống, chúng đóng vai trò phân hủy hữu cơ bằng cách ăn giun đất (giúp thông khí đất), đồng thời là con mồi của chim đất hoặc rắn lớn hơn như Calamaria khác; chúng sống đơn độc, ít tương tác xã hội trừ mùa giao phối, và sử dụng lưỡi chẻ để thu thập thông tin môi trường qua cơ quan Jacobson."
+    ],
+    "answer": "Rắn mai gầm bắc (Calamaria septentrionalis) sử dụng kỹ thuật săn mồi đặc trưng là sử dụng thân mảnh để đào và phục kích trong đất ẩm. Chúng nắm chặt con mồi bằng răng và nuốt sống mà không cần độc, thường nhắm vào đầu con mồi để kiểm soát. Răng sau của chúng được dùng để nắm con mồi mềm, chứ không phải để tiêm độc."
+  },
+  {
+    "question": "Thức ăn chính của Rắn san hô nhỏ đốm (Calliophis maculiceps) là gì?",
+    "ground_truth": "Thức ăn ưa thích của chúng là các loài rắn nhỏ khác, đặc biệt là rắn giun (worm-snakes) như Typhlops spp.",
+    "contexts": [
+      "Rắn lá khô đốm nhỏ, Rắn vú nàng - Phân loại học: loài rắn san hô tropical), và loài maculiceps. Chi Calliophis là nhóm basal của họ Elapidae, với các loài đặc trưng bởi tuyến nọc dài và lối sống dưới đất, và các nghiên cứu di truyền gần đây (như của Slowinski et al., 2001; cập nhật trong Reptile Database 2025) xác nhận vị trí riêng biệt của C.",
+      "Rắn lá khô đốm nhỏ, Rắn vú nàng - Tên khoa học và tên phổ thông: thuộc họ rắn hổ (Elapidae) phổ biến ở Đông Nam Á. Tên khoa học 'Calliophis maculiceps' có nguồn gốc từ tiếng Hy Lạp và Latin, trong đó 'Calliophis' bắt nguồn từ 'kallos' nghĩa là 'đẹp' và 'ophis' nghĩa là 'rắn', phản ánh vẻ đẹp rực rỡ của các loài rắn san hô châu Á; còn 'maculiceps' từ 'macula' nghĩa là 'đốm' và 'ceps' nghĩa là 'đầu', ám chỉ các đốm đen nổi bật trên đầu loài này.",
+      "Rắn lá khô đốm nhỏ, Rắn vú nàng - Tập tính săn mồi: Tập tính săn mồi của Calliophis maculiceps tập trung vào lối sống săn bắt dưới đất ban đêm.",
+      "Rắn lá khô đốm nhỏ, Rắn vú nàng - Độc tính: Calliophis maculiceps là loài có nọc độc mạnh (venomous), thuộc loại neurotoxic (độc thần kinh) với yếu tố cytotoxin (gây hại tế bào)."
+    ],
+    "answer": "Thông tin được cung cấp không đề cập cụ thể đến thức ăn chính của Rắn san hô nhỏ đốm (Calliophis maculiceps)."
+  },
+  {
+    "question": "Rắn lục mũi hếch (Calloselasma rhodostoma) sử dụng cơ quan nào để phát hiện con mồi?",
+    "ground_truth": "Chúng sử dụng hố cảm nhiệt (loreal pit) để phát hiện con mồi.",
+    "contexts": [
+      "Rắn lục mũi hếch, 100 bước, Bách bộ xà - Tập tính săn mồi: ), lưỡng cư (frogs, toads), và thằn lằn (lizards). Kỹ thuật săn mồi đặc trưng là nằm bất động (ambush coil) trong bụi rậm hoặc đá ven suối, sử dụng hố cảm nhiệt để phát hiện nhiệt con mồi, cắn nhanh để tiêm nọc tê liệt, thả con mồi và theo dõi bằng mùi, sau đó nuốt chửng khi tê liệt; chúng có thể ăn con mồi lớn hơn cơ thể (như chuột lớn 530 g ở mẫu vật 600 g).",
+      "Rắn lục mũi hếch, 100 bước, Bách bộ xà - Tập tính săn mồi: n acutus tập trung vào lối sống phục kích ban đêm. Chúng ưa thích con mồi là động vật có vú nhỏ như chuột và sóc (small mammals: rats, mice, squirrels), chim nhỏ (small birds), lưỡng cư (frogs, toads), và thằn lằn (lizards).",
+      "Rắn chàm quạp, Rắn khô mộc, Rắn hổ bướm, Rắn cà tên, Rắn lục nưa - Đặc điểm hình thái: ệt) giữa mắt và lỗ mũi để phát hiện nhiệt con mồi. Vảy lưng có gờ yếu (weakly keeled dorsal scales), sắp xếp theo 21-25 hàng vảy thân (dorsal scale rows), vảy bụng rộng (ventrals 138-157), vảy hậu môn nguyên (anal plate entire), vảy dưới đuôi đôi (paired subcaudals 34-50 ở đực, 23-36 ở cái).",
+      "Rắn roi mõm nhọn, Rắn lục kim - Đặc điểm hình thái: etulla  giúp quan sát mồi trong môi trường cây lá. Răng: loài Ahaetulla là các rắn có răng sau (rear-fanged  opisthoglyphous)  tức có răng kiểu nanh nhỏ phía sau hàm, dùng để tiêm lượng nhỏ nọc vào con mồi; A."
+    ],
+    "answer": "Rắn lục mũi hếch (Calloselasma rhodostoma) sử dụng hố cảm nhiệt để phát hiện con mồi."
+  },
+  {
+    "question": "Thức ăn của Rắn Séc be (Cerberus schneiderii) bao gồm những gì?",
+    "ground_truth": "Con mồi ưa thích của chúng là các loài cá nhỏ, đôi khi là tôm cua và ếch.",
+    "contexts": [
+      "Rắn Séc be, Rắn nước mặt chó - Độc tính: Cerberus schneiderii là loài có nọc độc nhẹ (mildly venomous), thuộc loại opisthoglyphous (nọc từ răng sau), chủ yếu cytotoxin (gây hại tế bào) với yếu tố",
+      "Rắn Séc be, Rắn nước mặt chó - Đặc điểm hình thái: Đặc điểm hình thái của Cerberus schneiderii rất đặc trưng, thích nghi với lối sống bán thủy sinh ở vùng ngập mặn.",
+      "Rắn Séc be, Rắn nước mặt chó - Phân loại học: Cerberus schneiderii thuộc họ Homalopsidae (họ rắn nước, bao gồm khoảng 30 loài rắn thủy sinh châu Á), phân họ Homalopsinae, chi Cerberus (chi rắn nước",
+      "Rắn Séc be, Rắn nước mặt chó - Sinh sản: Cerberus schneiderii là loài ovoviviparous (trứng phát triển bên trong cơ thể mẹ và đẻ con sống)."
+    ],
+    "answer": "The information provided does not contain details about the diet of the Rắn Séc be (Cerberus schneiderii). The context covers its venom toxicity, morphological characteristics, taxonomic classification, and reproductive methods."
+  },
+  {
+    "question": "Rắn nước châu Á (Fowlea piscator) có hành vi phòng vệ nào giống rắn hổ mang?",
+    "ground_truth": "Khi bị đe dọa, chúng phồng thân và làm phẳng cổ thành mũ trùm đầu (hooding) để trông lớn hơn.",
+    "contexts": [
+      "Rắn nước châu Á - Đặc điểm hình thái: g hàm trên, dùng để nắm con mồi trơn trượt như cá. So sánh với các loài Fowlea khác, F. piscator có hoa văn caro rõ nét hơn F.",
+      "Rắn nước châu Á - Độc tính: Fowlea piscator là loài không có nọc độc (nonvenomous), thuộc loại aglyphous (không có răng nọc).",
+      "Rắn nước châu Á - Phân loại học: piscator. Chi Fowlea bao gồm khoảng 5-6 loài rắn nước không độc ở châu Á, và các nghiên cứu di truyền gần đây (như của Guo et al., 2014; cập nhật trong Reptile Database 2025) xác nhận F.",
+      "Rắn nước châu Á - Giá trị nghiên cứu: 2008), phân loại học (tái phân loại từ Xenochrophis sang Fowlea dựa trên di truyền, Guo et al., 2014), và hành vi (hooding và phòng vệ, Wall, 1923)."
+    ],
+    "answer": "Rắn nước châu Á (Fowlea piscator) có hành vi phòng vệ \"hooding\" (phồng mang) giống rắn hổ mang. Đây là một hành vi phòng vệ đã được ghi nhận và nghiên cứu (Wall, 1923)."
+  },
+  {
+    "question": "Rắn cườm (Chrysopelea ornata) có khả năng săn mồi nào đặc biệt?",
+    "ground_truth": "Chúng có khả năng lượn từ cây này sang cây khác (với khoảng cách lên tới 100m) để đuổi theo con mồi.",
+    "contexts": [
+      "Rắn cườm, Rắn lục mè - Đặc điểm hình thái: ía sau), với 15-20 răng hàm trên có rãnh nọc nông. So sánh với các loài Chrysopelea khác, C. ornata có hoa văn vàng đen nổi bật hơn C.",
+      "Rắn cườm, Rắn lục mè - Phân loại học: và loài ornata. Chi Chrysopelea nổi bật với khả năng lượn nhờ dẹt thân và vảy bụng đặc biệt, và các nghiên cứu di truyền gần đây (như của Pyron et al., 2013; cập nhật trong Reptile Database 2025) xác nhận C.",
+      "Rắn cườm, Rắn lục mè - Tên khoa học và tên phổ thông: Loài rắn Chrysopelea ornata, còn được biết đến với tên khoa học đầy đủ là Chrysopelea ornata (Shaw, 1802),có tên tiếng việt Rắn cườm, Rắn lục mè,",
+      "Rắn cườm, Rắn lục mè - Đặc điểm hình thái: Đặc điểm hình thái của Chrysopelea ornata rất đặc trưng, thích nghi với lối sống trên cây và lượn trên không."
+    ],
+    "answer": "Rắn cườm (Chrysopelea ornata) có 15-20 răng hàm trên có rãnh nọc nông. Ngoài ra, chi Chrysopelea, bao gồm cả loài rắn cườm, nổi bật với khả năng lượn nhờ thân dẹt và vảy bụng đặc biệt, thích nghi với lối sống trên cây và lượn trên không."
+  },
+  {
+    "question": "Rắn sọc vàng (Coelognathus flavolineatus) giết mồi bằng cách nào?",
+    "ground_truth": "Chúng sử dụng tốc độ nhanh để lao vào con mồi, sau đó siết chặt (constrictor) để khống chế trước khi nuốt sống.",
+    "contexts": [
+      "Rắn sọc vàng - Tập tính săn mồi: Tập tính săn mồi của Coelognathus flavolineatus tập trung vào lối sống săn bắt tích cực trên đất.",
+      "Rắn sọc vàng - Tập tính săn mồi: chim (small birds and eggs), đôi khi ếch (frogs). Kỹ thuật săn mồi đặc trưng là sử dụng tốc độ nhanh (racer-like) để lao vào con mồi trên mặt đất hoặc bụi rậm, siết chặt (constrictor) bằng thân để khống chế, sau đó nuốt sống mà không cần độc; chúng phát hiện con mồi qua chuyển động và mùi.",
+      "Rắn sọc vàng - Tập tính săn mồi: cây thấp để bắt chim, nhưng không săn trong nước. Thói quen ăn uống là ăn sống, nuốt chửng sau khi siết, và chúng có thể ăn nhiều trong mùa mưa khi con mồi dồi dào.",
+      "Rắn sọc vàng - Tập tính săn mồi: tập trung vào lối sống săn bắt tích cực trên đất. Chúng ưa thích con mồi là động vật có vú nhỏ như chuột (rodents, chủ yếu), chim nhỏ và trứng chim (small birds and eggs), đôi khi ếch (frogs)."
+    ],
+    "answer": "Rắn sọc vàng (Coelognathus flavolineatus) giết mồi bằng cách siết chặt con mồi bằng thân để khống chế. Chúng sử dụng tốc độ nhanh để lao vào con mồi trên mặt đất hoặc bụi rậm, sau đó siết chặt để khống chế và nuốt sống mà không cần dùng đến độc. Chúng phát hiện con mồi qua chuyển động và mùi."
+  },
+  {
+    "question": "Chiến lược phòng vệ của Rắn hổ ngựa (Coelognathus radiatus) là gì?",
+    "ground_truth": "Chiến lược phòng vệ của chúng bao gồm phồng thân, làm phẳng cổ thành mũ trùm đầu (giống rắn hổ mang), và chạy trốn nhanh.",
+    "contexts": [
+      "Rắn sọc dưa, Rắn hổ ngựa - Tập tính săn mồi: có thể ăn nhiều trong mùa mưa khi con mồi dồi dào. Chiến lược phòng vệ bao gồm phồng thân để lộ màu interscale sáng nhằm đe dọa (giống cobra), làm phẳng cổ thành mũ trùm đầu (hooding) để trông lớn hơn, và chạy trốn nhanh (fast escape); chúng thường phòng thủ (defensive) và khó bắt, có thể giả chết hoặc cắn mạnh nếu bị dồn ép.",
+      "Rắn sọc dưa, Rắn hổ ngựa - Tập tính săn mồi: Tập tính săn mồi của Coelognathus radiatus tập trung vào lối sống săn bắt tích cực trên đất.",
+      "Rắn hổ Mèo, Rắn hổ mang Xiêm - Tập tính săn mồi: nghi với mồi không đều đặn ở khu vực nông nghiệp. Chiến lược phòng vệ bao gồm phồng cổ tạo hình 'mũ' với dấu monocellate (hooding with monocellate mark) và rít lớn (hissing), tạo hình chữ S đe dọa, phun nọc xa 2 m vào mắt kẻ thù, và cắn nếu bị dồn ép; ưu tiên trốn tránh bằng cách lặn vào hang hoặc bụi rậm.",
+      "Rắn hổ chúa, Rắn hổ mang chúa, Rắn hổ mây, Rắn hổ đước - Tập tính săn mồi: ậm (710 ngày cho mồi lớn) để tiết kiệm năng lượng. Chiến lược phòng vệ bao gồm tránh né nhanh (flight response), phồng cổ tạo hình 'mũ' lớn với rít lớn (hissing), tạo hình chữ S đe dọa, và cắn nếu bị dồn ép; chúng nổi tiếng với tiếng rít 'hiss like a dog' và khả năng nhận biết con người, thường tránh né trừ khi bị chọc phá."
+    ],
+    "answer": "Rắn hổ ngựa có các chiến lược phòng vệ sau:\n\n*   **Phồng thân để lộ màu interscale sáng:** Điều này nhằm đe dọa đối thủ, tương tự như rắn hổ mang (cobra).\n*   **Làm phẳng cổ thành mũ trùm đầu (hooding):** Hành động này khiến chúng trông lớn hơn để hù dọa kẻ thù.\n*   **Chạy trốn nhanh (fast escape):** Đây là một cách để tránh xa nguy hiểm.\n*   **Phòng thủ (defensive) và khó bắt:** Rắn hổ ngựa thường có xu hướng phòng thủ và không dễ bị bắt.\n*   **Giả chết hoặc cắn mạnh:** Nếu bị dồn ép, chúng có thể giả chết hoặc cắn mạnh để tự vệ."
+  },
+  {
+    "question": "Hành vi phòng vệ của Rắn trun (Cylindrophis jodiae) có gì độc đáo?",
+    "ground_truth": "Khi bị đe dọa, chúng phồng phần đuôi đỏ và uốn cong lên, đồng thời hiển thị hoa văn bụng lốm đốm đen trắng để dọa kẻ thù, trong khi giấu đầu.",
+    "contexts": [
+      "Rắn trun, Rắn hai đầu - Hành vi và sinh thái: ếu ngập úng, nhưng có thể chịu ngập nhờ thân trụ). Trong môi trường sống, chúng đóng vai trò phân hủy hữu cơ bằng cách ăn giun đất (giúp thông khí đất và chu kỳ dưỡng chất), đồng thời là con mồi của chim đất hoặc rắn lớn hơn như Cylindrophis khác; chúng sống đơn độc, ít tương tác xã hội trừ mùa giao phối, và sử dụng lưỡi chẻ để thu thập thông tin môi trường qua cơ quan Jacobson.",
+      "Rắn trun, Rắn hai đầu - Giá trị nghiên cứu: góp phần làm rõ sự đa dạng của chi Cylindrophis với 14 loài), sinh thái (vai trò phân hủy hữu cơ trong đất rừng thấp, và hành vi phòng vệ bằng đuôi độc",
+      "Rắn trun, Rắn hai đầu - Độc tính: Cylindrophis jodiae là loài không có nọc độc (nonvenomous), thuộc loại aglyphous (không có răng nọc).",
+      "Rắn trun, Rắn hai đầu - Tập tính săn mồi: có thể ăn nhiều trong mùa mưa khi con mồi dồi dào. Chiến lược phòng vệ bao gồm ngụy trang với màu nâu sẫm để hòa lẫn vào đất và lá mục, đào sâu để trốn tránh (burrow quickly), và cuộn mình chặt nếu bị đe dọa; đặc biệt, chúng phồng phần đuôi đỏ và uốn cong trên mặt đất để hiển thị hoa văn bụng lốm đốm đen trắng tương phản (flattens posterior body and arches it to display ventral pattern), trong khi giấu đầu dưới thân, một hành vi phòng vệ độc đáo để dọa nạt kẻ săn mồi."
+    ],
+    "answer": "Rắn trun (Cylindrophis jodiae) có một hành vi phòng vệ độc đáo là phồng phần đuôi đỏ và uốn cong trên mặt đất để hiển thị hoa văn bụng lốm đốm đen trắng tương phản, trong khi giấu đầu dưới thân. Đây là một cách đặc biệt để dọa nạt kẻ săn mồi.\n\nNgoài ra, rắn trun còn có các chiến lược phòng vệ khác như:\n*   Ngụy trang với màu nâu sẫm để hòa lẫn vào đất và lá mục.\n*   Đào sâu nhanh chóng để trốn tránh.\n*   Cuộn mình chặt nếu bị đe dọa."
+  },
+  {
+    "question": "Con mồi ưa thích của Rắn trun (Cylindrophis ruffus) là gì?",
+    "ground_truth": "Con mồi ưa thích của chúng là các loài giun đất lớn, đôi khi là ấu trùng côn trùng, sên, rắn nhỏ hoặc cá chình.",
+    "contexts": [
+      "Rắn rồng Trung quốc - Tập tính săn mồi: Loài con mồi ưa thích của Sibynophis chinensis là giun đất (earthworms), côn trùng (insects) và thằn lằn nhỏ (small lizards), với chế độ ăn chuyên biệt về động",
+      "Rắn trun, Rắn hai đầu - Tập tính săn mồi: p trung vào lối sống săn bắt dưới đất chuyên biệt. Chúng ưa thích con mồi là các loài giun đất lớn (earthworms, là con mồi chính dựa trên quan sát tự nhiên), đôi khi ấu trùng côn trùng hoặc động vật không xương sống nhỏ khác (như sên hoặc nhộng), và hiếm khi rắn nhỏ hoặc cá chình (eels).",
+      "Rắn trun - Đặc điểm hình thái: a trước dài hơn phía sau, dùng để nắm con mồi mềm. So sánh với các loài Cylindrophis khác, C. ruffus có số vòng thân nhiều hơn C.",
+      "Rắn trun, Rắn hai đầu - Tập tính săn mồi: Tập tính săn mồi của Cylindrophis jodiae tập trung vào lối sống săn bắt dưới đất chuyên biệt."
+    ],
+    "answer": "Con mồi ưa thích của Rắn trun (Cylindrophis ruffus) là các loài giun đất lớn. Đôi khi chúng cũng ăn ấu trùng côn trùng hoặc các động vật không xương sống nhỏ khác như sên hoặc nhộng, và hiếm khi là rắn nhỏ hoặc cá chình."
+  },
+  {
+    "question": "Rắn lục mũi nhọn (Deinagkistrodon acutus) săn mồi như thế nào?",
+    "ground_truth": "Chúng là loài săn mồi phục kích ban đêm, nằm bất động và sử dụng hố cảm nhiệt để phát hiện con mồi trước khi tấn công.",
+    "contexts": [
+      "Rắn lục mũi hếch, 100 bước, Bách bộ xà - Tập tính săn mồi: Tập tính săn mồi của Deinagkistrodon acutus tập trung vào lối sống phục kích ban đêm.",
+      "Rắn roi mõm nhọn, Rắn lục kim - Tập tính săn mồi: ũi dài vùng Đông Dương, sống trong môi trường cây. Phương thức là kẻ phục kích  đứng bất động trên cành, chờ mồi đi ngang rồi vung cổ nhanh để bắt mồi.",
+      "Rắn roi mắt đỏ, Rắn lục kim - Tập tính săn mồi: hỏ và lưỡng cư, như thằn lằn, ếch cây và chim non. Kỹ thuật săn mồi đặc trưng là sử dụng đầu nhọn để nhắm chính xác vào con mồi, sau đó nhai để tiêm nọc độc tê liệt nhanh chóng.",
+      "Rắn lục Jerdon, Rắn lục hoa cải - Tập tính săn mồi: predator) phản ánh lối sống phục kích ở rừng núi. Kỹ thuật săn mồi chủ yếu là phục kích (ambush), sử dụng hố loreal phát hiện nhiệt độ con mồi từ xa (lên đến 1 m), sau đó lao nhanh và cắn giữ bằng nanh rỗng để tiêm nọc, chờ mồi tê liệt (10-20 phút) trước khi nuốt chửng; chúng có thể theo dõi mồi bằng mùi nếu cần."
+    ],
+    "answer": "Rắn lục mũi nhọn (Deinagkistrodon acutus) săn mồi theo lối sống phục kích vào ban đêm."
+  },
+  {
+    "question": "Rắn leo cây Ngân Sơn (Dendrelaphis ngansonensis) săn mồi vào thời gian nào?",
+    "ground_truth": "Chúng săn mồi chủ yếu vào ban ngày (diurnal) và trên cây.",
+    "contexts": [
+      "Rắn leo cây Ngân Sơn - Tập tính săn mồi: Tập tính săn mồi của Dendrelaphis ngansonensis tập trung vào lối sống săn bắt tích cực trên cây ban ngày.",
+      "Rắn leo cây Ngân Sơn - Sinh sản: elaphis ngansonensis là loài oviparous (đẻ trứng). Mùa sinh sản chưa được nghiên cứu chi tiết nhưng có thể trùng với mùa mưa (tháng 5-9 ở Việt Nam), khi thức ăn dồi dào.",
+      "Rắn leo cây Ngân Sơn - Sinh sản: Dendrelaphis ngansonensis là loài oviparous (đẻ trứng).",
+      "Rắn leo cây Ngân Sơn - Tập tính săn mồi: arboreal), hiếm khi xuống đất hoặc săn trong nước. Thói quen ăn uống là ăn sống, nuốt chửng sau khi khống chế, và chúng có thể ăn nhiều trong mùa mưa khi con mồi dồi dào."
+    ],
+    "answer": "Rắn leo cây Ngân Sơn (Dendrelaphis ngansonensis) săn mồi vào ban ngày. Chúng có lối sống săn bắt tích cực trên cây, hiếm khi xuống đất hoặc săn trong nước. Chúng có thể ăn nhiều trong mùa mưa, khi con mồi dồi dào."
+  },
+  {
+    "question": "Con mồi ưa thích của Rắn leo cây bắc Đông dương (Dendrelaphis proarchos) là gì?",
+    "ground_truth": "Con mồi ưa thích của chúng là thằn lằn, ếch cây và đôi khi là côn trùng lớn.",
+    "contexts": [
+      "Rắn leo cây bắc Đông dương - Tập tính săn mồi: Tập tính săn mồi của Dendrelaphis proarchos tập trung vào lối sống săn bắt tích cực trên cây ban ngày.",
+      "Rắn leo cây bắc Đông dương - Tên khoa học và tên phổ thông: Loài rắn Dendrelaphis proarchos, còn được biết đến với tên khoa học đầy đủ là Dendrelaphis proarchos (Wall, 1909), có tên tiếng việt Rắn leo",
+      "Rắn leo cây bắc Đông dương - Tập tính săn mồi: g vào lối sống săn bắt tích cực trên cây ban ngày. Chúng ưa thích con mồi là thằn lằn (lizards, như geckos và skinks), ếch cây (tree frogs), và đôi khi côn trùng lớn (large insects).",
+      "Rắn leo cây bắc Đông dương - Đặc điểm hình thái: Đặc điểm hình thái của Dendrelaphis proarchos rất đặc trưng, thích nghi với lối sống trên cây ở vùng rừng nhiệt đới."
+    ],
+    "answer": "Rắn leo cây bắc Đông dương (Dendrelaphis proarchos) ưa thích con mồi là thằn lằn (như tắc kè và thằn lằn bóng), ếch cây, và đôi khi côn trùng lớn."
+  },
+  {
+    "question": "Rắn leo cây mắt (Dendrelaphis subocularis) săn mồi bằng cách nào?",
+    "ground_truth": "Chúng di chuyển nhanh trên cành cây và sử dụng thị lực sắc bén để phát hiện con mồi, sau đó nắm chặt bằng răng và nuốt sống.",
+    "contexts": [
+      "Rắn leo cây mắt - Tập tính săn mồi: Tập tính săn mồi của Dendrelaphis subocularis tập trung vào lối sống săn bắt tích cực trên cây ban ngày.",
+      "Rắn leo cây mắt - Tập tính săn mồi: t; chúng có thể đuổi theo trên cây với tốc độ cao. Chúng săn chủ yếu ban ngày (diurnal), trên cây (arboreal), hiếm khi xuống đất hoặc săn trong nước.",
+      "Rắn leo cây mắt - Tập tính săn mồi: frogs), và đôi khi côn trùng lớn (large insects). Kỹ thuật săn mồi đặc trưng là di chuyển nhanh trên cành cây, sử dụng thị lực sắc bén để phát hiện con mồi, nắm chặt bằng răng và nuốt sống mà không cần độc, thường nhắm vào cổ để kiểm soát; chúng có thể đuổi theo trên cây với tốc độ cao.",
+      "Rắn leo cây bắc Đông dương - Tập tính săn mồi: Tập tính săn mồi của Dendrelaphis proarchos tập trung vào lối sống săn bắt tích cực trên cây ban ngày."
+    ],
+    "answer": "Rắn leo cây mắt (Dendrelaphis subocularis) săn mồi bằng cách săn bắt tích cực trên cây vào ban ngày. Chúng di chuyển nhanh trên cành cây, sử dụng thị lực sắc bén để phát hiện con mồi. Khi đã phát hiện, chúng sẽ đuổi theo với tốc độ cao. Con mồi bị nắm chặt bằng răng và nuốt sống mà không cần đến nọc độc, thường nhắm vào cổ để kiểm soát. Chúng chủ yếu săn mồi trên cây, hiếm khi xuống đất hoặc săn trong nước."
+  },
+  {
+    "question": "Rắn roi nâu (Dryophiops rubescens) săn mồi vào thời điểm nào trong ngày?",
+    "ground_truth": "Chúng săn mồi chủ yếu vào ban ngày (diurnal) và trên cây.",
+    "contexts": [
+      "Rắn dây bụng gờ, Rắn dây nâu - Tập tính săn mồi: Tập tính săn mồi của Dryophiops rubescens tập trung vào lối sống săn bắt tích cực ban ngày trên cây.",
+      "Rắn hổ đất nâu - Tập tính săn mồi: iệt trước khi nuốt chửng; quá trình mất 5-10 phút. Thói quen ăn uống chủ yếu ban ngày (diurnal), trên mặt đất (terrestrial) hoặc bụi rậm thấp (low bushes), ít hoạt động ban đêm hoặc trên cây cao; chúng tập trung vào môi trường ẩm để tìm mồi dồi dào.",
+      "Rắn roi mắt đỏ, Rắn lục kim - Tập tính săn mồi: , sau đó nhai để tiêm nọc độc tê liệt nhanh chóng. Chúng săn chủ yếu ban ngày (diurnal), trên cây (arboreal), hiếm khi xuống mặt đất hoặc nước.",
+      "Rắn ráo xanh - Tập tính săn mồi: để cắn giữ và nuốt chửng; quá trình mất 2-5 phút. Thói quen ăn uống chủ yếu ban ngày (diurnal), bán cây (semi-arboreal) trên bụi rậm hoặc cành thấp (1-3 m), ít hoạt động trên mặt đất hoặc trong nước; chúng tập trung vào môi trường ẩm để tìm mồi dồi dào."
+    ],
+    "answer": "Rắn roi nâu (Dryophiops rubescens) săn mồi vào ban ngày."
+  },
+  {
+    "question": "Chế độ ăn của Rắn sọc gờ (Elaphe carinata) có gì đặc biệt?",
+    "ground_truth": "Chúng có khả năng ăn các loài rắn khác, kể cả rắn độc như hổ mang và rắn lục, do có sức đề kháng cao với nọc độc.",
+    "contexts": [
+      "Rắn sọc gờ - Đặc điểm hình thái: Đặc điểm hình thái của Elaphe carinata rất đặc trưng, thích nghi với lối sống trên đất và leo trèo ở vùng nhiệt đới ẩm.",
+      "Rắn sọc gờ - Sinh sản: Elaphe carinata là loài oviparous (đẻ trứng). Mùa sinh sản thường trùng với cuối mùa khô và đầu mùa mưa, như tháng 4-8 ở Trung Quốc (và tương tự Việt Nam từ tháng 5-9), khi thức ăn dồi dào; giao phối diễn ra trong aestivation.",
+      "Rắn sọc gờ - Tập tính săn mồi: Tập tính săn mồi của Elaphe carinata tập trung vào lối sống săn bắt tích cực trên đất.",
+      "Rắn sọc gờ - Đặc điểm hình thái: Elaphe khác, E. carinata có vảy keeled mạnh hơn E. schrenckii (Russian rat snake, keeled yếu), hoa văn đốm lớn kim cương rõ hơn E."
+    ],
+    "answer": "Thông tin được cung cấp không đề cập đến chế độ ăn cụ thể của Rắn sọc gờ (Elaphe carinata)."
+  },
+  {
+    "question": "Rắn sọc khoanh (Elaphe moellendorffi) giết con mồi bằng cách nào?",
+    "ground_truth": "Chúng sử dụng phương pháp siết chặt (constrictor) để khống chế con mồi trước khi nuốt.",
+    "contexts": [
+      "Rắn sọc khoanh, Trăn đá, Trăn lèn, Trăn lạt - Tập tính săn mồi: Tập tính săn mồi của Elaphe moellendorffi tập trung vào lối sống săn bắt tích cực trên đất.",
+      "Rắn sọc khoanh, Trăn đá, Trăn lèn, Trăn lạt - Tập tính săn mồi: rắn nhỏ (smaller snakes) hoặc thằn lằn (lizards). Kỹ thuật săn mồi đặc trưng là sử dụng tốc độ nhanh để lao vào con mồi trên mặt đất hoặc bụi rậm, siết chặt (constrictor) bằng thân để khống chế, sau đó nuốt sống mà không cần độc; chúng phát hiện con mồi qua chuyển động và mùi.",
+      "Rắn sọc khoanh, Trăn đá, Trăn lèn, Trăn lạt - Hành vi và sinh thái: i lội trung bình (gần nước nhưng không thủy sinh). Trong môi trường sống, chúng có mối quan hệ săn mồi với chuột và chim nhỏ (kiểm soát quần thể gây hại nông nghiệp), đồng thời là con mồi của chim săn mồi lớn hoặc rắn khác; chúng sống đơn độc, ít tương tác xã hội trừ mùa giao phối, và sử dụng lưỡi chẻ để thu thập thông tin môi trường qua cơ quan Jacobson.",
+      "Rắn sọc khoanh, Trăn đá, Trăn lèn, Trăn lạt - Tập tính săn mồi: c; chúng phát hiện con mồi qua chuyển động và mùi. Chúng săn chủ yếu ban ngày (diurnal), trên mặt đất (terrestrial), đôi khi leo cây thấp để bắt chim, nhưng không săn trong nước."
+    ],
+    "answer": "Rắn sọc khoanh (Elaphe moellendorffi) giết con mồi bằng cách siết chặt bằng thân để khống chế, sau đó nuốt sống. Chúng không sử dụng nọc độc để giết con mồi."
+  },
+  {
+    "question": "Thức ăn chính của Rắn sọc đuôi (Elaphe taeniura) là gì?",
+    "ground_truth": "Thức ăn chính của chúng là chuột và động vật gặm nhấm, chiếm 60-80% khẩu phần ăn.",
+    "contexts": [
+      "Rắn sọc đuôi, Rắn thạch anh, Rắn vàng anh - Độc tính: Elaphe taeniura là loài không có nọc độc (nonvenomous), thuộc loại aglyphous (không có răng nọc).",
+      "Rắn sọc đuôi, Rắn thạch anh, Rắn vàng anh - Tập tính săn mồi: Tập tính săn mồi của Elaphe taeniura tập trung vào lối sống săn bắt tích cực trên mặt đất và cây thấp.",
+      "Rắn sọc đuôi, Rắn thạch anh, Rắn vàng anh - Hành vi và sinh thái: Elaphe taeniura thể hiện lối sống linh hoạt, thích nghi với cả môi trường trên đất và trên cây.",
+      "Rắn sọc đuôi, Rắn thạch anh, Rắn vàng anh - Sự liên quan với con người: taeniura rất phổ biến, đặc biệt là phân loài E. t. friesi ở Đài Loan, được nuôi rộng rãi ở Mỹ và châu Âu do màu sắc đẹp và tính cách dễ thuần hóa, mặc dù yêu cầu lồng lớn và thức ăn sống (chuột hoặc chim nhỏ)."
+    ],
+    "answer": "Thức ăn chính của Rắn sọc đuôi (Elaphe taeniura) bao gồm chuột hoặc chim nhỏ."
+  },
+  {
+    "question": "Rắn bồng Mekong (Enhydris subtaeniata) săn mồi như thế nào?",
+    "ground_truth": "Chúng săn mồi vào ban đêm bằng cách bơi chậm hoặc neo mình trong bùn, sau đó cắn nhanh để tiêm nọc làm tê liệt con mồi.",
+    "contexts": [
+      "Rắn bồng Mekong, Rắn bồng Mê Kông - Tập tính săn mồi: Tập tính săn mồi của Enhydris subtaeniata tập trung vào lối sống săn bắt dưới nước ban đêm.",
+      "Rắn bồng Mekong, Rắn bồng Mê Kông - Tập tính săn mồi: hi tôm cua (crustaceans) và ếch nhỏ (small frogs). Kỹ thuật săn mồi đặc trưng là bơi chậm hoặc neo mình (anchor) trong bùn, cắn nhanh để tiêm nọc tê liệt, giữ chặt con mồi bằng miệng rộng và nuốt chửng; chúng có thể bơi lùi để điều chỉnh hàm.",
+      "Rắn bồng Mekong, Rắn bồng Mê Kông - Tập tính săn mồi: uốt chửng; chúng có thể bơi lùi để điều chỉnh hàm. Chúng săn chủ yếu ban đêm (nocturnal), dưới nước (aquatic) ở vùng nông hoặc ven bờ, hiếm khi trên đất.",
+      "Rắn bồng Mekong, Rắn bồng Mê Kông - Tập tính săn mồi: tập trung vào lối sống săn bắt dưới nước ban đêm. Chúng ưa thích con mồi là các loài cá nhỏ (small fish, như cyprinids và gobies, chiếm đa số), đôi khi tôm cua (crustaceans) và ếch nhỏ (small frogs)."
+    ],
+    "answer": "Rắn bồng Mekong (Enhydris subtaeniata) săn mồi chủ yếu vào ban đêm, dưới nước, ở những vùng nông hoặc ven bờ. Chúng hiếm khi săn mồi trên cạn.\n\nCách chúng săn mồi tập trung vào lối sống săn bắt dưới nước ban đêm. Chúng có thể bơi chậm hoặc neo mình trong bùn. Khi phát hiện con mồi, chúng cắn nhanh để tiêm nọc độc làm tê liệt. Sau đó, chúng giữ chặt con mồi bằng miệng rộng và nuốt chửng. Đôi khi, chúng có thể bơi lùi để điều chỉnh hàm trong quá trình nuốt.\n\nThức ăn ưa thích của Rắn bồng Mekong là các loài cá nhỏ (như cá chép và cá bống tượng), chiếm đa số trong khẩu phần ăn của chúng. Đôi khi, chúng cũng săn tôm cua và ếch nhỏ."
+  },
+  {
+    "question": "Kỹ thuật săn mồi độc đáo của Rắn râu (Erpeton tentaculatum) là gì?",
+    "ground_truth": "Chúng neo mình theo hình chữ 'J' lộn ngược và sử dụng cặp xúc tu để tạo rung động, lùa cá vào vị trí tấn công.",
+    "contexts": [
+      "Rắn râu - Tên khoa học và tên phổ thông: trên mũi giúp săn mồi, phổ biến ở vùng Đông Nam Á. Tên khoa học 'Erpeton tentaculatum' có nguồn gốc từ tiếng Hy Lạp và Latin, trong đó 'Erpeton' bắt nguồn từ 'herpeton' nghĩa là 'rắn' hoặc 'bò sát', phản ánh vị trí đơn ngành của chi này trong họ; còn 'tentaculatum' từ 'tentaculum' nghĩa là 'xúc tu' hoặc 'cảm giác', ám chỉ cặp xúc tu cảm giác độc đáo trên mũi loài này, một đặc điểm tiến hóa hội tụ giúp chúng phát hiện chuyển động của con mồi dưới nước.",
+      "Rắn râu - Tập tính săn mồi: ll frogs) hoặc cua mềm vỏ (softshell crabs, hiếm). Kỹ thuật săn mồi đặc trưng là neo mình lộn ngược (upside-down 'J' shape) dưới nước, sử dụng xúc tu để tạo rung động đánh lừa cá thay đổi hướng bơi (herding prey into position), sau đó cắn nhanh để tiêm nọc tê liệt và nuốt chửng; chúng dự đoán vị trí đầu cá (predict head position) một cách bẩm sinh, với tốc độ tấn công 0.1 giây.",
+      "Rắn râu - Tập tính săn mồi: Tập tính săn mồi của Erpeton tentaculatum tập trung vào lối sống săn bắt phục kích ban ngày dưới nước.",
+      "Rắn rào đầu vuông, Rắn rào K-ra-pe-lin - Tập tính săn mồi: thằn lằn bay), và đôi khi trứng chim (bird eggs). Kỹ thuật săn mồi đặc trưng là sử dụng đuôi prehensile để bám cây, lao nhanh vào con mồi arboreal, nhai để tiêm nọc tê liệt, rồi nuốt chửng; chúng phát hiện con mồi qua chuyển động và mùi, như quan sát săn Draco blanfordii trong rừng đá vôi."
+    ],
+    "answer": "Rắn râu (Erpeton tentaculatum) có kỹ thuật săn mồi độc đáo là neo mình lộn ngược theo hình chữ 'J' dưới nước. Chúng sử dụng xúc tu để tạo ra rung động, đánh lừa cá thay đổi hướng bơi, sau đó cắn nhanh để tiêm nọc tê liệt và nuốt chửng con mồi. Rắn râu có khả năng bẩm sinh dự đoán vị trí đầu cá và có tốc độ tấn công rất nhanh, chỉ trong 0.1 giây. Loài này chủ yếu săn bắt phục kích vào ban ngày dưới nước."
+  },
+  {
+    "question": "Thức ăn chuyên biệt của Rắn ăn cua (Fordonia leucobalia) là gì?",
+    "ground_truth": "Chế độ ăn của loài này chuyên biệt với cua nhỏ chiếm tới 90% khẩu phần ăn.",
+    "contexts": [
+      "Rắn ăn cua, Rắn bông lau nước, Đẻn còng - Độc tính: Fordonia leucobalia là loài có nọc độc nhẹ (mildly venomous), thuộc loại opisthoglyphous (nọc từ răng sau), chủ yếu cytotoxin (gây hại tế bào) với",
+      "Rắn ăn cua, Rắn bông lau nước, Đẻn còng - Tên khoa học và tên phổ thông: Loài rắn Fordonia leucobalia, còn được biết đến với tên khoa học đầy đủ là Fordonia leucobalia (Schlegel, 1837),có tên tiếng",
+      "Rắn ăn cua, Rắn bông lau nước, Đẻn còng - Tên khoa học và tên phổ thông: các vùng ngập mặn và đầm lầy nhiệt đới Đông Nam Á. Tên khoa học 'Fordonia leucobalia' có nguồn gốc từ tiếng Hy Lạp và Latin, trong đó 'Fordonia' được đặt theo tên nhà tự nhiên học người Hà Lan Coenraad Jacob Temminck (17781858), người có đóng góp lớn vào nghiên cứu động vật học Indonesia (có thể là biến thể của 'Fordonia' từ 'ford' nghĩa là 'sông' và 'donia' ám chỉ nước, phản ánh môi trường thủy sinh); còn 'leucobalia' từ 'leuco' nghĩa là 'trắng' và 'balia' nghĩa là 'bụng', ám chỉ phần bụng trắng đặc trưng của loài, giúp phân biệt với các loài có bụng tối màu trong họ.",
+      "Rắn ăn cua, Rắn bông lau nước, Đẻn còng - Sinh sản: Fordonia leucobalia là loài ovoviviparous (trứng phát triển bên trong cơ thể mẹ và đẻ con sống)."
+    ],
+    "answer": "Thông tin về thức ăn chuyên biệt của Rắn ăn cua (Fordonia leucobalia) không được đề cập trong các ngữ cảnh đã cho."
+  },
+  {
+    "question": "Con mồi ưa thích của Rắn nước đốm vàng (Fowlea flavipunctata) là gì?",
+    "ground_truth": "Con mồi ưa thích của chúng là ếch, cóc và cá nhỏ.",
+    "contexts": [
+      "Rắn nước đốm vàng - Tập tính săn mồi: Tập tính săn mồi của Fowlea flavipunctata tập trung vào lối sống săn bắt tích cực bán thủy sinh.",
+      "Rắn nước đốm vàng - Tên khoa học và tên phổ thông: phân bố ở các vùng Nam Á và Đông Nam Á. Tên khoa học 'Fowlea flavipunctata' mang ý nghĩa từ nguồn gốc Latin, trong đó 'Fowlea' được đặt theo tên nhà tự nhiên học người Anh George Shaw (có thể là biến thể của 'Fowler' từ một loài rắn khác, ám chỉ sự nhanh nhẹn như chim săn mồi), còn 'flavipunctata' được ghép từ 'flavus' nghĩa là 'vàng' và 'punctata' nghĩa là 'có đốm', phản ánh các đốm vàng đặc trưng trên thân loài này.",
+      "Rắn nước đốm vàng - Tập tính săn mồi: trung vào lối sống săn bắt tích cực bán thủy sinh. Loài này ưa thích các con mồi như ếch và cóc (frogs and toads, chiếm phần lớn khẩu phần), cá nhỏ (small fish), động vật gặm nhấm (rodents), chim nhỏ (small birds), và đôi khi côn trùng lớn (large insects).",
+      "Rắn nước đốm vàng - Sự liên quan với con người: hát và hiếm khi cắn. Trong ngành nuôi thú cưng, F. flavipunctata rất phổ biến, đặc biệt ở châu Âu và Mỹ, được nuôi rộng rãi do màu sắc đẹp và tính cách dễ thuần hóa, mặc dù yêu cầu lồng lớn và thức ăn sống (ếch hoặc cá)."
+    ],
+    "answer": "Rắn nước đốm vàng (Fowlea flavipunctata) ưa thích các con mồi như ếch và cóc, chiếm phần lớn khẩu phần ăn của chúng. Ngoài ra, loài này còn săn bắt cá nhỏ, động vật gặm nhấm, chim nhỏ và đôi khi cả côn trùng lớn."
+  },
+  {
+    "question": "Rắn mũi dài (Gonyosoma boulengeri) có khả năng lượn không?",
+    "ground_truth": "Chúng có thể thực hiện những cú lượn nhẹ từ cây này sang cây khác để tiếp cận con mồi.",
+    "contexts": [
+      "Rắn vòi, Thanh xà kì lân - Đặc điểm hình thái: soma khác, G. boulengeri có sừng mũi rõ nét hơn G. oxycephalum (mũi nhọn nhưng không sừng), màu xanh lá sáng hơn G.",
+      "Rắn vòi, Thanh xà kì lân - Các quan sát thú vị từ các nhà nghiên cứu: Gonyophis năm 2024 từ Gonyosoma sensu lato, với G. boulengeri trong clade riêng dựa trên phylogenetics và morphology (Lazell et al., 2024, Diversity); captive breeding ở London Zoo năm 2017, với giao phối tháng 3-6 và nở sau 52-57 ngày (Kane et al., 2017, Herpetological Bulletin); ghi nhận nam nhất ở Phú Yên (Việt Nam) năm 2020, mở rộng phân bố 600 km nam từ Quảng Bình (Nguyen et al., 2020, Check List); ontogenetic color change từ xám nâu non với đầu đen sang xanh lá trưởng thành, phản ánh thay đổi habitat (Socha, 2002); quan sát leo cây nhanh với sừng mũi hỗ trợ (amateur observations, Reptile Database); và nghiên cứu 2013 về ký sinh trùng Amblyomma helvolum trên loài này ở Đài Loan (Chao et al., 2013).",
+      "Rắn khuyết Sapa - Đặc điểm hình thái: mũi lá' (leaf-like snout) để ngụy trang trên cành. Ahaetulla là loài trên cây ban ngày không độc săn ếch nhái với đồng tử ngang, còn Lycodon hoạt động nocturnal trên mặt đất với răng lớn phía trước cho thằn lằn, màu nâu xám với dải sáng thay vì xanh lá đồng đều.",
+      "Rắn khuyết khoanh Đông Dương - Đặc điểm hình thái: mũi lá' (leaf-like snout) để ngụy trang trên cành. Ahaetulla là loài trên cây ban ngày không độc săn ếch nhái với đồng tử ngang, còn Lycodon hoạt động nocturnal trên mặt đất với răng lớn phía sau cho thằn lằn, dải trắng mờ ở trưởng thành thay vì xanh lá đồng đều."
+    ],
+    "answer": "Thông tin được cung cấp không đề cập đến khả năng lượn của rắn mũi dài (Gonyosoma boulengeri)."
+  },
+  {
+    "question": "Rắn sọc mắt xanh (Gonyosoma coeruleum) giết mồi bằng cách nào?",
+    "ground_truth": "Chúng cắn giữ con mồi bằng răng nhọn, sau đó siết chặt bằng cơ vòng cho đến khi con mồi ngạt thở.",
+    "contexts": [
+      "Rắn sọc mắt xanh - Tập tính săn mồi: Là loài rắn cây chuyên săn mồi nhỏ, Gonyosoma coeruleum ưa thích các con mồi như chim non, chuột nhỏ, thằn lằn và ếch cây sống trên tán.",
+      "Rắn sọc mắt xanh - Độc tính: Gonyosoma coeruleum là loài rắn không độc (non-venomous), thuộc nhóm colubrid vô hại.",
+      "Rắn sọc mắt xanh - Tập tính săn mồi: e dọa, và tiết mùi hôi (musking) từ tuyến hậu môn. Nếu bị bắt, chúng có thể giả chết hoặc rung đuôi nhanh để đánh lạc hướng.",
+      "Rắn sọc mắt xanh - Tập tính săn mồi: Jacobson) và mắt sắc bén để theo dõi chuyển động. Khi tiếp cận, nó quấn đuôi quanh cành để cố định, rồi lao tới cắn giữ mồi bằng răng nhọn, sau đó siết chặt bằng cơ vòng (constrictor) đến khi mồi ngạt thở do ngừng tim."
+    ],
+    "answer": "Rắn sọc mắt xanh (Gonyosoma coeruleum) săn mồi bằng cách sử dụng lưỡi chẻ đôi (cơ quan Jacobson) và đôi mắt sắc bén để theo dõi chuyển động của con mồi. Khi tiếp cận được con mồi, nó sẽ quấn đuôi quanh cành cây để giữ vững vị trí, sau đó lao tới cắn và giữ chặt con mồi bằng những chiếc răng nhọn. Tiếp theo, nó sẽ siết chặt con mồi bằng cơ vòng (constrictor) cho đến khi con mồi ngạt thở dẫn đến ngừng tim."
+  },
+  {
+    "question": "Hành vi phòng vệ của Rắn dây leo xanh (Gonyosoma frenatum) khi vượt đường là gì?",
+    "ground_truth": "Khi vượt đường, chúng di chuyển ngắn, sau đó cứng thân và lắc lư như một cành cây bị gió thổi để ngụy trang.",
+    "contexts": [
+      "Rắn ráo xanh - Tập tính săn mồi: ng tập trung vào môi trường ẩm để tìm mồi dồi dào. Các chiến lược phòng vệ bao gồm ngụy trang bằng màu xanh giống lá cây, cuộn thân khi bị đe dọa, và trốn thoát bằng leo trèo nhanh; chúng hiếm khi cắn, ưu tiên nằm im.",
+      "Rắn rào đầu vuông, Rắn rào K-ra-pe-lin - Hành vi và sinh thái: đất để vượt đường (cross roads), nơi dễ bị xe cán. Khả năng leo trèo xuất sắc nhờ thân mảnh, đuôi bám, và thân dẹt bên, chúng có thể leo cây thẳng đứng và di chuyển linh hoạt giữa các tầng rừng; ít đào hang hoặc bơi lội (chỉ nếu cần thoát hiểm, không phải bán thủy sinh).",
+      "Rắn sọc mắt xanh - Hành vi và sinh thái: , nghỉ ngơi trong khe cây hoặc tán lá vào ban đêm. Khả năng leo trèo xuất sắc nhờ đuôi prehensile và vảy có gờ, có thể bơi lội ngắn nếu cần vượt suối nhỏ, nhưng không đào hang (terrestrial burrowing).",
+      "Rắn rào xanh - Hành vi và sinh thái: ơi ban ngày bằng cách cuộn mình trên cành cây cao. Khả năng leo trèo xuất sắc nhờ đuôi prehensile và thân mảnh, chúng có thể leo cây thẳng đứng; ít đào hang hoặc bơi lội (chỉ nếu cần thoát hiểm, không phải bán thủy sinh)."
+    ],
+    "answer": "Thông tin được cung cấp không đề cập cụ thể đến hành vi phòng vệ của Rắn dây leo xanh (Gonyosoma frenatum) khi vượt đường. \n\nTuy nhiên, có thông tin về Rắn ráo xanh (một loại rắn có màu xanh và cũng có khả năng leo trèo) cho biết chiến lược phòng vệ của chúng bao gồm ngụy trang bằng màu xanh giống lá cây, cuộn thân khi bị đe dọa, và trốn thoát bằng leo trèo nhanh; chúng hiếm khi cắn, ưu tiên nằm im. Rắn rào đầu vuông và Rắn rào K-ra-pe-lin thường bò qua đường và dễ bị xe cán, cho thấy chúng không có hành vi phòng vệ đặc biệt hiệu quả khi vượt đường."
+  },
+  {
+    "question": "Rắn đuôi đỏ (Gonyosoma oxycephalum) có thể săn những con mồi nào?",
+    "ground_truth": "Chúng có thể săn chim non, trứng chim, thằn lằn, dơi hang và chuột nhỏ.",
+    "contexts": [
+      "Thanh xà đuôi đỏ, Rắn lục chúa - Tập tính săn mồi: Là loài rắn cây chuyên săn mồi nhỏ đến trung bình, Gonyosoma oxycephalum ưa thích các con mồi như chim non và trứng chim, thằn lằn, dơi hang, và",
+      "Thanh xà đuôi đỏ, Rắn lục chúa - Tập tính săn mồi: như rung đuôi mạnh hoặc lao vụt để đánh lạc hướng. Khi bị bắt, chúng đấu tranh dữ dội, cắn liên tục và uốn éo mạnh mẽ.Hành vi và sinh thái:Gonyosoma oxycephalum có tính cách nhút nhát ở tự nhiên nhưng hung hăng và phòng vệ mạnh mẽ nếu bị quấy rối hoặc bắt giữ, ưu tiên tránh né hơn đối đầu, phù hợp với lối sống đơn độc (solitary) ngoại trừ mùa sinh sản.",
+      "Rắn sọc đốm đỏ, Rắn tre đỏ - Tập tính săn mồi: Là loài rắn semi-arboreal chuyên săn động vật nhỏ, Oreocryptophis porphyraceus ưa thích các con mồi như chuột nhỏ (rodents), ếch nhái, chim non và thằn",
+      "Rắn lục mép trắng, Rắn lục đuôi đỏ - Tập tính săn mồi: (generalist carnivore) phản ánh lối sống bán cây. Kỹ thuật săn mồi chủ yếu là phục kích (ambush predation), sử dụng hố loreal phát hiện nhiệt độ con mồi từ xa (lên đến 1 m), sau đó lao nhanh và cắn giữ bằng nanh rỗng để tiêm nọc, chờ mồi tê liệt (10-20 phút) trước khi nuốt chửng; chúng có thể theo dõi mồi bằng mùi nếu cần."
+    ],
+    "answer": "Rắn đuôi đỏ (Gonyosoma oxycephalum) săn các con mồi nhỏ đến trung bình, ưa thích chim non, trứng chim, thằn lằn, và dơi hang."
+  },
+  {
+    "question": "Rắn nước boulengeri (Hebius boulengeri) có hành vi ăn cóc độc như thế nào?",
+    "ground_truth": "Loài này được quan sát có hành vi 'eviscerates' (lấy ruột) cóc độc để tránh độc tố từ da cóc.",
+    "contexts": [
+      "Rắn sãi Bau-len-gơ - Độc tính: Hebius boulengeri là loài rắn có nanh sau (opisthoglyphous, rear-fanged) với độc nhẹ (mildly venomous), thuộc nhóm Natricinae chuyên dùng độc để làm tê liệt mồi nhỏ như",
+      "Rắn nước đồi Khasi - Độc tính: Hebius khasiensis là loài rắn có nanh sau (opisthoglyphous, rear-fanged) với độc nhẹ (mildly venomous), thuộc nhóm Natricinae chuyên dùng độc để làm tê liệt mồi nhỏ như",
+      "Rắn nước đồi Khasi - Độc tính: cóc và ếch. Độc tố chủ yếu là enzyme từ tuyến Duvernoy (duvernoy's gland secretion) với protein gây rối loạn đông máu nhẹ và tê liệt cục bộ, cơ chế tác động qua vết cắn để mồi nhanh chóng bất động mà không cần siết chặt.",
+      "Rắn ăn cua, Rắn bông lau nước, Đẻn còng - Hành vi và sinh thái: Thái Lan), và chịu được nước lợ (brackish water). Môi trường sống chủ yếu là các khu vực nước lợ hoặc nước mặn như rừng ngập mặn, đầm lầy, cửa sông, bãi bồi..Ẩn náu trong hang cua, khe bùn hoặc rễ cây đước.Rắn ăn cua hoạt động chủ yếu vào ban đêm.Thức ăn chính là các loài cua, còng, đôi khi ăn các loài giáp xác nhỏ khác.Chúng sẽ siết chặt và dùng răng nghiền nát lớp vỏ cứng cáp của con mồi, sau đó nuốt chửng.Loài rắn ăn cua sinh từ 5-15 con cho mỗi lứa.Con non đạt chiều dài khoảng 15cm và tự lập sau khi sinh.Ít cắn, khi bị đe dọa thường tiết mùi hôi hoặc cuộn tròn im lặng."
+    ],
+    "answer": "Thông tin cung cấp không đề cập đến hành vi ăn cóc độc của rắn nước boulengeri (Hebius boulengeri)."
+  },
+  {
+    "question": "Rắn nước đồi Khasi (Hebius khasiensis) săn mồi bằng kỹ thuật nào?",
+    "ground_truth": "Kỹ thuật săn mồi chủ yếu là phục kích, nằm bất động dưới nước hoặc trên đá ven suối để chờ con mồi.",
+    "contexts": [
+      "Rắn nước đồi Khasi - Tập tính săn mồi: Là loài rắn bán thủy sinh chuyên săn lưỡng cư, Hebius khasiensis ưa thích các con mồi như cóc (toads), ếch suối và có thể cá nhỏ hoặc giun đất ở vùng nước nông.",
+      "Rắn nước đồi Khasi - Tập tính săn mồi: i và có thể cá nhỏ hoặc giun đất ở vùng nước nông. Kỹ thuật săn chủ yếu là phục kích (ambush): rắn nằm bất động dưới nước hoặc trên đá ven suối, sử dụng lưỡi phân nhánh để phát hiện mùi pheromone qua cơ quan Jacobson và mắt để theo dõi chuyển động, rồi lao nhanh cắn giữ bằng nanh sau và tiêm độc để làm mồi tê liệt nhanh chóng, sau đó nuốt chửng mà không siết chặt.",
+      "Rắn nước đồi Khasi - Tập tính săn mồi: ao nhưng có thể leo bụi thấp để săn ếch trên cành. Chúng ăn 12 lầntuần tùy kích thước mồi, tiêu hóa chậm để thích nghi với môi trường ẩm ướt không đều đặn.Chiến lược phòng vệ bao gồm trốn tránh nhanh bằng cách lặn sâu hoặc trườn vào khe đá (flight response ưu tiên), phồng thân nhẹ để trông lớn hơn, tạo hình chữ S đe dọa, và chỉ cắn như biện pháp cuối cùng; chúng cũng có thể tiết mùi hôi từ tuyến hậu môn để xua đuổi kẻ săn mồi.Hành vi và sinh thái:Hebius khasiensis có tính cách nhút nhát và ngoan ngoãn (docile), không hung hăng, ưu tiên tránh né hơn đối đầu, phù hợp với lối sống đơn độc (solitary) ngoại trừ mùa sinh sản.",
+      "Rắn nước đồi Khasi - Độc tính: Hebius khasiensis là loài rắn có nanh sau (opisthoglyphous, rear-fanged) với độc nhẹ (mildly venomous), thuộc nhóm Natricinae chuyên dùng độc để làm tê liệt mồi nhỏ như"
+    ],
+    "answer": "Rắn nước đồi Khasi (Hebius khasiensis) săn mồi chủ yếu bằng kỹ thuật phục kích (ambush). Chúng nằm bất động dưới nước hoặc trên đá ven suối, sử dụng lưỡi phân nhánh để phát hiện mùi pheromone qua cơ quan Jacobson và mắt để theo dõi chuyển động của con mồi. Khi con mồi đến gần, rắn sẽ lao nhanh cắn giữ bằng nanh sau và tiêm độc để làm tê liệt con mồi một cách nhanh chóng, sau đó nuốt chửng mà không cần siết chặt. Ngoài ra, chúng cũng có thể leo lên các bụi thấp để săn ếch trên cành."
+  },
+  {
+    "question": "Rắn nước Omei (Hebius optatus) săn mồi vào thời gian nào?",
+    "ground_truth": "Chúng săn mồi chủ yếu vào ban ngày (diurnal).",
+    "contexts": [
+      "Rắn nước Omei hay Rắn nước núi Nga Mi - Tập tính săn mồi: Tập tính săn mồi của Hebius optatus tập trung vào lối sống săn bắt tích cực bán thủy sinh ban ngày.",
+      "Rắn nước Omei hay Rắn nước núi Nga Mi - Sinh sản: Về sinh sản, Hebius optatus là loài oviparous (đẻ trứng). Mùa sinh sản thường trùng với mùa mưa (tháng 5-9 ở Việt Nam), khi thức ăn dồi dào.",
+      "Rắn nước Omei hay Rắn nước núi Nga Mi - Tập tính săn mồi: hiện con mồi qua chuyển động và thị giác sắc bén. Chúng săn chủ yếu ban ngày (diurnal), trên mặt đất (terrestrial) gần nước hoặc bán thủy sinh (semi-aquatic) ở suối núi, ruộng lúa, hiếm khi trên cây hoặc ban đêm.",
+      "Rắn nước Omei hay Rắn nước núi Nga Mi - Tập tính săn mồi: ối núi, ruộng lúa, hiếm khi trên cây hoặc ban đêm. Thói quen ăn uống là ăn sống, nuốt chửng sau khi khống chế, và chúng có thể ăn nhiều trong mùa mưa khi con mồi dồi dào."
+    ],
+    "answer": "Rắn nước Omei (Hebius optatus) săn mồi chủ yếu vào ban ngày. Chúng săn bắt tích cực, tập trung vào lối sống bán thủy sinh ban ngày và hiện con mồi qua chuyển động và thị giác sắc bén. Mặc dù chúng săn mồi ở các môi trường gần nước như suối núi hoặc ruộng lúa, nhưng việc săn mồi trên cây hoặc ban đêm là rất hiếm. Chúng cũng có thể ăn nhiều trong mùa mưa khi con mồi dồi dào."
+  },
+  {
+    "question": "Rắn nước Kosempo (Hebius sauteri) săn mồi bằng kỹ thuật nào?",
+    "ground_truth": "Kỹ thuật săn mồi chủ yếu là phục kích, nằm bất động dưới nước hoặc trên đá ven suối.",
+    "contexts": [
+      "Rắn nước đồi Khasi - Tập tính săn mồi: Là loài rắn bán thủy sinh chuyên săn lưỡng cư, Hebius khasiensis ưa thích các con mồi như cóc (toads), ếch suối và có thể cá nhỏ hoặc giun đất ở vùng nước nông.",
+      "Rắn sãi Sau-te - Tập tính săn mồi: Là loài rắn bán thủy sinh chuyên săn lưỡng cư, Hebius sauteri ưa thích các con mồi như ếch suối, cóc núi và có thể cá nhỏ hoặc giun đất ở vùng nước nông.",
+      "Rắn nước đốm vàng - Tập tính săn mồi: birds), và đôi khi côn trùng lớn (large insects). Kỹ thuật săn mồi bao gồm di chuyển nhanh trên mặt đất hoặc nước nông, sử dụng thị lực sắc bén để phát hiện con mồi, sau đó nắm chặt bằng răng để khống chế trước khi nuốt sống.",
+      "Rắn nước đồi Khasi - Tập tính săn mồi: i và có thể cá nhỏ hoặc giun đất ở vùng nước nông. Kỹ thuật săn chủ yếu là phục kích (ambush): rắn nằm bất động dưới nước hoặc trên đá ven suối, sử dụng lưỡi phân nhánh để phát hiện mùi pheromone qua cơ quan Jacobson và mắt để theo dõi chuyển động, rồi lao nhanh cắn giữ bằng nanh sau và tiêm độc để làm mồi tê liệt nhanh chóng, sau đó nuốt chửng mà không siết chặt."
+    ],
+    "answer": "Thông tin được cung cấp không đủ để xác định kỹ thuật săn mồi của Rắn nước Kosempo (Hebius sauteri)."
+  },
+  {
+    "question": "Rắn bồng chì (Hypsiscopus murphyi) săn mồi vào thời gian nào?",
+    "ground_truth": "Chúng săn mồi chủ yếu vào ban đêm.",
+    "contexts": [
+      "Rắn bồng chì, Rắn mùng Murphy, Rắn mùng xanh, rắn mẫn - Tập tính săn mồi: Là loài rắn bán thủy sinh chuyên săn thủy sản và lưỡng cư, Hypsiscopus murphyi ưa thích các con mồi như cá nhỏ, ếch nhái và có",
+      "Rắn bồng chì, Rắn mùng Murphy, Rắn mùng xanh, rắn mẫn - Tập tính săn mồi: nhanh chóng, sau đó nuốt chửng mà không siết chặt. Thói quen ăn uống là ban đêm (nocturnal), hoạt động chủ yếu trong nước (semi-aquatic) ở tầng thấp, hiếm khi lên cạn trừ khi di cư ngắn.",
+      "Rắn bồng chì, Rắn mùng Murphy, Rắn mùng xanh, rắn mẫn - Tập tính săn mồi: thể giun đất ở vùng nước nông. Kỹ thuật săn chủ yếu là phục kích (ambush): rắn nằm bất động dưới nước hoặc trên bùn ven sông, sử dụng lưỡi phân nhánh để phát hiện mùi pheromone qua cơ quan Jacobson và mắt để theo dõi chuyển động, rồi lao nhanh cắn giữ bằng nanh hậu và tiêm độc để làm mồi tê liệt nhanh chóng, sau đó nuốt chửng mà không siết chặt.",
+      "Rắn bồng chì, Rắn mùng Murphy, Rắn mùng xanh, rắn mẫn - Tập tính săn mồi: ở tầng thấp, hiếm khi lên cạn trừ khi di cư ngắn. Chúng ăn 12 lầntuần tùy kích thước mồi, tiêu hóa chậm để thích nghi với mồi không đều đặn trong hệ thống nước ngọt."
+    ],
+    "answer": "Rắn bồng chì (Hypsiscopus murphyi) săn mồi vào ban đêm (nocturnal)."
+  },
+  {
+    "question": "Rắn biển có sừng (Hydrophis peronii) săn mồi ở đâu?",
+    "ground_truth": "Chúng săn mồi ở dưới đáy biển, thường đào bới đáy cát hoặc giữa các rạn san hô ở độ sâu 10–20 mét.",
+    "contexts": [
+      "Rắn biển có sừng - Tập tính săn mồi: Là loài rắn biển chuyên săn thủy sản, Hydrophis peronii ưa thích các con mồi như cá nhỏ (small fish) sống đáy như cá nền san hô hoặc cá chôn cát.",
+      "Rắn biển có sừng - Phân bố địa lý và môi trường sống: Hydrophis peronii phân bố ở vùng biển nhiệt đới phía tây Thái Bình Dương, từ Vịnh Thái Lan (Gulf of Siam), Thái Lan, Việt Nam, Biển Đông (South",
+      "Rắn biển có sừng - Đặc điểm hình thái: Hydrophis peronii là loài rắn biển có kích thước trung bình, với chiều dài thân-mũi (SVL) lên đến 1.23 m ở cá thể trưởng thành, tổng chiều dài cơ thể khoảng",
+      "Rắn biển có sừng - Độc tính: Hydrophis peronii là loài rắn cực kỳ độc (extremely venomous), thuộc nhóm elapid với nọc độc neurotoxic mạnh (chứa neurotoxins như phospholipase A2 và three-finger"
+    ],
+    "answer": "Rắn biển có sừng (Hydrophis peronii) săn các con mồi như cá nhỏ sống đáy (small fish), bao gồm cá nền san hô hoặc cá chôn cát."
+  },
+  {
+    "question": "Thức ăn ưa thích của Rắn mù Brahminy (Indotyphlops braminus) là gì?",
+    "ground_truth": "Thức ăn ưa thích của chúng là trứng, ấu trùng và nhộng của kiến và mối.",
+    "contexts": [
+      "Rắn giun thường, Rắn mù thường, Rắn tim đèn - Tập tính săn mồi: Là loài rắn dưới đất chuyên săn côn trùng, Indotyphlops braminus ưa thích các con mồi như trứng, ấu trùng và nhộng của kiến và mối (ants",
+      "Rắn giun thường, Rắn mù thường, Rắn tim đèn - Độc tính: Indotyphlops braminus là loài rắn hoàn toàn không độc (non-venomous), thuộc nhóm typhlopid vô hại.",
+      "Rắn giun thường, Rắn mù thường, Rắn tim đèn - Hành vi và sinh thái: Indotyphlops braminus có tính cách nhút nhát và bí mật (secretive), không hung hăng, ưu tiên tránh né hơn đối đầu, phù hợp với lối",
+      "Rắn giun thường, Rắn mù thường, Rắn tim đèn - Tình trạng bảo tồn: Theo IUCN Red List (cập nhật 2016), Indotyphlops braminus được đánh giá là Least Concern (Ít lo ngại) nhờ phân bố rộng toàn cầu và"
+    ],
+    "answer": "Rắn mù Brahminy (Indotyphlops braminus) là loài rắn dưới đất chuyên săn côn trùng. Chúng ưa thích các con mồi như trứng, ấu trùng và nhộng của kiến và mối."
+  },
+  {
+    "question": "Rắn sườn gờ Kuatun (Hebius craspedogaster) săn mồi bằng kỹ thuật nào?",
+    "ground_truth": "Kỹ thuật săn mồi chủ yếu là phục kích, nằm bất động dưới nước hoặc trên đá ven suối.",
+    "contexts": [
+      "Rắn sườn gờ Kuatun - Tập tính săn mồi: Là loài rắn bán thủy sinh chuyên săn lưỡng cư, Hebius craspedogaster ưa thích các con mồi như ếch suối, cóc núi và có thể cá nhỏ hoặc giun đất ở vùng nước nông.",
+      "Rắn sườn gờ Kuatun - Tập tính săn mồi: i và có thể cá nhỏ hoặc giun đất ở vùng nước nông. Kỹ thuật săn chủ yếu là phục kích (ambush): rắn nằm bất động dưới nước hoặc trên đá ven suối, sử dụng lưỡi phân nhánh để phát hiện mùi pheromone qua cơ quan Jacobson và mắt để theo dõi chuyển động, rồi lao nhanh cắn giữ bằng nanh sau và tiêm độc để làm mồi tê liệt nhanh chóng, sau đó nuốt chửng mà không siết chặt.",
+      "Rắn sườn gờ Kuatun - Đặc điểm hình thái: ly, no diastema), phù hợp để giữ mồi trơn như ếch. So sánh với các loài thuộc chi Ahaetulla (rắn dây leo, như Ahaetulla prasina  rắn xanh Việt Nam): Hebius craspedogaster nhỏ hơn (dưới 70 cm so với 1.52 m), thân trụ và bán thủy sinh với vảy có gờ mạnh (19 hàng) để bám đá suối, trong khi Ahaetulla mảnh mai hơn, thân dẹt như lá cây với vảy mịn (1315 hàng), đầu kéo dài có 'mũi lá' (leaf-like snout) để ngụy trang trên cành.",
+      "Rắn sườn gờ Kuatun - Độc tính: Hebius craspedogaster là loài rắn có nanh sau (opisthoglyphous, rear-fanged) với độc nhẹ (mildly venomous), thuộc nhóm Natricinae chuyên dùng độc để làm tê liệt mồi nhỏ"
+    ],
+    "answer": "Rắn sườn gờ Kuatun (Hebius craspedogaster) săn mồi chủ yếu bằng kỹ thuật phục kích (ambush). Chúng nằm bất động dưới nước hoặc trên đá ven suối, sử dụng lưỡi phân nhánh để phát hiện mùi pheromone qua cơ quan Jacobson và mắt để theo dõi chuyển động của con mồi. Sau đó, chúng sẽ lao nhanh cắn giữ bằng nanh sau và tiêm độc nhẹ để làm mồi tê liệt nhanh chóng, rồi nuốt chửng mà không siết chặt."
+  },
+  {
+    "question": "Rắn cạp nia môi vàng (Laticauda colubrina) có chế độ ăn gì?",
+    "ground_truth": "Không có thông tin về tập tính săn mồi của loài này trong tài liệu được cung cấp.",
+    "contexts": [
+      "Đẻn cạp nong môi vàng - Độc tính: Laticauda colubrina là loài rắn độc (venomous), thuộc nhóm elapid với nọc độc neurotoxic mạnh (chứa neurotoxins như alpha-bungarotoxin và phospholipase A2), nồng độ",
+      "Đẻn cạp nong môi vàng - Đặc điểm hình thái: Laticauda colubrina là loài rắn biển có kích thước trung bình, với chiều dài thân-mũi (SVL) khoảng 6001000 mm ở cá thể trưởng thành, tổng chiều dài cơ thể",
+      "Đẻn cạp nong môi vàng - Tập tính săn mồi: Là loài rắn biển bán thủy sinh chuyên săn thủy sản, Laticauda colubrina ưa thích các con mồi như cá chình biển (eels), cá nền san hô và lươn biển nhỏ.",
+      "Đẻn cạp nong môi vàng - Sinh sản: Laticauda colubrina sinh sản bằng cách đẻ trứng (oviparous), đặc trưng cho chi Laticauda  khác biệt với hầu hết rắn biển viviparous."
+    ],
+    "answer": "Rắn cạp nia môi vàng (Laticauda colubrina) là loài rắn biển bán thủy sinh chuyên săn thủy sản. Chúng ưa thích các con mồi như cá chình biển (eels), cá nền san hô và lươn biển nhỏ."
+  },
+  {
+    "question": "Rắn sói thông thường (Lycodon capucinus) có hành vi phòng vệ nào giống rắn chuông?",
+    "ground_truth": "Khi bị đe dọa, chúng có thể rung đuôi nhanh (tail rattling) để tạo âm thanh và đánh lạc hướng.",
+    "contexts": [
+      "rắn sói đốm vàng hoặc rắn răng to khoang vàng - Hành vi và sinh thái: Lycodon meridionalis có tính cách nhút nhát nhưng phòng vệ mạnh mẽ nếu bị quấy rối, ưu tiên tránh né hơn đối đầu, phù hợp với lối",
+      "Rắn khuyết hoa, Rắn khuyết thường - Hành vi và sinh thái: Lycodon capucinus có tính cách nhút nhát nhưng phòng vệ mạnh mẽ nếu bị quấy rối, ưu tiên tránh né hơn đối đầu, phù hợp với lối sống đơn độc",
+      "rắn sói đốm vàng hoặc rắn răng to khoang vàng - Tên khoa học và tên phổ thông: lf snake' chỉ hành vi săn mồi hung hăng giống sói. Lưu ý rằng tên Lycodon meridionalis hiện được coi là đồng nghĩa (synonym) của Lycodon flavozonatus (Pope, 1928) ở Việt Nam theo một số phân loại hiện đại, nhưng vẫn được sử dụng riêng biệt trong các báo cáo địa phương.",
+      "Rắn khuyết Lào, Rắn sói - Hành vi và sinh thái: Lycodon laoensis có tính cách không hung hăng (not very aggressive), ưu tiên tránh né hơn đối đầu, phù hợp với lối sống đơn độc (solitary) ngoại trừ mùa"
+    ],
+    "answer": "The provided context describes the behavior of *Lycodon capucinus* (Rắn khuyết hoa, Rắn khuyết thường) as \"nhút nhát nhưng phòng vệ mạnh mẽ nếu bị quấy rối, ưu tiên tránh né hơn đối đầu.\" This translates to being shy but defending strongly if disturbed, preferring to avoid rather than confront.\n\nHowever, the context does not contain any information about the defensive behavior of \"rắn chuông\" (rattlesnake). Therefore, it is not possible to answer what defensive behavior *Lycodon capucinus* has in common with rattlesnakes based solely on the provided information."
+  },
+  {
+    "question": "Rắn khuyết Nam Động (Lycodon chapaensis) có chế độ ăn gì?",
+    "ground_truth": "Chúng ưa thích ăn thằn lằn nhỏ (skinks), tắc kè (geckos) và đôi khi là ếch nhái.",
+    "contexts": [
+      "Rắn khuyết Sapa - Hành vi và sinh thái: Lycodon chapaensis có tính cách nhút nhát nhưng phòng vệ mạnh mẽ nếu bị quấy rối, ưu tiên tránh né hơn đối đầu, phù hợp với lối sống đơn độc (solitary) ngoại",
+      "Rắn khuyết Sapa - Độc tính: Lycodon chapaensis là loài rắn không độc (non-venomous), thuộc nhóm colubrid vô hại.",
+      "Rắn khuyết Sapa - Tình trạng bảo tồn: Theo IUCN Red List (cập nhật 2025), Lycodon chapaensis được đánh giá là Least Concern (Ít lo ngại) nhờ phân bố cục bộ ổn định ở Việt Nam và Trung Quốc, nhưng có",
+      "Rắn khuyết Sapa - Tên khoa học và tên phổ thông: nh nguồn gốc địa lý từ vùng núi phía Bắc Việt Nam. Tên phổ thông phổ biến nhất là 'Namdong wolf snake' (Rắn sói Nam Động) hoặc 'Chapa wolf snake' (Rắn sói Chapa), phản ánh nguồn gốc từ Khu bảo tồn thiên nhiên Nam Động (Thanh Hóa)  nơi loài được ghi nhận rõ ràng nhất  và đặc điểm răng 'sói' của chi Lycodon."
+    ],
+    "answer": "Thông tin về chế độ ăn của Rắn khuyết Nam Động (Lycodon chapaensis) không được cung cấp trong các ngữ cảnh đã cho."
+  },
+  {
+    "question": "Rắn cương Blanford (Lycodon davisonii) săn mồi ở đâu?",
+    "ground_truth": "Chúng hoạt động chủ yếu trên mặt đất nhưng cũng có khả năng leo trèo ở tầng thấp (semi-arboreal) để săn mồi.",
+    "contexts": [
+      "Rắn rào đốm - Tập tính săn mồi: ư quan sát săn Draco blanfordii trong rừng đá vôi. Chúng săn chủ yếu trên cây (arboreal), đôi khi xuống mặt đất để tìm kiếm, nhưng không săn trong nước.",
+      "Rắn rào Quảng Tây - Tập tính săn mồi: o blanfordii trong rừng đá vôi (limestone forest). Chúng săn chủ yếu ban đêm (nocturnal), trên cây (arboreal), đôi khi xuống mặt đất để tìm kiếm, nhưng không săn trong nước.",
+      "Rắn rào đầu vuông, Rắn rào K-ra-pe-lin - Tập tính săn mồi: ư quan sát săn Draco blanfordii trong rừng đá vôi. Chúng săn chủ yếu trên cây (fully arboreal), đôi khi xuống mặt đất hoặc bụi thấp để tìm kiếm, nhưng không săn trong nước.",
+      "Rắn rào ngọc bích - Tập tính săn mồi: sát捕獲 và nuốt Draco blanfordii trong rừng đá vôi. Chúng săn chủ yếu ban đêm (nocturnal), trên cây (fully arboreal), đôi khi xuống mặt đất hoặc shrubs thấp để tìm kiếm, nhưng không săn trong nước."
+    ],
+    "answer": "Không có thông tin về tập tính săn mồi của Rắn cương Blanford (Lycodon davisonii) trong các ngữ cảnh đã cho. Các ngữ cảnh cung cấp thông tin về Rắn rào đốm, Rắn rào Quảng Tây, Rắn rào đầu vuông, Rắn rào K-ra-pe-lin và Rắn rào ngọc bích."
+  },
+  {
+    "question": "Rắn hổ mang Trung Quốc (Naja atra) có khả năng phun nọc không?",
+    "ground_truth": "Có, chúng có khả năng phun nọc (spitting) dù không chính xác như các loài hổ mang châu Phi.",
+    "contexts": [
+      "Rắn hổ mang Trung Quốc, Hổ mang phì, Bành trắng - Phân bố địa lý và môi trường sống: Naja atra phân bố hạn chế ở miền nam Trung Quốc (Quảng Đông, Quảng Tây, Phúc Kiến, Hải Nam, Hong Kong, Ma Cao) và",
+      "Rắn hổ mang Trung Quốc, Hổ mang phì, Bành trắng - Đặc điểm hình thái: ể tiêm nọc, phù hợp giữ và tiêm độc vào mồi nhanh. So sánh với các loài thuộc chi Ahaetulla (rắn dây leo, như Ahaetulla prasina  rắn xanh Việt Nam): Naja atra lớn hơn và chắc nịch (lên đến 2 m so với 1.5 m mảnh mai), thân trụ terrestrial với vảy 2327 hàng mịn để phồng cổ đe dọa, trong khi Ahaetulla mảnh dẹt arboreal với vảy mịn 1315 hàng, đầu tam giác lớn với nanh độc thay vì kéo dài 'mũi lá' (leaf-like snout) không độc để ngụy trang trên cành.",
+      "Rắn hổ mang Trung Quốc, Hổ mang phì, Bành trắng - Hành vi và sinh thái: Naja atra có tính cách nhút nhát nhưng hung hăng khi đe dọa (defensive), ưu tiên tránh né hơn đối đầu trừ khi bảo vệ lãnh thổ",
+      "Rắn hổ mang Trung Quốc, Hổ mang phì, Bành trắng - Phân loại học: của The Reptile Database (2025) và Wallach et al. (2024), với đồng nghĩa lịch sử như Naja naja atra (subspecies cũ theo Boulenger, 1896, nay được nâng cấp thành loài riêng dựa trên phân tích gen cytochrome b năm 2010)."
+    ],
+    "answer": "Thông tin được cung cấp mô tả răng nanh của Rắn hổ mang Trung Quốc (Naja atra) là \"được điều chỉnh để tiêm nọc\", cho thấy khả năng tiêm nọc độc. Tuy nhiên, không có thông tin cụ thể nào trong ngữ cảnh cho biết loài rắn này có khả năng phun nọc độc."
+  },
+  {
+    "question": "Hành vi phòng vệ của Rắn hổ mang Phục Hy (Naja fuxi) là gì?",
+    "ground_truth": "Hành vi phòng vệ bao gồm phồng cổ tạo hình 'mũ', rít lớn, cắn khô (dry biting) hoặc phun nọc.",
+    "contexts": [
+      "Rắn hổ mang Phục Hy - Hành vi và sinh thái: Naja fuxi có tính cách nhút nhát nhưng hung hăng khi đe dọa (defensive), ưu tiên tránh né hơn đối đầu trừ khi bảo vệ lãnh thổ hoặc ổ trứng, phù hợp với lối",
+      "Rắn hổ mang Phục Hy - Tập tính săn mồi: Là loài rắn terrestrial chuyên săn động vật nhỏ, Naja fuxi ưa thích các con mồi như gặm nhấm (chuột, sóc), ếch nhái, thằn lằn và chim nhỏ.",
+      "Rắn hổ mang Phục Hy - Đặc điểm hình thái: Naja fuxi là loài rắn có kích thước trung bình, với chiều dài thân-ngực (SVL) khoảng 6901370 mm ở cá thể trưởng thành, tổng chiều dài cơ thể lên đến 1.52 m",
+      "Rắn hổ mang Phục Hy - Độc tính: Naja fuxi là loài rắn cực kỳ độc (highly venomous), thuộc nhóm elapid với nọc độc neurotoxic mạnh (chứa neurotoxins như alpha-cobratoxin, cardiotoxins và phospholipase"
+    ],
+    "answer": "Rắn hổ mang Phục Hy (Naja fuxi) có tính cách nhút nhát nhưng sẽ trở nên hung hăng khi cảm thấy bị đe dọa (phòng vệ). Loài rắn này ưu tiên tránh né hơn là đối đầu trực tiếp, trừ khi chúng đang bảo vệ lãnh thổ hoặc ổ trứng của mình."
+  },
+  {
+    "question": "Rắn hổ mang phun nọc Đông Dương (Naja siamensis) có thể phun nọc xa bao nhiêu?",
+    "ground_truth": "Chúng có khả năng phun nọc xa tới 2 mét để tự vệ.",
+    "contexts": [
+      "Rắn hổ Mèo, Rắn hổ mang Xiêm - Giá trị nghiên cứu: Là loài hổ mang phun nọc phổ biến, Naja siamensis có giá trị cao trong nghiên cứu độc tố học, giúp làm rõ sự phân hóa neurotoxin và cytotoxic trong",
+      "Rắn hổ Mèo, Rắn hổ mang Xiêm - Tên khoa học và tên phổ thông: ánh khả năng phun nọc xa và phân bố ở Đông Dương. Những tên này xuất phát từ các tài liệu herpetology phương Tây thế kỷ 18, với 'spitting' nhấn mạnh hành vi phun nọc độc lên đến 2 m để tự vệ, giúp phân biệt với Naja kaouthia (hổ mang monocled không phun nọc mạnh).",
+      "Rắn hổ Mèo, Rắn hổ mang Xiêm - Đặc điểm hình thái: Naja siamensis là loài rắn có kích thước trung bình, với chiều dài thân-ngực (SVL) khoảng 9001500 mm ở cá thể trưởng thành, tổng chiều dài cơ thể lên",
+      "Rắn hổ Mèo, Rắn hổ mang Xiêm - Đặc điểm hình thái: ể tiêm nọc, phù hợp giữ và tiêm độc vào mồi nhanh. So sánh với các loài thuộc chi Ahaetulla (rắn dây leo, như Ahaetulla prasina  rắn xanh Việt Nam): Naja siamensis lớn hơn và chắc nịch (lên đến 2.23 m so với 1.5 m mảnh mai), thân trụ terrestrial với vảy 2327 hàng mịn để phồng cổ đe dọa, trong khi Ahaetulla mảnh dẹt arboreal với vảy mịn 1315 hàng, đầu tam giác lớn với nanh độc thay vì kéo dài 'mũi lá' (leaf-like snout) không độc để ngụy trang trên cành."
+    ],
+    "answer": "Rắn hổ mang phun nọc Đông Dương (Naja siamensis) có khả năng phun nọc độc lên đến 2 mét để tự vệ."
+  },
+  {
+    "question": "Thức ăn chính của Rắn đất vạch (Oligodon albocinctus) là gì?",
+    "ground_truth": "Thức ăn ưa thích của chúng là giun đất, ấu trùng côn trùng, ếch nhỏ và thằn lằn non.",
+    "contexts": [
+      "Rắn đất vạch - Độc tính: Oligodon albocinctus là loài rắn không độc (non-venomous), thuộc nhóm colubrid vô hại. Không có tuyến nọc độc hoặc nanh rỗng, thay vào đó sử dụng răng nhỏ để giữ mồi mềm.",
+      "Rắn đất vạch - Tập tính săn mồi: Là loài rắn fossorial chuyên săn động vật nhỏ dưới đất, Oligodon albocinctus ưa thích các con mồi như giun đất, ấu trùng côn trùng, ếch nhỏ và thằn lằn non.",
+      "Rắn đất vạch - Đặc điểm hình thái: Oligodon albocinctus là loài rắn nhỏ, với chiều dài thân-ngực (SVL) khoảng 200300 mm ở cá thể trưởng thành, tổng chiều dài cơ thể lên đến 300400 mm (thường 250350",
+      "Rắn đất vạch - Sinh sản: Oligodon albocinctus sinh sản bằng cách đẻ trứng (oviparous). Mùa sinh sản rơi vào mùa mưa (tháng 59), kích hoạt bởi độ ẩm đất tăng sau mưa."
+    ],
+    "answer": "Rắn đất vạch (Oligodon albocinctus) là loài rắn fossorial chuyên săn động vật nhỏ dưới đất. Chúng ưa thích các con mồi như giun đất, ấu trùng côn trùng, ếch nhỏ và thằn lằn non."
+  },
+  {
+    "question": "Rắn khiếm Trung Quốc (Oligodon chinensis) ăn gì?",
+    "ground_truth": "Thức ăn của chúng là giun đất, ấu trùng côn trùng, ếch nhỏ và thằn lằn non.",
+    "contexts": [
+      "Rắn khiếm Trung Quốc - Độc tính: Oligodon cinereus là loài rắn không độc (non-venomous), thuộc nhóm colubrid vô hại. Không có tuyến nọc độc hoặc nanh rỗng, thay vào đó sử dụng răng nhỏ để giữ mồi mềm.",
+      "Rắn khiếm Trung Quốc - Tập tính săn mồi: Là loài rắn fossorial chuyên săn động vật nhỏ dưới đất, Oligodon cinereus ưa thích các con mồi như giun đất, ấu trùng côn trùng, ếch nhỏ và thằn lằn non.",
+      "Rắn khiếm Trung Quốc - Hành vi và sinh thái: Oligodon cinereus có tính cách nhút nhát và bí mật (secretive), không hung hăng, ưu tiên tránh né hơn đối đầu, phù hợp với lối sống đơn độc (solitary)",
+      "Rắn khiếm Trung Quốc - Đặc điểm hình thái: eaf-like snout) không độc để ngụy trang trên cành. Ahaetulla là loài trên cây ban ngày săn ếch nhái với đồng tử ngang, còn Oligodon hoạt động nocturnal dưới đất không độc ăn giun và ấu trùng, màu xám tro thay vì xanh lá."
+    ],
+    "answer": "Rắn khiếm Trung Quốc (Oligodon cinereus) là loài rắn fossorial chuyên săn động vật nhỏ dưới đất. Chúng ưa thích các con mồi như giun đất, ấu trùng côn trùng, ếch nhỏ và thằn lằn non.\n"
+  },
+  {
+    "question": "Rắn Khiếm Xám (Oligodon cinereus) có chế độ ăn gì?",
+    "ground_truth": "Thức ăn ưa thích của chúng là giun đất, ấu trùng côn trùng, ếch nhỏ và thằn lằn non.",
+    "contexts": [
+      "Rắn Khiếm Xám - Độc tính: Oligodon cinereus là loài rắn không độc (non-venomous), thuộc nhóm colubrid vô hại. Không có tuyến nọc độc hoặc nanh rỗng, thay vào đó sử dụng răng nhỏ để giữ mồi mềm.",
+      "Rắn Khiếm Xám - Hành vi và sinh thái: Oligodon cinereus có tính cách nhút nhát và bí mật (secretive), không hung hăng, ưu tiên tránh né hơn đối đầu, phù hợp với lối sống đơn độc (solitary) ngoại trừ",
+      "Rắn Khiếm Xám - Tập tính săn mồi: Là loài rắn fossorial chuyên săn động vật nhỏ dưới đất, Oligodon cinereus ưa thích các con mồi như giun đất, ấu trùng côn trùng, ếch nhỏ và thằn lằn non.",
+      "Rắn Khiếm Xám - Đặc điểm hình thái: ăn giun và ấu trùng, màu xám tro thay vì xanh lá. Chiều dài lên đến 90cm.Là loài có nhiều biến đổi về hình thái, hoa văn và màu sắc.Màu sắc và hoa văn bụng cũng biến đổi đa dạng với rất nhiều kiểu morph khác nhau.Các morph này trước đây được mô tả thành các phân loài hoặc thậm chí loài mới (Oligodon cattienensis - rắn khiếm Cata - Tiên) nhưng những nghiên cứu chỉ ra tất cả chỉ là những biến thể màu sắc trong cùng 1 loài.Hoa văn trên đầu cũng biến đổi theo từng morph màu sắc, có thể là hình mũi tên, hình tam giác, các chấm lốm đốm hoặc không có hoa văn gì.Mắt cỡ trung bình với đồng tử tròn.Mõm nhọn và nhô ra khỏi cằm."
+    ],
+    "answer": "Rắn Khiếm Xám (Oligodon cinereus) có chế độ ăn chủ yếu là các động vật nhỏ sống dưới đất. Chúng ưa thích các con mồi như giun đất, ấu trùng côn trùng, ếch nhỏ và thằn lằn non. Chúng cũng ăn giun."
+  },
+  {
+    "question": "RẮN KHIẾM ĐUÔI TRÒN (Oligodon cyclurus) có chế độ ăn gì?",
+    "ground_truth": "Thức ăn của chúng là giun đất, ấu trùng côn trùng, ếch nhỏ, thằn lằn non và trứng chim.",
+    "contexts": [
+      "RẮN KHIẾM ĐUÔI TRÒN - Hành vi và sinh thái: Oligodon cyclurus có tính cách nhút nhát và bí mật (secretive), không hung hăng, ưu tiên tránh né hơn đối đầu, phù hợp với lối sống đơn độc (solitary) ngoại",
+      "RẮN KHIẾM ĐUÔI TRÒN - Tên khoa học và tên phổ thông: Tên khoa học của loài rắn này là Oligodon cyclurus (Cantor, 1839),có tên tiếng việt RẮN KHIẾM ĐUÔI TRÒN, được mô tả lần đầu tiên bởi nhà động vật",
+      "RẮN KHIẾM ĐUÔI TRÒN - Tập tính săn mồi: Là loài rắn fossorial chuyên săn động vật nhỏ dưới đất, Oligodon cyclurus ưa thích các con mồi như giun đất, ấu trùng côn trùng, ếch nhỏ, thằn lằn non và trứng",
+      "RẮN KHIẾM ĐUÔI TRÒN - Đặc điểm hình thái: eaf-like snout) không độc để ngụy trang trên cành. Ahaetulla là loài trên cây ban ngày săn ếch nhái với đồng tử ngang, còn Oligodon hoạt động nocturnal dưới đất không độc ăn giun và ếch nhỏ, vạch trắng ngang biến đổi thay vì xanh lá."
+    ],
+    "answer": "RẮN KHIẾM ĐUÔI TRÒN (Oligodon cyclurus) là loài rắn fossorial (chuyên sống trong hang đất) và chủ yếu săn mồi dưới đất. Chế độ ăn của chúng bao gồm giun đất, ấu trùng côn trùng, ếch nhỏ, thằn lằn non và trứng."
+  },
+  {
+    "question": "Thức ăn chính của RẮN KHIẾM DEUVEI (Oligodon deuvei) là gì?",
+    "ground_truth": "Thức ăn chính của chúng là ếch và nòng nọc.",
+    "contexts": [
+      "rắn khiếm Deuve - Độc tính: Oligodon deuvei là loài rắn không độc (non-venomous), thuộc nhóm colubrid vô hại. Không có tuyến nọc độc hoặc nanh rỗng, thay vào đó sử dụng răng nhỏ để giữ mồi mềm.",
+      "rắn khiếm Deuve - Tập tính săn mồi: Là loài rắn fossorial chuyên săn lưỡng cư, Oligodon deuvei ưa thích các con mồi như ếch và nòng nọc (frogs and tadpoles) là chính.",
+      "rắn khiếm Deuve - Giá trị nghiên cứu: Là loài mới mô tả năm 2008 (David et al.), Oligodon deuvei có giá trị cao trong nghiên cứu đa dạng kukri snakes, giúp làm rõ sự phân hóa nhóm O.",
+      "rắn khiếm Deuve - Đặc điểm hình thái: Oligodon deuvei là loài rắn nhỏ, với chiều dài tổng cơ thể khoảng 500 mm ở cá thể trưởng thành (SVL khoảng 300400 mm), trong đó đuôi chiếm 2025 tổng dài và nhọn"
+    ],
+    "answer": "Thức ăn chính của RẮN KHIẾM DEUVEI (Oligodon deuvei) là lưỡng cư, chủ yếu là ếch và nòng nọc."
+  },
+  {
+    "question": "RẮN KHIẾM VẠCH NHỎ (Oligodon fasciolatus) có hành vi ăn mồi nào đặc biệt?",
+    "ground_truth": "Loài này có hành vi 'eviscerates' (lấy ruột) cóc độc (Duttaphrynus melanostictus) để tránh ăn phải độc tố từ da cóc.",
+    "contexts": [
+      "Rắn khiếm vạch, Rắn đòn cân - Tập tính săn mồi: Là loài rắn fossorial chuyên săn động vật nhỏ dưới đất, Oligodon taeniatus ưa thích các con mồi như giun đất, ấu trùng côn trùng, ếch nhỏ và thằn lằn",
+      "Rắn khiếm vạch, Rắn đòn cân - Tập tính săn mồi: , rồi nuốt chửng mồi mềm mà không cần cắn giữ lâu. Thói quen ăn uống là ban đêm (nocturnal), hoạt động chủ yếu dưới đất (fossorial) hoặc trong lớp lá mục ẩm, hiếm khi lên mặt đất trừ khi mưa lớn.",
+      "Rắn đất vạch - Tập tính săn mồi: Là loài rắn fossorial chuyên săn động vật nhỏ dưới đất, Oligodon albocinctus ưa thích các con mồi như giun đất, ấu trùng côn trùng, ếch nhỏ và thằn lằn non.",
+      "Rắn khiếm vạch, Rắn đòn cân - Tập tính săn mồi: non. Kỹ thuật săn chủ yếu là đào bới (fossorial foraging): rắn sử dụng mõm nhọn và thân linh hoạt để đào hang nông trong đất ẩm hoặc tổ côn trùng, sử dụng xúc giác qua vảy đầu và lưỡi phân nhánh để phát hiện mùi pheromone qua cơ quan Jacobson, rồi nuốt chửng mồi mềm mà không cần cắn giữ lâu."
+    ],
+    "answer": "Thông tin được cung cấp không đề cập đến hành vi ăn mồi cụ thể của Rắn khiếm vạch nhỏ (Oligodon fasciolatus). Các ngữ cảnh tập trung vào hành vi ăn mồi của Rắn khiếm vạch (Oligodon taeniatus) và Rắn đất vạch (Oligodon albocinctus)."
+  },
+  {
+    "question": "Rắn khiếm Đài Loan (Oligodon formosanus) săn mồi bằng cách nào?",
+    "ground_truth": "Chúng săn mồi bằng cách đào bới (fossorial foraging) trong đất ẩm hoặc tổ côn trùng.",
+    "contexts": [
+      "Rắn khiếm Đài Loan - Tập tính săn mồi: Là loài rắn fossorial chuyên săn động vật nhỏ dưới đất, Oligodon formosanus ưa thích các con mồi như giun đất, ấu trùng côn trùng, ếch nhỏ và thằn lằn non.",
+      "Rắn khiếm Đài Loan - Độc tính: Oligodon formosanus là loài rắn không độc (non-venomous), thuộc nhóm colubrid vô hại. Không có tuyến nọc độc hoặc nanh rỗng, thay vào đó sử dụng răng nhỏ để giữ mồi mềm.",
+      "Rắn khiếm Đài Loan - Tập tính săn mồi: , rồi nuốt chửng mồi mềm mà không cần cắn giữ lâu. Thói quen ăn uống là ban đêm (nocturnal), hoạt động chủ yếu dưới đất (fossorial) hoặc trong lớp lá mục ẩm, hiếm khi lên mặt đất trừ khi mưa lớn.",
+      "Rắn khiếm Đài Loan - Tập tính săn mồi: đất, ấu trùng côn trùng, ếch nhỏ và thằn lằn non. Kỹ thuật săn chủ yếu là đào bới (fossorial foraging): rắn sử dụng mõm nhọn và thân linh hoạt để đào hang nông trong đất ẩm hoặc tổ côn trùng, sử dụng xúc giác qua vảy đầu và lưỡi phân nhánh để phát hiện mùi pheromone qua cơ quan Jacobson, rồi nuốt chửng mồi mềm mà không cần cắn giữ lâu."
+    ],
+    "answer": "Rắn khiếm Đài Loan (Oligodon formosanus) săn mồi chủ yếu bằng kỹ thuật đào bới (fossorial foraging). Chúng là loài rắn sống dưới đất, chuyên săn các động vật nhỏ ẩn mình trong lòng đất hoặc lớp lá mục ẩm.\n\nCụ thể, rắn sử dụng mõm nhọn và thân linh hoạt để đào những hang nông trong đất ẩm hoặc các tổ côn trùng. Để phát hiện con mồi, chúng sử dụng xúc giác thông qua vảy đầu và lưỡi phân nhánh để nhận biết mùi pheromone qua cơ quan Jacobson. Khi đã xác định được con mồi như giun đất, ấu trùng côn trùng, ếch nhỏ hoặc thằn lằn non, chúng sẽ nuốt chửng mồi mềm mà không cần cắn giữ lâu. Rắn khiếm Đài Loan hoạt động săn mồi chủ yếu vào ban đêm (nocturnal) và hiếm khi lên mặt đất trừ khi có mưa lớn. Chúng là loài không độc, không có tuyến nọc hoặc nanh rỗng, mà sử dụng răng nhỏ để giữ mồi mềm."
+  },
+  {
+    "question": "Rắn khiếm vạch (Oligodon taeniatus) ăn gì?",
+    "ground_truth": "Thức ăn ưa thích của chúng là giun đất, ấu trùng côn trùng, ếch nhỏ và thằn lằn non.",
+    "contexts": [
+      "Rắn khiếm vạch, Rắn đòn cân - Tập tính săn mồi: Là loài rắn fossorial chuyên săn động vật nhỏ dưới đất, Oligodon taeniatus ưa thích các con mồi như giun đất, ấu trùng côn trùng, ếch nhỏ và thằn lằn",
+      "Rắn khiếm vạch, Rắn đòn cân - Độc tính: Oligodon taeniatus là loài rắn không độc (non-venomous), thuộc nhóm colubrid vô hại.",
+      "Rắn khiếm vạch, Rắn đòn cân - Hành vi và sinh thái: Oligodon taeniatus có tính cách nhút nhát và bí mật (secretive), không hung hăng, ưu tiên tránh né hơn đối đầu, phù hợp với lối sống đơn độc",
+      "Rắn khiếm vạch, Rắn đòn cân - Đặc điểm hình thái: Oligodon taeniatus là loài rắn nhỏ đến trung bình, với chiều dài thân-ngực (SVL) khoảng 200400 mm ở cá thể trưởng thành, tổng chiều dài cơ thể lên đến"
+    ],
+    "answer": "Rắn khiếm vạch (Oligodon taeniatus) là loài rắn fossorial chuyên săn động vật nhỏ dưới đất. Chúng ưa thích các con mồi như giun đất, ấu trùng côn trùng, ếch nhỏ và thằn lằn."
+  },
+  {
+    "question": "Tên 'Ophiophagus' của Rắn hổ chúa (Ophiophagus hannah) có nghĩa là gì?",
+    "ground_truth": "Tên 'Ophiophagus' có nghĩa là 'ăn rắn', đề cập đến chế độ ăn chuyên săn các loài rắn khác của Rắn hổ chúa.",
+    "contexts": [
+      "Rắn hổ chúa, Rắn hổ mang chúa, Rắn hổ mây, Rắn hổ đước - Tên khoa học và tên phổ thông: Tên khoa học của loài rắn này là Ophiophagus hannah (Cantor, 1836),có tên tiếng việt Rắn hổ chúa, Rắn hổ mang",
+      "Rắn hổ chúa, Rắn hổ mang chúa, Rắn hổ mây, Rắn hổ đước - Tên khoa học và tên phổ thông: trên mẫu vật từ vùng Tenasserim, Myanmar. Từ 'Ophiophagus' xuất phát từ tiếng Hy Lạp cổ đại, trong đó 'ophio' nghĩa là 'rắn' và 'phagos' nghĩa là 'ăn', đề cập đến chế độ ăn chuyên săn các loài rắn khác  đặc điểm nổi bật khiến loài này được gọi là 'rắn ăn rắn'.",
+      "Rắn hổ chúa, Rắn hổ mang chúa, Rắn hổ mây, Rắn hổ đước - Hành vi và sinh thái: Ophiophagus hannah có tính cách thông minh và nhút nhát (intelligent and shy), không hung hăng với con người trừ khi bị",
+      "Rắn hổ chúa, Rắn hổ mang chúa, Rắn hổ mây, Rắn hổ đước - Độc tính: Ophiophagus hannah là loài rắn cực kỳ độc (highly venomous), thuộc nhóm elapid với nọc độc neurotoxic mạnh nhất trong họ Elapidae"
+    ],
+    "answer": "Tên 'Ophiophagus' của Rắn hổ chúa (Ophiophagus hannah) xuất phát từ tiếng Hy Lạp cổ đại. Trong đó, 'ophio' có nghĩa là 'rắn' và 'phagos' có nghĩa là 'ăn'. Tên này đề cập đến chế độ ăn chuyên săn các loài rắn khác, một đặc điểm nổi bật khiến loài này được gọi là 'rắn ăn rắn'."
+  },
+  {
+    "question": "Con mồi ưa thích của Rắn sọc đốm đỏ (Oreocryptophis porphyraceus) là gì?",
+    "ground_truth": "Con mồi ưa thích của chúng là động vật gặm nhấm nhỏ, chim nhỏ, trứng chim và thằn lằn.",
+    "contexts": [
+      "Rắn sọc đốm đỏ, Rắn tre đỏ - Tập tính săn mồi: Là loài rắn semi-arboreal chuyên săn động vật nhỏ, Oreocryptophis porphyraceus ưa thích các con mồi như chuột nhỏ (rodents), ếch nhái, chim non và thằn",
+      "Rắn sọc đốm đỏ, Rắn tre đỏ - Độc tính: Oreocryptophis porphyraceus là loài rắn không độc (non-venomous), thuộc nhóm colubrid vô hại.",
+      "Rắn sọc đốm đỏ, Rắn tre đỏ - Tên khoa học và tên phổ thông: Tên khoa học của loài rắn này là Oreocryptophis porphyraceus (Cantor, 1839),có tên tiếng việt Rắn sọc đốm đỏ, Rắn tre đỏ, được mô tả lần đầu",
+      "Rắn sọc đốm đỏ, Rắn tre đỏ - Đặc điểm hình thái: Oreocryptophis porphyraceus là loài rắn có kích thước trung bình, với chiều dài thân-ngực (SVL) khoảng 500800 mm ở cá thể trưởng thành, tổng chiều dài"
+    ],
+    "answer": "Rắn sọc đốm đỏ (Oreocryptophis porphyraceus) là loài rắn semi-arboreal chuyên săn động vật nhỏ, chúng ưa thích các con mồi như chuột nhỏ (rodents), ếch nhái, chim non và thằn lằn."
+  },
+  {
+    "question": "Rắn lục núi (Ovophis monticola) sử dụng cơ quan nào để phát hiện con mồi?",
+    "ground_truth": "Chúng sử dụng hố cảm nhiệt (loreal pits) nằm giữa mắt và mũi để phát hiện nhiệt của con mồi.",
+    "contexts": [
+      "Rắn lục núi - Các quan sát thú vị từ các nhà nghiên cứu: đáo về hành vi và sinh thái của Ovophis monticola. Các nhà nghiên cứu như Orlov và cộng sự (2003) đã quan sát loài này phục kích ven suối ở Hà Giang với hố cảm nhiệt phát hiện chuột từ khoảng cách 1 mét, thể hiện khả năng săn mồi chính xác.",
+      "Rắn lục núi - Tập tính săn mồi: ), lưỡng cư (frogs, toads), và thằn lằn (lizards). Kỹ thuật săn mồi đặc trưng là nằm bất động (ambush coil) trong bụi rậm hoặc đá ven suối, sử dụng hố cảm nhiệt để phát hiện nhiệt con mồi, cắn nhanh để tiêm nọc tê liệt, thả con mồi và theo dõi bằng mùi, sau đó nuốt chửng khi tê liệt; chúng có thể ăn con mồi lớn hơn cơ thể (như chuột lớn 530 g ở mẫu vật 600 g).",
+      "Rắn lục núi - Tập tính săn mồi: Tập tính săn mồi của Ovophis monticola tập trung vào lối sống phục kích ban đêm.",
+      "Rắn lục núi, Rắn lục núi Bắc bộ - Tập tính săn mồi: ), lưỡng cư (frogs, toads), và thằn lằn (lizards). Kỹ thuật săn mồi đặc trưng là nằm bất động (ambush coil) trong bụi rậm hoặc đá ven suối, sử dụng hố cảm nhiệt để phát hiện nhiệt con mồi, cắn nhanh để tiêm nọc tê liệt, thả con mồi và theo dõi bằng mùi, sau đó nuốt chửng khi tê liệt; chúng có thể ăn con mồi lớn hơn cơ thể (như chuột lớn 530 g ở mẫu vật 600 g)."
+    ],
+    "answer": "Rắn lục núi (Ovophis monticola) sử dụng hố cảm nhiệt để phát hiện con mồi. Chúng có thể phát hiện chuột từ khoảng cách 1 mét, thể hiện khả năng săn mồi chính xác. Kỹ thuật săn mồi đặc trưng của chúng là nằm bất động trong bụi rậm hoặc đá ven suối, sử dụng hố cảm nhiệt để phát hiện nhiệt của con mồi."
+  },
+  {
+    "question": "Rắn lục núi Tonkin (Ovophis tonkinensis) săn mồi vào thời gian nào?",
+    "ground_truth": "Chúng săn mồi chủ yếu vào ban đêm hoặc hoàng hôn (nocturnal/crepuscular).",
+    "contexts": [
+      "Rắn lục núi, Rắn lục núi Bắc bộ - Tập tính săn mồi: Tập tính săn mồi của Ovophis tonkinensis tập trung vào lối sống phục kích ban đêm.",
+      "Rắn lục núi, Rắn lục núi Bắc bộ - Các quan sát thú vị từ các nhà nghiên cứu: o về hành vi và sinh thái của Ovophis tonkinensis. Các nhà nghiên cứu như Orlov và cộng sự (2003) đã quan sát loài này phục kích ven suối ở Hà Giang với hố cảm nhiệt phát hiện chuột từ khoảng cách 1 mét, thể hiện khả năng săn mồi chính xác.",
+      "Rắn lục núi - Tập tính săn mồi: Tập tính săn mồi của Ovophis monticola tập trung vào lối sống phục kích ban đêm.",
+      "Rắn lục núi, Rắn lục núi Bắc bộ - Tập tính săn mồi: kinensis tập trung vào lối sống phục kích ban đêm. Chúng ưa thích con mồi là động vật có vú nhỏ như chuột và sóc (small mammals: rats, mice, squirrels), chim nhỏ (small birds), lưỡng cư (frogs, toads), và thằn lằn (lizards)."
+    ],
+    "answer": "Rắn lục núi Tonkin (Ovophis tonkinensis) săn mồi vào ban đêm, theo lối sống phục kích. Các nhà nghiên cứu đã quan sát loài này phục kích ven suối, sử dụng hố cảm nhiệt để phát hiện chuột từ khoảng cách 1 mét.\n\nChúng ưa thích con mồi là động vật có vú nhỏ như chuột và sóc, chim nhỏ, lưỡng cư (ếch, cóc), và thằn lằn."
+  },
+  {
+    "question": "Rắn hổ mây Berdmore (Pareas berdmorei) có chế độ ăn chuyên biệt gì?",
+    "ground_truth": "Chế độ ăn của chúng chuyên biệt gần như 100% là ốc sên và sên đất.",
+    "contexts": [
+      "Rắn hổ mây Berdmore, Rắn ăn sên - Tập tính săn mồi: Loài con mồi ưa thích của Pareas berdmorei là ốc sên và sên đất (terrestrial mollusks như slugs và snails), với chế độ ăn chuyên biệt (malacivory)",
+      "Rắn hổ mây Berdmore, Rắn ăn sên - Tên khoa học và tên phổ thông: ốc) và chế độ ăn chuyên biệt là ốc sên và sên đất. Ở Việt Nam, loài này chưa có tên phổ thông chính thức rộng rãi, nhưng thường được gọi là rắn ăn ốc sên Berdmore hoặc rắn ăn sên keeled Berdmore trong tài liệu khoa học, dựa trên đặc điểm vảy gờ và hành vi ăn mồi.",
+      "Rắn hổ mây Berdmore, Rắn ăn sên - Đặc điểm hình thái: a chi Pareas. So sánh với các loài Pareas khác, P. berdmorei khác biệt ở số VEN cao hơn (162187 so với 158194 ở P.",
+      "Rắn hổ mây Berdmore, Rắn ăn sên - Độc tính: Pareas berdmorei là loài rắn hoàn toàn không độc (non-venomous), không có nọc độc, tuyến độc hoặc cơ chế tiêm độc nào, và được xếp vào nhóm vô hại đối với"
+    ],
+    "answer": "Rắn hổ mây Berdmore (Pareas berdmorei) có chế độ ăn chuyên biệt là ốc sên và sên đất (terrestrial mollusks như slugs và snails). Loài này là một loài ăn ốc sên (malacivory)."
+  },
+  {
+    "question": "Kỹ thuật săn mồi của Rắn hổ mây gờ (Pareas carinatus) có gì đặc biệt?",
+    "ground_truth": "Chúng nghiêng đầu để 'đọc' hướng xoáy của vỏ ốc và sử dụng răng bất đối xứng để móc vào khe vỏ, sau đó xoay đầu để trích xuất con mồi.",
+    "contexts": [
+      "Rắn hổ mây gờ, Rắn ăn sên - Tập tính săn mồi: Loài con mồi ưa thích của Pareas carinatus là ốc sên và sên đất (slugs và snails), với chế độ ăn chuyên biệt (limaxivory) lên đến 100, từ chối các loại",
+      "Rắn hổ mây gờ, Rắn ăn sên - Tập tính săn mồi: mồi khác như côn trùng hoặc ếch trong thí nghiệm. Kỹ thuật săn mồi tinh vi: rắn nghiêng đầu để đọc hướng xoáy của vỏ ốc (handedness), ưu tiên tấn công ốc xoáy thuận tay phải (dextral) bằng cách dùng răng bất đối xứng móc vào khe vỏ, sau đó xoay đầu để trích xuất cơ thể mềm; quá trình này bao gồm 15 hành vi liên tiếp, từ tiếp cận, tấn công đến nuốt, mất khoảng 5-10 phút mỗi lần.",
+      "Rắn hổ chúa, Rắn hổ mang chúa, Rắn hổ mây, Rắn hổ đước - Tập tính săn mồi: lằn lớn, chim và động vật có vú nhỏ (chuột, sóc). Kỹ thuật săn chủ yếu là phục kích (ambush): rắn nằm bất động trong tán lá hoặc hang động, sử dụng lưỡi phân nhánh để phát hiện mùi pheromone qua cơ quan Jacobson và cảm giác rung động để theo dõi chuyển động, rồi lao nhanh cắn tiêm nọc để làm mồi tê liệt ngay lập tức, sau đó nuốt chửng bằng hàm mở rộng (có thể nuốt rắn dài gấp đôi thân mình).",
+      "Rắn hổ mây gờ, Rắn ăn sên - Tập tính săn mồi: ập trung vào môi trường ẩm ướt để tìm mồi dễ dàng. Các chiến lược phòng vệ bao gồm ngụy trang bằng màu sắc và hình dáng giống cành cây, cuộn thân khi bị đe dọa, và tiết chất nhầy từ da để trơn trượt khỏi kẻ săn mồi; nếu bị bắt, chúng có thể giả chết hoặc cắn nhẹ nhưng không hung hăng."
+    ],
+    "answer": "Rắn hổ mây gờ (Pareas carinatus) có kỹ thuật săn mồi đặc biệt tập trung vào việc tiêu thụ ốc sên và sên đất. Chúng thể hiện một kỹ thuật săn mồi tinh vi bao gồm các bước sau:\n\n*   **Đọc hướng xoáy vỏ ốc:** Rắn nghiêng đầu để xác định hướng xoáy của vỏ ốc (thuận hay nghịch).\n*   **Ưu tiên tấn công ốc xoáy thuận tay phải:** Chúng ưu tiên tấn công những con ốc có vỏ xoáy thuận tay phải (dextral).\n*   **Sử dụng răng bất đối xứng:** Rắn dùng răng bất đối xứng để móc vào khe vỏ ốc.\n*   **Xoay đầu để trích xuất:** Sau đó, chúng xoay đầu để lôi phần cơ thể mềm của ốc ra khỏi vỏ.\n\nToàn bộ quá trình này bao gồm 15 hành vi liên tiếp, từ việc tiếp cận con mồi, tấn công cho đến nuốt chửng, và thường mất khoảng 5-10 phút để hoàn thành mỗi lần săn mồi. Chế độ ăn của chúng chuyên biệt đến 100% là ốc sên và sên đất, và chúng từ chối các loại mồi khác như côn trùng hoặc ếch trong thí nghiệm. Rắn hổ mây gờ cũng tập trung tìm mồi trong môi trường ẩm ướt, nơi ốc sên và sên đất dễ dàng được tìm thấy."
+  },
+  {
+    "question": "Rắn hổ mây Đài Loan (Pareas formosensis) chủ yếu ăn gì?",
+    "ground_truth": "Thức ăn ưa thích của chúng là sên đất (slugs) và ốc sên đất.",
+    "contexts": [
+      "Rắn hổ mây Đài Loan, Rắn ăn sên - Tập tính săn mồi: Loài con mồi ưa thích của Pareas formosensis là sên đất (slugs) và ốc sên đất (terrestrial snails), với chế độ ăn chuyên biệt (slug-eating) lên đến",
+      "Rắn hổ mây Đài Loan, Rắn ăn sên - Đặc điểm hình thái: a chi Pareas. So sánh với các loài Pareas khác, P. formosensis khác biệt ở vảy lưng nhẵn hoàn toàn (smooth so với keeled ở P. carinatus hoặc P.",
+      "Rắn hổ mây Đài Loan, Rắn ăn sên - Tên khoa học và tên phổ thông: Tên khoa học của loài rắn này là Pareas formosensis (Van Denburgh, 1909),có tên tiếng việt Rắn hổ mây Đài Loan, Rắn ăn sên.",
+      "Rắn hổ mây Đài Loan, Rắn ăn sên - Phân bố địa lý và môi trường sống: Pareas formosensis phân bố ở Đông Á và Đông Nam Á, từ Đài Loan (loại hình ở Kanshirei), đảo Hải Nam và Nam Trung Quốc (Vân Nam,"
+    ],
+    "answer": "Rắn hổ mây Đài Loan (Pareas formosensis) chủ yếu ăn sên đất (slugs) và ốc sên đất (terrestrial snails). Loài này có chế độ ăn chuyên biệt là ăn sên."
+  },
+  {
+    "question": "Rắn hổ mây Hampton (Pareas hamptoni) săn mồi ở đâu?",
+    "ground_truth": "Chúng săn mồi vào ban đêm, trên các bụi rậm hoặc cành cây thấp (1-3 m).",
+    "contexts": [
+      "Rắn hổ mây Hampton, Rắn ăn sên - Phân bố địa lý và môi trường sống: Pareas hamptoni phân bố hạn chế ở Đông Nam Á, chủ yếu Myanmar (loại hình ở Mogok), Việt Nam (miền Bắc và một phần Trung), và có thể",
+      "Rắn hổ mây Hampton, Rắn ăn sên - Tập tính săn mồi: Loài con mồi ưa thích của Pareas hamptoni là sên đất (slugs) và ốc sên đất (terrestrial snails), với chế độ ăn chuyên biệt (slug-eating) lên đến 100,",
+      "Rắn hổ mây Hampton, Rắn ăn sên - Phân bố địa lý và môi trường sống: ào (nay gán cho P. geminatus hoặc P. formosensis). Ở Việt Nam, loài này tập trung ở miền Bắc, với các ghi nhận cụ thể tại Hải Phòng, Lai Châu, Lào Cai.",
+      "Rắn hổ mây Hampton, Rắn ăn sên - Phân bố địa lý và môi trường sống: o (1.8002.500 mmnăm) và nhiệt độ trung bình 2025C. Sự thích nghi bao gồm vảy nhẵn cho ngụy trang trong tán cây ẩm, khả năng chịu ẩm cao, và phân chia ngách với các loài đồng cư, giúp tồn tại ở rừng nguyên sinh lẫn thứ sinh bị phân mảnh, nhưng dễ bị ảnh hưởng bởi phá rừng ở vùng núi phía Bắc."
+    ],
+    "answer": "Rắn hổ mây Hampton (Pareas hamptoni) săn mồi ở những khu vực có sên đất (slugs) và ốc sên đất (terrestrial snails), vì đây là loài con mồi ưa thích của chúng, chiếm tới 100% chế độ ăn.\n\nVề môi trường sống, loài rắn này được tìm thấy ở Đông Nam Á, chủ yếu ở Myanmar và Việt Nam (miền Bắc và một phần miền Trung). Ở Việt Nam, chúng tập trung ở miền Bắc, với các ghi nhận cụ thể tại Hải Phòng, Lai Châu, và Lào Cai. Chúng sinh sống ở cả rừng nguyên sinh lẫn thứ sinh bị phân mảnh, thích nghi với những khu vực có lượng mưa cao (1.800–2.500 mm/năm) và nhiệt độ trung bình 20–25°C. Sự thích nghi này bao gồm vảy nhẵn giúp ngụy trang trong tán cây ẩm và khả năng chịu ẩm cao. Điều này cho thấy rắn hổ mây Hampton săn mồi trong các môi trường rừng ẩm ướt ở vùng núi phía Bắc Việt Nam và các khu vực tương tự ở Đông Nam Á."
+  },
+  {
+    "question": "Rắn hổ mây ngọc (Pareas margaritophorus) ăn những gì?",
+    "ground_truth": "Thức ăn của chúng là sên đất (slugs), ốc sên (snails) và giun đất (earthworms).",
+    "contexts": [
+      "Rắn hổ mây ngọc, Rắn ăn sên - Tập tính săn mồi: Loài con mồi ưa thích của Pareas margaritophorus là sên đất (slugs), ốc sên (snails) và giun đất (earthworms), với chế độ ăn chuyên biệt (malacivory)",
+      "Rắn hổ mây ngọc, Rắn ăn sên - Đặc điểm hình thái: a chi Pareas. So sánh với các loài Pareas khác, P. margaritophorus khác biệt ở vảy lưng nhẵn hoàn toàn (smooth so với keeled ở P.",
+      "Rắn hổ mây ngọc, Rắn ăn sên - Hành vi và sinh thái: Pareas margaritophorus có tính cách hiền lành, nhút nhát và tránh né, hiếm khi tấn công con người hoặc các loài khác trừ khi bị chạm trực tiếp,",
+      "Rắn hổ mây ngọc, Rắn ăn sên - Độc tính: Pareas margaritophorus là loài rắn hoàn toàn không độc (non-venomous), không có nọc độc, tuyến độc hoặc cơ chế tiêm độc nào, và được xếp vào nhóm vô hại đối với"
+    ],
+    "answer": "Rắn hổ mây ngọc (Pareas margaritophorus) có chế độ ăn chuyên biệt, chủ yếu là các loài thân mềm và giun đất. Loài này ưa thích ăn sên đất (slugs), ốc sên (snails) và giun đất (earthworms)."
+  },
+  {
+    "question": "Rắn hổ mây núi (Pareas monticola) săn mồi ở đâu?",
+    "ground_truth": "Chúng săn mồi vào ban đêm, trên các bụi rậm hoặc cành cây thấp (0.5-2 m).",
+    "contexts": [
+      "Rắn hổ mây núi, Rắn ăn sên - Phân bố địa lý và môi trường sống: Pareas monticola phân bố ở Nam Á và Đông Nam Á, từ Đông Bắc Ấn Độ (Sikkim, Assam, Meghalaya, Mizoram, Arunachal Pradesh, Nagaland,",
+      "Rắn hổ mây núi, Rắn ăn sên - Tập tính săn mồi: Loài con mồi ưa thích của Pareas monticola là sên đất (slugs) và ốc sên (snails), với chế độ ăn chuyên biệt (malacivory) lên đến 100, ưu tiên động vật",
+      "Rắn hổ mây núi, Rắn ăn sên - Phân bố địa lý và môi trường sống: , Bangladesh (đông bắc và đông nam), đến Việt Nam. Ở Việt Nam, loài này tập trung ở miền Bắc và một phần miền Trung, với các ghi nhận cụ thể tại tỉnh Lai Châu, Lào Cai, Yên Bái, và Thừa Thiên-Huế.",
+      "Rắn hổ mây núi, Rắn ăn sên - Phân bố địa lý và môi trường sống: ỉnh Lai Châu, Lào Cai, Yên Bái, và Thừa Thiên-Huế. Chúng ưa thích rừng thường xanh núi thấp (low montane evergreen forests), bao gồm rừng karst và ven suối, độ cao từ 5001.500 m."
+    ],
+    "answer": "Rắn hổ mây núi (Pareas monticola) săn các loài sên đất (slugs) và ốc sên (snails). Chúng ưu tiên săn các động vật này.\n\nLoài rắn này sinh sống ở các khu rừng thường xanh núi thấp (low montane evergreen forests), bao gồm rừng karst và ven suối, ở độ cao từ 500 đến 1.500 m. Do đó, hoạt động săn mồi của chúng diễn ra trong những môi trường này."
+  },
+  {
+    "question": "Thức ăn chuyên biệt của Rắn hổ núi mũi mác (Plagiopholis nuchalis) là gì?",
+    "ground_truth": "Chế độ ăn của chúng chuyên biệt (vermivory) lên đến 100% là giun đất.",
+    "contexts": [
+      "Rắn hổ núi mũi mác - Tập tính săn mồi: Loài con mồi ưa thích của Plagiopholis nuchalis là giun đất (earthworms), với chế độ ăn chuyên biệt (vermivory) lên đến 100, là loài ăn giun bí mật trên cạn",
+      "Rắn hổ núi mũi mác - Độc tính: Plagiopholis nuchalis là loài rắn không độc (non-venomous) đối với con người, dù thuộc nhóm rear-fanged (răng sau) trong phân họ Pseudoxenodontinae, nhưng nọc độc (nếu",
+      "Rắn hổ núi mũi mác - Đặc điểm hình thái: ăng bất đối xứng nhẹ để giữ mồi trơn như giun đất. So sánh với các loài Plagiopholis khác, P. nuchalis khác biệt ở chevron cổ rõ rệt (prominent so với mờ ở P.",
+      "Rắn hổ núi mũi mác - Phân loại học: Loài Plagiopholis nuchalis thuộc họ Colubridae (họ rắn không răng nanh), phân họ Pseudoxenodontinae (phân họ rắn giả hổ mang), chi Plagiopholis (chi rắn núi châu"
+    ],
+    "answer": "Thức ăn chuyên biệt của Rắn hổ núi mũi mác (Plagiopholis nuchalis) là giun đất (earthworms). Loài này có chế độ ăn chuyên biệt (vermivory) lên đến 100%, là loài ăn giun bí mật trên cạn. Đặc điểm hình thái của chúng cũng có răng bất đối xứng nhẹ để giữ mồi trơn như giun đất."
+  },
+  {
+    "question": "Rắn hổ núi Styani (Hebius popei) chủ yếu ăn gì?",
+    "ground_truth": "Thức ăn ưa thích của chúng là các loài lưỡng cư nhỏ như nòng nọc, ếch con, cá nhỏ, sên đất và giun đất.",
+    "contexts": [
+      "Rắn hổ núi Styani - Phân bố địa lý và môi trường sống: Hebius popei phân bố hạn chế ở Đông Nam Á, chủ yếu miền Nam Trung Quốc (từ đảo Hainan, phía Tây đến Hồ Nam và Vân Nam) và miền Bắc Việt Nam, với",
+      "Rắn hổ núi Styani - Đặc điểm hình thái: stema), hỗ trợ giữ mồi trơn trượt như cá hoặc ếch. So sánh với các loài Hebius khác, H. popei khác biệt ở số hàng vảy 19 (cao hơn 1517 ở H. sauteri hoặc H.",
+      "Rắn hổ núi Styani - Độc tính: Hebius popei là loài rắn không độc (non-venomous) đối với con người, thuộc nhóm rear-fanged (răng sau) nhẹ ở họ Natricidae, nhưng nọc độc (nếu có) chỉ là enzyme tiêu hóa",
+      "Rắn hổ núi Styani - Đặc điểm hình thái: Hebius popei là loài rắn nhỏ đến trung bình, với chiều dài tổng thể tối đa khoảng 680 mm (dựa trên các loài Hebius liên quan), trung bình 400500 mm ở cá thể"
+    ],
+    "answer": "Rắn hổ núi Styani (Hebius popei) chủ yếu ăn cá hoặc ếch."
+  },
+  {
+    "question": "Rắn lục sừng (Protobothrops cornutus) có chế độ ăn gì?",
+    "ground_truth": "Chúng là loài ăn thịt đa dạng, ăn các loài động vật có vú nhỏ, chim, thằn lằn và ếch.",
+    "contexts": [
+      "Rắn lục sừng - Tập tính săn mồi: Loài con mồi ưa thích của Protobothrops cornutus là động vật có vú nhỏ (small mammals như chuột), chim, thằn lằn và ếch (lizards, frogs), với chế độ ăn đa dạng",
+      "Rắn lục sừng - Độc tính: Protobothrops cornutus là loài rắn độc mạnh (highly venomous), thuộc nhóm pit viper với nọc độc hematotoxic chính (hematotoxic venom), chứa các enzyme như phospholipase A2,",
+      "Rắn lục sừng - Hành vi và sinh thái: Protobothrops cornutus có tính cách bí mật, hung hăng khi bị quấy rầy, thường tránh né con người bằng cách nằm im ngụy trang, nhưng sẵn sàng tấn công nếu bị chạm.",
+      "Rắn lục sừng - Sinh sản: Protobothrops cornutus sinh sản bằng phương thức đẻ trứng (oviparous), với mùa giao phối thường diễn ra từ tháng 810 (mùa thu), khi nhiệt độ mát hỗ trợ tìm bạn tình."
+    ],
+    "answer": "Rắn lục sừng (Protobothrops cornutus) có chế độ ăn đa dạng, bao gồm các loài động vật có vú nhỏ như chuột, chim, thằn lằn và ếch."
+  },
+  {
+    "question": "Rắn lục Jerdon (Protobothrops jerdonii) săn mồi vào thời gian nào?",
+    "ground_truth": "Chúng săn mồi chủ yếu vào ban đêm (nocturnal), trên mặt đất hoặc bụi rậm thấp.",
+    "contexts": [
+      "Rắn lục Jerdon, Rắn lục hoa cải - Tập tính săn mồi: Loài con mồi ưa thích của Protobothrops jerdonii là động vật có vú nhỏ (small mammals như chuột, sóc), chim và bò sát nhỏ (lizards), với chế độ ăn",
+      "Rắn lục Jerdon, Rắn lục hoa cải - Tập tính săn mồi: predator) phản ánh lối sống phục kích ở rừng núi. Kỹ thuật săn mồi chủ yếu là phục kích (ambush), sử dụng hố loreal phát hiện nhiệt độ con mồi từ xa (lên đến 1 m), sau đó lao nhanh và cắn giữ bằng nanh rỗng để tiêm nọc, chờ mồi tê liệt (10-20 phút) trước khi nuốt chửng; chúng có thể theo dõi mồi bằng mùi nếu cần.",
+      "Rắn lục Jerdon, Rắn lục hoa cải - Hành vi và sinh thái: hính, nhưng di chuyển linh hoạt trên địa hình núi. Trong môi trường sống, loài này tương tác như kẻ săn mồi đỉnh: kiểm soát quần thể gặm nhấm gây hại nông nghiệp, nhưng là con mồi của chim săn mồi lớn (raptors) hoặc động vật ăn thịt lớn; chúng đồng cư (sympatric) với các loài Protobothrops khác như P.",
+      "Rắn lục Jerdon, Rắn lục hoa cải - Tập tính săn mồi: chửng; chúng có thể theo dõi mồi bằng mùi nếu cần. Thói quen ăn uống chủ yếu ban đêm (nocturnal), trên mặt đất hoặc bụi rậm thấp (terrestrialsemi-arboreal), ít hoạt động ban ngày; chúng tập trung vào môi trường ẩm ven sông núi để tìm mồi dồi dào."
+    ],
+    "answer": "Rắn lục Jerdon (Protobothrops jerdonii) săn mồi chủ yếu vào ban đêm (nocturnal). Chúng ít hoạt động vào ban ngày."
+  },
+  {
+    "question": "Rắn lục Mậu Lan (Protobothrops maolanensis) có chế độ ăn gì?",
+    "ground_truth": "Thức ăn của chúng là động vật có vú nhỏ (như chuột), ếch và thằn lằn.",
+    "contexts": [
+      "Rắn lục Mậu Lan - Tập tính săn mồi: Loài con mồi ưa thích của Protobothrops maolanensis là động vật có vú nhỏ (small mammals như chuột), ếch và thằn lằn (frogs, lizards), với chế độ ăn đa dạng",
+      "Rắn lục Mậu Lan - Độc tính: Protobothrops maolanensis là loài rắn độc mạnh (highly venomous), thuộc nhóm pit viper với nọc độc hematotoxic chính (hematotoxic venom), chứa các enzyme như",
+      "Rắn lục Mậu Lan - Sự liên quan với con người: Protobothrops maolanensis có tương tác tiêu cực hạn chế với con người do độc tính cao và phân bố xa xôi, gây vết cắn nghiêm trọng hiếm gặp ở nông dân khai",
+      "Rắn lục Mậu Lan - Hành vi và sinh thái: Protobothrops maolanensis có tính cách bí mật, hung hăng khi bị quấy rầy, thường tránh né con người bằng cách nằm im ngụy trang dưới đá hoặc lá mục, nhưng sẵn"
+    ],
+    "answer": "Rắn lục Mậu Lan (Protobothrops maolanensis) có chế độ ăn đa dạng, bao gồm các loài động vật có vú nhỏ như chuột, ếch và thằn lằn."
+  },
+  {
+    "question": "Rắn lục cườm (Protobothrops mucrosquamatus) hoạt động săn mồi vào thời điểm nào?",
+    "ground_truth": "Chúng chủ yếu hoạt động và săn mồi vào ban đêm.",
+    "contexts": [
+      "Rắn lục cườm, Rắn lục Habu - Tập tính săn mồi: Loài con mồi ưa thích của Protobothrops mucrosquamatus là động vật có vú nhỏ (small mammals như chuột, sóc), chim và bò sát (lizards), với chế độ ăn đa",
+      "Rắn lục cườm, Rắn lục Habu - Sinh sản: Protobothrops mucrosquamatus sinh sản bằng phương thức đẻ trứng (oviparous), với mùa giao phối thường diễn ra vào mùa mưa (tháng 58 ở Việt Nam), khi độ ẩm cao hỗ",
+      "Rắn lục cườm, Rắn lục Habu - Hành vi và sinh thái: h hoạt trên địa hình đa dạng từ đồng bằng đến núi. Trong môi trường sống, loài này tương tác như kẻ săn mồi đỉnh: kiểm soát quần thể gặm nhấm gây hại nông nghiệp, nhưng là con mồi của chim săn mồi lớn (raptors) hoặc động vật ăn thịt; chúng đồng cư (sympatric) với các loài Protobothrops khác như P.",
+      "Rắn lục cườm, Rắn lục Habu - Tập tính săn mồi: g có thể theo dõi mồi bằng mùi nếu di chuyển chậm. Thói quen ăn uống chủ yếu ban đêm (nocturnal), trên mặt đất hoặc bụi rậm thấp (terrestrialsemi-arboreal), ít hoạt động ban ngày; chúng tập trung vào môi trường ẩm ven đồng cỏ hoặc rừng để tìm mồi dồi dào, thường được quan sát gần khu dân cư."
+    ],
+    "answer": "Rắn lục cườm (Protobothrops mucrosquamatus) chủ yếu săn mồi vào ban đêm (nocturnal). Chúng ít hoạt động vào ban ngày."
+  },
+  {
+    "question": "Hành vi phòng vệ của Rắn hổ đất nâu (Psammodynastes pulverulentus) có gì đặc biệt?",
+    "ground_truth": "Chúng có hành vi bắt chước rắn hổ mang (viper mimicry) bằng cách cuộn thân, phồng cổ và tấn công.",
+    "contexts": [
+      "Rắn hổ đất nâu - Hành vi và sinh thái: Psammodynastes pulverulentus có tính cách hiền lành, nhút nhát nhưng bắt chước viper hiệu quả, hiếm khi tấn công con người trừ khi bị chạm trực tiếp, thường trốn",
+      "Rắn hổ đất nâu - Độc tính: Psammodynastes pulverulentus là loài rắn mildly venomous (độc nhẹ), thuộc nhóm rear-fanged (răng sau rãnh) với nọc độc enzyme tiêu hóa yếu từ tuyến Duvernoy, không có cơ chế",
+      "Rắn hổ đất nâu - Tập tính săn mồi: ng tập trung vào môi trường ẩm để tìm mồi dồi dào. Các chiến lược phòng vệ bao gồm cuộn thân (coiling), phồng cổ (hooding) và strike giống viper khi bị đe dọa, tiết chất nhầy hôi từ cloaca để xua đuổi, và giả chết (thanatosis); chúng hiếm khi cắn con người, ưu tiên trốn thoát bằng tốc độ.",
+      "Rắn hổ đất nâu - Tình trạng bảo tồn: Theo IUCN Red List (cập nhật 2022, e.T184062A219112572), Psammodynastes pulverulentus được xếp hạng Least Concern (Ít lo ngại) toàn cầu nhờ phân bố rộng và quần"
+    ],
+    "answer": "Rắn hổ đất nâu (Psammodynastes pulverulentus) có nhiều hành vi phòng vệ đặc biệt để tự bảo vệ khỏi kẻ thù và tránh đối đầu với con người:\n\n*   **Bắt chước rắn viper hiệu quả:** Mặc dù hiền lành và nhút nhát, chúng có khả năng bắt chước hành vi của rắn viper rất hiệu quả khi bị đe dọa.\n*   **Chiến lược phòng vệ đa dạng:** Chúng sử dụng nhiều chiến lược khác nhau bao gồm cuộn thân (coiling), phồng cổ (hooding) giống rắn hổ mang, và strike (tấn công) giống viper.\n*   **Tiết chất nhầy hôi:** Khi cảm thấy bị đe dọa, chúng có thể tiết ra chất nhầy có mùi hôi từ cloaca để xua đuổi kẻ thù.\n*   **Giả chết (thanatosis):** Một hành vi phòng vệ độc đáo khác là giả chết để đánh lừa kẻ săn mồi.\n*   **Ưu tiên trốn thoát:** Chúng hiếm khi cắn con người, trừ khi bị chạm trực tiếp. Thay vào đó, chúng ưu tiên trốn thoát bằng tốc độ của mình.\n*   **Ít tấn công con người:** Rắn hổ đất nâu rất ít khi tấn công con người, chỉ trừ khi bị chạm trực tiếp.\n\nNhững hành vi này cho thấy một sự kết hợp giữa sự nhút nhát, khả năng bắt chước và các chiến lược tự vệ đa dạng giúp chúng tồn tại trong môi trường tự nhiên."
+  },
+  {
+    "question": "Hành vi phòng vệ nào của Rắn hổ xiên tre (Pseudoxenodon bambusicola) giống với rắn hổ mang?",
+    "ground_truth": "Khi bị đe dọa, chúng có hành vi phồng cổ (hooding) và dựng đứng phần thân trước giống như rắn hổ mang.",
+    "contexts": [
+      "Rắn hổ xiên tre - Hành vi và sinh thái: Pseudoxenodon bambusicola có tính cách hiền lành nhưng hung hăng khi bị đe dọa, hiếm khi tấn công con người trừ khi bị chạm trực tiếp, thường trốn tránh bằng",
+      "Rắn hổ xiên tre - Sự liên quan với con người: Pseudoxenodon bambusicola có tương tác hạn chế và chủ yếu vô hại với con người, dù hành vi hooding gây nhầm lẫn dẫn đến bị giết nhầm ở Việt Nam (đặc biệt",
+      "Rắn hổ xiên mắt - Hành vi và sinh thái: (sympatric) với các loài Pseudoxenodon khác như P. bambusicola ở ngách khác nhau (tre thấp vs.",
+      "Rắn hổ xiên tre - Sinh sản: Pseudoxenodon bambusicola sinh sản bằng phương thức đẻ con sống (ovoviviparous), với mùa giao phối thường diễn ra vào mùa mưa (tháng 59 ở Việt Nam), khi độ ẩm cao hỗ trợ"
+    ],
+    "answer": "Rắn hổ xiên tre (Pseudoxenodon bambusicola) có hành vi phòng vệ \"hooding\" (phồng mang) giống với rắn hổ mang. Hành vi này đôi khi khiến chúng bị giết nhầm ở Việt Nam do sự nhầm lẫn với rắn hổ mang thật."
+  },
+  {
+    "question": "Rắn hổ xiên mắt (Pseudoxenodon macrops) chủ yếu ăn gì?",
+    "ground_truth": "Thức ăn ưa thích của chúng là các loài ếch và thằn lằn nhỏ.",
+    "contexts": [
+      "Rắn hổ xiên mắt - Đặc điểm hình thái: d fangs) ở cuối, một đặc điểm rear-fanged độc đáo. So sánh với các loài Pseudoxenodon khác, P. macrops khác biệt ở mắt lớn hơn (macrops so với nhỏ ở P.",
+      "Rắn hổ xiên mắt - Độc tính: Pseudoxenodon macrops là loài rắn mildly venomous (độc nhẹ), rear-fanged với nọc độc enzyme tiêu hóa yếu từ tuyến Duvernoy, không có cơ chế tiêm độc mạnh.",
+      "Rắn hổ xiên mắt - Tập tính săn mồi: Loài con mồi ưa thích của Pseudoxenodon macrops là ếch (frogs, đặc biệt loài Limnonectes và các loài địa phương), thằn lằn nhỏ (small lizards, chủ yếu skinks) và",
+      "Rắn hổ xiên mắt - Đặc điểm hình thái: Pseudoxenodon macrops là loài rắn nhỏ đến trung bình, với chiều dài tổng thể tối đa khoảng 80-100 cm, trung bình 50-70 cm ở cá thể trưởng thành, đuôi chiếm khoảng"
+    ],
+    "answer": "Rắn hổ xiên mắt (Pseudoxenodon macrops) chủ yếu ăn ếch (đặc biệt là loài Limnonectes và các loài địa phương) và thằn lằn nhỏ (chủ yếu là skinks)."
+  },
+  {
+    "question": "Tốc độ di chuyển của Rắn ráo gờ (Ptyas carinata) là bao nhiêu?",
+    "ground_truth": "Chúng di chuyển rất nhanh, có thể đạt tốc độ lên tới 8-10 km/h.",
+    "contexts": [
+      "Rắn ráo gờ, Ráo hoa, Long thừa núi, Hổ trâu bông - Tên khoa học và tên phổ thông: tốc độ di chuyển nhanh của các loài rắn đuôi dài. Tên loài carinata là tính từ Latin, nghĩa là có gờ hoặc có keeled , dùng để chỉ đặc điểm vảy lưng có gờ nổi rõ rệt (keeled dorsal scales), giúp tăng ma sát khi leo trèo.",
+      "Rắn ráo gờ, Ráo hoa, Long thừa núi, Hổ trâu bông - Đặc điểm hình thái: Ptyas carinata là loài rắn lớn, với chiều dài tổng thể tối đa khoảng 2.6 m (cái lớn hơn đực), trung bình 1.5-2 m ở cá thể trưởng",
+      "Rắn ráo gờ, Ráo hoa, Long thừa núi, Hổ trâu bông - Giá trị nghiên cứu: trợ hiểu về thích nghi arboreal ở rắn lớn châu Á. Nó là mô hình cho nghiên cứu tốc độ di chuyển (up to 10 kmh), chế độ ăn đa dạng (rodent control in agriculture), và phân chia ngách (niche partitioning) với các loài đồng cư, với ứng dụng trong bảo tồn đa dạng bò sát nhiệt đới và quản lý sâu bệnh nông nghiệp; cập nhật 2025 nhấn mạnh genome assembly hỗ trợ nghiên cứu thích nghi môi trường bị biến đổi.",
+      "Rắn ráo gờ, Ráo hoa, Long thừa núi, Hổ trâu bông - Tình trạng bảo tồn: Theo IUCN Red List (cập nhật 2012, vẫn hiệu lực đến 2025), Ptyas carinata được xếp hạng Least Concern (Ít lo ngại) toàn cầu nhờ"
+    ],
+    "answer": "Rắn ráo gờ (Ptyas carinata) có tốc độ di chuyển lên đến 10 km/h. Loài rắn này nổi bật với khả năng di chuyển nhanh, đặc biệt là ở những loài rắn đuôi dài."
+  },
+  {
+    "question": "Rắn ráo rừng (Ptyas dhumnades) có phải là loài leo trèo giỏi không?",
+    "ground_truth": "Có, chúng là những nhà leo trèo giỏi và di chuyển nhanh, có thể đạt tốc độ 5-7 km/h.",
+    "contexts": [
+      "Rắn ráo rừng, Rắn ráo đen, Rắn ráo mắt to - Các quan sát thú vị từ các nhà nghiên cứu: hà nghiên cứu như Ren et al. (2021) đã quan sát P. dhumnades là loài leo trèo giỏi, leo cây cao 5-10 m để bắt chim với tốc độ 5 kmh, minh họa khả năng arboreal hỗ trợ kiểm soát quần thể chim gây hại cây trồng.",
+      "Rắn ráo rừng, Rắn ráo đen, Rắn ráo mắt to - Tình trạng bảo tồn: Theo IUCN Red List (cập nhật 2021, vẫn hiệu lực đến 2025), Ptyas dhumnades được xếp hạng Least Concern (Ít lo ngại), nhờ phân bố rộng và",
+      "Rắn ráo rừng, Rắn ráo đen, Rắn ráo mắt to - Hành vi và sinh thái: Ptyas dhumnades có tính cách nhanh nhẹn, hung hăng khi bị đe dọa nhưng thường tránh né con người bằng tốc độ cao, hiếm khi tấn công",
+      "Rắn ráo rừng, Rắn ráo đen, Rắn ráo mắt to - Hành vi và sinh thái: rốn tránh bằng cách leo cây hoặc chạy vào bụi rậm. Hoạt động hàng ngày chủ yếu ban ngày, nghỉ ngơi ban đêm cuộn trong kẽ cây hoặc dưới lá mục, với khả năng leo trèo xuất sắc (arboreal) nhờ đuôi dài và vảy gờ tăng ma sát; chúng không đào hang sâu hay bơi lội chính, nhưng di chuyển linh hoạt trên địa hình đa dạng từ đồi cỏ đến rừng."
+    ],
+    "answer": "Rắn ráo rừng (Ptyas dhumnades) là loài leo trèo giỏi. Chúng có khả năng leo cây cao 5-10 m để bắt chim với tốc độ 5 km/h. Khả năng arboreal (leo trèo) xuất sắc này được hỗ trợ bởi đuôi dài và vảy gờ giúp tăng ma sát. Khi bị đe dọa, chúng thường tránh né bằng cách leo cây hoặc chạy vào bụi rậm."
+  },
+  {
+    "question": "Thức ăn chính của Rắn cỏ Nhật (Rhabdophis tigrinus) là gì?",
+    "ground_truth": "Thức ăn chính của chúng là ếch và cóc độc.",
+    "contexts": [
+      "Rắn cỏ Nhật - Độc tính: Rhabdophis tigrinus là loài rắn mildly venomous (độc nhẹ), rear-fanged với nọc độc hemotoxic từ tuyến Duvernoy, gây rối loạn đông máu (coagulopathy) nhưng không gây tử vong ở",
+      "Rắn cỏ Nhật - Tập tính săn mồi: Loài con mồi ưa thích của Rhabdophis tigrinus là ếch và cóc độc (frogs and toads, chủ yếu), cá (fish), thằn lằn (lizards), động vật có vú nhỏ (small mammals) và côn",
+      "Rắn cỏ Nhật - Đặc điểm hình thái: Rhabdophis tigrinus là loài rắn nhỏ, với chiều dài tổng thể tối đa khoảng 100 cm, trung bình 60-80 cm ở cá thể trưởng thành, đuôi chiếm khoảng 20-25 chiều dài tổng",
+      "Rắn cỏ Nhật - Phân loại học: Loài Rhabdophis tigrinus thuộc họ Colubridae (họ rắn không răng nanh, phân họ Natricinae), chi Rhabdophis (chi rắn gờ châu Á), và là loài loại hình của nhóm loài keelback."
+    ],
+    "answer": "Thức ăn chính của Rắn cỏ Nhật (Rhabdophis tigrinus) là ếch và cóc độc (chủ yếu), cá, thằn lằn, động vật có vú nhỏ và côn trùng."
+  },
+  {
+    "question": "Rắn rồng Trung Quốc (Sibynophis chinensis) chủ yếu ăn gì?",
+    "ground_truth": "Thức ăn ưa thích của chúng là giun đất, côn trùng và thằn lằn nhỏ.",
+    "contexts": [
+      "Rắn rồng Trung quốc - Tập tính săn mồi: Loài con mồi ưa thích của Sibynophis chinensis là giun đất (earthworms), côn trùng (insects) và thằn lằn nhỏ (small lizards), với chế độ ăn chuyên biệt về động",
+      "Rắn rồng Trung quốc - Sự liên quan với con người: Sibynophis chinensis có tương tác hạn chế và chủ yếu vô hại với con người, là loài vô hại không gây hại; ở Việt Nam, chúng đôi khi bị giết nhầm là rắn",
+      "Rắn rồng Trung quốc - Hành vi và sinh thái: Sibynophis chinensis có tính cách hiền lành, nhút nhát và tránh né, hiếm khi tấn công con người hoặc các loài khác trừ khi bị chạm trực tiếp, thường trốn",
+      "Rắn rồng Trung quốc - Phân bố địa lý và môi trường sống: Sibynophis chinensis phân bố ở Đông Á và Đông Nam Á, từ Nam Trung Quốc (Vân Nam, Quảng Tây, Quảng Đông, Quý Châu, Tứ Xuyên), Myanmar (phía"
+    ],
+    "answer": "Rắn rồng Trung Quốc (Sibynophis chinensis) chủ yếu ăn giun đất, côn trùng và thằn lằn nhỏ."
+  },
+  {
+    "question": "Rắn san hô châu Á (Sinomicrurus annularis) có chế độ ăn như thế nào?",
+    "ground_truth": "Chúng là loài chuyên ăn rắn, bao gồm cả rắn độc non và rắn không độc.",
+    "contexts": [
+      "Rắn san hô đầu bạc - Tập tính săn mồi: Loài con mồi ưa thích của Sinomicrurus macclellandi là các loài rắn khác (other snakes, ophiophagous), bao gồm rắn độc non và rắn không độc, với chế độ ăn chuyên",
+      "Rắn san hô đầu bạc, Rắn san hô Gun-tho, Rắn san hô vòng trắng lớn - Hành vi và sinh thái: Sinomicrurus annularis có tính cách bí mật, ít hung hăng nhưng chết chóc khi bị quấy rầy, thường tránh né con",
+      "Rắn san hô đầu bạc - Hành vi và sinh thái: (sympatric) với các loài Sinomicrurus khác như S. annularis ở ngách khác nhau (rừng thấp vs.",
+      "Rắn nước châu Á - Tập tính săn mồi: ng, hồ, ruộng lúa, hiếm khi trên cây hoặc ban đêm. Thói quen ăn uống là ăn sống, nuốt chửng sau khi khống chế, và chúng có thể ăn nhiều trong mùa mưa khi con mồi dồi dào."
+    ],
+    "answer": "Rắn san hô châu Á (Sinomicrurus annularis) có chế độ ăn chuyên biệt là ăn các loài rắn khác (ophiophagous), bao gồm cả rắn độc non và rắn không độc."
+  },
+  {
+    "question": "Chế độ ăn của Rắn san hô đầu bạc (Sinomicrurus macclellandi) có gì đặc biệt?",
+    "ground_truth": "Chúng là loài chuyên ăn rắn (ophiophagous), với 90% khẩu phần là các loài rắn khác.",
+    "contexts": [
+      "Rắn san hô đầu bạc - Tập tính săn mồi: Loài con mồi ưa thích của Sinomicrurus macclellandi là các loài rắn khác (other snakes, ophiophagous), bao gồm rắn độc non và rắn không độc, với chế độ ăn chuyên",
+      "Rắn san hô đầu bạc - Đặc điểm hình thái: ệu quả. So sánh với các loài Sinomicrurus khác, S. macclellandi khác biệt ở vòng đen mỏng (thin bands so với rộng ở S.",
+      "Rắn san hô đầu bạc - Đặc điểm hình thái: Sinomicrurus macclellandi là loài rắn nhỏ, với chiều dài tổng thể tối đa khoảng 1 m, trung bình 50-70 cm ở cá thể trưởng thành, đuôi chiếm khoảng 15-20 chiều",
+      "Rắn san hô đầu bạc - Độc tính: Sinomicrurus macclellandi là loài rắn độc mạnh (highly venomous), thuộc nhóm elapid với nọc độc neurotoxic chính (neurotoxic venom), chứa các toxin gây tê liệt hô hấp và"
+    ],
+    "answer": "Rắn san hô đầu bạc (Sinomicrurus macclellandi) có chế độ ăn chuyên biệt, chủ yếu săn các loài rắn khác (ophiophagous). Các con mồi ưa thích của chúng bao gồm cả rắn độc non và rắn không độc."
+  },
+  {
+    "question": "Thức ăn của Rắn san hô Phiên Nam (Sinomicrurus peinani) là gì?",
+    "ground_truth": "Dạ dày của một mẫu vật được ghi nhận chứa một con rắn đất (Achalinus sp.), cho thấy chúng là loài ăn rắn.",
+    "contexts": [
+      "Rắn san hô đầu bạc, Rắn san hô Quảng Tây - Tập tính săn mồi: Loài con mồi ưa thích của Sinomicrurus peinani là các loài rắn khác (other snakes, ophiophagous), bao gồm rắn độc non và rắn không độc, với",
+      "Rắn san hô đầu bạc, Rắn san hô Quảng Tây - Độc tính: Sinomicrurus peinani là loài rắn độc mạnh (highly venomous), thuộc nhóm elapid với nọc độc neurotoxic chính (neurotoxic venom), chứa các toxin gây",
+      "Rắn san hô đầu bạc, Rắn san hô Quảng Tây - Đặc điểm hình thái: Sinomicrurus peinani là loài rắn nhỏ đến trung bình, với chiều dài tổng thể tối đa khoảng 620 mm, trung bình 368-620 mm ở cá thể trưởng",
+      "Rắn san hô đầu bạc - Tập tính săn mồi: Loài con mồi ưa thích của Sinomicrurus macclellandi là các loài rắn khác (other snakes, ophiophagous), bao gồm rắn độc non và rắn không độc, với chế độ ăn chuyên"
+    ],
+    "answer": "Thức ăn ưa thích của Rắn san hô Phiên Nam (Sinomicrurus peinani) là các loài rắn khác, bao gồm cả rắn độc non và rắn không độc. Loài này có tập tính săn mồi ăn rắn (ophiophagous)."
+  },
+  {
+    "question": "Rắn ri voi (Subsessor bocourti) săn mồi bằng kỹ thuật nào?",
+    "ground_truth": "Chúng sử dụng kỹ thuật săn mồi 'ngồi chờ' (sit-and-wait ambush) trong các vùng nước đọng.",
+    "contexts": [
+      "Rắn ri voi, Rắn ri tượng, Rắn bồng voi - Tập tính săn mồi: Loài con mồi ưa thích của Subsessor bocourti là cá (fish), ếch (frogs) và giáp xác (crustaceans), với chế độ ăn chuyên biệt về động vật thủy",
+      "Rắn ri voi, Rắn ri tượng, Rắn bồng voi - Tập tính săn mồi: sinh (aquatic specialist) lên đến 100. Kỹ thuật săn mồi chủ yếu là phục kích ngồi chờ (sit-and-wait ambush), sử dụng lưỡi chẻ phát hiện mùi trong nước, sau đó lao nhanh để cắn giữ và nuốt chửng mồi trơn; quá trình mất 2-5 phút nhờ thân chắc tăng lực cắn.",
+      "Rắn ri voi, Rắn ri tượng, Rắn bồng voi - Hành vi và sinh thái: Subsessor bocourti có tính cách bí mật, thụ động và tránh né, hiếm khi tấn công con người trừ khi bị bắt, thường trốn tránh bằng cách",
+      "Rắn ri voi, Rắn ri tượng, Rắn bồng voi - Tên khoa học và tên phổ thông: tiếng việt Rắn ri voi, Rắn ri tượng, Rắn bồng voi. Trong đó, Subsessor là tên chi, được đặt theo chiến lược săn mồi ngồi chờ (sit-and-wait) của loài, với nguồn gốc từ tiếng Latin ám chỉ sự ẩn náu và chờ đợi, phản ánh lối sống thủy sinh thụ động."
+    ],
+    "answer": "Rắn ri voi (Subsessor bocourti) săn mồi bằng kỹ thuật phục kích ngồi chờ (sit-and-wait ambush). Loài rắn này sử dụng lưỡi chẻ để phát hiện mùi trong nước, sau đó lao nhanh để cắn giữ và nuốt chửng con mồi trơn. Quá trình này thường mất khoảng 2-5 phút nhờ thân chắc giúp tăng lực cắn. Tên chi \"Subsessor\" của loài này cũng được đặt theo chiến lược săn mồi ngồi chờ, với nguồn gốc từ tiếng Latin ám chỉ sự ẩn náu và chờ đợi, phản ánh lối sống thủy sinh thụ động của chúng. Con mồi ưa thích của chúng là cá, ếch và giáp xác, cho thấy chế độ ăn chuyên biệt về động vật thủy sinh."
+  },
+  {
+    "question": "Rắn lục mép trắng (Trimeresurus albolabris) săn mồi như thế nào?",
+    "ground_truth": "Chúng là loài săn mồi phục kích ban đêm, sử dụng hố cảm nhiệt để phát hiện con mồi rồi tấn công.",
+    "contexts": [
+      "Rắn lục mép trắng, Rắn lục đuôi đỏ - Tập tính săn mồi: Loài con mồi ưa thích của Trimeresurus albolabris là động vật có vú nhỏ (small mammals như chuột), chim và trứng chim (birds and eggs), cùng với",
+      "Rắn lục mép trắng, Rắn lục đuôi đỏ - Sinh sản: Trimeresurus albolabris sinh sản bằng phương thức đẻ con sống (ovoviviparous), với mùa giao phối thường diễn ra vào mùa xuân (tháng 35 ở miền Bắc Việt",
+      "Rắn lục mép trắng, Rắn lục đuôi đỏ - Hành vi và sinh thái: ính, nhưng di chuyển linh hoạt trên địa hình rừng. Trong môi trường sống, loài này tương tác như kẻ săn mồi đỉnh: kiểm soát quần thể gặm nhấm gây hại nông nghiệp, nhưng là con mồi của chim săn mồi lớn (raptors) hoặc rắn lớn hơn; chúng đồng cư (sympatric) với các loài Trimeresurus khác như T.",
+      "Rắn lục mép trắng, Rắn lục đuôi đỏ - Hành vi và sinh thái: Trimeresurus albolabris có tính cách bí mật, hung hăng khi bị quấy rầy, thường tránh né con người bằng cách nằm im ngụy trang trên cành,"
+    ],
+    "answer": "Trimeresurus albolabris are apex predators that primarily hunt small mammals like mice, as well as birds and their eggs. They play a role in controlling rodent populations that can be harmful to agriculture."
+  },
+  {
+    "question": "Rắn lục mắt hồng ngọc (Trimeresurus rubeus) săn mồi ở đâu?",
+    "ground_truth": "Chúng săn mồi trên cây thấp hoặc bụi rậm gần các dòng suối chảy xiết.",
+    "contexts": [
+      "Rắn lục mắt hồng ngọc - Phân bố địa lý và môi trường sống: Trimeresurus rubeus phân bố hạn chế ở Đông Nam Á, từ miền Nam Việt Nam đến Đông Campuchia.",
+      "Rắn lục mắt hồng ngọc - Tập tính săn mồi: Loài con mồi ưa thích của Trimeresurus rubeus là gặm nhấm nhỏ (small rodents), thằn lằn (lizards) và ếch (frogs), với chế độ ăn đa dạng (generalist carnivore)",
+      "Rắn lục mắt hồng ngọc - Sinh sản: Trimeresurus rubeus sinh sản bằng phương thức đẻ con sống (ovoviviparous), với mùa giao phối thường diễn ra vào mùa mưa (tháng 59 ở Việt Nam), khi độ ẩm cao hỗ trợ di",
+      "Rắn lục mắt hồng ngọc - Hành vi và sinh thái: hính, nhưng di chuyển linh hoạt trên địa hình đồi. Trong môi trường sống, loài này tương tác như kẻ săn mồi trung cấp: kiểm soát quần thể gặm nhấm gây hại nông nghiệp, nhưng là con mồi của chim săn mồi hoặc rắn lớn hơn; chúng đồng cư (sympatric) với các loài Trimeresurus khác như T."
+    ],
+    "answer": "Rắn lục mắt hồng ngọc (Trimeresurus rubeus) săn mồi ở các khu vực phân bố của chúng, bao gồm miền Nam Việt Nam đến Đông Campuchia. Môi trường sống của chúng là trên địa hình đồi."
+  },
+  {
+    "question": "Thức ăn của Rắn lục xanh (Trimeresurus stejnegeri) là gì?",
+    "ground_truth": "Thức ăn của chúng là các loài gặm nhấm nhỏ, thằn lằn và ếch.",
+    "contexts": [
+      "Rắn lục xanh - Tập tính săn mồi: Loài con mồi ưa thích của Trimeresurus stejnegeri là gặm nhấm nhỏ (small rodents), thằn lằn (lizards) và ếch (frogs), với chế độ ăn đa dạng (generalist carnivore) phản",
+      "Rắn lục xanh - Độc tính: Trimeresurus stejnegeri là loài rắn độc mạnh (highly venomous), thuộc nhóm pit viper với nọc độc hemotoxic chính (hemotoxic venom), chứa các enzyme như metalloproteinases và",
+      "Rắn lục xanh - Sinh sản: Trimeresurus stejnegeri sinh sản bằng phương thức đẻ con sống (ovoviviparous), với mùa giao phối thường diễn ra vào mùa mưa (tháng 59 ở Việt Nam), khi độ ẩm cao hỗ trợ di",
+      "Rắn lục xanh - Phân loại học: loài thuộc phức hợp Trimeresurus stejnegeri (T. stejnegeri complex)."
+    ],
+    "answer": "Thức ăn của Rắn lục xanh (Trimeresurus stejnegeri) bao gồm gặm nhấm nhỏ, thằn lằn và ếch. Đây là một loài rắn ăn thịt có chế độ ăn đa dạng."
+  },
+  {
+    "question": "Rắn lục miền Nam (Trimeresurus vogeli) có chế độ ăn như thế nào?",
+    "ground_truth": "Chúng là loài ăn thịt đa dạng, ăn các loài gặm nhấm nhỏ, thằn lằn và ếch.",
+    "contexts": [
+      "Rắn lục miền Nam, Rắn lục Von-gen - Tập tính săn mồi: Loài con mồi ưa thích của Trimeresurus vogeli là gặm nhấm nhỏ (small rodents), thằn lằn (lizards) và ếch (frogs), với chế độ ăn đa dạng",
+      "Rắn lục miền Nam, Rắn lục Von-gen - Sinh sản: Trimeresurus vogeli sinh sản bằng phương thức đẻ con sống (ovoviviparous), với mùa giao phối thường diễn ra vào mùa mưa (tháng 59 ở Việt Nam), khi độ ẩm",
+      "Rắn lục miền Nam, Rắn lục Von-gen - Độc tính: Trimeresurus vogeli là loài rắn độc mạnh (highly venomous), thuộc nhóm pit viper với nọc độc hemotoxic chính (hemotoxic venom), chứa các enzyme như",
+      "Rắn lục miền Nam, Rắn lục Von-gen - Hành vi và sinh thái: Trimeresurus vogeli có tính cách bí mật, hung hăng khi bị quấy rầy, thường tránh né con người bằng cách nằm im ngụy trang trên cành, nhưng sẵn"
+    ],
+    "answer": "Rắn lục miền Nam (Trimeresurus vogeli) có chế độ ăn đa dạng, với các loài con mồi ưa thích là gặm nhấm nhỏ, thằn lằn và ếch."
+  },
+  {
+    "question": "Rắn hoa cân vân đốm (Trimerodytes aequifasciatus) ăn gì?",
+    "ground_truth": "Thức ăn của chúng bao gồm ếch, cá, thằn lằn và côn trùng.",
+    "contexts": [
+      "Rắn hoa cân vân đốm - Độc tính: Trimerodytes aequifasciatus là loài rắn hoàn toàn không độc (non-venomous), không có nọc độc, tuyến độc hoặc cơ chế tiêm độc nào, và được xếp vào nhóm vô hại đối với",
+      "Rắn hoa cân vân đốm - Sự liên quan với con người: Trimerodytes aequifasciatus có tương tác hạn chế và chủ yếu vô hại với con người, là loài vô hại không gây hại; ở Việt Nam, chúng đôi khi bị giết nhầm",
+      "Rắn hoa cân vân đốm - Phân loại học: Loài Trimerodytes aequifasciatus thuộc họ Colubridae (họ rắn không răng nanh, phân họ Natricinae), chi Trimerodytes (chi rắn gờ vòng châu Á), và là loài loại hình",
+      "Rắn hoa cân vân đốm - Tập tính săn mồi: Loài con mồi ưa thích của Trimerodytes aequifasciatus là ếch (frogs), cá (fish), thằn lằn (lizards) và côn trùng (insects), với chế độ ăn đa dạng (generalist)"
+    ],
+    "answer": "Rắn hoa cân vân đốm (Trimerodytes aequifasciatus) có chế độ ăn đa dạng và ưa thích các loài con mồi như ếch, cá, thằn lằn và côn trùng."
+  },
+  {
+    "question": "Thức ăn của Hoa cân vân đen (Trimerodytes percarinatus) là gì?",
+    "ground_truth": "Thức ăn của chúng là ếch, cá, thằn lằn và côn trùng.",
+    "contexts": [
+      "Hoa cân vân đen - Tập tính săn mồi: Loài con mồi ưa thích của Trimerodytes percarinatus là ếch (frogs), cá (fish), thằn lằn (lizards) và côn trùng (insects), với chế độ ăn đa dạng (generalist) phản",
+      "Hoa cân vân đen - Phân loại học: Loài Trimerodytes percarinatus thuộc họ Colubridae (họ rắn không răng nanh, phân họ Natricinae), chi Trimerodytes (chi rắn gờ vòng châu Á), và là loài loại hình của",
+      "Hoa cân vân đen - Độc tính: Trimerodytes percarinatus là loài rắn hoàn toàn không độc (non-venomous), không có nọc độc, tuyến độc hoặc cơ chế tiêm độc nào, và được xếp vào nhóm vô hại đối với con",
+      "Hoa cân vân đen - Sự liên quan với con người: Trimerodytes percarinatus có tương tác hạn chế và chủ yếu vô hại với con người, là loài vô hại không gây hại; ở Việt Nam, chúng đôi khi bị giết nhầm là"
+    ],
+    "answer": "Thức ăn của Hoa cân vân đen (Trimerodytes percarinatus) bao gồm ếch, cá, thằn lằn và côn trùng. Đây là loài có chế độ ăn đa dạng."
+  },
+  {
+    "question": "Rắn mống (Xenopeltis unicolor) có chế độ ăn như thế nào?",
+    "ground_truth": "Chúng là loài ăn thịt đa dạng, ăn các loài động vật có vú nhỏ (như chuột), bò sát (như thằn lằn), lưỡng cư (như ếch) và chim.",
+    "contexts": [
+      "Rắn mống thường, Rắn hổ hành, Rắn hổ chì - Độc tính: Xenopeltis unicolor là loài rắn hoàn toàn không độc (non-venomous), không có nọc độc, tuyến độc hoặc cơ chế tiêm độc nào, và được xếp vào nhóm vô",
+      "Rắn mống thường, Rắn hổ hành, Rắn hổ chì - Tập tính săn mồi: Loài con mồi ưa thích của Xenopeltis unicolor là động vật có vú nhỏ (small mammals như chuột), bò sát (reptiles như thằn lằn), lưỡng cư",
+      "Rắn mống thường, Rắn hổ hành, Rắn hổ chì - Hành vi và sinh thái: Xenopeltis unicolor có tính cách bí mật, thụ động và tránh né, hiếm khi tấn công con người trừ khi bị đào hang, thường trốn tránh bằng",
+      "Rắn mống thường, Rắn hổ hành, Rắn hổ chì - Sinh sản: Xenopeltis unicolor sinh sản bằng phương thức đẻ trứng (oviparous), với mùa giao phối thường diễn ra vào mùa mưa (tháng 59 ở Việt Nam), khi độ ẩm"
+    ],
+    "answer": "Rắn mống (Xenopeltis unicolor) có chế độ ăn bao gồm động vật có vú nhỏ (như chuột), bò sát (như thằn lằn), và lưỡng cư."
+  }
+]

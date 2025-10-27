@@ -1,119 +1,115 @@
 [
   {
-    "question": "Rắn đào hang đỏ (Achalinus rufescens) có nọc độc không?",
-    "ground_truth": "Không, Rắn đào hang đỏ là loài không có nọc độc. Răng của chúng thuộc loại aglyphous (không có răng nọc)."
+    "question": "Mức độ nguy hiểm của Rắn vảy lạ xám (Achalinus spinalis) đối với con người là gì?",
+    "ground_truth": "Mức độ nguy hiểm đối với con người là zero – hoàn toàn vô hại, không gây tử vong hay tổn thương nghiêm trọng."
   },
   {
-    "question": "Mức độ nguy hiểm của Rắn vảy lạ xám (Achalinus spinalis) đối với con người như thế nào?",
-    "ground_truth": "Rắn vảy lạ xám hoàn toàn vô hại đối với con người. Chúng không có nọc độc và nếu bị cắn, vết cắn chỉ gây ra các vết xước nhẹ."
+    "question": "Rắn rầm ri cá (Acrochordus granulatus) có được coi là mối đe dọa y tế không?",
+    "ground_truth": "Không, Rắn rầm ri cá là loài không có nọc độc và không được coi là mối đe dọa y tế."
   },
   {
-    "question": "Rắn rầm ri cá (Acrochordus granulatus) có độc không?",
-    "ground_truth": "Không, Rắn rầm ri cá là loài không có nọc độc (nonvenomous) và hoàn toàn vô hại đối với con người."
+    "question": "Vết cắn của Rắn rầm ri cóc (Acrochordus javanicus) có triệu chứng gì không?",
+    "ground_truth": "Không, loài này không có nọc độc. Nếu bị cắn, nó chỉ gây vết xước nhẹ, không có triệu chứng độc tính như sưng, tê hay đông máu."
   },
   {
-    "question": "Rắn rầm ri cóc (Acrochordus javanicus) có nọc độc không?",
-    "ground_truth": "Không, Rắn rầm ri cóc là loài không có nọc độc và hoàn toàn vô hại đối với con người."
+    "question": "Nọc độc của Rắn roi mõm nhọn (Ahaetulla fusca) có nguy hiểm nghiêm trọng không?",
+    "ground_truth": "Không, loài này có độc nhẹ và nhìn chung không nguy hiểm nghiêm trọng. Vết cắn thường chỉ gây đau nhẹ, sưng hoặc đỏ tại chỗ."
   },
   {
-    "question": "Mức độ nguy hiểm của Rắn roi mõm nhọn (Ahaetulla fusca) đối với con người ra sao?",
-    "ground_truth": "Rắn roi mõm nhọn có độc nhẹ và nhìn chung không nguy hiểm nghiêm trọng. Vết cắn thường chỉ gây đau nhẹ, sưng hoặc đỏ tại chỗ."
+    "question": "Vết cắn của Rắn roi thường (Ahaetulla prasina) có gây tử vong không?",
+    "ground_truth": "Không, loài này có nọc độc nhẹ, không gây tử vong cho con người. Triệu chứng thường chỉ bao gồm đau cục bộ, sưng, tê và bầm tím."
   },
   {
-    "question": "Nọc độc của Rắn roi thường (Ahaetulla prasina) có gây tử vong cho người không?",
-    "ground_truth": "Không, nọc độc của Rắn roi thường rất nhẹ, không gây tử vong cho con người. Triệu chứng thường chỉ bao gồm đau cục bộ, sưng, tê và bầm tím tại vết cắn."
-  },
-  {
-    "question": "Rắn roi mắt đỏ (Ahaetulla rufusoculara) có nọc độc không và mức độ nguy hiểm như thế nào?",
-    "ground_truth": "Có, Rắn roi mắt đỏ là loài có nọc độc nhẹ. Mức độ nguy hiểm đối với con người rất thấp, thường chỉ gây đau cục bộ, sưng, tê và bầm tím tại vết cắn."
+    "question": "Mức độ nguy hiểm của Rắn roi mắt đỏ (Ahaetulla rufusoculara) đối với con người như thế nào?",
+    "ground_truth": "Mức độ nguy hiểm đối với con người rất thấp. Chúng có nọc độc nhẹ, không gây tử vong, thường chỉ gây đau cục bộ, sưng, tê và bầm tím."
   },
   {
     "question": "Rắn sãi cỏ (Amphiesma stolatum) có độc không?",
     "ground_truth": "Không, Rắn sãi cỏ là loài không có nọc độc và hoàn toàn vô hại đối với con người."
   },
   {
-    "question": "Nọc độc của Rắn biển môi xanh (Laticauda laticaudata) thuộc loại gì và mạnh như thế nào?",
-    "ground_truth": "Nọc độc của Rắn biển môi xanh thuộc loại độc thần kinh (neurotoxic), mạnh gấp 10 lần rắn đuôi chuông. Tuy nhiên, chúng rất hiền lành và hiếm khi cắn người."
+    "question": "Nọc độc của Rắn biển môi xanh (Laticauda laticaudata) mạnh đến mức nào?",
+    "ground_truth": "Nọc độc của Rắn biển môi xanh thuộc loại độc thần kinh mạnh, mạnh gấp 10 lần rắn đuôi chuông."
   },
   {
-    "question": "Vết cắn của Rắn rào xanh (Boiga cyanea) có gây tử vong không?",
-    "ground_truth": "Không, vết cắn của Rắn rào xanh không gây tử vong. Chúng có nọc độc nhẹ, thường chỉ gây triệu chứng cục bộ như đau, sưng và tê."
+    "question": "Triệu chứng khi bị Rắn rào xanh (Boiga cyanea) cắn là gì?",
+    "ground_truth": "Triệu chứng khi bị cắn bao gồm đau cục bộ, sưng vừa phải, tê/tê liệt nhẹ (paresthesia), bầm tím, đỏ da và chảy máu nhẹ."
   },
   {
-    "question": "Mức độ nguy hiểm của Rắn rào Quảng Tây (Boiga guangxiensis) đối với con người là gì?",
-    "ground_truth": "Rắn rào Quảng Tây có nọc độc nhẹ nhưng được coi là vô hại ở Việt Nam. Vết cắn chỉ gây triệu chứng cục bộ nhẹ và không gây tử vong."
+    "question": "Rắn rào Quảng Tây (Boiga guangxiensis) có được coi là vô hại ở Việt Nam không?",
+    "ground_truth": "Có, mặc dù có nọc độc nhẹ, Rắn rào Quảng Tây được coi là vô hại (harmless) ở Việt Nam, chỉ gây triệu chứng cục bộ nhẹ."
   },
   {
-    "question": "Rắn rào ngọc bích (Boiga jaspidea) có được coi là loài nguy hiểm không?",
-    "ground_truth": "Không, Rắn rào ngọc bích được coi là vô hại ở Việt Nam. Chúng có nọc độc nhẹ, thường chỉ gây triệu chứng cục bộ và không ghi nhận trường hợp tử vong."
+    "question": "Vết cắn của Rắn rào ngọc bích (Boiga jaspidea) có gây tử vong không?",
+    "ground_truth": "Không, loài này có nọc độc nhẹ và không gây tử vong. Vết cắn thường chỉ gây triệu chứng cục bộ nhẹ."
   },
   {
-    "question": "Nọc độc của Rắn rào đầu vuông (Boiga kraepelini) có nguy hiểm đến tính mạng không?",
-    "ground_truth": "Không, nọc độc của Rắn rào đầu vuông rất nhẹ và không gây tử vong. Triệu chứng khi bị cắn chỉ bao gồm đau cục bộ, sưng nhẹ và đỏ da."
+    "question": "Nọc độc của Rắn rào đầu vuông (Boiga kraepelini) có nguy hiểm không?",
+    "ground_truth": "Không, loài này có nọc độc nhẹ, không gây tử vong. Triệu chứng có thể bao gồm sưng nhẹ, đỏ da, tê cục bộ, khô họng và buồn nôn."
   },
   {
-    "question": "Rắn rào đốm (Boiga multomaculata) có độc không?",
-    "ground_truth": "Có, Rắn rào đốm là loài có nọc độc nhẹ nhưng được coi là vô hại ở Việt Nam, vết cắn chỉ gây triệu chứng cục bộ nhẹ."
+    "question": "Mức độ nguy hiểm của Rắn rào đốm (Boiga multomaculata) đối với con người là gì?",
+    "ground_truth": "Mức độ nguy hiểm đối với con người rất thấp, được coi là vô hại (harmless) ở Việt Nam. Vết cắn chỉ gây triệu chứng cục bộ nhẹ."
   },
   {
-    "question": "Vết cắn của Rắn rào Xiêm (Boiga siamensis) có gây tử vong cho người không?",
-    "ground_truth": "Không, Rắn rào Xiêm là loài có nọc độc nhẹ và vết cắn không gây tử vong cho người, thường chỉ gây triệu chứng cục bộ."
+    "question": "Rắn rào Xiêm (Boiga siamensis) có nọc độc không?",
+    "ground_truth": "Có, Rắn rào Xiêm là loài có nọc độc nhẹ, không gây tử vong cho người, thường chỉ gây triệu chứng cục bộ."
   },
   {
     "question": "Nọc độc của Rắn cạp nia (Bungarus candidus) nguy hiểm như thế nào?",
-    "ground_truth": "Rắn cạp nia có nọc độc cực mạnh, thuộc loại độc thần kinh. Tỷ lệ tử vong là 60-70% nếu không được điều trị."
+    "ground_truth": "Rắn cạp nia có nọc độc cực mạnh, chủ yếu là độc thần kinh, với tỷ lệ tử vong 60–70% nếu không điều trị."
   },
   {
     "question": "Nọc độc của Rắn cạp nống (Bungarus fasciatus) thuộc loại gì và tỷ lệ tử vong ra sao?",
-    "ground_truth": "Nọc độc của Rắn cạp nống thuộc loại độc thần kinh cực mạnh. Tỷ lệ tử vong từ 50-70% nếu không được điều trị."
+    "ground_truth": "Nọc độc của Rắn cạp nống thuộc loại độc thần kinh cực mạnh, với tỷ lệ tử vong 50–70% nếu không được điều trị."
   },
   {
-    "question": "Rắn mai gầm bắc (Calamaria septentrionalis) có nọc độc không?",
-    "ground_truth": "Không, Rắn mai gầm bắc là loài không có nọc độc và hoàn toàn vô hại đối với con người."
+    "question": "Rắn mai gầm bắc (Calamaria septentrionalis) có nguy hiểm cho con người không?",
+    "ground_truth": "Không, Rắn mai gầm bắc là loài không có nọc độc và hoàn toàn vô hại."
   },
   {
-    "question": "Mức độ nguy hiểm của Rắn san hô nhỏ đốm (Calliophis maculiceps) như thế nào?",
-    "ground_truth": "Mức độ nguy hiểm đối với con người thấp đến trung bình. Vết cắn thường chỉ gây triệu chứng cục bộ và chưa ghi nhận trường hợp tử vong."
+    "question": "Vết cắn của Rắn san hô nhỏ đốm (Calliophis maculiceps) có gây tử vong không?",
+    "ground_truth": "Không, loài này có nọc độc nhưng mức độ nguy hiểm thấp đến trung bình, chưa ghi nhận trường hợp tử vong ở người."
   },
   {
-    "question": "Nọc độc của Rắn lục mũi hếch (Calloselasma rhodostoma) nguy hiểm ra sao?",
-    "ground_truth": "Rắn lục mũi hếch có nọc độc cực mạnh, thuộc loại độc máu (hemotoxic) và là nguyên nhân chính gây tử vong do rắn cắn ở Đông Nam Á, với tỷ lệ tử vong 10-20% nếu không điều trị."
+    "question": "Triệu chứng khi bị Rắn lục mũi hếch (Calloselasma rhodostoma) cắn là gì?",
+    "ground_truth": "Triệu chứng bao gồm đau dữ dội, sưng lan rộng, phồng rộp, hoại tử mô, xuất huyết, giảm tiểu cầu, suy thận cấp và có thể tử vong."
   },
   {
     "question": "Nọc độc của Rắn Séc be (Cerberus schneiderii) thuộc loại gì?",
-    "ground_truth": "Rắn Séc be có nọc độc nhẹ, chủ yếu là độc tố gây hại tế bào (cytotoxin) và không gây nguy hiểm cho con người."
+    "ground_truth": "Rắn Séc be có nọc độc nhẹ, chủ yếu là độc tố gây hại tế bào (cytotoxin) với yếu tố độc máu (hemotoxic) nhẹ, không nguy hiểm cho con người."
   },
   {
     "question": "Rắn nước châu Á (Fowlea piscator) có nọc độc không?",
-    "ground_truth": "Không, Rắn nước châu Á là loài không có nọc độc và hoàn toàn vô hại."
+    "ground_truth": "Không, Rắn nước châu Á là loài không có nọc độc và hoàn toàn vô hại đối với con người."
   },
   {
-    "question": "Rắn cườm (Chrysopelea ornata) có nọc độc không?",
-    "ground_truth": "Có, Rắn cườm có nọc độc nhẹ, không gây nguy hiểm đáng kể cho con người."
+    "question": "Rắn cườm (Chrysopelea ornata) có độc không?",
+    "ground_truth": "Có, Rắn cườm là loài có nọc độc nhẹ, không gây nguy hiểm đáng kể cho con người."
   },
   {
-    "question": "Rắn sọc vàng (Coelognathus flavolineatus) có độc không?",
-    "ground_truth": "Không, Rắn sọc vàng là loài không có nọc độc và hoàn toàn vô hại."
+    "question": "Rắn sọc vàng (Coelognathus flavolineatus) có nọc độc không?",
+    "ground_truth": "Không, Rắn sọc vàng là loài không có nọc độc và hoàn toàn vô hại đối với con người."
   },
   {
-    "question": "Mặc dù không có nọc độc, nghiên cứu năm 2003 đã phát hiện ra điều gì về Rắn hổ ngựa (Coelognathus radiatus)?",
-    "ground_truth": "Nghiên cứu năm 2003 đã cô lập một loại độc tố thần kinh (neurotoxin) là alpha-colubritoxin từ loài này, chứng minh nguồn gốc sớm của nọc độc ở cả những loài rắn được coi là không độc."
+    "question": "Rắn hổ ngựa (Coelognathus radiatus) có nọc độc không?",
+    "ground_truth": "Không, Rắn hổ ngựa là loài không có nọc độc và hoàn toàn vô hại, mặc dù một nghiên cứu đã cô lập được một loại độc tố thần kinh (alpha-colubritoxin) từ loài này."
   },
   {
     "question": "Rắn trun (Cylindrophis jodiae) có nọc độc không?",
-    "ground_truth": "Không, Rắn trun là loài không có nọc độc và hoàn toàn vô hại."
+    "ground_truth": "Không, Rắn trun là loài không có nọc độc và hoàn toàn vô hại đối với con người."
   },
   {
-    "question": "Mức độ nguy hiểm của Rắn trun (Cylindrophis ruffus) là gì?",
-    "ground_truth": "Rắn trun là loài không có nọc độc và hoàn toàn vô hại đối với con người."
+    "question": "Rắn trun (Cylindrophis ruffus) có nguy hiểm cho con người không?",
+    "ground_truth": "Không, Rắn trun là loài không có nọc độc và hoàn toàn vô hại đối với con người."
   },
   {
-    "question": "Nọc độc của Rắn lục mũi nhọn (Deinagkistrodon acutus) nguy hiểm như thế nào?",
-    "ground_truth": "Đây là loài có nọc độc cực mạnh, thuộc loại độc máu (hemotoxic) và độc tế bào (cytotoxin), có thể gây tử vong với tỷ lệ 10-20% nếu không điều trị."
+    "question": "Nọc độc của Rắn lục mũi nhọn (Deinagkistrodon acutus) thuộc loại gì?",
+    "ground_truth": "Nọc độc của chúng thuộc loại độc máu (hemotoxic) và độc tế bào (cytotoxin), rất mạnh."
   },
   {
-    "question": "Rắn leo cây Ngân Sơn (Dendrelaphis ngansonensis) có nguy hiểm cho con người không?",
-    "ground_truth": "Không, Rắn leo cây Ngân Sơn là loài không có nọc độc và hoàn toàn vô hại."
+    "question": "Rắn leo cây Ngân Sơn (Dendrelaphis ngansonensis) có độc không?",
+    "ground_truth": "Không, Rắn leo cây Ngân Sơn là loài không có nọc độc và vô hại."
   },
   {
     "question": "Rắn leo cây bắc Đông dương (Dendrelaphis proarchos) có độc không?",
@@ -129,31 +125,35 @@
   },
   {
     "question": "Rắn sọc gờ (Elaphe carinata) có nọc độc không?",
-    "ground_truth": "Không, Rắn sọc gờ là loài không có nọc độc. Tuy nhiên, chúng có tuyến hậu môn tiết ra chất lỏng rất hôi để phòng vệ."
+    "ground_truth": "Không, Rắn sọc gờ là loài không có nọc độc và hoàn toàn vô hại."
   },
   {
-    "question": "Rắn sọc khoanh (Elaphe moellendorffi) có độc tính như thế nào?",
-    "ground_truth": "Rắn sọc khoanh là loài không có nọc độc và hoàn toàn vô hại."
+    "question": "Rắn sọc khoanh (Elaphe moellendorffi) có nọc độc không?",
+    "ground_truth": "Không, Rắn sọc khoanh là loài không có nọc độc và hoàn toàn vô hại."
   },
   {
     "question": "Rắn sọc đuôi (Elaphe taeniura) có nọc độc không?",
     "ground_truth": "Không, Rắn sọc đuôi là loài không có nọc độc và hoàn toàn vô hại."
   },
   {
-    "question": "Nọc độc của Rắn bồng Mekong (Enhydris subtaeniata) thuộc loại gì?",
-    "ground_truth": "Rắn bồng Mekong có nọc độc nhẹ, thuộc loại độc tố gây hại tế bào (cytotoxin) với yếu tố độc máu nhẹ, không gây nguy hiểm cho người."
+    "question": "Nọc độc của Rắn bồng Mekong (Enhydris subtaeniata) có nguy hiểm không?",
+    "ground_truth": "Không, Rắn bồng Mekong có nọc độc nhẹ, nhưng không gây nguy hiểm cho con người, chỉ gây triệu chứng cục bộ nhẹ."
   },
   {
-    "question": "Nọc độc của Rắn râu (Erpeton tentaculatum) có nguy hiểm cho người không?",
-    "ground_truth": "Không. Rắn râu có nọc độc nhẹ được thiết kế đặc biệt cho cá, không ảnh hưởng đáng kể đến động vật có vú và không gây nguy hiểm cho con người."
+    "question": "Nọc độc của Rắn râu (Erpeton tentaculatum) có tác dụng gì?",
+    "ground_truth": "Nọc độc của Rắn râu là nọc độc nhẹ, được thiết kế đặc biệt để làm tê liệt con mồi là cá nhưng không gây nguy hiểm đáng kể cho con người."
   },
   {
-    "question": "Rắn ăn cua (Fordonia leucobalia) có nọc độc được thiết kế cho con mồi nào?",
-    "ground_truth": "Nọc độc nhẹ của Rắn ăn cua được thiết kế đặc biệt cho cua và cá, không gây nguy hiểm đáng kể cho động vật có vú."
+    "question": "Nọc độc của Rắn hoa (Euprepiophis mandarinus) có nguy hiểm không?",
+    "ground_truth": "Không, Rắn hoa là loài không có nọc độc và hoàn toàn vô hại."
   },
   {
-    "question": "Rắn nước đốm vàng (Fowlea flavipunctata) có phải là rắn độc không?",
-    "ground_truth": "Không, Rắn nước đốm vàng là loài không có nọc độc và hoàn toàn vô hại."
+    "question": "Rắn ăn cua (Fordonia leucobalia) có độc không?",
+    "ground_truth": "Có, Rắn ăn cua có nọc độc nhẹ, chủ yếu là độc tố gây hại tế bào, nhưng không ảnh hưởng đáng kể đến động vật có vú."
+  },
+  {
+    "question": "Rắn nước đốm vàng (Fowlea flavipunctata) có độc không?",
+    "ground_truth": "Không, Rắn nước đốm vàng là loài không có nọc độc và hoàn toàn vô hại đối với con người."
   },
   {
     "question": "Rắn mũi dài (Gonyosoma boulengeri) có nọc độc không?",
@@ -161,10 +161,10 @@
   },
   {
     "question": "Rắn sọc mắt xanh (Gonyosoma coeruleum) có độc không?",
-    "ground_truth": "Không, Rắn sọc mắt xanh là loài rắn không có độc tố, hoàn toàn vô hại đối với con người."
+    "ground_truth": "Không, Rắn sọc mắt xanh là loài không có nọc độc và vô hại đối với con người."
   },
   {
-    "question": "Rắn dây leo xanh (Gonyosoma frenatum) có nguy hiểm cho con người không?",
+    "question": "Rắn dây leo xanh (Gonyosoma frenatum) có độc không?",
     "ground_truth": "Không, Rắn dây leo xanh là loài không có nọc độc và hoàn toàn vô hại."
   },
   {
@@ -174,5 +174,13 @@
   {
     "question": "Rắn nước boulengeri (Hebius boulengeri) có nọc độc không?",
     "ground_truth": "Có, Rắn nước boulengeri là loài có nanh sau và nọc độc nhẹ, nhưng không nguy hiểm cho người."
+  },
+  {
+    "question": "Rắn nước đồi Khasi (Hebius khasiensis) có nọc độc không?",
+    "ground_truth": "Có, Rắn nước đồi Khasi là loài có nanh sau và nọc độc nhẹ, không gây nguy hiểm cho con người."
+  },
+  {
+    "question": "Nọc độc của Rắn nước Omei (Hebius optatus) có nguy hiểm cho người không?",
+    "ground_truth": "Không, Rắn nước Omei có nọc độc nhẹ và được coi là vô hại đối với con người."
   }
 ]

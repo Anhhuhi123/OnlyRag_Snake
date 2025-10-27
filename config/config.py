@@ -27,6 +27,65 @@ class Config:
     CHUNK_OVERLAP = 50
     TOP_K_RESULTS = 7
     
+    # Field-specific chunking (bật/tắt chunk size riêng cho từng field)
+    USE_FIELD_SPECIFIC_CHUNKING = True
+    
+    # Chunking mode: "words" hoặc "chars"
+    CHUNK_BY = "words"  # "words" = chia theo từ, "chars" = chia theo ký tự
+    
+    # Chunk size và overlap cho từng field (nếu USE_FIELD_SPECIFIC_CHUNKING = True)
+    # Giá trị theo CHUNK_BY: nếu "words" thì là số từ, nếu "chars" thì là số ký tự
+    FIELD_CHUNK_CONFIG = {
+        "Tên khoa học và tên phổ thông": {
+            "chunk_size": 80,      # 40 từ
+            "chunk_overlap": 30
+        },
+        "Phân loại học": {
+            "chunk_size": 60,
+            "chunk_overlap": 20
+        },
+        "Đặc điểm hình thái": {
+            "chunk_size": 80,
+            "chunk_overlap": 30
+        },
+        "Độc tính": {
+            "chunk_size": 80,
+            "chunk_overlap": 20
+        },
+        "Tập tính săn mồi": {
+            "chunk_size": 70,
+            "chunk_overlap": 15
+        },
+        "Hành vi và sinh thái": {
+            "chunk_size": 70,
+            "chunk_overlap": 15
+        },
+        "Phân bố địa lý và môi trường sống": {
+            "chunk_size": 70,
+            "chunk_overlap": 15
+        },
+        "Sinh sản": {
+            "chunk_size": 60,
+            "chunk_overlap": 15
+        },
+        "Tình trạng bảo tồn": {
+            "chunk_size": 50,
+            "chunk_overlap": 10
+        },
+        "Giá trị nghiên cứu": {
+            "chunk_size": 100,     # Field dài nên cho nhiều từ hơn
+            "chunk_overlap": 20
+        },
+        "Sự liên quan với con người": {
+            "chunk_size": 80,
+            "chunk_overlap": 15
+        },
+        "Các quan sát thú vị từ các nhà nghiên cứu": {
+            "chunk_size": 80,
+            "chunk_overlap": 15
+        }
+    }
+    
     # Re-ranking configurations
     USE_RERANKING = True
     CROSS_ENCODER_MODEL = "cross-encoder/ms-marco-MiniLM-L-12-v2"

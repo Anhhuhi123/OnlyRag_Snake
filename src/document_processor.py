@@ -117,11 +117,52 @@ class DocumentProcessor:
         # Clean the text first
         text = self.clean_text(text)
         
+        # Get field-specific chunk config if enabled
+        if Config.USE_FIELD_SPECIFIC_CHUNKING and metadata_key and metadata_key in Config.FIELD_CHUNK_CONFIG:
+            field_config = Config.FIELD_CHUNK_CONFIG[metadata_key]
+            chunk_size = field_config["chunk_size"]
+            chunk_overlap = field_config["chunk_overlap"]
+            chunk_by = Config.CHUNK_BY
+            print(f"  Using field-specific config for '{metadata_key}': chunk_size={chunk_size} {chunk_by}, overlap={chunk_overlap} {chunk_by}")
+        else:
+            # Use default chunk size and overlap
+            chunk_size = self.chunk_size
+            chunk_overlap = self.chunk_overlap
+            chunk_by = "chars"  # Default to chars
+        
         # Create context prefix if both snake_name and metadata_key provided
         context_prefix = ""
         if snake_name and metadata_key:
             context_prefix = f"{snake_name} - {metadata_key}: "
         
+        # Chunk by words or chars
+        if chunk_by == "words":
+            return self._chunk_by_words(text, context_prefix, chunk_size, chunk_overlap)
+        else:
+            return self._chunk_by_chars(text, context_prefix, chunk_size, chunk_overlap)
+    
+    def _chunk_by_words(self, text: str, context_prefix: str, chunk_size: int, chunk_overlap: int) -> List[str]:
+        """Chunk text by word count"""
+        words = text.split()
+        chunks = []
+        
+        i = 0
+        while i < len(words):
+            # Take chunk_size words
+            chunk_words = words[i:i + chunk_size]
+            chunk_text = " ".join(chunk_words)
+            
+            # Add prefix
+            final_chunk = context_prefix + chunk_text
+            chunks.append(final_chunk)
+            
+            # Move forward by (chunk_size - overlap) to create overlap
+            i += (chunk_size - chunk_overlap)
+        
+        return chunks
+    
+    def _chunk_by_chars(self, text: str, context_prefix: str, chunk_size: int, chunk_overlap: int) -> List[str]:
+        """Chunk text by character count (original logic)"""
         # Split into sentences for better chunking
         sentences = re.split(r'(?<=[.!?])\s+', text)
         
@@ -129,8 +170,8 @@ class DocumentProcessor:
         current_chunk = ""
         
         for sentence in sentences:
-            # Calculate chunk size including prefix
-            prefix_adjusted_size = self.chunk_size - len(context_prefix)
+            # Calculate chunk size including prefix (use field-specific or default)
+            prefix_adjusted_size = chunk_size - len(context_prefix)
             
             # If adding this sentence would exceed chunk size
             if len(current_chunk) + len(sentence) > prefix_adjusted_size:
@@ -139,10 +180,10 @@ class DocumentProcessor:
                     final_chunk = context_prefix + current_chunk.strip()
                     chunks.append(final_chunk)
                     
-                    # Start new chunk with overlap
-                    if self.chunk_overlap > 0:
+                    # Start new chunk with overlap (use field-specific or default)
+                    if chunk_overlap > 0:
                         # Take last part of current chunk as overlap
-                        overlap_text = current_chunk[-self.chunk_overlap:] if len(current_chunk) > self.chunk_overlap else current_chunk
+                        overlap_text = current_chunk[-chunk_overlap:] if len(current_chunk) > chunk_overlap else current_chunk
                         current_chunk = overlap_text + " " + sentence
                     else:
                         current_chunk = sentence

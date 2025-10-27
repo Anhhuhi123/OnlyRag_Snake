@@ -323,7 +323,7 @@ if __name__ == "__main__":
     # Configuration
     PREDICTIONS_FILE = "data/predictions.json"
     K_VALUES = [1, 2]  # Đánh giá với k = 1, 2
-    THRESHOLD = 0.55  # Ngưỡng cosine similarity 50% để coi là relevant
+    THRESHOLD = 0.4  # Ngưỡng cosine similarity 50% để coi là relevant
     
     # Run evaluation
     results = evaluate_retrieval(
