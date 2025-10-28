@@ -294,8 +294,8 @@
       "ground_truth": "Không, Rắn leo cây Ngân Sơn là loài không có nọc độc và vô hại.",
       "bertscore": {
         "precision": 0.659736156463623,
-        "recall": 0.8511101603507996,
-        "f1": 0.7433027029037476
+        "recall": 0.8511102199554443,
+        "f1": 0.7433028221130371
       }
     },
     {
@@ -344,8 +344,8 @@
       "ground_truth": "Không, Rắn sọc khoanh là loài không có nọc độc và hoàn toàn vô hại.",
       "bertscore": {
         "precision": 0.6624855995178223,
-        "recall": 0.8404777646064758,
-        "f1": 0.740942120552063
+        "recall": 0.8404778242111206,
+        "f1": 0.7409421801567078
       }
     },
     {
@@ -513,9 +513,9 @@
       "predicted_answer": "Rắn mù Brahminy (Indotyphlops braminus) hoàn toàn không có nọc độc. Loài rắn này thuộc nhóm typhlopid vô hại và không có tuyến nọc độc, nanh rỗng hay enzyme độc tố. Thay vào đó, chúng sử dụng sức mạnh cơ thể để giữ mồi. Mức độ nguy hiểm đối với con người bằng không; nếu bị cắn (điều này rất hiếm khi xảy ra vì chúng là loài nhút nhát), chỉ gây ra vết xước nhẹ do răng nhỏ, dẫn đến chảy máu tối thiểu và không có bất kỳ triệu chứng toàn thân nào như tê liệt, nôn mửa hay suy hô hấp. Cơ chế tác động của chúng thuần túy là cơ học thông qua việc cắn giữ.",
       "ground_truth": "Không, Rắn mù Brahminy là loài hoàn toàn không có độc tố và vô hại.",
       "bertscore": {
-        "precision": 0.644952118396759,
-        "recall": 0.8123468160629272,
-        "f1": 0.7190354466438293
+        "precision": 0.6449521780014038,
+        "recall": 0.812346875667572,
+        "f1": 0.7190355658531189
       }
     },
     {
@@ -554,8 +554,8 @@
       "ground_truth": "Không, Rắn khuyết Nam Động là loài không có nọc độc và vô hại.",
       "bertscore": {
         "precision": 0.6748473644256592,
-        "recall": 0.8263699412345886,
-        "f1": 0.7429617643356323
+        "recall": 0.8263700008392334,
+        "f1": 0.7429618835449219
       }
     },
     {
@@ -563,9 +563,9 @@
       "predicted_answer": "Rắn cương Blanford (Lycodon davisonii) không gây nguy hiểm cho con người. Đây là loài rắn không độc, thuộc nhóm colubrid vô hại. Nó không có tuyến nọc độc hoặc nanh rỗng mà chỉ sử dụng răng lớn phía sau để giữ mồi. \n\nNếu bị cắn (thường khi bị bắt hoặc dồn ép), vết thương chỉ nhẹ do răng nhọn, có thể gây đau, sưng đỏ tạm thời và chảy máu tối thiểu. Tuy nhiên, không có triệu chứng toàn thân như tê liệt, nôn mửa hay suy hô hấp. Cơ chế tác động hoàn toàn là cơ học qua việc cắn giữ. Loài này được mô tả là \"khá ngoan ngoãn\" khi không bị quấy rối. Mức độ nguy hiểm của nó rất thấp, chỉ cần rửa sạch vết thương khi bị cắn.",
       "ground_truth": "Không, Rắn cương Blanford là loài không có nọc độc và vô hại.",
       "bertscore": {
-        "precision": 0.6456679701805115,
+        "precision": 0.6456679105758667,
         "recall": 0.8224793672561646,
-        "f1": 0.723426878452301
+        "f1": 0.7234268188476562
       }
     },
     {
@@ -744,7 +744,7 @@
       "ground_truth": "Không, RẮN KHIẾM ĐUÔI TRÒN là loài không có nọc độc.",
       "bertscore": {
         "precision": 0.6404942870140076,
-        "recall": 0.8210862278938293,
+        "recall": 0.8210861682891846,
         "f1": 0.7196333408355713
       }
     },
@@ -834,7 +834,7 @@
       "ground_truth": "Không, Rắn hổ mây Berdmore là loài hoàn toàn không có nọc độc.",
       "bertscore": {
         "precision": 0.6483006477355957,
-        "recall": 0.8201916813850403,
+        "recall": 0.8201917409896851,
         "f1": 0.7241860032081604
       }
     },
@@ -1214,7 +1214,7 @@
       "ground_truth": "Không, Rắn hoa cân vân đốm là loài không có nọc độc.",
       "bertscore": {
         "precision": 0.6498172283172607,
-        "recall": 0.8333179950714111,
+        "recall": 0.8333178758621216,
         "f1": 0.7302157878875732
       }
     },

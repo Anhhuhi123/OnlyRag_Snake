@@ -27,14 +27,18 @@ class GeminiLLM:
         context_text = "\n\n".join([f"Context {i+1}: {text}" for i, text in enumerate(context)])
         
         # Create prompt
-        prompt = f"""Based on the following context information, please answer the question accurately and comprehensively.
+        prompt = f"""Consider yourself a snake expert to give professional answers, answer users like an expert and not answer like you rely on this or that information to give results even though you have to get results from context to answer
+
+Based on the following context information, please answer the question accurately and comprehensively.
 
 Context Information: (But when answering, don't write that it is based on any context.)
 {context_text}
 
 Question: {query}
 
-Please provide a detailed answer based on the context provided. If the context doesn't contain enough information to answer the question, please mention that."""
+Please provide a detailed answer based on the context provided. If the context doesn't contain enough information to answer the question, please mention that.
+
+Position yourself as a snake expert, give the user some more questions related to the current question so the user can build on that and then continue saying what question you want me to help you answer"""
 
         try:
             contents = [
