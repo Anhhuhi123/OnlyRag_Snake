@@ -322,8 +322,8 @@ def print_detailed_analysis(results: Dict, top_n: int = 3):
 if __name__ == "__main__":
     # Configuration
     PREDICTIONS_FILE = "data/predictions.json"
-    K_VALUES = [1, 2]  # Đánh giá với k = 1, 2
-    THRESHOLD = 0.4  # Ngưỡng cosine similarity 50% để coi là relevant
+    K_VALUES = [1, 2, 3, 4, 5]  # Đánh giá với k = 1, 2
+    THRESHOLD = 0.5  # Ngưỡng cosine similarity 50% để coi là relevant
     
     # Run evaluation
     results = evaluate_retrieval(

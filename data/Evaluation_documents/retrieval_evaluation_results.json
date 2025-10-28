@@ -1,15 +1,21 @@
 {
   "metrics": {
-    "Recall@1": 0.77,
-    "Precision@1": 0.77,
-    "Recall@2": 0.715,
-    "Precision@2": 0.715
+    "Recall@1": 0.878,
+    "Precision@1": 0.878,
+    "Recall@2": 0.8374,
+    "Precision@2": 0.8374,
+    "Recall@3": 0.8157,
+    "Precision@3": 0.8157,
+    "Recall@4": 0.8049,
+    "Precision@4": 0.8049,
+    "Recall@5": 0.7935,
+    "Precision@5": 0.7935
   },
   "per_question_results": [
     {
-      "question": "Dữ liệu về tập tính săn mồi của Rắn đào hang đỏ (Achalinus rufescens) có được cung cấp không?",
-      "ground_truth": "Không, trong tài liệu được cung cấp không có trường thông tin 'Tập tính săn mồi' cho loài Rắn đào hang đỏ (Achalinus rufescens).",
-      "num_contexts": 4,
+      "question": "Rắn đào hang đỏ (Achalinus rufescens) có nọc độc không?",
+      "ground_truth": "Không, Rắn đào hang đỏ là loài không có nọc độc. Dữ liệu hình thái cho thấy răng của chúng thuộc loại aglyphous (không có răng nọc).",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -18,118 +24,25 @@
         "k=2": {
           "recall": 1.0,
           "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Thức ăn chính của Rắn vảy lạ xám (Achalinus spinalis) là gì?",
-      "ground_truth": "Thức ăn ưa thích của Rắn vảy lạ xám là các loài giun đất lớn, đôi khi là ấu trùng côn trùng hoặc động vật không xương sống nhỏ khác.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
+        },
+        "k=3": {
           "recall": 1.0,
           "precision": 1.0
         },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Kỹ thuật săn mồi của Rắn rầm ri cá (Acrochordus granulatus) là gì?",
-      "ground_truth": "Kỹ thuật săn mồi đặc trưng của chúng là neo mình bất động dưới nước đục để phục kích, sử dụng da nhăn để ngụy trang như đá hoặc cành cây, sau đó cắn nhanh để nắm chặt con mồi.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
+        "k=4": {
           "recall": 1.0,
           "precision": 1.0
         },
-        "k=2": {
+        "k=5": {
           "recall": 1.0,
           "precision": 1.0
         }
       }
     },
     {
-      "question": "Rắn rầm ri cóc (Acrochordus javanicus) săn mồi chủ yếu vào thời gian nào?",
-      "ground_truth": "Chúng săn mồi chủ yếu vào ban đêm (nocturnal), dưới nước (aquatic) ở vùng nông đục.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Con mồi ưa thích của Rắn roi mõm nhọn (Ahaetulla fusca) là gì?",
-      "ground_truth": "Con mồi ưa thích của Rắn roi mõm nhọn chủ yếu là lưỡng cư nhỏ (ếch, nhái) và thằn lằn.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn roi thường (Ahaetulla prasina) sử dụng kỹ thuật nào để làm tê liệt con mồi?",
-      "ground_truth": "Chúng sử dụng đầu nhọn như mũi giáo để nhắm chính xác vào cổ con mồi, sau đó tiêm nọc độc qua răng sau để làm tê liệt nhanh chóng.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn roi mắt đỏ (Ahaetulla rufusoculara) săn mồi ở đâu?",
-      "ground_truth": "Chúng săn mồi chủ yếu trên cây (arboreal) và vào ban ngày (diurnal).",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 0.5,
-          "precision": 0.5
-        }
-      }
-    },
-    {
-      "question": "Hành vi phòng vệ của Rắn sãi cỏ (Amphiesma stolatum) có gì giống rắn hổ mang?",
-      "ground_truth": "Khi bị kích động, chúng có thể phồng thân để lộ màu interscale sáng và làm phẳng cổ thành mũ trùm đầu (hooding) để trông lớn hơn, giống như rắn hổ mang.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn biển môi xanh (Laticauda laticaudata) thường tiêu hóa con mồi ở đâu?",
-      "ground_truth": "Chúng thường tiêu hóa thức ăn trên cạn để tránh kẻ săn mồi khi đang bơi chậm sau bữa ăn.",
-      "num_contexts": 4,
+      "question": "Mức độ nguy hiểm của Rắn vảy lạ xám (Achalinus spinalis) đối với con người là gì?",
+      "ground_truth": "Mức độ nguy hiểm đối với con người là zero – hoàn toàn vô hại, không gây tử vong hay tổn thương nghiêm trọng.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 0.0,
@@ -138,223 +51,25 @@
         "k=2": {
           "recall": 0.0,
           "precision": 0.0
-        }
-      }
-    },
-    {
-      "question": "Con mồi chính của Rắn rào xanh (Boiga cyanea) là gì?",
-      "ground_truth": "Con mồi ưa thích của chúng là các loài bò sát nhỏ và lưỡng cư như thằn lằn, ếch, chim non và chuột.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
         },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn rào Quảng Tây (Boiga guangxiensis) đã được quan sát ăn con mồi nào trong tự nhiên?",
-      "ground_truth": "Chúng đã được quan sát săn và nuốt loài thằn lằn bay (Draco blanfordii) trong rừng đá vôi.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn rào ngọc bích (Boiga jaspidea) săn mồi ở đâu?",
-      "ground_truth": "Chúng là loài săn mồi hoàn toàn trên cây (fully arboreal), đôi khi xuống bụi rậm thấp để tìm kiếm.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 0.5,
-          "precision": 0.5
-        }
-      }
-    },
-    {
-      "question": "Rắn rào đầu vuông (Boiga kraepelini) có thời gian săn mồi như thế nào?",
-      "ground_truth": "Chúng có thể săn mồi cả ban ngày hoặc ban đêm (cathemeral, diurnal or nocturnal).",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn rào đốm (Boiga multomaculata) săn mồi vào thời gian nào?",
-      "ground_truth": "Chúng là loài săn mồi tích cực cả ban ngày lẫn ban đêm (diurnal/nocturnal, cathemeral).",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Con mồi ưa thích của Rắn rào Xiêm (Boiga siamensis) là gì?",
-      "ground_truth": "Chúng ưa thích ăn các loài chim nhỏ, trứng chim, thằn lằn và đôi khi cả động vật có vú nhỏ.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 0.5,
-          "precision": 0.5
-        }
-      }
-    },
-    {
-      "question": "Chế độ ăn của Rắn cạp nia (Bungarus candidus) có gì đặc biệt?",
-      "ground_truth": "Chế độ ăn của chúng rất chuyên biệt, 80-90% khẩu phần là các loài rắn khác (ophiophagous).",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Thức ăn chính của Rắn cạp nống (Bungarus fasciatus) là gì?",
-      "ground_truth": "Thức ăn chính của chúng là các loài rắn khác, chiếm tới 90% khẩu phần ăn.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 0.5,
-          "precision": 0.5
-        }
-      }
-    },
-    {
-      "question": "Rắn mai gầm bắc (Calamaria septentrionalis) sử dụng kỹ thuật nào để ăn mồi?",
-      "ground_truth": "Chúng nắm chặt con mồi (chủ yếu là giun đất) bằng răng và nuốt sống từ một đầu bằng cách xoay não và hàm.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 0.5,
-          "precision": 0.5
-        }
-      }
-    },
-    {
-      "question": "Thức ăn chính của Rắn san hô nhỏ đốm (Calliophis maculiceps) là gì?",
-      "ground_truth": "Thức ăn ưa thích của chúng là các loài rắn nhỏ khác, đặc biệt là rắn giun (worm-snakes) như Typhlops spp.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn lục mũi hếch (Calloselasma rhodostoma) sử dụng cơ quan nào để phát hiện con mồi?",
-      "ground_truth": "Chúng sử dụng hố cảm nhiệt (loreal pit) để phát hiện con mồi.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
+        "k=3": {
           "recall": 0.0,
           "precision": 0.0
         },
-        "k=2": {
-          "recall": 0.0,
-          "precision": 0.0
-        }
-      }
-    },
-    {
-      "question": "Thức ăn của Rắn Séc be (Cerberus schneiderii) bao gồm những gì?",
-      "ground_truth": "Con mồi ưa thích của chúng là các loài cá nhỏ, đôi khi là tôm cua và ếch.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
+        "k=4": {
           "recall": 0.0,
           "precision": 0.0
         },
-        "k=2": {
-          "recall": 0.0,
-          "precision": 0.0
+        "k=5": {
+          "recall": 0.2,
+          "precision": 0.2
         }
       }
     },
     {
-      "question": "Rắn nước châu Á (Fowlea piscator) có hành vi phòng vệ nào giống rắn hổ mang?",
-      "ground_truth": "Khi bị đe dọa, chúng phồng thân và làm phẳng cổ thành mũ trùm đầu (hooding) để trông lớn hơn.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 0.0,
-          "precision": 0.0
-        },
-        "k=2": {
-          "recall": 0.0,
-          "precision": 0.0
-        }
-      }
-    },
-    {
-      "question": "Rắn cườm (Chrysopelea ornata) có khả năng săn mồi nào đặc biệt?",
-      "ground_truth": "Chúng có khả năng lượn từ cây này sang cây khác (với khoảng cách lên tới 100m) để đuổi theo con mồi.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 0.0,
-          "precision": 0.0
-        },
-        "k=2": {
-          "recall": 0.0,
-          "precision": 0.0
-        }
-      }
-    },
-    {
-      "question": "Rắn sọc vàng (Coelognathus flavolineatus) giết mồi bằng cách nào?",
-      "ground_truth": "Chúng sử dụng tốc độ nhanh để lao vào con mồi, sau đó siết chặt (constrictor) để khống chế trước khi nuốt sống.",
-      "num_contexts": 4,
+      "question": "Rắn rầm ri cá (Acrochordus granulatus) có được coi là mối đe dọa y tế không?",
+      "ground_truth": "Không, Rắn rầm ri cá là loài không có nọc độc và không được coi là mối đe dọa y tế.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -363,13 +78,25 @@
         "k=2": {
           "recall": 1.0,
           "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
         }
       }
     },
     {
-      "question": "Chiến lược phòng vệ của Rắn hổ ngựa (Coelognathus radiatus) là gì?",
-      "ground_truth": "Chiến lược phòng vệ của chúng bao gồm phồng thân, làm phẳng cổ thành mũ trùm đầu (giống rắn hổ mang), và chạy trốn nhanh.",
-      "num_contexts": 4,
+      "question": "Vết cắn của Rắn rầm ri cóc (Acrochordus javanicus) có triệu chứng gì không?",
+      "ground_truth": "Không, loài này không có nọc độc. Nếu bị cắn, nó chỉ gây vết xước nhẹ, không có triệu chứng độc tính như sưng, tê hay đông máu.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -378,43 +105,25 @@
         "k=2": {
           "recall": 1.0,
           "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Hành vi phòng vệ của Rắn trun (Cylindrophis jodiae) có gì độc đáo?",
-      "ground_truth": "Khi bị đe dọa, chúng phồng phần đuôi đỏ và uốn cong lên, đồng thời hiển thị hoa văn bụng lốm đốm đen trắng để dọa kẻ thù, trong khi giấu đầu.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
+        },
+        "k=3": {
           "recall": 1.0,
           "precision": 1.0
         },
-        "k=2": {
-          "recall": 0.5,
-          "precision": 0.5
-        }
-      }
-    },
-    {
-      "question": "Con mồi ưa thích của Rắn trun (Cylindrophis ruffus) là gì?",
-      "ground_truth": "Con mồi ưa thích của chúng là các loài giun đất lớn, đôi khi là ấu trùng côn trùng, sên, rắn nhỏ hoặc cá chình.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
+        "k=4": {
           "recall": 1.0,
           "precision": 1.0
         },
-        "k=2": {
+        "k=5": {
           "recall": 1.0,
           "precision": 1.0
         }
       }
     },
     {
-      "question": "Rắn lục mũi nhọn (Deinagkistrodon acutus) săn mồi như thế nào?",
-      "ground_truth": "Chúng là loài săn mồi phục kích ban đêm, nằm bất động và sử dụng hố cảm nhiệt để phát hiện con mồi trước khi tấn công.",
-      "num_contexts": 4,
+      "question": "Nọc độc của Rắn roi mõm nhọn (Ahaetulla fusca) có nguy hiểm nghiêm trọng không?",
+      "ground_truth": "Không, loài này có độc nhẹ và nhìn chung không nguy hiểm nghiêm trọng. Vết cắn thường chỉ gây đau nhẹ, sưng hoặc đỏ tại chỗ.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -423,13 +132,25 @@
         "k=2": {
           "recall": 1.0,
           "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
         }
       }
     },
     {
-      "question": "Rắn leo cây Ngân Sơn (Dendrelaphis ngansonensis) săn mồi vào thời gian nào?",
-      "ground_truth": "Chúng săn mồi chủ yếu vào ban ngày (diurnal) và trên cây.",
-      "num_contexts": 4,
+      "question": "Vết cắn của Rắn roi thường (Ahaetulla prasina) có gây tử vong không?",
+      "ground_truth": "Không, loài này có nọc độc nhẹ, không gây tử vong cho con người. Triệu chứng thường chỉ bao gồm đau cục bộ, sưng, tê và bầm tím.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -438,118 +159,25 @@
         "k=2": {
           "recall": 1.0,
           "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Con mồi ưa thích của Rắn leo cây bắc Đông dương (Dendrelaphis proarchos) là gì?",
-      "ground_truth": "Con mồi ưa thích của chúng là thằn lằn, ếch cây và đôi khi là côn trùng lớn.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
+        },
+        "k=3": {
           "recall": 1.0,
           "precision": 1.0
         },
-        "k=2": {
-          "recall": 0.5,
-          "precision": 0.5
-        }
-      }
-    },
-    {
-      "question": "Rắn leo cây mắt (Dendrelaphis subocularis) săn mồi bằng cách nào?",
-      "ground_truth": "Chúng di chuyển nhanh trên cành cây và sử dụng thị lực sắc bén để phát hiện con mồi, sau đó nắm chặt bằng răng và nuốt sống.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
+        "k=4": {
           "recall": 1.0,
           "precision": 1.0
         },
-        "k=2": {
+        "k=5": {
           "recall": 1.0,
           "precision": 1.0
         }
       }
     },
     {
-      "question": "Rắn roi nâu (Dryophiops rubescens) săn mồi vào thời điểm nào trong ngày?",
-      "ground_truth": "Chúng săn mồi chủ yếu vào ban ngày (diurnal) và trên cây.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Chế độ ăn của Rắn sọc gờ (Elaphe carinata) có gì đặc biệt?",
-      "ground_truth": "Chúng có khả năng ăn các loài rắn khác, kể cả rắn độc như hổ mang và rắn lục, do có sức đề kháng cao với nọc độc.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn sọc khoanh (Elaphe moellendorffi) giết con mồi bằng cách nào?",
-      "ground_truth": "Chúng sử dụng phương pháp siết chặt (constrictor) để khống chế con mồi trước khi nuốt.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Thức ăn chính của Rắn sọc đuôi (Elaphe taeniura) là gì?",
-      "ground_truth": "Thức ăn chính của chúng là chuột và động vật gặm nhấm, chiếm 60-80% khẩu phần ăn.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 0.0,
-          "precision": 0.0
-        },
-        "k=2": {
-          "recall": 0.0,
-          "precision": 0.0
-        }
-      }
-    },
-    {
-      "question": "Rắn bồng Mekong (Enhydris subtaeniata) săn mồi như thế nào?",
-      "ground_truth": "Chúng săn mồi vào ban đêm bằng cách bơi chậm hoặc neo mình trong bùn, sau đó cắn nhanh để tiêm nọc làm tê liệt con mồi.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Kỹ thuật săn mồi độc đáo của Rắn râu (Erpeton tentaculatum) là gì?",
-      "ground_truth": "Chúng neo mình theo hình chữ 'J' lộn ngược và sử dụng cặp xúc tu để tạo rung động, lùa cá vào vị trí tấn công.",
-      "num_contexts": 4,
+      "question": "Mức độ nguy hiểm của Rắn roi mắt đỏ (Ahaetulla rufusoculara) đối với con người như thế nào?",
+      "ground_truth": "Mức độ nguy hiểm đối với con người rất thấp. Chúng có nọc độc nhẹ, không gây tử vong, thường chỉ gây đau cục bộ, sưng, tê và bầm tím.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 0.0,
@@ -558,88 +186,25 @@
         "k=2": {
           "recall": 0.5,
           "precision": 0.5
-        }
-      }
-    },
-    {
-      "question": "Thức ăn chuyên biệt của Rắn ăn cua (Fordonia leucobalia) là gì?",
-      "ground_truth": "Chế độ ăn của loài này chuyên biệt với cua nhỏ chiếm tới 90% khẩu phần ăn.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 0.0,
-          "precision": 0.0
         },
-        "k=2": {
-          "recall": 0.0,
-          "precision": 0.0
-        }
-      }
-    },
-    {
-      "question": "Con mồi ưa thích của Rắn nước đốm vàng (Fowlea flavipunctata) là gì?",
-      "ground_truth": "Con mồi ưa thích của chúng là ếch, cóc và cá nhỏ.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
+        "k=3": {
+          "recall": 0.3333,
+          "precision": 0.3333
         },
-        "k=2": {
+        "k=4": {
           "recall": 0.5,
           "precision": 0.5
-        }
-      }
-    },
-    {
-      "question": "Rắn mũi dài (Gonyosoma boulengeri) có khả năng lượn không?",
-      "ground_truth": "Chúng có thể thực hiện những cú lượn nhẹ từ cây này sang cây khác để tiếp cận con mồi.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 0.0,
-          "precision": 0.0
         },
-        "k=2": {
-          "recall": 0.0,
-          "precision": 0.0
+        "k=5": {
+          "recall": 0.4,
+          "precision": 0.4
         }
       }
     },
     {
-      "question": "Rắn sọc mắt xanh (Gonyosoma coeruleum) giết mồi bằng cách nào?",
-      "ground_truth": "Chúng cắn giữ con mồi bằng răng nhọn, sau đó siết chặt bằng cơ vòng cho đến khi con mồi ngạt thở.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 0.5,
-          "precision": 0.5
-        }
-      }
-    },
-    {
-      "question": "Hành vi phòng vệ của Rắn dây leo xanh (Gonyosoma frenatum) khi vượt đường là gì?",
-      "ground_truth": "Khi vượt đường, chúng di chuyển ngắn, sau đó cứng thân và lắc lư như một cành cây bị gió thổi để ngụy trang.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 0.0,
-          "precision": 0.0
-        },
-        "k=2": {
-          "recall": 0.5,
-          "precision": 0.5
-        }
-      }
-    },
-    {
-      "question": "Rắn đuôi đỏ (Gonyosoma oxycephalum) có thể săn những con mồi nào?",
-      "ground_truth": "Chúng có thể săn chim non, trứng chim, thằn lằn, dơi hang và chuột nhỏ.",
-      "num_contexts": 4,
+      "question": "Rắn sãi cỏ (Amphiesma stolatum) có độc không?",
+      "ground_truth": "Không, Rắn sãi cỏ là loài không có nọc độc và hoàn toàn vô hại đối với con người.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -648,13 +213,25 @@
         "k=2": {
           "recall": 1.0,
           "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
         }
       }
     },
     {
-      "question": "Rắn nước boulengeri (Hebius boulengeri) có hành vi ăn cóc độc như thế nào?",
-      "ground_truth": "Loài này được quan sát có hành vi 'eviscerates' (lấy ruột) cóc độc để tránh độc tố từ da cóc.",
-      "num_contexts": 4,
+      "question": "Nọc độc của Rắn biển môi xanh (Laticauda laticaudata) mạnh đến mức nào?",
+      "ground_truth": "Nọc độc của Rắn biển môi xanh thuộc loại độc thần kinh mạnh, mạnh gấp 10 lần rắn đuôi chuông.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -663,13 +240,25 @@
         "k=2": {
           "recall": 1.0,
           "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
         }
       }
     },
     {
-      "question": "Rắn nước đồi Khasi (Hebius khasiensis) săn mồi bằng kỹ thuật nào?",
-      "ground_truth": "Kỹ thuật săn mồi chủ yếu là phục kích, nằm bất động dưới nước hoặc trên đá ven suối để chờ con mồi.",
-      "num_contexts": 4,
+      "question": "Triệu chứng khi bị Rắn rào xanh (Boiga cyanea) cắn là gì?",
+      "ground_truth": "Triệu chứng khi bị cắn bao gồm đau cục bộ, sưng vừa phải, tê/tê liệt nhẹ (paresthesia), bầm tím, đỏ da và chảy máu nhẹ.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -678,193 +267,25 @@
         "k=2": {
           "recall": 1.0,
           "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn nước Omei (Hebius optatus) săn mồi vào thời gian nào?",
-      "ground_truth": "Chúng săn mồi chủ yếu vào ban ngày (diurnal).",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
+        },
+        "k=3": {
           "recall": 1.0,
           "precision": 1.0
         },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn nước Kosempo (Hebius sauteri) săn mồi bằng kỹ thuật nào?",
-      "ground_truth": "Kỹ thuật săn mồi chủ yếu là phục kích, nằm bất động dưới nước hoặc trên đá ven suối.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
+        "k=4": {
           "recall": 1.0,
           "precision": 1.0
         },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
         }
       }
     },
     {
-      "question": "Rắn bồng chì (Hypsiscopus murphyi) săn mồi vào thời gian nào?",
-      "ground_truth": "Chúng săn mồi chủ yếu vào ban đêm.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn biển có sừng (Hydrophis peronii) săn mồi ở đâu?",
-      "ground_truth": "Chúng săn mồi ở dưới đáy biển, thường đào bới đáy cát hoặc giữa các rạn san hô ở độ sâu 10–20 mét.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 0.5,
-          "precision": 0.5
-        }
-      }
-    },
-    {
-      "question": "Thức ăn ưa thích của Rắn mù Brahminy (Indotyphlops braminus) là gì?",
-      "ground_truth": "Thức ăn ưa thích của chúng là trứng, ấu trùng và nhộng của kiến và mối.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn sườn gờ Kuatun (Hebius craspedogaster) săn mồi bằng kỹ thuật nào?",
-      "ground_truth": "Kỹ thuật săn mồi chủ yếu là phục kích, nằm bất động dưới nước hoặc trên đá ven suối.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn cạp nia môi vàng (Laticauda colubrina) có chế độ ăn gì?",
-      "ground_truth": "Không có thông tin về tập tính săn mồi của loài này trong tài liệu được cung cấp.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 0.0,
-          "precision": 0.0
-        },
-        "k=2": {
-          "recall": 0.0,
-          "precision": 0.0
-        }
-      }
-    },
-    {
-      "question": "Rắn sói thông thường (Lycodon capucinus) có hành vi phòng vệ nào giống rắn chuông?",
-      "ground_truth": "Khi bị đe dọa, chúng có thể rung đuôi nhanh (tail rattling) để tạo âm thanh và đánh lạc hướng.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 0.0,
-          "precision": 0.0
-        },
-        "k=2": {
-          "recall": 0.0,
-          "precision": 0.0
-        }
-      }
-    },
-    {
-      "question": "Rắn khuyết Nam Động (Lycodon chapaensis) có chế độ ăn gì?",
-      "ground_truth": "Chúng ưa thích ăn thằn lằn nhỏ (skinks), tắc kè (geckos) và đôi khi là ếch nhái.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn cương Blanford (Lycodon davisonii) săn mồi ở đâu?",
-      "ground_truth": "Chúng hoạt động chủ yếu trên mặt đất nhưng cũng có khả năng leo trèo ở tầng thấp (semi-arboreal) để săn mồi.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn hổ mang Trung Quốc (Naja atra) có khả năng phun nọc không?",
-      "ground_truth": "Có, chúng có khả năng phun nọc (spitting) dù không chính xác như các loài hổ mang châu Phi.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Hành vi phòng vệ của Rắn hổ mang Phục Hy (Naja fuxi) là gì?",
-      "ground_truth": "Hành vi phòng vệ bao gồm phồng cổ tạo hình 'mũ', rít lớn, cắn khô (dry biting) hoặc phun nọc.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 0.5,
-          "precision": 0.5
-        }
-      }
-    },
-    {
-      "question": "Rắn hổ mang phun nọc Đông Dương (Naja siamensis) có thể phun nọc xa bao nhiêu?",
-      "ground_truth": "Chúng có khả năng phun nọc xa tới 2 mét để tự vệ.",
-      "num_contexts": 4,
+      "question": "Rắn rào Quảng Tây (Boiga guangxiensis) có được coi là vô hại ở Việt Nam không?",
+      "ground_truth": "Có, mặc dù có nọc độc nhẹ, Rắn rào Quảng Tây được coi là vô hại (harmless) ở Việt Nam, chỉ gây triệu chứng cục bộ nhẹ.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 0.0,
@@ -873,13 +294,25 @@
         "k=2": {
           "recall": 0.5,
           "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.3333,
+          "precision": 0.3333
+        },
+        "k=4": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=5": {
+          "recall": 0.6,
+          "precision": 0.6
         }
       }
     },
     {
-      "question": "Thức ăn chính của Rắn đất vạch (Oligodon albocinctus) là gì?",
-      "ground_truth": "Thức ăn ưa thích của chúng là giun đất, ấu trùng côn trùng, ếch nhỏ và thằn lằn non.",
-      "num_contexts": 4,
+      "question": "Vết cắn của Rắn rào ngọc bích (Boiga jaspidea) có gây tử vong không?",
+      "ground_truth": "Không, loài này có nọc độc nhẹ và không gây tử vong. Vết cắn thường chỉ gây triệu chứng cục bộ nhẹ.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -888,133 +321,25 @@
         "k=2": {
           "recall": 1.0,
           "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn khiếm Trung Quốc (Oligodon chinensis) ăn gì?",
-      "ground_truth": "Thức ăn của chúng là giun đất, ấu trùng côn trùng, ếch nhỏ và thằn lằn non.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
         },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn Khiếm Xám (Oligodon cinereus) có chế độ ăn gì?",
-      "ground_truth": "Thức ăn ưa thích của chúng là giun đất, ấu trùng côn trùng, ếch nhỏ và thằn lằn non.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
         },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "RẮN KHIẾM ĐUÔI TRÒN (Oligodon cyclurus) có chế độ ăn gì?",
-      "ground_truth": "Thức ăn của chúng là giun đất, ấu trùng côn trùng, ếch nhỏ, thằn lằn non và trứng chim.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 0.0,
-          "precision": 0.0
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
         },
-        "k=2": {
-          "recall": 0.0,
-          "precision": 0.0
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
         }
       }
     },
     {
-      "question": "Thức ăn chính của RẮN KHIẾM DEUVEI (Oligodon deuvei) là gì?",
-      "ground_truth": "Thức ăn chính của chúng là ếch và nòng nọc.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "RẮN KHIẾM VẠCH NHỎ (Oligodon fasciolatus) có hành vi ăn mồi nào đặc biệt?",
-      "ground_truth": "Loài này có hành vi 'eviscerates' (lấy ruột) cóc độc (Duttaphrynus melanostictus) để tránh ăn phải độc tố từ da cóc.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn khiếm Đài Loan (Oligodon formosanus) săn mồi bằng cách nào?",
-      "ground_truth": "Chúng săn mồi bằng cách đào bới (fossorial foraging) trong đất ẩm hoặc tổ côn trùng.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn khiếm vạch (Oligodon taeniatus) ăn gì?",
-      "ground_truth": "Thức ăn ưa thích của chúng là giun đất, ấu trùng côn trùng, ếch nhỏ và thằn lằn non.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Tên 'Ophiophagus' của Rắn hổ chúa (Ophiophagus hannah) có nghĩa là gì?",
-      "ground_truth": "Tên 'Ophiophagus' có nghĩa là 'ăn rắn', đề cập đến chế độ ăn chuyên săn các loài rắn khác của Rắn hổ chúa.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Con mồi ưa thích của Rắn sọc đốm đỏ (Oreocryptophis porphyraceus) là gì?",
-      "ground_truth": "Con mồi ưa thích của chúng là động vật gặm nhấm nhỏ, chim nhỏ, trứng chim và thằn lằn.",
-      "num_contexts": 4,
+      "question": "Nọc độc của Rắn rào đầu vuông (Boiga kraepelini) có nguy hiểm không?",
+      "ground_truth": "Không, loài này có nọc độc nhẹ, không gây tử vong. Triệu chứng có thể bao gồm sưng nhẹ, đỏ da, tê cục bộ, khô họng và buồn nôn.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -1023,133 +348,25 @@
         "k=2": {
           "recall": 0.5,
           "precision": 0.5
-        }
-      }
-    },
-    {
-      "question": "Rắn lục núi (Ovophis monticola) sử dụng cơ quan nào để phát hiện con mồi?",
-      "ground_truth": "Chúng sử dụng hố cảm nhiệt (loreal pits) nằm giữa mắt và mũi để phát hiện nhiệt của con mồi.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 0.0,
-          "precision": 0.0
         },
-        "k=2": {
-          "recall": 0.0,
-          "precision": 0.0
-        }
-      }
-    },
-    {
-      "question": "Rắn lục núi Tonkin (Ovophis tonkinensis) săn mồi vào thời gian nào?",
-      "ground_truth": "Chúng săn mồi chủ yếu vào ban đêm hoặc hoàng hôn (nocturnal/crepuscular).",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
+        "k=3": {
+          "recall": 0.3333,
+          "precision": 0.3333
         },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn hổ mây Berdmore (Pareas berdmorei) có chế độ ăn chuyên biệt gì?",
-      "ground_truth": "Chế độ ăn của chúng chuyên biệt gần như 100% là ốc sên và sên đất.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
+        "k=4": {
+          "recall": 0.5,
+          "precision": 0.5
         },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
+        "k=5": {
+          "recall": 0.6,
+          "precision": 0.6
         }
       }
     },
     {
-      "question": "Kỹ thuật săn mồi của Rắn hổ mây gờ (Pareas carinatus) có gì đặc biệt?",
-      "ground_truth": "Chúng nghiêng đầu để 'đọc' hướng xoáy của vỏ ốc và sử dụng răng bất đối xứng để móc vào khe vỏ, sau đó xoay đầu để trích xuất con mồi.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn hổ mây Đài Loan (Pareas formosensis) chủ yếu ăn gì?",
-      "ground_truth": "Thức ăn ưa thích của chúng là sên đất (slugs) và ốc sên đất.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn hổ mây Hampton (Pareas hamptoni) săn mồi ở đâu?",
-      "ground_truth": "Chúng săn mồi vào ban đêm, trên các bụi rậm hoặc cành cây thấp (1-3 m).",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 0.0,
-          "precision": 0.0
-        },
-        "k=2": {
-          "recall": 0.0,
-          "precision": 0.0
-        }
-      }
-    },
-    {
-      "question": "Rắn hổ mây ngọc (Pareas margaritophorus) ăn những gì?",
-      "ground_truth": "Thức ăn của chúng là sên đất (slugs), ốc sên (snails) và giun đất (earthworms).",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn hổ mây núi (Pareas monticola) săn mồi ở đâu?",
-      "ground_truth": "Chúng săn mồi vào ban đêm, trên các bụi rậm hoặc cành cây thấp (0.5-2 m).",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 0.0,
-          "precision": 0.0
-        },
-        "k=2": {
-          "recall": 0.0,
-          "precision": 0.0
-        }
-      }
-    },
-    {
-      "question": "Thức ăn chuyên biệt của Rắn hổ núi mũi mác (Plagiopholis nuchalis) là gì?",
-      "ground_truth": "Chế độ ăn của chúng chuyên biệt (vermivory) lên đến 100% là giun đất.",
-      "num_contexts": 4,
+      "question": "Mức độ nguy hiểm của Rắn rào đốm (Boiga multomaculata) đối với con người là gì?",
+      "ground_truth": "Mức độ nguy hiểm đối với con người rất thấp, được coi là vô hại (harmless) ở Việt Nam. Vết cắn chỉ gây triệu chứng cục bộ nhẹ.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -1158,28 +375,25 @@
         "k=2": {
           "recall": 0.5,
           "precision": 0.5
-        }
-      }
-    },
-    {
-      "question": "Rắn hổ núi Styani (Hebius popei) chủ yếu ăn gì?",
-      "ground_truth": "Thức ăn ưa thích của chúng là các loài lưỡng cư nhỏ như nòng nọc, ếch con, cá nhỏ, sên đất và giun đất.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 0.0,
-          "precision": 0.0
         },
-        "k=2": {
-          "recall": 0.0,
-          "precision": 0.0
+        "k=3": {
+          "recall": 0.3333,
+          "precision": 0.3333
+        },
+        "k=4": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=5": {
+          "recall": 0.4,
+          "precision": 0.4
         }
       }
     },
     {
-      "question": "Rắn lục sừng (Protobothrops cornutus) có chế độ ăn gì?",
-      "ground_truth": "Chúng là loài ăn thịt đa dạng, ăn các loài động vật có vú nhỏ, chim, thằn lằn và ếch.",
-      "num_contexts": 4,
+      "question": "Rắn rào Xiêm (Boiga siamensis) có nọc độc không?",
+      "ground_truth": "Có, Rắn rào Xiêm là loài có nọc độc nhẹ, không gây tử vong cho người, thường chỉ gây triệu chứng cục bộ.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -1188,13 +402,25 @@
         "k=2": {
           "recall": 1.0,
           "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
         }
       }
     },
     {
-      "question": "Rắn lục Jerdon (Protobothrops jerdonii) săn mồi vào thời gian nào?",
-      "ground_truth": "Chúng săn mồi chủ yếu vào ban đêm (nocturnal), trên mặt đất hoặc bụi rậm thấp.",
-      "num_contexts": 4,
+      "question": "Nọc độc của Rắn cạp nia (Bungarus candidus) nguy hiểm như thế nào?",
+      "ground_truth": "Rắn cạp nia có nọc độc cực mạnh, chủ yếu là độc thần kinh, với tỷ lệ tử vong 60–70% nếu không điều trị.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -1203,13 +429,25 @@
         "k=2": {
           "recall": 1.0,
           "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
         }
       }
     },
     {
-      "question": "Rắn lục Mậu Lan (Protobothrops maolanensis) có chế độ ăn gì?",
-      "ground_truth": "Thức ăn của chúng là động vật có vú nhỏ (như chuột), ếch và thằn lằn.",
-      "num_contexts": 4,
+      "question": "Nọc độc của Rắn cạp nống (Bungarus fasciatus) thuộc loại gì và tỷ lệ tử vong ra sao?",
+      "ground_truth": "Nọc độc của Rắn cạp nống thuộc loại độc thần kinh cực mạnh, với tỷ lệ tử vong 50–70% nếu không được điều trị.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -1218,103 +456,25 @@
         "k=2": {
           "recall": 1.0,
           "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn lục cườm (Protobothrops mucrosquamatus) hoạt động săn mồi vào thời điểm nào?",
-      "ground_truth": "Chúng chủ yếu hoạt động và săn mồi vào ban đêm.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
+        },
+        "k=3": {
           "recall": 1.0,
           "precision": 1.0
         },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Hành vi phòng vệ của Rắn hổ đất nâu (Psammodynastes pulverulentus) có gì đặc biệt?",
-      "ground_truth": "Chúng có hành vi bắt chước rắn hổ mang (viper mimicry) bằng cách cuộn thân, phồng cổ và tấn công.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
+        "k=4": {
           "recall": 1.0,
           "precision": 1.0
         },
-        "k=2": {
+        "k=5": {
           "recall": 1.0,
           "precision": 1.0
         }
       }
     },
     {
-      "question": "Hành vi phòng vệ nào của Rắn hổ xiên tre (Pseudoxenodon bambusicola) giống với rắn hổ mang?",
-      "ground_truth": "Khi bị đe dọa, chúng có hành vi phồng cổ (hooding) và dựng đứng phần thân trước giống như rắn hổ mang.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Rắn hổ xiên mắt (Pseudoxenodon macrops) chủ yếu ăn gì?",
-      "ground_truth": "Thức ăn ưa thích của chúng là các loài ếch và thằn lằn nhỏ.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 1.0,
-          "precision": 1.0
-        },
-        "k=2": {
-          "recall": 1.0,
-          "precision": 1.0
-        }
-      }
-    },
-    {
-      "question": "Tốc độ di chuyển của Rắn ráo gờ (Ptyas carinata) là bao nhiêu?",
-      "ground_truth": "Chúng di chuyển rất nhanh, có thể đạt tốc độ lên tới 8-10 km/h.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 0.0,
-          "precision": 0.0
-        },
-        "k=2": {
-          "recall": 0.0,
-          "precision": 0.0
-        }
-      }
-    },
-    {
-      "question": "Rắn ráo rừng (Ptyas dhumnades) có phải là loài leo trèo giỏi không?",
-      "ground_truth": "Có, chúng là những nhà leo trèo giỏi và di chuyển nhanh, có thể đạt tốc độ 5-7 km/h.",
-      "num_contexts": 4,
-      "metrics": {
-        "k=1": {
-          "recall": 0.0,
-          "precision": 0.0
-        },
-        "k=2": {
-          "recall": 0.0,
-          "precision": 0.0
-        }
-      }
-    },
-    {
-      "question": "Thức ăn chính của Rắn cỏ Nhật (Rhabdophis tigrinus) là gì?",
-      "ground_truth": "Thức ăn chính của chúng là ếch và cóc độc.",
-      "num_contexts": 4,
+      "question": "Rắn mai gầm bắc (Calamaria septentrionalis) có nguy hiểm cho con người không?",
+      "ground_truth": "Không, Rắn mai gầm bắc là loài không có nọc độc và hoàn toàn vô hại.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 0.0,
@@ -1323,13 +483,52 @@
         "k=2": {
           "recall": 0.5,
           "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=5": {
+          "recall": 0.4,
+          "precision": 0.4
         }
       }
     },
     {
-      "question": "Rắn rồng Trung Quốc (Sibynophis chinensis) chủ yếu ăn gì?",
-      "ground_truth": "Thức ăn ưa thích của chúng là giun đất, côn trùng và thằn lằn nhỏ.",
-      "num_contexts": 4,
+      "question": "Vết cắn của Rắn san hô nhỏ đốm (Calliophis maculiceps) có gây tử vong không?",
+      "ground_truth": "Không, loài này có nọc độc nhưng mức độ nguy hiểm thấp đến trung bình, chưa ghi nhận trường hợp tử vong ở người.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.3333,
+          "precision": 0.3333
+        },
+        "k=4": {
+          "recall": 0.25,
+          "precision": 0.25
+        },
+        "k=5": {
+          "recall": 0.2,
+          "precision": 0.2
+        }
+      }
+    },
+    {
+      "question": "Triệu chứng khi bị Rắn lục mũi hếch (Calloselasma rhodostoma) cắn là gì?",
+      "ground_truth": "Triệu chứng bao gồm đau dữ dội, sưng lan rộng, phồng rộp, hoại tử mô, xuất huyết, giảm tiểu cầu, suy thận cấp và có thể tử vong.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -1338,13 +537,25 @@
         "k=2": {
           "recall": 1.0,
           "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
         }
       }
     },
     {
-      "question": "Rắn san hô châu Á (Sinomicrurus annularis) có chế độ ăn như thế nào?",
-      "ground_truth": "Chúng là loài chuyên ăn rắn, bao gồm cả rắn độc non và rắn không độc.",
-      "num_contexts": 4,
+      "question": "Nọc độc của Rắn Séc be (Cerberus schneiderii) thuộc loại gì?",
+      "ground_truth": "Rắn Séc be có nọc độc nhẹ, chủ yếu là độc tố gây hại tế bào (cytotoxin) với yếu tố độc máu (hemotoxic) nhẹ, không nguy hiểm cho con người.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -1353,13 +564,52 @@
         "k=2": {
           "recall": 1.0,
           "precision": 1.0
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=5": {
+          "recall": 0.6,
+          "precision": 0.6
         }
       }
     },
     {
-      "question": "Chế độ ăn của Rắn san hô đầu bạc (Sinomicrurus macclellandi) có gì đặc biệt?",
-      "ground_truth": "Chúng là loài chuyên ăn rắn (ophiophagous), với 90% khẩu phần là các loài rắn khác.",
-      "num_contexts": 4,
+      "question": "Rắn nước châu Á (Fowlea piscator) có nọc độc không?",
+      "ground_truth": "Không, Rắn nước châu Á là loài không có nọc độc và hoàn toàn vô hại đối với con người.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=5": {
+          "recall": 0.6,
+          "precision": 0.6
+        }
+      }
+    },
+    {
+      "question": "Rắn cườm (Chrysopelea ornata) có độc không?",
+      "ground_truth": "Có, Rắn cườm là loài có nọc độc nhẹ, không gây nguy hiểm đáng kể cho con người.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -1368,13 +618,25 @@
         "k=2": {
           "recall": 1.0,
           "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
         }
       }
     },
     {
-      "question": "Thức ăn của Rắn san hô Phiên Nam (Sinomicrurus peinani) là gì?",
-      "ground_truth": "Dạ dày của một mẫu vật được ghi nhận chứa một con rắn đất (Achalinus sp.), cho thấy chúng là loài ăn rắn.",
-      "num_contexts": 4,
+      "question": "Rắn sọc vàng (Coelognathus flavolineatus) có nọc độc không?",
+      "ground_truth": "Không, Rắn sọc vàng là loài không có nọc độc và hoàn toàn vô hại đối với con người.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -1383,13 +645,25 @@
         "k=2": {
           "recall": 1.0,
           "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
         }
       }
     },
     {
-      "question": "Rắn ri voi (Subsessor bocourti) săn mồi bằng kỹ thuật nào?",
-      "ground_truth": "Chúng sử dụng kỹ thuật săn mồi 'ngồi chờ' (sit-and-wait ambush) trong các vùng nước đọng.",
-      "num_contexts": 4,
+      "question": "Rắn hổ ngựa (Coelognathus radiatus) có nọc độc không?",
+      "ground_truth": "Không, Rắn hổ ngựa là loài không có nọc độc và hoàn toàn vô hại, mặc dù một nghiên cứu đã cô lập được một loại độc tố thần kinh (alpha-colubritoxin) từ loài này.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -1398,13 +672,25 @@
         "k=2": {
           "recall": 1.0,
           "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
         }
       }
     },
     {
-      "question": "Rắn lục mép trắng (Trimeresurus albolabris) săn mồi như thế nào?",
-      "ground_truth": "Chúng là loài săn mồi phục kích ban đêm, sử dụng hố cảm nhiệt để phát hiện con mồi rồi tấn công.",
-      "num_contexts": 4,
+      "question": "Rắn trun (Cylindrophis jodiae) có nọc độc không?",
+      "ground_truth": "Không, Rắn trun là loài không có nọc độc và hoàn toàn vô hại đối với con người.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -1413,13 +699,106 @@
         "k=2": {
           "recall": 1.0,
           "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
         }
       }
     },
     {
-      "question": "Rắn lục mắt hồng ngọc (Trimeresurus rubeus) săn mồi ở đâu?",
-      "ground_truth": "Chúng săn mồi trên cây thấp hoặc bụi rậm gần các dòng suối chảy xiết.",
-      "num_contexts": 4,
+      "question": "Rắn trun (Cylindrophis ruffus) có nguy hiểm cho con người không?",
+      "ground_truth": "Không, Rắn trun là loài không có nọc độc và hoàn toàn vô hại đối với con người.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.6,
+          "precision": 0.6
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn lục mũi nhọn (Deinagkistrodon acutus) thuộc loại gì?",
+      "ground_truth": "Nọc độc của chúng thuộc loại độc máu (hemotoxic) và độc tế bào (cytotoxin), rất mạnh.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.3333,
+          "precision": 0.3333
+        },
+        "k=4": {
+          "recall": 0.25,
+          "precision": 0.25
+        },
+        "k=5": {
+          "recall": 0.4,
+          "precision": 0.4
+        }
+      }
+    },
+    {
+      "question": "Rắn leo cây Ngân Sơn (Dendrelaphis ngansonensis) có độc không?",
+      "ground_truth": "Không, Rắn leo cây Ngân Sơn là loài không có nọc độc và vô hại.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn leo cây bắc Đông dương (Dendrelaphis proarchos) có độc không?",
+      "ground_truth": "Không, Rắn leo cây bắc Đông dương là loài không có nọc độc và hoàn toàn vô hại.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 0.0,
@@ -1428,13 +807,133 @@
         "k=2": {
           "recall": 0.5,
           "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=5": {
+          "recall": 0.6,
+          "precision": 0.6
         }
       }
     },
     {
-      "question": "Thức ăn của Rắn lục xanh (Trimeresurus stejnegeri) là gì?",
-      "ground_truth": "Thức ăn của chúng là các loài gặm nhấm nhỏ, thằn lằn và ếch.",
-      "num_contexts": 4,
+      "question": "Rắn leo cây mắt (Dendrelaphis subocularis) có độc không?",
+      "ground_truth": "Không, Rắn leo cây mắt là loài không có nọc độc và hoàn toàn vô hại.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn roi nâu (Dryophiops rubescens) thuộc loại gì?",
+      "ground_truth": "Rắn roi nâu có nọc độc nhẹ, chủ yếu là độc tố gây hại tế bào (cytotoxin) với yếu tố độc máu (hemotoxic) nhẹ.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn sọc gờ (Elaphe carinata) có nọc độc không?",
+      "ground_truth": "Không, Rắn sọc gờ là loài không có nọc độc và hoàn toàn vô hại.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=5": {
+          "recall": 0.6,
+          "precision": 0.6
+        }
+      }
+    },
+    {
+      "question": "Rắn sọc khoanh (Elaphe moellendorffi) có nọc độc không?",
+      "ground_truth": "Không, Rắn sọc khoanh là loài không có nọc độc và hoàn toàn vô hại.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Rắn sọc đuôi (Elaphe taeniura) có nọc độc không?",
+      "ground_truth": "Không, Rắn sọc đuôi là loài không có nọc độc và hoàn toàn vô hại.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -1443,13 +942,133 @@
         "k=2": {
           "recall": 0.5,
           "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=5": {
+          "recall": 0.4,
+          "precision": 0.4
         }
       }
     },
     {
-      "question": "Rắn lục miền Nam (Trimeresurus vogeli) có chế độ ăn như thế nào?",
-      "ground_truth": "Chúng là loài ăn thịt đa dạng, ăn các loài gặm nhấm nhỏ, thằn lằn và ếch.",
-      "num_contexts": 4,
+      "question": "Nọc độc của Rắn bồng Mekong (Enhydris subtaeniata) có nguy hiểm không?",
+      "ground_truth": "Không, Rắn bồng Mekong có nọc độc nhẹ, nhưng không gây nguy hiểm cho con người, chỉ gây triệu chứng cục bộ nhẹ.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn râu (Erpeton tentaculatum) có tác dụng gì?",
+      "ground_truth": "Nọc độc của Rắn râu là nọc độc nhẹ, được thiết kế đặc biệt để làm tê liệt con mồi là cá nhưng không gây nguy hiểm đáng kể cho con người.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn hoa (Euprepiophis mandarinus) có nguy hiểm không?",
+      "ground_truth": "Không, Rắn hoa là loài không có nọc độc và hoàn toàn vô hại.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Rắn ăn cua (Fordonia leucobalia) có độc không?",
+      "ground_truth": "Có, Rắn ăn cua có nọc độc nhẹ, chủ yếu là độc tố gây hại tế bào, nhưng không ảnh hưởng đáng kể đến động vật có vú.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn nước đốm vàng (Fowlea flavipunctata) có độc không?",
+      "ground_truth": "Không, Rắn nước đốm vàng là loài không có nọc độc và hoàn toàn vô hại đối với con người.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -1458,13 +1077,322 @@
         "k=2": {
           "recall": 0.5,
           "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
         }
       }
     },
     {
-      "question": "Rắn hoa cân vân đốm (Trimerodytes aequifasciatus) ăn gì?",
-      "ground_truth": "Thức ăn của chúng bao gồm ếch, cá, thằn lằn và côn trùng.",
-      "num_contexts": 4,
+      "question": "Rắn mũi dài (Gonyosoma boulengeri) có nọc độc không?",
+      "ground_truth": "Không, Rắn mũi dài là loài không có nọc độc và hoàn toàn vô hại.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn sọc mắt xanh (Gonyosoma coeruleum) có độc không?",
+      "ground_truth": "Không, Rắn sọc mắt xanh là loài không có nọc độc và vô hại đối với con người.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn dây leo xanh (Gonyosoma frenatum) có độc không?",
+      "ground_truth": "Không, Rắn dây leo xanh là loài không có nọc độc và hoàn toàn vô hại.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.6,
+          "precision": 0.6
+        }
+      }
+    },
+    {
+      "question": "Rắn đuôi đỏ (Gonyosoma oxycephalum) có độc không?",
+      "ground_truth": "Không, Rắn đuôi đỏ là loài không có nọc độc và hoàn toàn vô hại.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Rắn nước boulengeri (Hebius boulengeri) có nọc độc không?",
+      "ground_truth": "Có, Rắn nước boulengeri là loài có nanh sau và nọc độc nhẹ, nhưng không nguy hiểm cho người.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn nước đồi Khasi (Hebius khasiensis) có nọc độc không?",
+      "ground_truth": "Có, Rắn nước đồi Khasi là loài có nanh sau và nọc độc nhẹ, không gây nguy hiểm cho con người.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn nước Omei (Hebius optatus) có nguy hiểm cho người không?",
+      "ground_truth": "Không, Rắn nước Omei có nọc độc nhẹ và được coi là vô hại đối với con người.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 0.0,
+          "precision": 0.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Rắn nước Kosempo (Hebius sauteri) có nọc độc không?",
+      "ground_truth": "Có, đây là loài có nanh sau và nọc độc nhẹ, nhưng không gây nguy hiểm cho con người.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.6,
+          "precision": 0.6
+        }
+      }
+    },
+    {
+      "question": "Rắn bồng chì (Hypsiscopus murphyi) có độc không?",
+      "ground_truth": "Có, Rắn bồng chì là loài có nọc độc nhẹ, nhưng không gây nguy hiểm cho con người.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn biển có sừng (Hydrophis peronii) nguy hiểm như thế nào?",
+      "ground_truth": "Đây là một trong những loài rắn độc nhất thế giới. Nọc độc thần kinh cực mạnh có thể gây tử vong trong vài giờ nếu không điều trị.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn mù Brahminy (Indotyphlops braminus) có nọc độc không?",
+      "ground_truth": "Không, Rắn mù Brahminy là loài hoàn toàn không có độc tố và vô hại.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Rắn sườn gờ Kuatun (Hebius craspedogaster) có độc không?",
+      "ground_truth": "Có, đây là loài có nanh sau và nọc độc nhẹ, không gây nguy hiểm cho con người.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 0.0,
@@ -1473,13 +1401,79 @@
         "k=2": {
           "recall": 0.0,
           "precision": 0.0
+        },
+        "k=3": {
+          "recall": 0.3333,
+          "precision": 0.3333
+        },
+        "k=4": {
+          "recall": 0.25,
+          "precision": 0.25
+        },
+        "k=5": {
+          "recall": 0.4,
+          "precision": 0.4
         }
       }
     },
     {
-      "question": "Thức ăn của Hoa cân vân đen (Trimerodytes percarinatus) là gì?",
-      "ground_truth": "Thức ăn của chúng là ếch, cá, thằn lằn và côn trùng.",
-      "num_contexts": 4,
+      "question": "Rắn cạp nia môi vàng (Laticauda colubrina) có nọc độc không?",
+      "ground_truth": "Có, loài này có nọc độc thần kinh mạnh, nhưng hiếm khi cắn người.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 0.0,
+          "precision": 0.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.3333,
+          "precision": 0.3333
+        },
+        "k=4": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=5": {
+          "recall": 0.4,
+          "precision": 0.4
+        }
+      }
+    },
+    {
+      "question": "Rắn sói thông thường (Lycodon capucinus) có độc không?",
+      "ground_truth": "Loài này được coi là không độc hoặc có độc rất nhẹ, không gây nguy hiểm nghiêm trọng cho con người.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=5": {
+          "recall": 0.6,
+          "precision": 0.6
+        }
+      }
+    },
+    {
+      "question": "Rắn khuyết Nam Động (Lycodon chapaensis) có nọc độc không?",
+      "ground_truth": "Không, Rắn khuyết Nam Động là loài không có nọc độc và vô hại.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -1488,13 +1482,25 @@
         "k=2": {
           "recall": 0.5,
           "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
         }
       }
     },
     {
-      "question": "Rắn mống (Xenopeltis unicolor) có chế độ ăn như thế nào?",
-      "ground_truth": "Chúng là loài ăn thịt đa dạng, ăn các loài động vật có vú nhỏ (như chuột), bò sát (như thằn lằn), lưỡng cư (như ếch) và chim.",
-      "num_contexts": 4,
+      "question": "Rắn cương Blanford (Lycodon davisonii) có nguy hiểm cho con người không?",
+      "ground_truth": "Không, Rắn cương Blanford là loài không có nọc độc và vô hại.",
+      "num_contexts": 5,
       "metrics": {
         "k=1": {
           "recall": 1.0,
@@ -1503,6 +1509,1827 @@
         "k=2": {
           "recall": 1.0,
           "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn khuyết đốm (Lycodon fasciatus) có độc không?",
+      "ground_truth": "Không, Rắn khuyết đốm là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn khuyết Phúc Thanh (Lycodon futsingensis) có độc không?",
+      "ground_truth": "Không, Rắn khuyết Phúc Thanh là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 0.0,
+          "precision": 0.0
+        },
+        "k=2": {
+          "recall": 0.0,
+          "precision": 0.0
+        },
+        "k=3": {
+          "recall": 0.0,
+          "precision": 0.0
+        },
+        "k=4": {
+          "recall": 0.25,
+          "precision": 0.25
+        },
+        "k=5": {
+          "recall": 0.4,
+          "precision": 0.4
+        }
+      }
+    },
+    {
+      "question": "Rắn sói Lào (Lycodon laoensis) có nọc độc không?",
+      "ground_truth": "Không, Rắn sói Lào là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Rắn sói đốm vàng (Lycodon meridionalis) có độc không?",
+      "ground_truth": "Không, Rắn sói đốm vàng là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn khuyết khoanh Đông Dương (Lycodon neomaculatus) có độc không?",
+      "ground_truth": "Không, Rắn khuyết khoanh Đông Dương là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn chó vằn sơn (Lycodon pictus) có độc không?",
+      "ground_truth": "Không, Rắn chó vằn sơn là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn sói rừng (Lycodon rufozonatus) có độc không?",
+      "ground_truth": "Không, Rắn sói rừng là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn sói Ruhstrat (Lycodon ruhstrati) có độc không?",
+      "ground_truth": "Không, Rắn sói Ruhstrat là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn khuyết Trường (Lycodon truongi) có độc không?",
+      "ground_truth": "Không, Rắn khuyết Trường là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Trăn gấm (Malayopython reticulatus) có độc không?",
+      "ground_truth": "Không, Trăn gấm là loài không có nọc độc. Chúng giết mồi bằng cách siết chặt.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn nước Trung Quốc (Myrrophis chinensis) có độc không?",
+      "ground_truth": "Có, Rắn nước Trung Quốc là loài có nọc độc nhẹ.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn hổ mang Trung Quốc (Naja atra) nguy hiểm như thế nào?",
+      "ground_truth": "Rắn hổ mang Trung Quốc có nọc độc cực mạnh, thuộc loại độc thần kinh, có thể gây tử vong trong 6–24 giờ nếu không điều trị.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn hổ mang Phục Hy (Naja fuxi) nguy hiểm không?",
+      "ground_truth": "Có, Rắn hổ mang Phục Hy có nọc độc cực mạnh, thuộc loại độc thần kinh, có thể gây tử vong nếu không điều trị kịp thời.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn hổ mang phun nọc Đông Dương (Naja siamensis) là sự kết hợp của những loại độc tố nào?",
+      "ground_truth": "Nọc độc của chúng là sự kết hợp của độc tố thần kinh (gây tê liệt) và độc tố tế bào (gây hoại tử mô).",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 0.0,
+          "precision": 0.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.3333,
+          "precision": 0.3333
+        },
+        "k=4": {
+          "recall": 0.25,
+          "precision": 0.25
+        },
+        "k=5": {
+          "recall": 0.4,
+          "precision": 0.4
+        }
+      }
+    },
+    {
+      "question": "Rắn đất vạch (Oligodon albocinctus) có độc không?",
+      "ground_truth": "Không, Rắn đất vạch là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Rắn khiếm Trung Quốc (Oligodon chinensis) có độc không?",
+      "ground_truth": "Không, Rắn khiếm Trung Quốc là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Rắn Khiếm Xám (Oligodon cinereus) có nọc độc không?",
+      "ground_truth": "Không, Rắn Khiếm Xám là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "RẮN KHIẾM ĐUÔI TRÒN (Oligodon cyclurus) có độc không?",
+      "ground_truth": "Không, RẮN KHIẾM ĐUÔI TRÒN là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "RẮN KHIẾM DEUVEI (Oligodon deuvei) có độc không?",
+      "ground_truth": "Không, RẮN KHIẾM DEUVEI là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.3333,
+          "precision": 0.3333
+        },
+        "k=4": {
+          "recall": 0.25,
+          "precision": 0.25
+        },
+        "k=5": {
+          "recall": 0.2,
+          "precision": 0.2
+        }
+      }
+    },
+    {
+      "question": "RẮN KHIẾM VẠCH NHỎ (Oligodon fasciolatus) có độc không?",
+      "ground_truth": "Không, RẮN KHIẾM VẠCH NHỎ là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn khiếm Đài Loan (Oligodon formosanus) có độc không?",
+      "ground_truth": "Không, Rắn khiếm Đài Loan là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Rắn khiếm vạch (Oligodon taeniatus) có nọc độc không?",
+      "ground_truth": "Không, Rắn khiếm vạch là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn hổ chúa (Ophiophagus hannah) mạnh như thế nào?",
+      "ground_truth": "Rắn hổ chúa có nọc độc thần kinh mạnh nhất trong họ Elapidae, với lượng nọc tiêm có thể lên đến 500 mg – lớn nhất trong các loài rắn độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn sọc đốm đỏ (Oreocryptophis porphyraceus) có độc không?",
+      "ground_truth": "Không, Rắn sọc đốm đỏ là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn lục núi (Ovophis monticola) nguy hiểm như thế nào?",
+      "ground_truth": "Rắn lục núi có nọc độc cực mạnh, thuộc loại độc máu (hemotoxic), có thể gây tử vong với tỷ lệ 10-20% nếu không điều trị.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn lục núi Tonkin (Ovophis tonkinensis) thuộc loại gì?",
+      "ground_truth": "Nọc độc của Rắn lục núi Tonkin thuộc loại độc máu (hemotoxic) và độc tế bào (cytotoxin), rất nguy hiểm.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn hổ mây Berdmore (Pareas berdmorei) có độc không?",
+      "ground_truth": "Không, Rắn hổ mây Berdmore là loài hoàn toàn không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn hổ mây gờ (Pareas carinatus) có độc không?",
+      "ground_truth": "Không, Rắn hổ mây gờ là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn hổ mây Đài Loan (Pareas formosensis) có độc không?",
+      "ground_truth": "Không, Rắn hổ mây Đài Loan là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn hổ mây Hampton (Pareas hamptoni) có độc không?",
+      "ground_truth": "Không, Rắn hổ mây Hampton là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn hổ mây ngọc (Pareas margaritophorus) có độc không?",
+      "ground_truth": "Không, Rắn hổ mây ngọc là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn hổ mây núi (Pareas monticola) có độc không?",
+      "ground_truth": "Không, Rắn hổ mây núi là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn hổ núi mũi mác (Plagiopholis nuchalis) có độc không?",
+      "ground_truth": "Không, Rắn hổ núi mũi mác là loài không có nọc độc đối với con người.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Rắn hổ núi Styani (Pope's keelback) có nọc độc không?",
+      "ground_truth": "Có, đây là loài có nanh sau và nọc độc nhẹ, không gây nguy hiểm cho con người.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=5": {
+          "recall": 0.4,
+          "precision": 0.4
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn lục sừng (Protobothrops cornutus) thuộc loại gì?",
+      "ground_truth": "Nọc độc của Rắn lục sừng thuộc loại độc máu (hematotoxic), gây rối loạn đông máu, xuất huyết, hoại tử và suy thận.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Triệu chứng khi bị Rắn lục Jerdon (Protobothrops jerdonii) cắn là gì?",
+      "ground_truth": "Triệu chứng bao gồm đau cục bộ dữ dội, sưng phù, xuất huyết dưới da, hoại tử, giảm tiểu cầu, suy thận và rối loạn đông máu kéo dài.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Rắn lục Mậu Lan (Protobothrops maolanensis) có độc không?",
+      "ground_truth": "Có, đây là loài có nọc độc mạnh, thuộc loại độc máu, rất nguy hiểm cho con người.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=5": {
+          "recall": 0.6,
+          "precision": 0.6
+        }
+      }
+    },
+    {
+      "question": "Rắn lục cườm (Protobothrops mucrosquamatus) có nọc độc loại gì?",
+      "ground_truth": "Nọc độc của Rắn lục cườm chủ yếu là độc máu (hematotoxic), gây rối loạn đông máu, phá hủy mô và suy thận.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn hổ đất nâu (Psammodynastes pulverulentus) có nọc độc không?",
+      "ground_truth": "Có, đây là loài có nọc độc nhẹ, không gây nguy hiểm nghiêm trọng cho con người.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Rắn hổ xiên tre (Pseudoxenodon bambusicola) có độc không?",
+      "ground_truth": "Có, đây là loài có nọc độc nhẹ, không gây nguy hiểm nghiêm trọng cho con người.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 0.0,
+          "precision": 0.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.3333,
+          "precision": 0.3333
+        },
+        "k=4": {
+          "recall": 0.25,
+          "precision": 0.25
+        },
+        "k=5": {
+          "recall": 0.2,
+          "precision": 0.2
+        }
+      }
+    },
+    {
+      "question": "Rắn hổ xiên mắt (Pseudoxenodon macrops) có độc không?",
+      "ground_truth": "Có, đây là loài có nọc độc nhẹ, không gây nguy hiểm nghiêm trọng cho con người.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.6,
+          "precision": 0.6
+        }
+      }
+    },
+    {
+      "question": "Rắn ráo gờ (Ptyas carinata) có độc không?",
+      "ground_truth": "Không, Rắn ráo gờ là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Rắn ráo rừng (Ptyas dhumnades) có độc không?",
+      "ground_truth": "Không, Rắn ráo rừng là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.6,
+          "precision": 0.6
+        }
+      }
+    },
+    {
+      "question": "Rắn ráo (Ptyas korros) có độc không?",
+      "ground_truth": "Không, Rắn ráo là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Rắn đai lớn (Ptyas major) có độc không?",
+      "ground_truth": "Không, Rắn đai lớn là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Rắn ráo trâu (Ptyas mucosa) có độc không?",
+      "ground_truth": "Không, Rắn ráo trâu là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Rắn ráo nhiều đai (Ptyas multicincta) có độc không?",
+      "ground_truth": "Không, Rắn ráo nhiều đai là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Rắn ráo xanh (Ptyas nigromarginata) có độc không?",
+      "ground_truth": "Không, Rắn ráo xanh là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Trăn Miến Điện (Python bivittatus) có độc không?",
+      "ground_truth": "Không, Trăn Miến Điện là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.6,
+          "precision": 0.6
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn cạp nong đầu đỏ (Bungarus flaviceps) nguy hiểm như thế nào?",
+      "ground_truth": "Loài này có nọc độc thần kinh mạnh, có thể gây tử vong nhanh trong 2-6 giờ nếu không điều trị, với tỷ lệ tử vong 50-70%.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Hoa cỏ cổ vàng (Rhabdophis chrysargos) có độc không?",
+      "ground_truth": "Có, đây là loài có nọc độc nhẹ, không gây nguy hiểm nghiêm trọng cho con người.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 0.0,
+          "precision": 0.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=5": {
+          "recall": 0.4,
+          "precision": 0.4
+        }
+      }
+    },
+    {
+      "question": "Rắn hoa cỏ He-lơ (Rhabdophis helleri) có nọc độc loại gì?",
+      "ground_truth": "Nọc độc của loài này thuộc loại độc máu (hemotoxic), có thể gây rối loạn đông máu nhưng không gây tử vong ở người.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.3333,
+          "precision": 0.3333
+        },
+        "k=4": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=5": {
+          "recall": 0.6,
+          "precision": 0.6
+        }
+      }
+    },
+    {
+      "question": "Rắn hoa cỏ đai (Rhabdophis nigrocinctus) có nọc độc từ đâu?",
+      "ground_truth": "Nọc độc của chúng chứa độc tố từ ếch độc (toad-derived bufadienolides) mà chúng ăn.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 0.0,
+          "precision": 0.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Rắn hoa cỏ cổ đỏ (Rhabdophis subminiatus) nguy hiểm như thế nào?",
+      "ground_truth": "Đây là loài rắn độc nguy hiểm với nọc độc máu mạnh, có thể gây tử vong. Chúng cũng có tuyến nuchal chứa độc tố từ cóc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Rắn cỏ Nhật (Rhabdophis tigrinus) có mấy loại độc tố?",
+      "ground_truth": "Loài này có hai loại độc tố: nọc độc hemotoxic từ tuyến Duvernoy và độc tố bufadienolides từ tuyến nuchal.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.3333,
+          "precision": 0.3333
+        },
+        "k=4": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=5": {
+          "recall": 0.6,
+          "precision": 0.6
+        }
+      }
+    },
+    {
+      "question": "Rắn rồng Trung Quốc (Sibynophis chinensis) có độc không?",
+      "ground_truth": "Không, Rắn rồng Trung Quốc là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn san hô châu Á (Sinomicrurus annularis) thuộc loại gì?",
+      "ground_truth": "Nọc độc của loài này thuộc loại độc thần kinh mạnh, có thể gây tử vong nhanh chóng.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 0.0,
+          "precision": 0.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.3333,
+          "precision": 0.3333
+        },
+        "k=4": {
+          "recall": 0.25,
+          "precision": 0.25
+        },
+        "k=5": {
+          "recall": 0.2,
+          "precision": 0.2
+        }
+      }
+    },
+    {
+      "question": "Rắn san hô đầu bạc (Sinomicrurus macclellandi) có nọc độc nguy hiểm không?",
+      "ground_truth": "Có, loài này có nọc độc thần kinh mạnh, có thể gây tử vong trong 2-6 giờ nếu không điều trị.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Rắn san hô Phiên Nam (Sinomicrurus peinani) có nọc độc không?",
+      "ground_truth": "Có, đây là loài có nọc độc thần kinh mạnh, rất nguy hiểm.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Rắn ri voi (Subsessor bocourti) có độc không?",
+      "ground_truth": "Không, Rắn ri voi là loài hoàn toàn không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.6,
+          "precision": 0.6
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn lục mép trắng (Trimeresurus albolabris) thuộc loại gì?",
+      "ground_truth": "Nọc độc của Rắn lục mép trắng thuộc loại độc máu (hemotoxic), gây rối loạn đông máu, phá hủy mô và suy thận.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Rắn lục mắt hồng ngọc (Trimeresurus rubeus) có nọc độc loại gì?",
+      "ground_truth": "Nọc độc của loài này chủ yếu là độc máu (hemotoxic), gây rối loạn đông máu, phá hủy mô và suy thận.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 0.0,
+          "precision": 0.0
+        },
+        "k=2": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=5": {
+          "recall": 0.6,
+          "precision": 0.6
+        }
+      }
+    },
+    {
+      "question": "Rắn lục xanh (Trimeresurus stejnegeri) có độc không?",
+      "ground_truth": "Có, đây là loài rắn độc mạnh với nọc độc chủ yếu là độc máu (hemotoxic).",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Nọc độc của Rắn lục miền Nam (Trimeresurus vogeli) có nguy hiểm không?",
+      "ground_truth": "Có, đây là loài rắn độc mạnh với nọc độc chủ yếu là độc máu, rất nguy hiểm.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
+        }
+      }
+    },
+    {
+      "question": "Rắn hoa cân vân đốm (Trimerodytes aequifasciatus) có độc không?",
+      "ground_truth": "Không, Rắn hoa cân vân đốm là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=5": {
+          "recall": 1.0,
+          "precision": 1.0
+        }
+      }
+    },
+    {
+      "question": "Hoa cân vân đen (Trimerodytes percarinatus) có độc không?",
+      "ground_truth": "Không, Hoa cân vân đen là loài không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 0.6667,
+          "precision": 0.6667
+        },
+        "k=4": {
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        "k=5": {
+          "recall": 0.4,
+          "precision": 0.4
+        }
+      }
+    },
+    {
+      "question": "Rắn mống (Xenopeltis unicolor) có độc không?",
+      "ground_truth": "Không, Rắn mống là loài hoàn toàn không có nọc độc.",
+      "num_contexts": 5,
+      "metrics": {
+        "k=1": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=2": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=3": {
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "k=4": {
+          "recall": 0.75,
+          "precision": 0.75
+        },
+        "k=5": {
+          "recall": 0.8,
+          "precision": 0.8
         }
       }
     }
@@ -1510,9 +3337,12 @@
   "config": {
     "k_values": [
       1,
-      2
+      2,
+      3,
+      4,
+      5
     ],
-    "threshold": 0.4,
-    "total_questions": 100
+    "threshold": 0.5,
+    "total_questions": 123
   }
 }

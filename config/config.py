@@ -25,7 +25,7 @@ class Config:
     # RAG configurations
     CHUNK_SIZE = 200
     CHUNK_OVERLAP = 50
-    TOP_K_RESULTS = 7
+    TOP_K_RESULTS = 5  # Legacy parameter (không dùng nếu có reranking)
     
     # Field-specific chunking (bật/tắt chunk size riêng cho từng field)
     USE_FIELD_SPECIFIC_CHUNKING = True
@@ -35,62 +35,90 @@ class Config:
     
     # Chunk size và overlap cho từng field (nếu USE_FIELD_SPECIFIC_CHUNKING = True)
     # Giá trị theo CHUNK_BY: nếu "words" thì là số từ, nếu "chars" thì là số ký tự
+    # Chiến lược: chunk_size = 60-70% của average word count, overlap = 25-30%
     FIELD_CHUNK_CONFIG = {
-        "Tên khoa học và tên phổ thông": {
-            "chunk_size": 80,      # 40 từ
-            "chunk_overlap": 30
+        # Nhóm dài (> 400 words): Chunk size lớn để giữ ngữ cảnh
+        "Triệu chứng khi bị cắn": {           # Avg: 471 words
+            "chunk_size": 300,                # 64% của avg
+            "chunk_overlap": 80               # 27% overlap
         },
-        "Phân loại học": {
-            "chunk_size": 60,
-            "chunk_overlap": 20
+        "Cách xử lý": {                       # Avg: 476 words
+            "chunk_size": 300,                # 63% của avg
+            "chunk_overlap": 80               # 27% overlap
         },
-        "Đặc điểm hình thái": {
-            "chunk_size": 80,
-            "chunk_overlap": 30
+        "Đặc điểm hình thái": {               # Avg: 426 words
+            "chunk_size": 280,                # 66% của avg
+            "chunk_overlap": 70               # 25% overlap
         },
-        "Độc tính": {
-            "chunk_size": 80,
-            "chunk_overlap": 20
+        
+        # Nhóm trung bình dài (250-300 words)
+        "Tên khoa học và tên phổ thông": {   # Avg: 292 words
+            "chunk_size": 200,                # 68% của avg
+            "chunk_overlap": 50               # 25% overlap
         },
-        "Tập tính săn mồi": {
-            "chunk_size": 70,
-            "chunk_overlap": 15
+        
+        # Nhóm trung bình (180-230 words)
+        "Phân bố địa lý và môi trường sống": {  # Avg: 224 words
+            "chunk_size": 150,                # 67% của avg
+            "chunk_overlap": 40               # 27% overlap
         },
-        "Hành vi và sinh thái": {
-            "chunk_size": 70,
-            "chunk_overlap": 15
+        "Hành vi và sinh thái": {             # Avg: 219 words
+            "chunk_size": 150,                # 69% của avg
+            "chunk_overlap": 40               # 27% overlap
         },
-        "Phân bố địa lý và môi trường sống": {
-            "chunk_size": 70,
-            "chunk_overlap": 15
+        "Tập tính săn mồi": {                 # Avg: 206 words
+            "chunk_size": 140,                # 68% của avg
+            "chunk_overlap": 35               # 25% overlap
         },
-        "Sinh sản": {
-            "chunk_size": 60,
-            "chunk_overlap": 15
+        "Phân loại học": {                    # Avg: 190 words
+            "chunk_size": 130,                # 68% của avg
+            "chunk_overlap": 35               # 27% overlap
         },
-        "Tình trạng bảo tồn": {
-            "chunk_size": 50,
-            "chunk_overlap": 10
+        "Các quan sát thú vị từ các nhà nghiên cứu": {  # Avg: 186 words
+            "chunk_size": 130,                # 70% của avg
+            "chunk_overlap": 35               # 27% overlap
         },
-        "Giá trị nghiên cứu": {
-            "chunk_size": 100,     # Field dài nên cho nhiều từ hơn
-            "chunk_overlap": 20
+        
+        # Nhóm ngắn (150-170 words)
+        "Độc tính": {                         # Avg: 170 words
+            "chunk_size": 120,                # 71% của avg
+            "chunk_overlap": 30               # 25% overlap
         },
-        "Sự liên quan với con người": {
-            "chunk_size": 80,
-            "chunk_overlap": 15
+        "Sinh sản": {                         # Avg: 162 words
+            "chunk_size": 110,                # 68% của avg
+            "chunk_overlap": 30               # 27% overlap
         },
-        "Các quan sát thú vị từ các nhà nghiên cứu": {
-            "chunk_size": 80,
-            "chunk_overlap": 15
+        
+        # Nhóm rất ngắn (< 150 words): Chunk size lớn để tránh chia quá nhỏ
+        "Tình trạng bảo tồn": {               # Avg: 119 words
+            "chunk_size": 150,                # Lớn hơn avg để ít chunk
+            "chunk_overlap": 30               # 20% overlap
+        },
+        "Giá trị nghiên cứu": {               # Avg: 109 words
+            "chunk_size": 150,                # Lớn hơn avg để ít chunk
+            "chunk_overlap": 30               # 20% overlap
+        },
+        "Sự liên quan với con người": {       # Avg: 105 words
+            "chunk_size": 150,                # Lớn hơn avg để ít chunk
+            "chunk_overlap": 30               # 20% overlap
         }
     }
     
     # Re-ranking configurations
     USE_RERANKING = True
     CROSS_ENCODER_MODEL = "cross-encoder/ms-marco-MiniLM-L-12-v2"
-    RERANK_TOP_K = 7  # Get more candidates for re-ranking
-    FINAL_TOP_K = 4    # Final number of passages after re-ranking
+    
+    # Với chunk size lớn (110-300 words), mỗi chunk chứa nhiều thông tin
+    # → Cần ít chunks hơn để đủ context
+    RERANK_TOP_K = 15   # Lấy 15 candidates để rerank (tăng từ 10)
+    FINAL_TOP_K = 5     # Giữ top 5 chunks có điểm cao nhất sau rerank
+    
+    # Giải thích:
+    # - RERANK_TOP_K = 15: Đủ rộng để cover nhiều fields khác nhau
+    # - FINAL_TOP_K = 5: 5 chunks × 150-300 words = 750-1500 words context
+    #   → Đủ để trả lời hầu hết câu hỏi mà không quá dài
+    # - Nếu câu hỏi phức tạp: có thể tăng FINAL_TOP_K lên 8-10
+    
     RERANK_ALPHA = 0.7  # Weight for cross-encoder score (0.7) vs original score (0.3)
     
     # FAISS configurations
