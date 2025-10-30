@@ -12,11 +12,11 @@
 
 | Model | Test Accuracy | Phương Pháp |
 |-------|---------------|-------------|
-| **Swin-S + CutMix + MixUp & Swin Tiny** | **97.46%** | Ensemble Model |
-| **Swin-S + CutMix + MixUp** | **94.01%** | CutMix + MixUp + AutoAugment + Label Smoothing |
-| **Swin-S + CutMix** | **93.72%** 🥇 | CutMix + AutoAugment + Label Smoothing |
-| **Swin-S (Baseline)** | **93.00%** 🥈 | Basic Augmentation + Label Smoothing |
-| **Swin Tiny** | **92.57%** 🥉 | Basic Augmentation |
+| **Swin-S + CutMix + MixUp & Swin Tiny** | **97.46%** 🥇| Ensemble Model |
+| **Swin-S + CutMix + MixUp** | **94.01%**🥈 | CutMix + MixUp + AutoAugment + Label Smoothing |
+| **Swin-S + CutMix** | **93.72%**  🥉| CutMix + AutoAugment + Label Smoothing |
+| **Swin-S (Baseline)** | **93.00%**  | Basic Augmentation + Label Smoothing |
+| **Swin Tiny** | **92.57%**  | Basic Augmentation |
 | **ConvNeXt Tiny** | **92.13%** | AutoAugment + Label Smoothing |
 | **EfficientNetV2** |  **91.33%** | RandAugment |
 ---
