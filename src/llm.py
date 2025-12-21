@@ -11,7 +11,7 @@ class GeminiLLM:
         Config.validate()
         self.client = genai.Client(api_key=Config.GOOGLE_API_KEY)
         self.model = Config.LLM_MODEL
-    
+        
     def generate_response(self, query: str, context: List[str]) -> str:
         """
         Generate response using query and retrieved context

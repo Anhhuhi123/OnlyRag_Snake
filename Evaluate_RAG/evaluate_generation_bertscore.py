@@ -258,7 +258,7 @@ def print_score_distribution(results: Dict) -> None:
 
 if __name__ == "__main__":
     # Configuration
-    PREDICTIONS_FILE = "data/predictions.json"
+    PREDICTIONS_FILE = "data/predictions_cleaned.json"
     LANGUAGE = "vi"  # Vietnamese
     MODEL_TYPE = None  # Auto-select best model for Vietnamese
     

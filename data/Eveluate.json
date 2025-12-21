@@ -1,494 +1,498 @@
 [
-    {
-    "question": "Rắn đào hang đỏ (Achalinus rufescens) có nọc độc không?",
-    "ground_truth": "Không, Rắn đào hang đỏ là loài không có nọc độc. Dữ liệu hình thái cho thấy răng của chúng thuộc loại aglyphous (không có răng nọc)."
+  {
+    "question": "Thông tin về giá trị nghiên cứu của Rắn đào hang đỏ là gì?",
+    "ground_truth": "Không có thông tin về 'Giá trị nghiên cứu' cho loài Rắn đào hang đỏ trong tài liệu được cung cấp."
+  },
+  {
+    "question": "Rắn vảy lạ xám (Achalinus spinalis) có giá trị nghiên cứu cao trong những lĩnh vực nào?",
+    "ground_truth": "Giá trị nghiên cứu của Achalinus spinalis rất cao, đặc biệt trong lĩnh vực sinh thái (vai trò phân hủy hữu cơ trong đất rừng thấp, và hành vi đào hang độc đáo, Greene, 1973), phân loại học (revision chi Achalinus năm 2015, Amarasinghe et al."
   },
   {
-    "question": "Mức độ nguy hiểm của Rắn vảy lạ xám (Achalinus spinalis) đối với con người là gì?",
-    "ground_truth": "Mức độ nguy hiểm đối với con người là zero – hoàn toàn vô hại, không gây tử vong hay tổn thương nghiêm trọng."
+    "question": "Nghiên cứu về Rắn rầm ri cá (Acrochordus granulatus) góp phần làm rõ vấn đề gì?",
+    "ground_truth": "Các nghiên cứu về da thô (rough skin) và khả năng chịu mặn góp phần hiểu đa dạng rắn thủy sinh châu Á và quản lý ngập mặn."
   },
   {
-    "question": "Rắn rầm ri cá (Acrochordus granulatus) có được coi là mối đe dọa y tế không?",
-    "ground_truth": "Không, Rắn rầm ri cá là loài không có nọc độc và không được coi là mối đe dọa y tế."
+    "question": "Rắn rầm ri cóc (Acrochordus javanicus) có giá trị nghiên cứu trong lĩnh vực nào?",
+    "ground_truth": "Giá trị nghiên cứu của Acrochordus javanicus rất cao, đặc biệt trong lĩnh vực sinh học tiến hóa (da nhăn là thích nghi thủy sinh cổ xưa, Sanders et al."
   },
   {
-    "question": "Vết cắn của Rắn rầm ri cóc (Acrochordus javanicus) có triệu chứng gì không?",
-    "ground_truth": "Không, loài này không có nọc độc. Nếu bị cắn, nó chỉ gây vết xước nhẹ, không có triệu chứng độc tính như sưng, tê hay đông máu."
+    "question": "Việc phân loại lại Rắn roi mõm nhọn (Ahaetulla fusca) có giá trị nghiên cứu gì?",
+    "ground_truth": "Việc phân loại lại Ahaetulla fusca từ “danh nghĩa đồng nghĩa với nasuta” thành loài riêng là một bước tiến lớn trong nghiên cứu phân bố, đa dạng và tiến hóa của rắn dây tại Đông Dương."
   },
   {
-    "question": "Nọc độc của Rắn roi mõm nhọn (Ahaetulla fusca) có nguy hiểm nghiêm trọng không?",
-    "ground_truth": "Không, loài này có độc nhẹ và nhìn chung không nguy hiểm nghiêm trọng. Vết cắn thường chỉ gây đau nhẹ, sưng hoặc đỏ tại chỗ."
+    "question": "Rắn roi thường (Ahaetulla prasina) có giá trị nghiên cứu cao trong những lĩnh vực nào?",
+    "ground_truth": "Giá trị nghiên cứu của Ahaetulla prasina rất cao, đặc biệt trong lĩnh vực di truyền học (nghiên cứu biến đổi màu sắc qua genome, như nghiên cứu của Tang et al."
   },
   {
-    "question": "Vết cắn của Rắn roi thường (Ahaetulla prasina) có gây tử vong không?",
-    "ground_truth": "Không, loài này có nọc độc nhẹ, không gây tử vong cho con người. Triệu chứng thường chỉ bao gồm đau cục bộ, sưng, tê và bầm tím."
+    "question": "Nghiên cứu về Rắn roi mắt đỏ (Ahaetulla rufusoculara) góp phần vào hiểu biết về vấn đề gì?",
+    "ground_truth": "Nghiên cứu về loài này góp phần vào hiểu biết về đa dạng sinh học Việt Nam và phân loại chi Ahaetulla."
   },
   {
-    "question": "Mức độ nguy hiểm của Rắn roi mắt đỏ (Ahaetulla rufusoculara) đối với con người như thế nào?",
-    "ground_truth": "Mức độ nguy hiểm đối với con người rất thấp. Chúng có nọc độc nhẹ, không gây tử vong, thường chỉ gây đau cục bộ, sưng, tê và bầm tím."
+    "question": "Rắn sãi cỏ (Amphiesma stolatum) có giá trị nghiên cứu trong lĩnh vực nào?",
+    "ground_truth": "Giá trị nghiên cứu của Amphiesma stolatum rất cao, đặc biệt trong lĩnh vực phân loại học (nghiên cứu tái phân loại chi Amphiesma năm 1960 và 2014 dựa trên hemipenis, răng và di truyền), sinh thái (vai trò kiểm soát lưỡng cư ở đồng lúa), và hành vi (aestivation, phòng vệ hooding)."
   },
   {
-    "question": "Rắn sãi cỏ (Amphiesma stolatum) có độc không?",
-    "ground_truth": "Không, Rắn sãi cỏ là loài không có nọc độc và hoàn toàn vô hại đối với con người."
+    "question": "Rắn biển môi xanh (Blue-lipped sea krait) có tiềm năng ứng dụng y tế gì?",
+    "ground_truth": "Nọc độc neurotoxic của chúng có tiềm năng ứng dụng y tế, như làm thuốc tê liệt cơ."
   },
   {
-    "question": "Nọc độc của Rắn biển môi xanh (Laticauda laticaudata) mạnh đến mức nào?",
-    "ground_truth": "Nọc độc của Rắn biển môi xanh thuộc loại độc thần kinh mạnh, mạnh gấp 10 lần rắn đuôi chuông."
+    "question": "Rắn rào xanh (Boiga cyanea) có giá trị nghiên cứu trong lĩnh vực sinh thái như thế nào?",
+    "ground_truth": "Giá trị nghiên cứu của Boiga cyanea rất cao, đặc biệt trong lĩnh vực sinh thái (vai trò nest predator ảnh hưởng quần thể chim rừng, như nghiên cứu của Pierce & Pobprasert, 2021 về space use và activity), độc tố học (venom mild với tiềm năng y tế, tương tự nghiên cứu ontogenetic shifts ở Boiga irregularis của Mackessy et al."
   },
   {
-    "question": "Triệu chứng khi bị Rắn rào xanh (Boiga cyanea) cắn là gì?",
-    "ground_truth": "Triệu chứng khi bị cắn bao gồm đau cục bộ, sưng vừa phải, tê/tê liệt nhẹ (paresthesia), bầm tím, đỏ da và chảy máu nhẹ."
+    "question": "Nghiên cứu về Rắn rào Quảng Tây (Boiga guangxiensis) góp phần làm rõ vấn đề gì?",
+    "ground_truth": "Các nghiên cứu như của Hodges et al. (2018) về feeding, Ziegler et al. (2010) về new records, và Pham et al. (2020) về checklists góp phần hiểu đa dạng rắn Đông Nam Á và bảo tồn rừng karst."
   },
   {
-    "question": "Rắn rào Quảng Tây (Boiga guangxiensis) có được coi là vô hại ở Việt Nam không?",
-    "ground_truth": "Có, mặc dù có nọc độc nhẹ, Rắn rào Quảng Tây được coi là vô hại (harmless) ở Việt Nam, chỉ gây triệu chứng cục bộ nhẹ."
+    "question": "Nghiên cứu về Rắn rào ngọc bích (Boiga jaspidea) có ý nghĩa gì?",
+    "ground_truth": "Các nghiên cứu như của Hodges et al. (2018) về chế độ ăn, Ziegler et al. (2010) về new records ở Đắk Lắk, và Pham et al. (2020) về checklists góp phần hiểu đa dạng rắn Đông Nam Á và bảo tồn rừng karst."
   },
   {
-    "question": "Vết cắn của Rắn rào ngọc bích (Boiga jaspidea) có gây tử vong không?",
-    "ground_truth": "Không, loài này có nọc độc nhẹ và không gây tử vong. Vết cắn thường chỉ gây triệu chứng cục bộ nhẹ."
+    "question": "Nghiên cứu của Shan & Wang (2022) về loài Rắn rào đầu vuông (Boiga kraepelini) đã làm rõ điều gì?",
+    "ground_truth": "Nghiên cứu của Shan & Wang (2022) về genome ty thể đầy đủ và ý nghĩa phân loại đã góp phần hiểu đa dạng rắn Đông Á."
   },
   {
-    "question": "Nọc độc của Rắn rào đầu vuông (Boiga kraepelini) có nguy hiểm không?",
-    "ground_truth": "Không, loài này có nọc độc nhẹ, không gây tử vong. Triệu chứng có thể bao gồm sưng nhẹ, đỏ da, tê cục bộ, khô họng và buồn nôn."
+    "question": "Giá trị nghiên cứu lớn nhất của Rắn rào đốm (Boiga multomaculata) là gì?",
+    "ground_truth": "Giá trị nghiên cứu của Boiga multomaculata rất cao, đặc biệt trong lĩnh vực phân loại học (revision taxonomic năm 2023 hợp nhất với B."
   },
   {
-    "question": "Mức độ nguy hiểm của Rắn rào đốm (Boiga multomaculata) đối với con người là gì?",
-    "ground_truth": "Mức độ nguy hiểm đối với con người rất thấp, được coi là vô hại (harmless) ở Việt Nam. Vết cắn chỉ gây triệu chứng cục bộ nhẹ."
+    "question": "Nghiên cứu về Rắn rào Xiêm (Boiga siamensis) góp phần làm rõ vấn đề gì?",
+    "ground_truth": "Các nghiên cứu về tập tính arboreal (Harrington et al., 2018) và danh sách kiểm kê (checklists) ở Việt Nam (Geissler et al., 2011; Pham et al., 2020) góp phần hiểu đa dạng sinh học châu Á và bảo tồn rừng."
   },
   {
-    "question": "Rắn rào Xiêm (Boiga siamensis) có nọc độc không?",
-    "ground_truth": "Có, Rắn rào Xiêm là loài có nọc độc nhẹ, không gây tử vong cho người, thường chỉ gây triệu chứng cục bộ."
+    "question": "Nghiên cứu về Rắn cạp nia Nam (Bungarus candidus) có ý nghĩa gì trong y học?",
+    "ground_truth": "Giá trị nghiên cứu của Bungarus candidus rất cao, đặc biệt trong lĩnh vực độc tố học (toxinology, nghiên cứu biến đổi nọc theo địa lý như ở Malaysia-Thái Lan-Việt Nam, Tan et al."
   },
   {
-    "question": "Nọc độc của Rắn cạp nia (Bungarus candidus) nguy hiểm như thế nào?",
-    "ground_truth": "Rắn cạp nia có nọc độc cực mạnh, chủ yếu là độc thần kinh, với tỷ lệ tử vong 60–70% nếu không điều trị."
+    "question": "Nọc độc của Rắn cạp nống (Bungarus fasciatus) có giá trị nghiên cứu y học như thế nào?",
+    "ground_truth": "Nọc độc của chúng (chứa alpha- và beta-bungarotoxin) có giá trị cao trong nghiên cứu độc tố học và phát triển huyết thanh kháng nọc (Antivenom) Polyvalent cho khu vực Đông Nam Á."
   },
   {
-    "question": "Nọc độc của Rắn cạp nống (Bungarus fasciatus) thuộc loại gì và tỷ lệ tử vong ra sao?",
-    "ground_truth": "Nọc độc của Rắn cạp nống thuộc loại độc thần kinh cực mạnh, với tỷ lệ tử vong 50–70% nếu không được điều trị."
+    "question": "Nghiên cứu về Rắn mai gầm bắc (Calamaria septentrionalis) góp phần làm rõ vấn đề gì?",
+    "ground_truth": "Các nghiên cứu về hành vi fossorial và thích nghi đào hang góp phần hiểu tiến hóa chi Calamaria và bảo tồn rừng thấp châu Á."
   },
   {
-    "question": "Rắn mai gầm bắc (Calamaria septentrionalis) có nguy hiểm cho con người không?",
-    "ground_truth": "Không, Rắn mai gầm bắc là loài không có nọc độc và hoàn toàn vô hại."
+    "question": "Loài Rắn lá khô đốm nhỏ (Calliophis maculiceps) có giá trị nghiên cứu trong lĩnh vực nào?",
+    "ground_truth": "Giá trị nghiên cứu của Calliophis maculiceps rất cao, đặc biệt trong lĩnh vực độc tố học (venom proteomics, tương tự nghiên cứu trên C."
   },
   {
-    "question": "Vết cắn của Rắn san hô nhỏ đốm (Calliophis maculiceps) có gây tử vong không?",
-    "ground_truth": "Không, loài này có nọc độc nhưng mức độ nguy hiểm thấp đến trung bình, chưa ghi nhận trường hợp tử vong ở người."
+    "question": "Nọc độc của Rắn chàm quạp (Calloselasma rhodostoma) có giá trị nghiên cứu y học như thế nào?",
+    "ground_truth": "Nọc độc của loài này có giá trị nghiên cứu rất cao trong lĩnh vực độc tố học (nghiên cứu metalloproteinases và anticoagulant) và y học (phát triển Malayan Pit Viper Antivenom)."
   },
   {
-    "question": "Triệu chứng khi bị Rắn lục mũi hếch (Calloselasma rhodostoma) cắn là gì?",
-    "ground_truth": "Triệu chứng bao gồm đau dữ dội, sưng lan rộng, phồng rộp, hoại tử mô, xuất huyết, giảm tiểu cầu, suy thận cấp và có thể tử vong."
+    "question": "Nghiên cứu về Rắn Séc be (Cerberus schneiderii) ở Tây Java có ý nghĩa gì cho việc bảo tồn?",
+    "ground_truth": "Nghiên cứu về lưỡng hình giới tính và sinh sản ở Tây Java (Shine et al., 2022) cung cấp dữ liệu quan trọng cho việc khai thác bền vững (ví dụ, tập trung vào đực để bảo tồn)."
   },
   {
-    "question": "Nọc độc của Rắn Séc be (Cerberus schneiderii) thuộc loại gì?",
-    "ground_truth": "Rắn Séc be có nọc độc nhẹ, chủ yếu là độc tố gây hại tế bào (cytotoxin) với yếu tố độc máu (hemotoxic) nhẹ, không nguy hiểm cho con người."
+    "question": "Rắn nước châu Á (Checkered keelback) có giá trị nghiên cứu trong lĩnh vực nào?",
+    "ground_truth": "Giá trị nghiên cứu của Fowlea piscator rất cao, đặc biệt trong lĩnh vực sinh thái (vai trò kiểm soát lưỡng cư ở ruộng lúa, như nghiên cứu của Whitaker & Captain, 2008), phân loại học (tái phân loại từ Xenochrophis sang Fowlea dựa trên di truyền, Guo et al."
   },
   {
-    "question": "Rắn nước châu Á (Fowlea piscator) có nọc độc không?",
-    "ground_truth": "Không, Rắn nước châu Á là loài không có nọc độc và hoàn toàn vô hại đối với con người."
+    "question": "Rắn cườm (Chrysopelea ornata) là mô hình nghiên cứu độc đáo cho lĩnh vực nào?",
+    "ground_truth": "Giá trị nghiên cứu của Chrysopelea ornata rất cao, đặc biệt trong lĩnh vực sinh cơ học (gliding biomechanics, Socha, 2002, nghiên cứu lượn xa 100 m), sinh thái (vai trò kiểm soát thằn lằn, Das, 2012), và phân loại học (phylogenetic của chi Chrysopelea, Pyron et al."
   },
   {
-    "question": "Rắn cườm (Chrysopelea ornata) có độc không?",
-    "ground_truth": "Có, Rắn cườm là loài có nọc độc nhẹ, không gây nguy hiểm đáng kể cho con người."
+    "question": "Nghiên cứu về Rắn sọc vàng (Coelognathus flavolineatus) góp phần làm rõ vấn đề gì?",
+    "ground_truth": "Các nghiên cứu như của Utiger et al. (2005) về phân loại Colubrinae góp phần hiểu đa dạng rắn châu Á và lợi ích nông nghiệp."
   },
   {
-    "question": "Rắn sọc vàng (Coelognathus flavolineatus) có nọc độc không?",
-    "ground_truth": "Không, Rắn sọc vàng là loài không có nọc độc và hoàn toàn vô hại đối với con người."
+    "question": "Phát hiện về alpha-colubritoxin từ Rắn sọc dưa (Coelognathus radiatus) có ý nghĩa gì?",
+    "ground_truth": "Việc cô lập alpha-colubritoxin năm 2003 từ loài này đã chứng minh nguồn gốc sớm của nọc độc ở cả những loài rắn được coi là không độc."
   },
   {
-    "question": "Rắn hổ ngựa (Coelognathus radiatus) có nọc độc không?",
-    "ground_truth": "Không, Rắn hổ ngựa là loài không có nọc độc và hoàn toàn vô hại, mặc dù một nghiên cứu đã cô lập được một loại độc tố thần kinh (alpha-colubritoxin) từ loài này."
+    "question": "Nghiên cứu Rắn trun (Cylindrophis jodiae) có giá trị gì về phân loại học?",
+    "ground_truth": "Giá trị nghiên cứu của Cylindrophis jodiae rất cao, đặc biệt trong lĩnh vực phân loại học (mô tả mới năm 2015 từ mẫu vật Việt Nam, Amarasinghe et al."
   },
   {
-    "question": "Rắn trun (Cylindrophis jodiae) có nọc độc không?",
-    "ground_truth": "Không, Rắn trun là loài không có nọc độc và hoàn toàn vô hại đối với con người."
+    "question": "Rắn trun (Cylindrophis ruffus) có giá trị gì trong nghiên cứu tiến hóa?",
+    "ground_truth": "Loài này có giá trị nghiên cứu cao trong phân tích phát sinh loài (phylogenetic), xác nhận vị trí cơ sở (basal) của nó trong nhóm rắn alethinophidian."
   },
   {
-    "question": "Rắn trun (Cylindrophis ruffus) có nguy hiểm cho con người không?",
-    "ground_truth": "Không, Rắn trun là loài không có nọc độc và hoàn toàn vô hại đối với con người."
+    "question": "Nọc độc của Rắn lục mũi hếch (Deinagkistrodon acutus) có giá trị nghiên cứu y học như thế nào?",
+    "ground_truth": "Nọc độc của nó (chứa metalloproteinases và TLEs) được dùng trong nghiên cứu thuốc chống đông máu và apoptosis ung thư."
   },
   {
-    "question": "Nọc độc của Rắn lục mũi nhọn (Deinagkistrodon acutus) thuộc loại gì?",
-    "ground_truth": "Nọc độc của chúng thuộc loại độc máu (hemotoxic) và độc tế bào (cytotoxin), rất mạnh."
+    "question": "Nghiên cứu về Rắn leo cây Ngân Sơn (Dendrelaphis ngansonensis) góp phần làm rõ vấn đề gì?",
+    "ground_truth": "Các nghiên cứu về arboreal behavior và thích nghi cây góp phần hiểu tiến hóa Ahaetuliinae và bảo tồn rừng miền Bắc Việt Nam."
   },
   {
-    "question": "Rắn leo cây Ngân Sơn (Dendrelaphis ngansonensis) có độc không?",
-    "ground_truth": "Không, Rắn leo cây Ngân Sơn là loài không có nọc độc và vô hại."
+    "question": "Nghiên cứu về Rắn leo cây bắc Đông dương (Dendrelaphis proarchos) góp phần làm rõ vấn đề gì?",
+    "ground_truth": "Các nghiên cứu về arboreal behavior và thích nghi cây góp phần hiểu tiến hóa Ahaetuliinae và bảo tồn rừng miền Bắc Việt Nam."
   },
   {
-    "question": "Rắn leo cây bắc Đông dương (Dendrelaphis proarchos) có độc không?",
-    "ground_truth": "Không, Rắn leo cây bắc Đông dương là loài không có nọc độc và hoàn toàn vô hại."
+    "question": "Nghiên cứu về Rắn leo cây mắt (Dendrelaphis subocularis) góp phần làm rõ vấn đề gì?",
+    "ground_truth": "Các nghiên cứu về arboreal behavior và thích nghi cây góp phần hiểu tiến hóa Ahaetuliinae và bảo tồn rừng miền Trung Việt Nam."
   },
   {
-    "question": "Rắn leo cây mắt (Dendrelaphis subocularis) có độc không?",
-    "ground_truth": "Không, Rắn leo cây mắt là loài không có nọc độc và hoàn toàn vô hại."
+    "question": "Việc ghi nhận Rắn dây bụng gờ (Dryophiops rubescens) ở Việt Nam có giá trị nghiên cứu gì?",
+    "ground_truth": "Giá trị nghiên cứu của Dryophiops rubescens rất cao, đặc biệt trong lĩnh vực phân loại học (xác nhận monotypic genus với D."
   },
   {
-    "question": "Nọc độc của Rắn roi nâu (Dryophiops rubescens) thuộc loại gì?",
-    "ground_truth": "Rắn roi nâu có nọc độc nhẹ, chủ yếu là độc tố gây hại tế bào (cytotoxin) với yếu tố độc máu (hemotoxic) nhẹ."
+    "question": "Rắn sọc gờ (Elaphe carinata) có giá trị nghiên cứu trong lĩnh vực di truyền như thế nào?",
+    "ground_truth": "Giá trị nghiên cứu của Elaphe carinata rất cao, đặc biệt trong lĩnh vực độc tố học (nghiên cứu miễn dịch nọc rắn, như venom resistance với alpha-bungarotoxin từ cobra, Fry et al."
   },
   {
-    "question": "Rắn sọc gờ (Elaphe carinata) có nọc độc không?",
-    "ground_truth": "Không, Rắn sọc gờ là loài không có nọc độc và hoàn toàn vô hại."
+    "question": "Rắn sọc khoanh (Elaphe moellendorffi) có giá trị nghiên cứu trong lĩnh vực nào?",
+    "ground_truth": "Giá trị nghiên cứu của Elaphe moellendorffi rất cao, đặc biệt trong lĩnh vực phân loại học (tái phân loại chi Elaphe năm 2005 dựa trên hình thái và protein, Utiger et al."
   },
   {
-    "question": "Rắn sọc khoanh (Elaphe moellendorffi) có nọc độc không?",
-    "ground_truth": "Không, Rắn sọc khoanh là loài không có nọc độc và hoàn toàn vô hại."
+    "question": "Rắn sọc đuôi (Elaphe taeniura) là mô hình nghiên cứu quan trọng cho vấn đề gì?",
+    "ground_truth": "Loài này là một model quan trọng để nghiên cứu vai trò kiểm soát quần thể chuột trong nông nghiệp, góp phần giảm thiệt hại cây trồng (Schulz, 1996)."
   },
   {
-    "question": "Rắn sọc đuôi (Elaphe taeniura) có nọc độc không?",
-    "ground_truth": "Không, Rắn sọc đuôi là loài không có nọc độc và hoàn toàn vô hại."
+    "question": "Rắn bồng Mekong (Enhydris subtaeniata) có giá trị nghiên cứu về địa lý sinh học như thế nào?",
+    "ground_truth": "Giá trị nghiên cứu của Enhydris subtaeniata rất cao, đặc biệt trong lĩnh vực phylogeography (nghiên cứu di cư gen theo sông Mekong, Lukoschek et al."
   },
   {
-    "question": "Nọc độc của Rắn bồng Mekong (Enhydris subtaeniata) có nguy hiểm không?",
-    "ground_truth": "Không, Rắn bồng Mekong có nọc độc nhẹ, nhưng không gây nguy hiểm cho con người, chỉ gây triệu chứng cục bộ nhẹ."
+    "question": "Rắn râu (Erpeton tentaculatum) là mô hình nghiên cứu độc đáo cho hành vi nào?",
+    "ground_truth": "Giá trị nghiên cứu của Erpeton tentaculatum rất cao, đặc biệt trong lĩnh vực hành vi học (unique hunting strategy: dự đoán vị trí đầu cá bẩm sinh, Catania, 2010, PLoS ONE, với tốc độ tấn công 0."
   },
   {
-    "question": "Nọc độc của Rắn râu (Erpeton tentaculatum) có tác dụng gì?",
-    "ground_truth": "Nọc độc của Rắn râu là nọc độc nhẹ, được thiết kế đặc biệt để làm tê liệt con mồi là cá nhưng không gây nguy hiểm đáng kể cho con người."
+    "question": "Nghiên cứu Rắn sọc quan (Euprepiophis mandarinus) có ý nghĩa gì?",
+    "ground_truth": "Giá trị nghiên cứu của Euprepiophis mandarinus rất cao, đặc biệt trong phân loại học (tách chi Euprepiophis từ Elaphe, Utiger et al."
   },
   {
-    "question": "Nọc độc của Rắn hoa (Euprepiophis mandarinus) có nguy hiểm không?",
-    "ground_truth": "Không, Rắn hoa là loài không có nọc độc và hoàn toàn vô hại."
+    "question": "Loài Rắn ăn cua (Fordonia leucobalia) có giá trị nghiên cứu trong lĩnh vực nào?",
+    "ground_truth": "Giá trị nghiên cứu của Fordonia leucobalia rất cao, đặc biệt trong lĩnh vực hành vi học (unique hunting strategy: dự đoán vị trí đầu cua bẩm sinh, Catania, 2010, PLoS ONE, với tốc độ tấn công 0."
   },
   {
-    "question": "Rắn ăn cua (Fordonia leucobalia) có độc không?",
-    "ground_truth": "Có, Rắn ăn cua có nọc độc nhẹ, chủ yếu là độc tố gây hại tế bào, nhưng không ảnh hưởng đáng kể đến động vật có vú."
+    "question": "Rắn nước đốm vàng (Fowlea flavipunctata) là mô hình quan trọng để nghiên cứu vấn đề gì?",
+    "ground_truth": "Loài này là một model quan trọng để nghiên cứu thích nghi bán thủy sinh, với các nghiên cứu gần đây như của Fan và cộng sự năm 2023 về genome assembly, xác nhận khả năng thích nghi môi trường đa dạng của loài, từ rừng tự nhiên đến khu vực nông nghiệp."
   },
   {
-    "question": "Rắn nước đốm vàng (Fowlea flavipunctata) có độc không?",
-    "ground_truth": "Không, Rắn nước đốm vàng là loài không có nọc độc và hoàn toàn vô hại đối với con người."
+    "question": "Việc tái xác nhận chi Gonyophis từ Rắn vòi (Gonyosoma boulengeri) có giá trị gì?",
+    "ground_truth": "Giá trị nghiên cứu của Gonyosoma boulengeri rất cao, đặc biệt trong lĩnh vực phân loại học (revalidation genus Gonyophis năm 2024 dựa trên phylogenetics, với G."
   },
   {
-    "question": "Rắn mũi dài (Gonyosoma boulengeri) có nọc độc không?",
-    "ground_truth": "Không, Rắn mũi dài là loài không có nọc độc và hoàn toàn vô hại."
+    "question": "Là một loài mới, Rắn sọc mắt xanh (Gonyosoma coeruleum) có giá trị nghiên cứu như thế nào?",
+    "ground_truth": "Là loài mới mô tả (2021), Gonyosoma coeruleum có giá trị cao trong nghiên cứu đa dạng sinh học Đông Nam Á, giúp làm rõ sự phân hóa loài trong chi Gonyosoma qua phân tích gen và hình thái."
   },
   {
-    "question": "Rắn sọc mắt xanh (Gonyosoma coeruleum) có độc không?",
-    "ground_truth": "Không, Rắn sọc mắt xanh là loài không có nọc độc và vô hại đối với con người."
+    "question": "Nghiên cứu về Rắn sọc má (Gonyosoma frenatum) góp phần làm rõ vấn đề gì?",
+    "ground_truth": "Nó góp phần vào các nghiên cứu về thích nghi arboreal, hành vi ngụy trang (như lắc lư như cành cây), và tác động biến đổi khí hậu đến rừng núi."
   },
   {
-    "question": "Rắn dây leo xanh (Gonyosoma frenatum) có độc không?",
-    "ground_truth": "Không, Rắn dây leo xanh là loài không có nọc độc và hoàn toàn vô hại."
+    "question": "Nghiên cứu về Thanh xà đuôi đỏ (Gonyosoma oxycephalum) góp phần vào lĩnh vực nào?",
+    "ground_truth": "Nó góp phần vào các nghiên cứu về thích nghi arboreal (leo trèo và săn mồi trên cây), hành vi săn (như bắt dơi giữa không trung), và tác động biến đổi khí hậu đến rừng thấp."
   },
   {
-    "question": "Rắn đuôi đỏ (Gonyosoma oxycephalum) có độc không?",
-    "ground_truth": "Không, Rắn đuôi đỏ là loài không có nọc độc và hoàn toàn vô hại."
+    "question": "Nghiên cứu về Rắn sãi Bau-len-gơ (Hebius boulengeri) có ý nghĩa gì?",
+    "ground_truth": "Là loài có ghi nhận phân bố mới gần đây (2020–2025), Hebius boulengeri có giá trị cao trong nghiên cứu đa dạng sinh học Đông Nam Á, giúp làm rõ sự phân hóa chi Hebius qua phân tích gen và hình thái (như Quah et al."
   },
   {
-    "question": "Rắn nước boulengeri (Hebius boulengeri) có nọc độc không?",
-    "ground_truth": "Có, Rắn nước boulengeri là loài có nanh sau và nọc độc nhẹ, nhưng không nguy hiểm cho người."
+    "question": "Thông tin về giá trị nghiên cứu của Rắn nước đồi Khasi là gì?",
+    "ground_truth": "Không có thông tin về 'Giá trị nghiên cứu' cho loài Rắn nước đồi Khasi trong tài liệu được cung cấp."
   },
   {
-    "question": "Rắn nước đồi Khasi (Hebius khasiensis) có nọc độc không?",
-    "ground_truth": "Có, Rắn nước đồi Khasi là loài có nanh sau và nọc độc nhẹ, không gây nguy hiểm cho con người."
+    "question": "Loài Rắn nước Omei hay Rắn nước núi Nga Mi có giá trị nghiên cứu trong lĩnh vực nào?",
+    "ground_truth": "Giá trị nghiên cứu của Hebius optatus rất cao, đặc biệt trong lĩnh vực phân loại học (tách từ Amphiesma optata năm 2014 dựa trên di truyền, Guo et al."
   },
   {
-    "question": "Nọc độc của Rắn nước Omei (Hebius optatus) có nguy hiểm cho người không?",
-    "ground_truth": "Không, Rắn nước Omei có nọc độc nhẹ và được coi là vô hại đối với con người."
+    "question": "Nghiên cứu về Rắn sãi Sau-te (Hebius sauteri) có ý nghĩa gì?",
+    "ground_truth": "Là loài có nghiên cứu phân loại cập nhật năm 2022 (Li et al.), Hebius sauteri có giá trị cao trong nghiên cứu đa dạng sinh học Indo-Burma, giúp làm rõ phức loài qua phân tích gen cytochrome b và hình thái (khoảng cách gen với H."
   },
   {
-    "question": "Rắn nước Kosempo (Hebius sauteri) có nọc độc không?",
-    "ground_truth": "Có, đây là loài có nanh sau và nọc độc nhẹ, nhưng không gây nguy hiểm cho con người."
+    "question": "Nghiên cứu Rắn ri cá (Homalopsis mereljcoxi) có ý nghĩa gì?",
+    "ground_truth": "Là loài mới mô tả năm 2012, Homalopsis mereljcoxi có giá trị cao trong nghiên cứu đa dạng sinh học Mekong, giúp làm rõ sự phân hóa cryptic species trong chi Homalopsis qua phân tích hình thái (scale rows) và gen (cytochrome b)."
   },
   {
-    "question": "Rắn bồng chì (Hypsiscopus murphyi) có độc không?",
-    "ground_truth": "Có, Rắn bồng chì là loài có nọc độc nhẹ, nhưng không gây nguy hiểm cho con người."
+    "question": "Loài Rắn biển có sừng (Hydrophis peronii) có giá trị nghiên cứu về tiến hóa như thế nào?",
+    "ground_truth": "Là loài có 'sừng' đầu độc đáo, Hydrophis peronii có giá trị cao trong nghiên cứu tiến hóa rắn biển, giúp làm rõ sự phân hóa Hydrophiinae qua phân tích gen (Sanders et al."
   },
   {
-    "question": "Nọc độc của Rắn biển có sừng (Hydrophis peronii) nguy hiểm như thế nào?",
-    "ground_truth": "Đây là một trong những loài rắn độc nhất thế giới. Nọc độc thần kinh cực mạnh có thể gây tử vong trong vài giờ nếu không điều trị."
+    "question": "Loài Rắn bồng chì (Hypsiscopus murphyi) có giá trị nghiên cứu như thế nào?",
+    "ground_truth": "Là loài mới mô tả năm 2022, Hypsiscopus murphyi có giá trị cao trong nghiên cứu đa dạng sinh học Đông Nam Á, giúp làm rõ sự phân hóa cryptic trong chi Hypsiscopus qua phân tích gen multilocus (ATPase, cyt-b, PRLR, WFIKKN2, VPS13B) và hình thái (PCoA cho thấy tách biệt morphospace)."
   },
   {
-    "question": "Rắn mù Brahminy (Indotyphlops braminus) có nọc độc không?",
-    "ground_truth": "Không, Rắn mù Brahminy là loài hoàn toàn không có độc tố và vô hại."
+    "question": "Tại sao Rắn giun thường (Indotyphlops braminus) có giá trị nghiên cứu cao?",
+    "ground_truth": "Là loài parthenogenetic duy nhất ở rắn, Indotyphlops braminus có giá trị cao trong nghiên cứu sinh sản vô tính, di truyền học (toàn bộ quần thể là clone triploid), và sinh thái invasive (lan rộng qua thương mại toàn cầu)."
   },
   {
-    "question": "Rắn sườn gờ Kuatun (Hebius craspedogaster) có độc không?",
-    "ground_truth": "Có, đây là loài có nanh sau và nọc độc nhẹ, không gây nguy hiểm cho con người."
+    "question": "Rắn sườn gờ Kuatun (Hebius craspedogaster) có giá trị nghiên cứu trong lĩnh vực nào?",
+    "ground_truth": "Là loài cổ điển trong chi Hebius (mô tả từ 1899), Hebius craspedogaster có giá trị cao trong nghiên cứu phân loại học châu Á, giúp làm rõ sự phân hóa loài qua phân tích gen (như Guo et al."
   },
   {
-    "question": "Rắn cạp nia môi vàng (Laticauda colubrina) có nọc độc không?",
-    "ground_truth": "Có, loài này có nọc độc thần kinh mạnh, nhưng hiếm khi cắn người."
+    "question": "Nghiên cứu về Đẻn cạp nong môi vàng (Laticauda colubrina) góp phần làm rõ vấn đề gì?",
+    "ground_truth": "Nó góp phần vào các nghiên cứu về độc tố proteome (năm 2017), thích nghi amphibious (lên bờ đẻ trứng), và vai trò kiểm soát cá trong hệ sinh thái rạn san hô."
   },
   {
-    "question": "Rắn sói thông thường (Lycodon capucinus) có độc không?",
-    "ground_truth": "Loài này được coi là không độc hoặc có độc rất nhẹ, không gây nguy hiểm nghiêm trọng cho con người."
+    "question": "Rắn khuyết hoa (Lycodon capucinus) có giá trị trong nghiên cứu sinh thái đô thị như thế nào?",
+    "ground_truth": "Là loài phổ biến và dễ quan sát trong chi Lycodon, Lycodon capucinus có giá trị cao trong nghiên cứu sinh thái đô thị và invasive (như ở Hong Kong, 2024), giúp làm rõ sự phân hóa gen (Yang & Yeung, 2024) và thích nghi với môi trường nhân tạo."
   },
   {
-    "question": "Rắn khuyết Nam Động (Lycodon chapaensis) có nọc độc không?",
-    "ground_truth": "Không, Rắn khuyết Nam Động là loài không có nọc độc và vô hại."
+    "question": "Rắn khuyết Sapa (Lycodon chapaensis) có giá trị nghiên cứu như thế nào?",
+    "ground_truth": "Là loài được tái công nhận năm 2020 (Wang et al.), Lycodon chapaensis có giá trị cao trong nghiên cứu đa dạng sinh học karst Việt Nam, giúp làm rõ phức loài Lycodon qua phân tích gen cytochrome b và hình thái (Luu et al."
   },
   {
-    "question": "Rắn cương Blanford (Lycodon davisonii) có nguy hiểm cho con người không?",
-    "ground_truth": "Không, Rắn cương Blanford là loài không có nọc độc và vô hại."
+    "question": "Nghiên cứu về Rắn dẻ (Lycodon davisonii) góp phần làm rõ vấn đề gì?",
+    "ground_truth": "Nó góp phần vào các nghiên cứu về hành vi săn mồi (răng lớn) và kiểm soát tắc kè hại."
   },
   {
-    "question": "Rắn khuyết đốm (Lycodon fasciatus) có độc không?",
-    "ground_truth": "Không, Rắn khuyết đốm là loài không có nọc độc."
+    "question": "Rắn khuyết vòng (Lycodon fasciatus) là mô hình nghiên cứu cho vấn đề gì?",
+    "ground_truth": "Nó góp phần vào các nghiên cứu về thích nghi trên cây (leo tán karst), vai trò kiểm soát thằn lằn trong hệ sinh thái núi đá, và tác động khai thác đá đến herpetofauna."
   },
   {
-    "question": "Rắn khuyết Phúc Thanh (Lycodon futsingensis) có độc không?",
-    "ground_truth": "Không, Rắn khuyết Phúc Thanh là loài không có nọc độc."
+    "question": "Loài Rắn khuyết Phúc Thanh (Lycodon futsingensis) có giá trị nghiên cứu trong lĩnh vực nào?",
+    "ground_truth": "Là loài cổ điển trong chi Lycodon (mô tả từ 1899), Lycodon futsingensis có giá trị cao trong nghiên cứu phân loại học châu Á, giúp làm rõ sự phân hóa loài qua phân tích gen (như Guo et al."
   },
   {
-    "question": "Rắn sói Lào (Lycodon laoensis) có nọc độc không?",
-    "ground_truth": "Không, Rắn sói Lào là loài không có nọc độc."
+    "question": "Nghiên cứu về Rắn khuyết Lào (Lycodon laoensis) có ý nghĩa gì?",
+    "ground_truth": "Là loài phổ biến trong chi Lycodon, Lycodon laoensis có giá trị cao trong nghiên cứu sinh thái rìa rừng và urban, giúp làm rõ sự phân hóa gen (Siler et al."
   },
   {
-    "question": "Rắn sói đốm vàng (Lycodon meridionalis) có độc không?",
-    "ground_truth": "Không, Rắn sói đốm vàng là loài không có nọc độc."
+    "question": "Loài rắn sói đốm vàng (Lycodon meridionalis) có giá trị nghiên cứu như thế nào?",
+    "ground_truth": "Là loài đặc hữu miền Bắc Việt Nam (mô tả năm 1935), Lycodon meridionalis có giá trị cao trong nghiên cứu đa dạng sinh học karst, giúp làm rõ sự phân hóa loài Lycodon qua phân tích gen cytochrome b (khoảng cách 6."
   },
   {
-    "question": "Rắn khuyết khoanh Đông Dương (Lycodon neomaculatus) có độc không?",
-    "ground_truth": "Không, Rắn khuyết khoanh Đông Dương là loài không có nọc độc."
+    "question": "Nghiên cứu về Rắn khuyết khoanh Đông Dương (Lycodon neomaculatus) có ý nghĩa gì?",
+    "ground_truth": "Là loài mới mô tả năm 2024 (Nguyen et al.), Lycodon neomaculatus có giá trị cao trong nghiên cứu systematics rắn sói, giúp làm rõ nomenclatural issues của Anoplophallus maculatus và phức Lycodon subcinctus qua phân tích gen multilocus và hình thái (Zootaxa 5519)."
   },
   {
-    "question": "Rắn chó vằn sơn (Lycodon pictus) có độc không?",
-    "ground_truth": "Không, Rắn chó vằn sơn là loài không có nọc độc."
+    "question": "Rắn khuyết đốm (Lycodon pictus) có giá trị gì trong nghiên cứu phân loại học?",
+    "ground_truth": "Là loài mới mô tả năm 2019 (Janssen et al.), Lycodon pictus có giá trị cao trong nghiên cứu cryptic diversity (đa dạng ẩn) của chi Lycodon, giúp làm rõ sự phân hóa loài qua phân tích gen cytochrome b (posterior probability = 96, bootstrap = 56–69) và hình thái (PCA cho thấy tách biệt morphospace)."
   },
   {
-    "question": "Rắn sói rừng (Lycodon rufozonatus) có độc không?",
-    "ground_truth": "Không, Rắn sói rừng là loài không có nọc độc."
+    "question": "Nghiên cứu đánh giá lại phân loại của Rắn lệch đầu hoa (Lycodon rufozonatus) (Khoi et al., 2025) có ý nghĩa gì?",
+    "ground_truth": "Nghiên cứu này có giá trị cao trong việc làm rõ phức hợp loài qua phân tích gen (khoảng cách 4.75–13.53% với các loài tách ra như L. duytan) và hình thái."
   },
   {
-    "question": "Rắn sói Ruhstrat (Lycodon ruhstrati) có độc không?",
-    "ground_truth": "Không, Rắn sói Ruhstrat là loài không có nọc độc."
+    "question": "Nghiên cứu về Rắn khuyết Đài Loan (Lycodon ruhstrati) góp phần làm rõ vấn đề gì?",
+    "ground_truth": "Nó góp phần vào các nghiên cứu về thích nghi hang động (leo đá, ngụy trang dải trắng), vai trò kiểm soát thằn lằn trong hệ sinh thái núi đá, và tác động khai thác đá đến herpetofauna – một trong 9 loài Lycodon giới hạn ở karst Việt Nam."
   },
   {
-    "question": "Rắn khuyết Trường (Lycodon truongi) có độc không?",
-    "ground_truth": "Không, Rắn khuyết Trường là loài không có nọc độc."
+    "question": "Loài Rắn khuyết Trường (Lycodon truongi) có giá trị nghiên cứu như thế nào?",
+    "ground_truth": "Là loài mới mô tả năm 2022 (Nguyen et al.), Lycodon truongi có giá trị cao trong nghiên cứu đa dạng herpetofauna imperiled ở thung lũng sông Sông Giang, giúp làm rõ sự phân hóa loài trong phức L."
   },
   {
-    "question": "Trăn gấm (Malayopython reticulatus) có độc không?",
-    "ground_truth": "Không, Trăn gấm là loài không có nọc độc. Chúng giết mồi bằng cách siết chặt."
+    "question": "Loài Trăn gấm (Malayopython reticulatus) có giá trị nghiên cứu như thế nào?",
+    "ground_truth": "Là loài lớn nhất thế giới, Malayopython reticulatus có giá trị cao trong nghiên cứu sinh thái apex predator, giúp làm rõ vai trò kiểm soát quần thể mồi lớn qua phân tích đồng vị ổn định (isotope analysis) và theo dõi GPS (Murphy et al."
   },
   {
-    "question": "Rắn nước Trung Quốc (Myrrophis chinensis) có độc không?",
-    "ground_truth": "Có, Rắn nước Trung Quốc là loài có nọc độc nhẹ."
+    "question": "Nghiên cứu về Rắn bồng Trung Quốc (Myrrophis chinensis) có ý nghĩa gì trong phân loại học?",
+    "ground_truth": "Nghiên cứu hình thái và di truyền so sánh với loài này đã giúp mô tả loài mới là Myrrophis dakkrongensis ở Quảng Trị."
   },
   {
-    "question": "Nọc độc của Rắn hổ mang Trung Quốc (Naja atra) nguy hiểm như thế nào?",
-    "ground_truth": "Rắn hổ mang Trung Quốc có nọc độc cực mạnh, thuộc loại độc thần kinh, có thể gây tử vong trong 6–24 giờ nếu không điều trị."
+    "question": "Rắn hổ mang Trung Quốc (Naja atra) có giá trị nghiên cứu trong lĩnh vực nào?",
+    "ground_truth": "Là loài hổ mang đặc hữu Trung Quốc, Naja atra có giá trị cao trong nghiên cứu độc tố học, giúp làm rõ sự phân hóa neurotoxin trong chi Naja qua phân tích proteome (năm 2017, LD50 0."
   },
   {
-    "question": "Nọc độc của Rắn hổ mang Phục Hy (Naja fuxi) nguy hiểm không?",
-    "ground_truth": "Có, Rắn hổ mang Phục Hy có nọc độc cực mạnh, thuộc loại độc thần kinh, có thể gây tử vong nếu không điều trị kịp thời."
+    "question": "Loài Rắn hổ mang Phục Hy (Naja fuxi) có giá trị nghiên cứu như thế nào?",
+    "ground_truth": "Là loài mới mô tả năm 2022 (Shi et al.), Naja fuxi có giá trị cao trong nghiên cứu phân loại hổ mang châu Á, giúp làm rõ sự phân hóa từ Naja kaouthia qua phân tích gen (posterior probability = 1."
   },
   {
-    "question": "Nọc độc của Rắn hổ mang phun nọc Đông Dương (Naja siamensis) là sự kết hợp của những loại độc tố nào?",
-    "ground_truth": "Nọc độc của chúng là sự kết hợp của độc tố thần kinh (gây tê liệt) và độc tố tế bào (gây hoại tử mô)."
+    "question": "Rắn hổ Mèo (Naja siamensis) là mô hình nghiên cứu cho hành vi nào?",
+    "ground_truth": "Nó là mô hình cho nghiên cứu hành vi phun nọc (spitting biomechanics, xa 2 m), vai trò kiểm soát gặm nhấm trong hệ sinh thái nông nghiệp, và tác động biến đổi khí hậu đến loài độc."
   },
   {
-    "question": "Rắn đất vạch (Oligodon albocinctus) có độc không?",
-    "ground_truth": "Không, Rắn đất vạch là loài không có nọc độc."
+    "question": "Loài Rắn đất vạch (Oligodon albocinctus) có giá trị nghiên cứu trong lĩnh vực nào?",
+    "ground_truth": "Là loài phổ biến trong chi Oligodon, Oligodon albocinctus có giá trị cao trong nghiên cứu đa dạng fossorial, giúp làm rõ sự phân hóa kukri snakes qua phân tích gen (Khoi et al."
   },
   {
-    "question": "Rắn khiếm Trung Quốc (Oligodon chinensis) có độc không?",
-    "ground_truth": "Không, Rắn khiếm Trung Quốc là loài không có nọc độc."
+    "question": "Nghiên cứu về Rắn khiếm Trung Quốc (Oligodon chinensis) góp phần làm rõ vấn đề gì?",
+    "ground_truth": "Nó góp phần vào các nghiên cứu về thích nghi đào hang (fossorial biomechanics), vai trò kiểm soát côn trùng hại trong hệ sinh thái ruộng lúa, và tác động nông nghiệp đến herpetofauna."
   },
   {
-    "question": "Rắn Khiếm Xám (Oligodon cinereus) có nọc độc không?",
-    "ground_truth": "Không, Rắn Khiếm Xám là loài không có nọc độc."
+    "question": "Loài Rắn Khiếm Xám (Oligodon cinereus) có giá trị nghiên cứu trong lĩnh vực nào?",
+    "ground_truth": "Là loài phổ biến trong chi Oligodon, Oligodon cinereus có giá trị cao trong nghiên cứu đa dạng fossorial, giúp làm rõ sự phân hóa kukri snakes qua phân tích gen (Khoi et al."
   },
   {
-    "question": "RẮN KHIẾM ĐUÔI TRÒN (Oligodon cyclurus) có độc không?",
-    "ground_truth": "Không, RẮN KHIẾM ĐUÔI TRÒN là loài không có nọc độc."
+    "question": "Nghiên cứu về RẮN KHIẾM ĐUÔI TRÒN (Oligodon cyclurus) có ý nghĩa gì?",
+    "ground_truth": "Là loài phổ biến trong chi Oligodon, Oligodon cyclurus có giá trị cao trong nghiên cứu đa dạng fossorial, giúp làm rõ sự phân hóa kukri snakes qua phân tích gen (Khoi et al."
   },
   {
-    "question": "RẮN KHIẾM DEUVEI (Oligodon deuvei) có độc không?",
-    "ground_truth": "Không, RẮN KHIẾM DEUVEI là loài không có nọc độc."
+    "question": "Loài rắn khiếm Deuve (Oligodon deuvei) có giá trị nghiên cứu như thế nào?",
+    "ground_truth": "Là loài mới mô tả năm 2008 (David et al.), Oligodon deuvei có giá trị cao trong nghiên cứu đa dạng kukri snakes, giúp làm rõ sự phân hóa nhóm O."
   },
   {
-    "question": "RẮN KHIẾM VẠCH NHỎ (Oligodon fasciolatus) có độc không?",
-    "ground_truth": "Không, RẮN KHIẾM VẠCH NHỎ là loài không có nọc độc."
+    "question": "Rắn khiếm đuôi vòng (Oligodon fasciolatus) là mô hình nghiên cứu cho hành vi đặc biệt nào?",
+    "ground_truth": "Nó là mô hình nghiên cứu cho hành vi evisceration độc đáo với cóc độc (Duttaphrynus melanostictus)."
   },
   {
-    "question": "Rắn khiếm Đài Loan (Oligodon formosanus) có độc không?",
-    "ground_truth": "Không, Rắn khiếm Đài Loan là loài không có nọc độc."
+    "question": "Nghiên cứu về Rắn khiếm Đài Loan (Oligodon formosanus) góp phần làm rõ vấn đề gì?",
+    "ground_truth": "Nó góp phần vào các nghiên cứu về thích nghi đào hang (fossorial biomechanics), vai trò kiểm soát côn trùng hại trong hệ sinh thái ruộng lúa, và tác động nông nghiệp đến herpetofauna – đặc biệt hành vi evisceration với cóc độc nếu có tương đồng."
   },
   {
-    "question": "Rắn khiếm vạch (Oligodon taeniatus) có nọc độc không?",
-    "ground_truth": "Không, Rắn khiếm vạch là loài không có nọc độc."
+    "question": "Loài Rắn khiếm vạch (Oligodon taeniatus) có giá trị nghiên cứu trong lĩnh vực nào?",
+    "ground_truth": "Là loài phổ biến trong chi Oligodon, Oligodon taeniatus có giá trị cao trong nghiên cứu đa dạng fossorial, giúp làm rõ sự phân hóa kukri snakes qua phân tích gen (Khoi et al."
   },
   {
-    "question": "Nọc độc của Rắn hổ chúa (Ophiophagus hannah) mạnh như thế nào?",
-    "ground_truth": "Rắn hổ chúa có nọc độc thần kinh mạnh nhất trong họ Elapidae, với lượng nọc tiêm có thể lên đến 500 mg – lớn nhất trong các loài rắn độc."
+    "question": "Loài Rắn hổ chúa (Ophiophagus hannah) có giá trị nghiên cứu như thế nào?",
+    "ground_truth": "Là loài apex predator dài nhất thế giới, Ophiophagus hannah có giá trị cao trong nghiên học sinh thái, giúp làm rõ vai trò kiểm soát rắn độc qua phân tích đồng vị ổn định (isotope analysis) và theo dõi GPS (Murphy et al."
   },
   {
-    "question": "Rắn sọc đốm đỏ (Oreocryptophis porphyraceus) có độc không?",
-    "ground_truth": "Không, Rắn sọc đốm đỏ là loài không có nọc độc."
+    "question": "Giá trị nghiên cứu của Rắn sọc đốm đỏ (Oreocryptophis porphyraceus) là gì?",
+    "ground_truth": "Giá trị nghiên cứu của Elaphe carinata rất cao, đặc biệt trong lĩnh vực độc tố học (nghiên cứu miễn dịch nọc rắn, như venom resistance với alpha-bungarotoxin từ cobra, Fry et al."
   },
   {
-    "question": "Nọc độc của Rắn lục núi (Ovophis monticola) nguy hiểm như thế nào?",
-    "ground_truth": "Rắn lục núi có nọc độc cực mạnh, thuộc loại độc máu (hemotoxic), có thể gây tử vong với tỷ lệ 10-20% nếu không điều trị."
+    "question": "Rắn lục núi (Ovophis monticola) có giá trị nghiên cứu y học không?",
+    "ground_truth": "Có, nọc độc của nó có giá trị cao trong nghiên cứu độc tố học, phát triển huyết thanh kháng nọc, và các ứng dụng y tế khác như nghiên cứu thuốc chống đông máu."
   },
   {
-    "question": "Nọc độc của Rắn lục núi Tonkin (Ovophis tonkinensis) thuộc loại gì?",
-    "ground_truth": "Nọc độc của Rắn lục núi Tonkin thuộc loại độc máu (hemotoxic) và độc tế bào (cytotoxin), rất nguy hiểm."
+    "question": "Nọc độc của Rắn lục núi (Ovophis tonkinensis) có giá trị nghiên cứu y học không?",
+    "ground_truth": "Có, nọc độc của nó (chứa metalloproteinases và TLEs) được dùng trong nghiên cứu thuốc chống đông máu và thực phẩm."
   },
   {
-    "question": "Rắn hổ mây Berdmore (Pareas berdmorei) có độc không?",
-    "ground_truth": "Không, Rắn hổ mây Berdmore là loài hoàn toàn không có nọc độc."
+    "question": "Loài Rắn hổ mây Berdmore (Pareas berdmorei) là mô hình nghiên cứu cho vấn đề gì?",
+    "ground_truth": "Nó là mô hình cho nghiên cứu hành vi săn mồi chuyên biệt (handedness detection ở răng), thích nghi hologenomics (với vi sinh vật đường ruột), và phân chia ngách sinh thái."
   },
   {
-    "question": "Rắn hổ mây gờ (Pareas carinatus) có độc không?",
-    "ground_truth": "Không, Rắn hổ mây gờ là loài không có nọc độc."
+    "question": "Nghiên cứu về Rắn hổ mây gờ (Pareas carinatus) có ý nghĩa gì?",
+    "ground_truth": "Loài này có giá trị nghiên cứu cao trong lĩnh vực hành vi học và tiến hóa, đặc biệt là sự thích nghi răng bất đối xứng để săn mồi chuyên biệt."
   },
   {
-    "question": "Rắn hổ mây Đài Loan (Pareas formosensis) có độc không?",
-    "ground_truth": "Không, Rắn hổ mây Đài Loan là loài không có nọc độc."
+    "question": "Loài Rắn hổ mây Đài Loan (Pareas formosensis) có giá trị nghiên cứu như thế nào?",
+    "ground_truth": "Loài này có giá trị nghiên cứu cao trong lĩnh vực taxonomy tích hợp và sinh thái học, giúp làm rõ sự đa dạng ẩn ở Indochina."
   },
   {
-    "question": "Rắn hổ mây Hampton (Pareas hamptoni) có độc không?",
-    "ground_truth": "Không, Rắn hổ mây Hampton là loài không có nọc độc."
+    "question": "Nghiên cứu về Rắn hổ mây Hampton (Pareas hamptoni) góp phần làm rõ vấn đề gì?",
+    "ground_truth": "Các nghiên cứu phân tử về loài này (Poyarkov et al. 2022) giúp làm rõ sự đa dạng ẩn trong phức hợp P. hamptoni và hỗ trợ hiểu về tiến hóa của tiểu chi Eberhardtia."
   },
   {
-    "question": "Rắn hổ mây ngọc (Pareas margaritophorus) có độc không?",
-    "ground_truth": "Không, Rắn hổ mây ngọc là loài không có nọc độc."
+    "question": "Nghiên cứu về Rắn hổ mây ngọc (Pareas margaritophorus) có ý nghĩa gì?",
+    "ground_truth": "Loài này có giá trị nghiên cứu cao trong lĩnh vực taxonomy tích hợp và sinh thái học, giúp làm rõ sự đa dạng ẩn ở Indochina (với 6 loài đồng cư)."
   },
   {
-    "question": "Rắn hổ mây núi (Pareas monticola) có độc không?",
-    "ground_truth": "Không, Rắn hổ mây núi là loài không có nọc độc."
+    "question": "Loài Rắn hổ mây núi (Pareas monticola) có giá trị nghiên cứu như thế nào?",
+    "ground_truth": "Loài này có giá trị nghiên cứu cao trong lĩnh vực taxonomy tích hợp và sinh thái học, giúp làm rõ sự đa dạng ẩn trong phức hợp P."
   },
   {
-    "question": "Rắn hổ núi mũi mác (Plagiopholis nuchalis) có độc không?",
-    "ground_truth": "Không, Rắn hổ núi mũi mác là loài không có nọc độc đối với con người."
+    "question": "Nghiên cứu về Rắn hổ núi mũi mác (Plagiopholis nuchalis) góp phần làm rõ vấn đề gì?",
+    "ground_truth": "Nó góp phần vào các nghiên cứu về thích nghi rear-fanged ở rắn không độc, và phân chia ngách (niche partitioning) với các loài đồng cư ở rừng núi."
   },
   {
-    "question": "Rắn hổ núi Styani (Pope's keelback) có nọc độc không?",
-    "ground_truth": "Có, đây là loài có nanh sau và nọc độc nhẹ, không gây nguy hiểm cho con người."
+    "question": "Loài Rắn hổ núi Styani (Hebius popei) có giá trị nghiên cứu như thế nào?",
+    "ground_truth": "Loài này có giá trị nghiên cứu cao trong lĩnh vực taxonomy tích hợp và sinh thái học thủy sinh, giúp làm rõ sự đa dạng ẩn ở chi Hebius."
   },
   {
-    "question": "Nọc độc của Rắn lục sừng (Protobothrops cornutus) thuộc loại gì?",
-    "ground_truth": "Nọc độc của Rắn lục sừng thuộc loại độc máu (hematotoxic), gây rối loạn đông máu, xuất huyết, hoại tử và suy thận."
+    "question": "Nọc độc của Rắn lục sừng (Protobothrops cornutus) có giá trị nghiên cứu y tế không?",
+    "ground_truth": "Có, nó là mô hình cho nghiên cứu nọc độc hematotoxic (gây hypofibrinogenemia) và có ứng dụng trong phát triển huyết thanh kháng nọc."
   },
   {
-    "question": "Triệu chứng khi bị Rắn lục Jerdon (Protobothrops jerdonii) cắn là gì?",
-    "ground_truth": "Triệu chứng bao gồm đau cục bộ dữ dội, sưng phù, xuất huyết dưới da, hoại tử, giảm tiểu cầu, suy thận và rối loạn đông máu kéo dài."
+    "question": "Giá trị nghiên cứu của Rắn lục Jerdon (Protobothrops jerdonii) là gì?",
+    "ground_truth": "Loài này có giá trị nghiên cứu cao trong lĩnh vực độc chất học và tiến hóa sinh sản, do là loài duy nhất trong chi đẻ con sống."
   },
   {
-    "question": "Rắn lục Mậu Lan (Protobothrops maolanensis) có độc không?",
-    "ground_truth": "Có, đây là loài có nọc độc mạnh, thuộc loại độc máu, rất nguy hiểm cho con người."
+    "question": "Nghiên cứu Rắn lục Mậu Lan (Protobothrops maolanensis) có ý nghĩa gì?",
+    "ground_truth": "Nó là mô hình cho nghiên cứu nọc độc hematotoxic, thích nghi karst (karst endemism), và sinh sản oviparous (đẻ trứng) trong các loài pit viper châu Á."
   },
   {
-    "question": "Rắn lục cườm (Protobothrops mucrosquamatus) có nọc độc loại gì?",
-    "ground_truth": "Nọc độc của Rắn lục cườm chủ yếu là độc máu (hematotoxic), gây rối loạn đông máu, phá hủy mô và suy thận."
+    "question": "Bộ gen của Rắn lục cườm (Protobothrops mucrosquamatus) có giá trị nghiên cứu gì?",
+    "ground_truth": "Bộ gen assembly hoàn chỉnh (2023) của nó hỗ trợ hiểu về tiến hóa nọc độc (venomics) và thích nghi rộng rãi."
   },
   {
-    "question": "Rắn hổ đất nâu (Psammodynastes pulverulentus) có nọc độc không?",
-    "ground_truth": "Có, đây là loài có nọc độc nhẹ, không gây nguy hiểm nghiêm trọng cho con người."
+    "question": "Rắn hổ đất nâu (Psammodynastes pulverulentus) là mô hình nghiên cứu cho đặc điểm hiếm gặp nào?",
+    "ground_truth": "Nó là mô hình cho nghiên cứu về hemipenes ba (three hemipenes), một đặc điểm tiến hóa hiếm gặp ở rắn."
   },
   {
-    "question": "Rắn hổ xiên tre (Pseudoxenodon bambusicola) có độc không?",
-    "ground_truth": "Có, đây là loài có nọc độc nhẹ, không gây nguy hiểm nghiêm trọng cho con người."
+    "question": "Loài Rắn hổ xiên tre (Pseudoxenodon bambusicola) có giá trị nghiên cứu trong lĩnh vực nào?",
+    "ground_truth": "Loài này có giá trị nghiên cứu cao trong lĩnh vực hành vi học và tiến hóa, làm rõ về mimicry Batesian (bắt chước rắn hổ mang)."
   },
   {
-    "question": "Rắn hổ xiên mắt (Pseudoxenodon macrops) có độc không?",
-    "ground_truth": "Có, đây là loài có nọc độc nhẹ, không gây nguy hiểm nghiêm trọng cho con người."
+    "question": "Nghiên cứu về Rắn hổ xiên mắt (Pseudoxenodon macrops) góp phần làm rõ vấn đề gì?",
+    "ground_truth": "Nó góp phần vào các nghiên cứu về hành vi phồng cổ (hooding behavior), chế độ ăn lưỡng cư/bò sát, và sự biến đổi màu sắc (polychromatism)."
   },
   {
-    "question": "Rắn ráo gờ (Ptyas carinata) có độc không?",
-    "ground_truth": "Không, Rắn ráo gờ là loài không có nọc độc."
+    "question": "Nghiên cứu về Rắn ráo gờ (Ptyas carinata) góp phần làm rõ vấn đề gì?",
+    "ground_truth": "Nó là mô hình cho nghiên cứu tốc độ di chuyển, chế độ ăn đa dạng (kiểm soát loài gặm nhấm), và phân chia ngách sinh thái."
   },
   {
-    "question": "Rắn ráo rừng (Ptyas dhumnades) có độc không?",
-    "ground_truth": "Không, Rắn ráo rừng là loài không có nọc độc."
+    "question": "Nghiên cứu về Rắn ráo rừng (Ptyas dhumnades) có ý nghĩa gì?",
+    "ground_truth": "Loài này có giá trị nghiên cứu cao trong lĩnh vực sinh thái học và bảo tồn, giúp làm rõ vai trò kiểm soát loài gặm nhấm."
   },
   {
-    "question": "Rắn ráo (Ptyas korros) có độc không?",
-    "ground_truth": "Không, Rắn ráo là loài không có nọc độc."
+    "question": "Loài Rắn ráo (Ptyas korros) có giá trị nghiên cứu như thế nào?",
+    "ground_truth": "Loài này có giá trị nghiên cứu cao trong lĩnh vực sinh thái học và tiến hóa, làm rõ vai trò kiểm soát loài gặm nhấm trong nông nghiệp."
   },
   {
-    "question": "Rắn đai lớn (Ptyas major) có độc không?",
-    "ground_truth": "Không, Rắn đai lớn là loài không có nọc độc."
+    "question": "Việc nghiên cứu Rắn đai lớn (Ptyas major) đã hỗ trợ việc phát hiện loài mới nào?",
+    "ground_truth": "Các nghiên cứu so sánh về loài này đã hỗ trợ việc mô tả loài mới là Ptyas bachmaensis (2024) ở miền Trung Việt Nam."
   },
   {
-    "question": "Rắn ráo trâu (Ptyas mucosa) có độc không?",
-    "ground_truth": "Không, Rắn ráo trâu là loài không có nọc độc."
+    "question": "Loài Rắn ráo trâu (Ptyas mucosa) có giá trị nghiên cứu như thế nào?",
+    "ground_truth": "Loài này có giá trị nghiên cứu cao trong lĩnh vực sinh thái học và tiến hóa, làm rõ vai trò kiểm soát loài gặm nhấm trong nông nghiệp."
   },
   {
-    "question": "Rắn ráo nhiều đai (Ptyas multicincta) có độc không?",
-    "ground_truth": "Không, Rắn ráo nhiều đai là loài không có nọc độc."
+    "question": "Nghiên cứu về Rắn nhiều đai (Ptyas multicincta) góp phần làm rõ vấn đề gì?",
+    "ground_truth": "Nó góp phần vào các nghiên cứu về thích nghi bán cây, chế độ ăn đa dạng, và đa dạng di truyền ở biên giới Việt-Trung."
   },
   {
-    "question": "Rắn ráo xanh (Ptyas nigromarginata) có độc không?",
-    "ground_truth": "Không, Rắn ráo xanh là loài không có nọc độc."
+    "question": "Loài Rắn ráo xanh (Ptyas nigromarginata) là mô hình nghiên cứu cho vấn đề gì?",
+    "ground_truth": "Nó là mô hình cho nghiên cứu thích nghi bán cây (semi-arboreal adaptations), chế độ ăn đa dạng, và phân chia ngách sinh thái."
   },
   {
-    "question": "Trăn Miến Điện (Python bivittatus) có độc không?",
-    "ground_truth": "Không, Trăn Miến Điện là loài không có nọc độc."
+    "question": "Loài Trăn đất (Python bivittatus) có giá trị nghiên cứu như thế nào?",
+    "ground_truth": "Là loài xâm lấn ở Florida, nó có giá trị cao trong nghiên cứu sinh thái xâm lấn, thích nghi bán thủy sinh, và hành vi bảo vệ trứng (run cơ tạo nhiệt)."
   },
   {
-    "question": "Nọc độc của Rắn cạp nong đầu đỏ (Bungarus flaviceps) nguy hiểm như thế nào?",
-    "ground_truth": "Loài này có nọc độc thần kinh mạnh, có thể gây tử vong nhanh trong 2-6 giờ nếu không điều trị, với tỷ lệ tử vong 50-70%."
+    "question": "Loài Rắn cạp nong đầu đỏ (Bungarus flaviceps) có giá trị nghiên cứu trong lĩnh vực nào?",
+    "ground_truth": "Loài này có giá trị nghiên cứu cao trong lĩnh vực độc tố học và sinh thái học, giúp làm rõ sự tiến hóa của hành vi ăn rắn (ophiophagy)."
   },
   {
-    "question": "Hoa cỏ cổ vàng (Rhabdophis chrysargos) có độc không?",
-    "ground_truth": "Có, đây là loài có nọc độc nhẹ, không gây nguy hiểm nghiêm trọng cho con người."
+    "question": "Loài Hoa cỏ cổ vàng (Rhabdophis chrysargos) có giá trị nghiên cứu như thế nào?",
+    "ground_truth": "Loài này có giá trị nghiên cứu cao trong lĩnh vực phân loại học tích hợp và độc chất học."
   },
   {
-    "question": "Rắn hoa cỏ He-lơ (Rhabdophis helleri) có nọc độc loại gì?",
-    "ground_truth": "Nọc độc của loài này thuộc loại độc máu (hemotoxic), có thể gây rối loạn đông máu nhưng không gây tử vong ở người."
+    "question": "Nghiên cứu về Rắn hoa cỏ He-lơ (Rhabdophis helleri) có ý nghĩa gì?",
+    "ground_truth": "Giá trị nghiên cứu của nó cao trong lĩnh vực phân loại học, giúp làm rõ phức hợp loài Rhabdophis subminiatus."
   },
   {
-    "question": "Rắn hoa cỏ đai (Rhabdophis nigrocinctus) có nọc độc từ đâu?",
-    "ground_truth": "Nọc độc của chúng chứa độc tố từ ếch độc (toad-derived bufadienolides) mà chúng ăn."
+    "question": "Loài Rắn hoa cỏ đai (Rhabdophis nigrocinctus) là mô hình nghiên cứu cho vấn đề gì?",
+    "ground_truth": "Nó là mô hình cho nghiên cứu nọc độc hemotoxic (từ tuyến Duvernoy) và sự thích nghi gần môi trường nước."
   },
   {
-    "question": "Rắn hoa cỏ cổ đỏ (Rhabdophis subminiatus) nguy hiểm như thế nào?",
-    "ground_truth": "Đây là loài rắn độc nguy hiểm với nọc độc máu mạnh, có thể gây tử vong. Chúng cũng có tuyến nuchal chứa độc tố từ cóc."
+    "question": "Nghiên cứu về Rắn hoa cỏ cổ đỏ (Rhabdophis subminiatus) có giá trị gì?",
+    "ground_truth": "Loài này có giá trị cao trong nghiên cứu độc tố học, đặc biệt là sự tiến hóa của tuyến nuchal và việc tích lũy độc tố bufotoxin từ cóc."
   },
   {
-    "question": "Rắn cỏ Nhật (Rhabdophis tigrinus) có mấy loại độc tố?",
-    "ground_truth": "Loài này có hai loại độc tố: nọc độc hemotoxic từ tuyến Duvernoy và độc tố bufadienolides từ tuyến nuchal."
+    "question": "Loài Rắn cỏ Nhật (Rhabdophis tigrinus) là mô hình cho nghiên cứu hành vi nào?",
+    "ground_truth": "Nó là mô hình cho nghiên cứu hành vi tích lũy độc tố từ con mồi (sequestering toxins) và hành vi phòng vệ bắt chước rắn độc."
   },
   {
-    "question": "Rắn rồng Trung Quốc (Sibynophis chinensis) có độc không?",
-    "ground_truth": "Không, Rắn rồng Trung Quốc là loài không có nọc độc."
+    "question": "Nghiên cứu về Rắn rồng Trung Quốc (Sibynophis chinensis) góp phần làm rõ vấn đề gì?",
+    "ground_truth": "Nó góp phần làm rõ đa dạng ẩn (cryptic diversity) trong chi Sibynophis và sự tiến hóa của các loài rắn sống trong đất ở châu Á."
   },
   {
-    "question": "Nọc độc của Rắn san hô châu Á (Sinomicrurus annularis) thuộc loại gì?",
-    "ground_truth": "Nọc độc của loài này thuộc loại độc thần kinh mạnh, có thể gây tử vong nhanh chóng."
+    "question": "Loài Rắn san hô châu Á (Sinomicrurus annularis) có giá trị nghiên cứu trong lĩnh vực nào?",
+    "ground_truth": "Loài này có giá trị nghiên cứu cao trong lĩnh vực độc tố học và sinh thái học, giúp làm rõ sự tiến hóa của hành vi ăn rắn (ophiophagy)."
   },
   {
-    "question": "Rắn san hô đầu bạc (Sinomicrurus macclellandi) có nọc độc nguy hiểm không?",
-    "ground_truth": "Có, loài này có nọc độc thần kinh mạnh, có thể gây tử vong trong 2-6 giờ nếu không điều trị."
+    "question": "Nghiên cứu về Rắn san hô đầu bạc (Sinomicrurus macclellandi) có ý nghĩa gì?",
+    "ground_truth": "Loài này có giá trị nghiên cứu cao trong lĩnh vực độc tố học, thích nghi sống ở rừng thấp, và phân chia ngách sinh thái."
   },
   {
-    "question": "Rắn san hô Phiên Nam (Sinomicrurus peinani) có nọc độc không?",
-    "ground_truth": "Có, đây là loài có nọc độc thần kinh mạnh, rất nguy hiểm."
+    "question": "Loài Rắn san hô Phiên Nam (Sinomicrurus peinani) có giá trị nghiên cứu như thế nào?",
+    "ground_truth": "Là một loài mới, nó có giá trị cao trong nghiên cứu hệ thống học rắn san hô và sự tiến hóa của hành vi ăn rắn."
   },
   {
-    "question": "Rắn ri voi (Subsessor bocourti) có độc không?",
-    "ground_truth": "Không, Rắn ri voi là loài hoàn toàn không có nọc độc."
+    "question": "Loài Rắn ri voi (Subsessor bocourti) là mô hình nghiên cứu cho chiến lược săn mồi nào?",
+    "ground_truth": "Nó là mô hình cho nghiên cứu chiến lược săn mồi 'ngồi chờ' (sit-and-wait) ở các loài rắn nước trong môi trường bùn."
   },
   {
-    "question": "Nọc độc của Rắn lục mép trắng (Trimeresurus albolabris) thuộc loại gì?",
-    "ground_truth": "Nọc độc của Rắn lục mép trắng thuộc loại độc máu (hemotoxic), gây rối loạn đông máu, phá hủy mô và suy thận."
+    "question": "Bộ gen của Rắn lục mép trắng (Trimeresurus albolabris) có giá trị nghiên cứu gì?",
+    "ground_truth": "Bộ gen assembly hoàn chỉnh (2023) của nó hỗ trợ việc nghiên cứu về sự tiến hóa của nọc độc hemotoxic."
   },
   {
-    "question": "Rắn lục mắt hồng ngọc (Trimeresurus rubeus) có nọc độc loại gì?",
-    "ground_truth": "Nọc độc của loài này chủ yếu là độc máu (hemotoxic), gây rối loạn đông máu, phá hủy mô và suy thận."
+    "question": "Nghiên cứu về Rắn lục mắt hồng ngọc (Trimeresurus rubeus) có ý nghĩa gì?",
+    "ground_truth": "Loài này có giá trị cao trong nghiên cứu phân loại học tích hợp và độc chất học, giúp làm rõ phức hợp loài T. macrops."
   },
   {
-    "question": "Rắn lục xanh (Trimeresurus stejnegeri) có độc không?",
-    "ground_truth": "Có, đây là loài rắn độc mạnh với nọc độc chủ yếu là độc máu (hemotoxic)."
+    "question": "Loài Rắn lục xanh (Trimeresurus stejnegeri) có giá trị nghiên cứu như thế nào?",
+    "ground_truth": "Loài này có giá trị nghiên cứu cao trong lĩnh vực độc chất học và sinh thái học, giúp làm rõ phức hợp loài T. stejnegeri."
   },
   {
-    "question": "Nọc độc của Rắn lục miền Nam (Trimeresurus vogeli) có nguy hiểm không?",
-    "ground_truth": "Có, đây là loài rắn độc mạnh với nọc độc chủ yếu là độc máu, rất nguy hiểm."
+    "question": "Loài Rắn lục miền Nam (Trimeresurus vogeli) có giá trị nghiên cứu như thế nào?",
+    "ground_truth": "Loài này có giá trị nghiên cứu cao trong lĩnh vực phân loại học tích hợp và độc chất học, giúp làm rõ phức hợp loài T. stejnegeri."
   },
   {
-    "question": "Rắn hoa cân vân đốm (Trimerodytes aequifasciatus) có độc không?",
-    "ground_truth": "Không, Rắn hoa cân vân đốm là loài không có nọc độc."
+    "question": "Loài Rắn hoa cân vân đốm (Trimerodytes aequifasciatus) có giá trị nghiên cứu như thế nào?",
+    "ground_truth": "Loài này có giá trị nghiên cứu cao trong lĩnh vực phân loại học tích hợp và sinh thái học, giúp làm rõ sự đa dạng ẩn trong chi Trimerodytes."
   },
   {
-    "question": "Hoa cân vân đen (Trimerodytes percarinatus) có độc không?",
-    "ground_truth": "Không, Hoa cân vân đen là loài không có nọc độc."
+    "question": "Loài Hoa cân vân đen (Trimerodytes percarinatus) có giá trị nghiên cứu như thế nào?",
+    "ground_truth": "Loài này có giá trị nghiên cứu cao trong lĩnh vực phân loại học tích hợp và sinh thái học, giúp làm rõ sự đa dạng ẩn trong chi Trimerodytes."
   },
   {
-    "question": "Rắn mống (Xenopeltis unicolor) có độc không?",
-    "ground_truth": "Không, Rắn mống là loài hoàn toàn không có nọc độc."
+    "question": "Loài Rắn mống (Xenopeltis unicolor) có giá trị nghiên cứu tiến hóa như thế nào?",
+    "ground_truth": "Loài này có giá trị nghiên cứu cao trong lĩnh vực tiến hóa và sinh thái học, giúp làm rõ vị trí nguyên thủy của họ Xenopeltidae và nghiên cứu về sự óng ánh của vảy (structural coloration)."
   }
 ]
